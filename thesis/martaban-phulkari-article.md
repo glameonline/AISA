@@ -12,6 +12,9 @@ For generations, the martaban was part of daily life. Today most young people ha
 
 My thesis project began with one question: **How can a traditional food-storage jar become meaningful again for a new generation?** My answer was to bring together two Punjabi heritage crafts, the martaban and **phulkari** embroidery, in one ceramic piece that is safe for food and beautiful enough to keep on display.
 
+![Figure 1: The finished phulkari martaban.](images/fig01-final-phulkari-martaban.jpg)
+*Figure 1: The finished phulkari martaban.*
+
 ---
 
 ## The Martaban: A Jar With a Story
@@ -29,6 +32,9 @@ These qualities made it ideal for pickles (achar), murabba, ghee, rice, sugar an
 
 Most martabans, however, were made in one standard style: a plain jar in brown or green. There was little design variation and little that spoke to younger buyers. As kitchens changed, the jar was forgotten.
 
+![Figure 2: A traditional plain martaban used for storing pickles.](images/fig02-traditional-martaban.jpg)
+*Figure 2: A traditional plain martaban used for storing pickles.*
+
 ---
 
 ## Phulkari: The Flower Work of Punjab
@@ -40,6 +46,9 @@ Most martabans, however, were made in one standard style: a plain jar in brown o
 Historians are not sure where phulkari began. Some think it came from Iran, where a similar floral embroidery called *gulkari* existed. Others connect it to communities from Central Asia who settled in the Punjab. A seventh-century chronicle by the court writer Bana describes people "embroidering flowers and leaves on the cloth from the reverse side," which matches the phulkari technique. The earliest known use of the word *phulkari* itself is in **Waris Shah's *Heer Ranjha*** (18th century). It describes Heer's wedding trousseau, which includes phulkari garments. In 1880, Flora Annie Steel wrote the first detailed English account, recording the different styles across the Punjab.
 
 Phulkari was deeply personal. When a girl was born, her mother and grandmother often began embroidering phulkaris for her dowry. A fully covered piece, where the embroidery hides the base cloth, is called a **bagh** (garden). Phulkaris were worn at weddings, births and festivals, and passed down as family treasures.
+
+![Figure 3: Original phulkari embroidery, showing the parallel silk stitches that build each flower.](images/fig03-original-phulkari.jpg)
+*Figure 3: Original phulkari embroidery, showing the parallel silk stitches that build each flower.*
 
 ### From Haryana to Multan
 
@@ -60,6 +69,9 @@ My idea was to **translate phulkari from thread to clay**. I wanted to keep the 
 3. **Attracts young people** through a fresh, decorative look
 4. **Gives a healthier alternative** to plastic storage
 
+![Figure 4: Concept sketches and mood board: phulkari motifs adapted for the jar's form.](images/fig04-sketches-moodboard.jpg)
+*Figure 4: Concept sketches and mood board: phulkari motifs adapted for the jar's form.*
+
 ---
 
 ## Materials and Process
@@ -68,9 +80,15 @@ My idea was to **translate phulkari from thread to clay**. I wanted to keep the 
 
 I chose **stoneware clay** for the body. Stoneware is fired at high temperatures, which makes it dense, strong and far less porous than ordinary earthenware. It does not absorb oil or moisture easily, so pickles, rice and sugar stay fresh and hygienic.
 
+![Figure 5: Forming the jar in stoneware clay.](images/fig05-forming-stoneware.jpg)
+*Figure 5: Forming the jar in stoneware clay.*
+
 ### Food-safe glaze
 
 The glaze is the surface that touches the food, so food safety guided every decision. Many traditional glazes contained lead, which can leach into acidic foods like pickles. I used a **food-safe glaze recipe with no harmful chemicals**. I mixed the colouring into this food-safe glaze base so that even the decorative colours are safe.
+
+![Figure 6: Food-safe glaze and colour test tiles.](images/fig06-glaze-tests.jpg)
+*Figure 6: Food-safe glaze and colour test tiles.*
 
 ### Materials used
 
@@ -83,6 +101,9 @@ The glaze is the surface that touches the food, so food safety guided every deci
 ### Translating embroidery into ceramics
 
 To give the jar the feeling of embroidery, I had to recreate in clay and glaze what a needle does in cloth: build patterns from **many fine parallel lines** that catch the light the way silk floss does.
+
+![Figure 7: Applying the phulkari pattern to the clay surface.](images/fig07-applying-phulkari-pattern.jpg)
+*Figure 7: Applying the phulkari pattern to the clay surface.*
 
 ---
 
@@ -115,6 +136,9 @@ Very little written material on phulkari is available, especially in Pakistan. M
 **6. Time and repetition.**
 The final piece came only after making the work **many times over more than eight months**. Each trial taught me something about the clay, the glaze, the lines and the colours.
 
+![Figure 8: Earlier trials from the eight months of experiments.](images/fig08-trials-and-experiments.jpg)
+*Figure 8: Earlier trials from the eight months of experiments.*
+
 ---
 
 ## Target Audience
@@ -140,6 +164,9 @@ Bringing two endangered traditions together helps keep both alive. The martaban 
 ## Conclusion
 
 The phulkari martaban joins my grandmother's kitchen and a modern home, embroidery and clay, and Punjab's past and its future. Made from stoneware and finished with a food-safe glaze, it keeps food fresh and safe while carrying the colours and memory of Punjabi women's needlework.
+
+![Figure 9: The phulkari martaban in use, storing home-made achar.](images/fig09-martaban-in-use.jpg)
+*Figure 9: The phulkari martaban in use, storing home-made achar.*
 
 After more than eight months of research, experiments and repeated attempts, I see this jar as a small step toward a bigger goal: helping our heritage be used and loved again, not only remembered.
 
