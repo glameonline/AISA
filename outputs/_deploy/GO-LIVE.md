@@ -16,6 +16,10 @@ Apply `outputs/_site-fixes/homepage-changes.md` (absolute og:image, "Guides" lin
 ## 4b. Live reviews under each service (needs Google Place ID + API key)
 Follow `outputs/_site-fixes/reviews/README.md`: upload `reviews/`, add config outside public_html, add the CSS/JS lines and one `<div class="cf-reviews" data-service="…">` under each service. Real reviews only.
 
+## 4c. Lead form
+Confirm the inbox in `public_html/get-started/submit.php` (`$TO`). Submit one test form: email arrives, row appears in `/home/<user>/cf-leads.csv`, browser lands on /get-started/thanks/. In GA4 mark `generate_lead` as a key event.
+Add a "Free check" button to the homepage hero and nav linking to `/get-started/`, and link each homepage Fellow card to its `/services/<fellow>/` page.
+
 ## 5. Verify (each must pass)
 | URL | Expect |
 |---|---|
@@ -24,7 +28,8 @@ Follow `outputs/_site-fixes/reviews/README.md`: upload `reviews/`, add config ou
 | /blog/geo-vs-seo-uk-small-business/ | 200, 2 images load |
 | /blog/llm-optimisation-cost-small-business-uk/ | 200, 3 images load |
 | /blog/get-business-recommended-by-chatgpt-uk/ and the 5 service guides (social, website, video production, video editing, outsourced team) | 200, 2 images each |
-| /sitemap.xml, /robots.txt, /llms.txt | 200, new versions |
+| /services/ + 6 service pages, /get-started/ | 200; form submits to /get-started/thanks/ |
+| /sitemap.xml, /robots.txt, /llms.txt | 200, new versions (18 URLs in sitemap) |
 | https://www.contentfellow.com/ | 301 → https://contentfellow.com/ |
 | /hello-world/ , /hugo-portfolio-hero-image/ | 410 |
 Also: Rich Results Test on all 8 posts (Article, FAQPage, Breadcrumb).
