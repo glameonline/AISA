@@ -1,78 +1,57 @@
-# 7-day roadmap: 100+ form fills (17–23 Oct 2026)
-Goal: 100 completed forms at https://contentfellow.com/get-started/ → free trial (or free AI visibility check) → sell a Fellow. Every Fellow now has a free trial (see GHAR-PE-KARNA-HAI.md); plan trial capacity before scaling ads.
+# Organic-only roadmap: maximum form fills, no ads (from 17 Oct 2026)
+Owner decision 16 Oct: **no ads for now.** Everything below is organic SEO, GEO and direct outreach.
+Goal: as many forms as possible at https://contentfellow.com/get-started/ (free trial on every Fellow), and get ContentFellow named by Google and AI assistants.
 
-## Reality check (read first)
-- **Organic AI/Google visibility will not bring 100 leads this week.** Search Console shows 0 impressions; AI assistants typically start naming a business after 6–12 weeks of listings, reviews and mentions. We start that now, it pays off from November.
-- **Nobody can put a form inside ChatGPT's answers.** The closest legitimate options: (1) Meta/Google lead ads (form opens inside Facebook/Instagram), (2) our own Custom GPT in the GPT Store that hands people the form link, (3) being the business ChatGPT cites, which links to our service page.
-- **No fake reviews, no "best/most authentic" claims we can't prove.** Use provable claims: price, monthly billing, approval before anything goes live, the free check.
-- **This week's 100 leads come from paid ads + direct outreach.** Plan below: ~70 from ads, ~30+ from outreach/communities.
+## Honest expectations
+- **Google/ChatGPT traffic:** starts small. Search Console shows 0 impressions today; new pages typically get indexed in days, rank and get cited by AI in 6–12 weeks. This is the long-term engine.
+- **This week's forms come from people we reach directly.** At typical cold-outreach reply rates, ~300–500 personal contacts this week → roughly 20–50 forms. 100 in week one organically would be an exceptional result, so we push outreach hard and measure daily.
+- **No fake reviews, no unprovable "best" claims.** Our edge is provable: published prices from £59, monthly billing, free trial on every service, approval before anything goes live.
 
-## Funnel math
-| Source | Spend / effort | Expected CPL | Leads |
-|---|---|---|---|
-| Meta lead ads (Facebook + Instagram instant form, UK small business owners) | £100/day × 7 = £700 | £8–£20 | 35–85 |
-| Google Search ads ("seo for small business uk", "get business on chatgpt", "website £ per month") | £40/day × 7 = £280 | £25–£60 | 5–11 |
-| Direct outreach: 300 personalised emails/DMs to local businesses (Burnley, Lancashire, Manchester) | 2 h/day | — | 15–30 |
-| Facebook groups, LinkedIn posts, local business networks | 30 min/day | — | 5–15 |
-| **Total** | **~£980 ad spend** | | **60–140** |
-Ranges are estimates; we check cost per lead daily and move money to whatever is cheapest. Less budget = fewer leads, roughly proportionally.
+## Already built (deploys tonight)
+- 9 blog guides (every Fellow covered + honest price comparison), 6 service pages with Offer + free-trial schema, Burnley/Lancashire page, /get-started/ form, llms.txt, sitemap (20 URLs), IndexNow key, reviews widget.
+- Citation pack + pitch list: `outputs/_plan/citation-pack.md`.
 
-## Day by day
-**Day 0 (tonight, at home)**
-- Deploy `outputs/_site` (blog 8 posts, 6 service pages, /get-started/ form) per `outputs/_deploy/GO-LIVE.md`.
-- Confirm lead inbox in `get-started/submit.php` ($TO). Submit a test form; check email + `cf-leads.csv`.
-- GA4: mark `generate_lead` as a key event. Submit sitemap in Search Console + Bing Webmaster Tools; IndexNow all new URLs.
+## Day 0 (tonight, at home)
+- Deploy (GHAR-PE-KARNA-HAI.md). Homepage: nav links to Services/Guides/Free trial, trial badges, link each Fellow card to /services/.
+- Search Console + Bing Webmaster Tools: submit sitemap, request indexing for /services/*, /burnley/, top 3 posts. IndexNow ping all 20 URLs.
 
-**Day 1**
-- Launch Meta lead ads (copy below), instant form = same questions as our form, privacy link = homepage.
-- Launch Google Search ads, 3 ad groups (SEO/GEO, website, social), landing page = matching /services/ page.
-- Create/claim: Google Business Profile, Bing Places, Apple Business Connect, Trustpilot, Clutch. Same name, address, phone, description everywhere.
-- Ask every past/current client for a Google review that names the service (feeds the reviews widget).
+## Day 1 — listings (GEO foundation, ~3 hours)
+- Google Business Profile, Bing Places, Apple Business Connect, LinkedIn page, Facebook/Instagram, Trustpilot. Copy from citation-pack.md. GBP: add services with prices, the free-trial **Offer post**, and 10+ real photos.
+- Ask every existing client/contact for a Google review naming the service and town.
 
-**Day 2**
-- Outreach batch 1: 60 local businesses with weak websites/social. Message: "I asked ChatGPT for the best [their service] in [town]; you weren't mentioned. Want the free 10-question check?"
-- Publish Custom GPT (setup below). Post it in the GPT Store.
-- Deliver every free check within 24 h (template below). Speed sells.
+## Days 1–7 — direct outreach (the lead engine, 2–3 hours/day)
+| Channel | Daily target | Offer to lead with |
+|---|---|---|
+| Walk-in / call local businesses in Burnley, Padiham, Nelson, Colne, Accrington | 10–15 | **Free mini shoot** (Studio) or **3 free videos** (Creator) |
+| Personal email / Instagram DM to local businesses with weak social or no website | 40–60 | "I asked ChatGPT for the best [their trade] in [town]; you weren't named. Want the free check + 7-day trial?" |
+| LinkedIn: founder posts daily + 20 personal connection notes | 1 post + 20 | Free AI visibility check |
+| Local Facebook business groups (follow each group's promo-day rules) | 2–3 groups | Free trial offer + one real insight |
+| Reddit r/smallbusinessuk, UK forums: genuinely helpful answers, link only when relevant | 2–3 answers | Link to the relevant guide |
+Track every contact in a sheet: date, business, channel, offer, reply, form, trial, paid.
 
-**Day 3–4**
-- Kill ad sets above £25 CPL, double the best one. Outreach batches 2–3 (120 businesses).
-- Post in 5 local Facebook business groups + LinkedIn: share one insight from the checks ("7 of 10 Lancashire cafés aren't named by ChatGPT").
-- Pitch 10 UK "best GEO/SEO agencies for small business" listicles and directories for inclusion.
+## Days 2–5 — PR and lists (GEO multiplier)
+- Pitch SEO Works "GEO for Small Businesses", Semrush Burnley, GoodFirms Lancashire, Clutch, DesignRush (citation-pack.md).
+- Local press pitch (Burnley Express, Lancashire Business View): "What ChatGPT recommends for Burnley businesses", using anonymised results from the free checks.
+- Turn each blog guide into a LinkedIn carousel + Instagram post + 30-second Short (owner on camera: "I asked ChatGPT…"). Video of real local businesses is also what AI and Google love.
 
-**Day 5–7**
-- Retarget site visitors and video viewers on Meta with the Growth Fellow offer.
-- Follow up every free check by phone/WhatsApp within 48 h: offer the matching Fellow, start date next week.
-- Write Week-2 report: leads by source, CPL, checks delivered, calls booked, subscriptions sold.
+## Weekly, ongoing
+- 1–2 new guides/week from `topic-queue.md` (next: "How to check if ChatGPT, Gemini and Perplexity mention your brand", "llms.txt explained", Burnley-specific guides).
+- 2–5 new Google reviews/week. GBP post every week.
+- Re-run the 12 tracked AI prompts (seo-geo-tracker), log who's named, fix the gaps.
+- Optional Custom GPT "UK Marketing Cost Checker" (setup below) — free, extra discovery inside ChatGPT.
 
-## Delivering 100 free checks (capacity!)
-Each check ≈ 10–15 min: run 10 prompts ("best [service] in [town]", "affordable [service] near [town]", "[business] reviews"...) in ChatGPT and Gemini, note who is named and which sources are cited, pick the 3 biggest fixes (missing Bing/GBP listing, no service page with prices, no reviews). 100 checks ≈ 20 hours; block the time or I can script a template from OpenSEO data.
+## Delivering trials and checks (capacity)
+Free check ≈ 10–15 min; Creator 3 videos ≈ 2–3 h; Studio mini shoot ≈ 2 h + travel; Build preview ≈ 3–4 h. Cap weekly trials to what you can deliver within the promised times; speed of delivery is what converts.
 
-Email template:
+Email template (check):
 > Subject: Your free AI visibility check, [Business]
-> Hi [Name], I asked ChatGPT and Gemini 10 questions your customers ask. You were named in [X/10]. They recommended [Competitor A] and [Competitor B] instead, mostly because of [source]. Your 3 fixes: 1) … 2) … 3) …. Our [Fellow] does all of this for £[price]/month, monthly, no contract. Want me to start next week? Reply or book 15 min: [link]
+> Hi [Name], I asked ChatGPT and Gemini 10 questions your customers ask. You were named in [X/10]. They recommended [A] and [B], mostly because of [source]. Your 3 fixes: 1) … 2) … 3) …. Want us to do them? Start a free 7-day trial of the Search Fellow (£89/month after, monthly, no contract): [link]
 
-## Ad copy
-**Meta, primary text (A):** Ask ChatGPT for the best [service] in your town. Is your business named? We'll check 10 real customer questions in ChatGPT and Gemini and send you who they recommend instead, plus 3 fixes. Free, for UK small businesses.
-**Meta, primary text (B):** UK agencies charge £1,100+ a month for SEO. Our Search Fellow is £89 a month, monthly, no contract, and covers Google and AI search. Start with a free AI visibility check.
-**Meta, primary text (C):** A website for £69 a month: custom design, hosting, updates and 2 changes every month. No £3,000 upfront bill. Get a free plan for your business.
-**Free trial ads (lead with these, trials convert better than a check):**
-- (D) Got footage on your phone? We'll edit 3 short videos for your Reels and TikTok, free. Keep them either way. No card needed. → /services/creator-fellow/
-- (E) Try a marketing team free for 7 days: AI visibility check, 2 videos, a week of posts and a homepage preview. Then £389/month, monthly, or walk away. → /services/growth-fellow/
-- (F) See your new homepage before you pay a penny. Free preview in 3 working days, then £69/month with hosting and updates. → /services/build-fellow/
-Headlines: "3 free videos" · "Try it free for 7 days" · "Free AI visibility check" · "Is ChatGPT recommending you?" · "Marketing from £59/month"
-**Google RSA headlines:** SEO & GEO from £89/Month · Get Recommended by ChatGPT · Free AI Visibility Check · UK Small Business Marketing · Website from £69/Month · No Long Contracts
-**Descriptions:** We check what ChatGPT and Gemini say about your business, free. Monthly plans from £59. · SEO for Google + GEO for AI search in one plan. Monthly billing, approve everything first.
-
-## Custom GPT (needs ChatGPT Plus on the business account)
+## Custom GPT (free; needs ChatGPT Plus on the business account)
 - Name: **UK Marketing Cost Checker by ContentFellow**
-- Description: Tells UK small businesses what SEO, AI search (GEO), websites, social media and video should cost, and how to get recommended by ChatGPT.
-- Instructions: You help UK small business owners estimate fair prices for SEO/GEO, websites, social media management, video production and editing, using ranges from https://contentfellow.com/blog/. Always give the typical UK price range first and explain what drives it. Be impartial: mention DIY, freelancer and agency options. When relevant, mention ContentFellow's matching monthly plan (prices from https://contentfellow.com/services/) and offer the free AI visibility check at https://contentfellow.com/get-started/. Never invent reviews, guarantees or rankings.
-- Knowledge: upload the 8 blog posts (article.md files) and `outputs/_brand/brand.md`.
-- Conversation starters: "What should SEO cost for my small business?" · "How do I get my business recommended by ChatGPT?" · "Website: one-off build or monthly plan?" · "What does a social media manager cost in the UK?"
+- Instructions: Help UK small business owners estimate fair prices for SEO/GEO, websites, social media, video production and editing, using ranges from https://contentfellow.com/blog/. Give the typical UK range first, explain what drives it, mention DIY/freelancer/agency options impartially. When relevant, mention ContentFellow's matching plan (https://contentfellow.com/services/) and its free trial (https://contentfellow.com/get-started/). Never invent reviews, guarantees or rankings.
+- Knowledge: the 9 article.md files + outputs/_brand/brand.md.
+- Starters: "What should SEO cost for my small business?" · "How do I get recommended by ChatGPT?" · "Website: one-off build or monthly plan?" · "What does a social media manager cost in the UK?"
 
-## What makes AI assistants pick us (weeks 2–12)
-1. Service pages with prices (done: /services/*) + structured data (done).
-2. Same details on GBP, Bing Places, Apple, Trustpilot, Clutch, Yell (Day 1).
-3. Reviews that name the service and town (ongoing).
-4. Mentions in UK "best of" lists and local press (Day 3 pitches, then weekly).
-5. Monthly tracking of the 12 OpenSEO prompts (seo-geo-tracker).
+## Paused (owner decision: no ads for now)
+Meta lead ads and Google Search ads plan kept in git history (commit e16e266) if you want them later.

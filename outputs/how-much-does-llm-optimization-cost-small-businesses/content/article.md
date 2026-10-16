@@ -85,9 +85,9 @@ For most UK small businesses, yes, if the cost stays proportionate. More buyers 
 
 ## How ContentFellow prices LLM optimisation
 
-At ContentFellow, SEO and GEO sit in one plan. The **[Search Fellow](https://contentfellow.com/#fellows) costs £89 a month** and covers SEO to climb Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly ranking and AI visibility report. If you want production, editing, social, your website and search working as one team, the **[Growth Fellow](https://contentfellow.com/#growth) is £389 a month** instead of £555 separately. Plans are monthly, and you can add or remove Fellows from the next month. See [how it works](https://contentfellow.com/#how).
+At ContentFellow, SEO and GEO sit in one plan. The **[Search Fellow](/services/search-fellow/) costs £89 a month** and covers SEO to climb Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly ranking and AI visibility report. If you want production, editing, social, your website and search working as one team, the **[Growth Fellow](/services/growth-fellow/) is £389 a month** instead of £555 separately. Plans are monthly, and you can add or remove Fellows from the next month. See [how it works](https://contentfellow.com/#how).
 
-**[Pick your Search Fellow →](https://contentfellow.com/#fellows)**
+**[Pick your Search Fellow →](/services/search-fellow/)**
 
 ## Frequently asked questions
 

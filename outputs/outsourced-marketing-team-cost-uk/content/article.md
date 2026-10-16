@@ -78,9 +78,9 @@ Bought separately from freelancers, that list can easily pass £2,000 a month.
 
 ## How ContentFellow prices a full marketing team
 
-The **[Growth Fellow](https://contentfellow.com/#growth) is £389 a month**, against £555 for the five Fellows separately, a saving of £166 a month. You get all five specialists (Studio, Creator, Social, Build and Search), a Growth lead who sets one strategy across them, a monthly call and one combined report. Billing is monthly, you approve content before it goes live, and you can change Fellows from the next month.
+The **[Growth Fellow](/services/growth-fellow/) is £389 a month**, against £555 for the five Fellows separately, a saving of £166 a month. You get all five specialists (Studio, Creator, Social, Build and Search), a Growth lead who sets one strategy across them, a monthly call and one combined report. Billing is monthly, you approve content before it goes live, and you can change Fellows from the next month.
 
-**[See the Growth Fellow →](https://contentfellow.com/#growth)**
+**[See the Growth Fellow →](/services/growth-fellow/)**
 
 ## Frequently asked questions
 

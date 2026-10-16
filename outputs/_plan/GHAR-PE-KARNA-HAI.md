@@ -6,12 +6,12 @@ Full technical steps: `outputs/_deploy/GO-LIVE.md` · Upload: `outputs/_deploy/c
 - [ ] Leads kis email par aayein? (abhi `contentfellow1@gmail.com`, `get-started/submit.php` mein `$TO`)
 - [ ] Trial capacity: har hafte kitne free trials le sakte hain? (videos aur shoots mein waqt lagta hai)
 - [ ] Studio mini shoot: Burnley se 20 miles theek hai? Time-based trials 7 din (data) ya 3 din (owner)? `tools/build_pages.py` → `TRIAL_DAYS`
-- [ ] Ads budget is hafte (plan: ~£980) + Meta Business aur Google Ads account access
+- [ ] Business phone number + email jo har directory par same rahe (citation-pack.md)
 - [ ] Google Business Profile hai? Reviews hain? Place ID + Places API key (reviews widget)
 
 ## Live karna (order)
 1. [ ] Backup public_html (index.html, .htaccess, robots, sitemap, llms)
-2. [ ] Zip upload + extract: blog (8 posts), /services/ (6 pages + free trial each), /get-started/ form + thanks
+2. [ ] Zip upload + extract: blog (9 guides), /services/ (6 pages + free trial each), /burnley/, /get-started/ form + thanks, IndexNow key file
 3. [ ] `.htaccess` fixes (www → non-www, /hello-world/ 410, test .html 301)
 4. [ ] Homepage `index.html`:
    - [ ] og:image absolute URL
@@ -37,8 +37,10 @@ Full technical steps: `outputs/_deploy/GO-LIVE.md` · Upload: `outputs/_deploy/c
 Terms on every page: no card, one per business, UK only, limited trials each week.
 Why not 3 days everywhere: 7-day trials convert best (24% median vs 19% for 14 days; decisions peak on days 3–4), and SEO/social show nothing in 3 days. Video and web trials are deliverables ("first video free, keep it"), which is how video agencies win clients.
 
-## Is hafte ke ads (roadmap-100-leads.md)
-- [ ] Meta lead ads: trial wale ads (neeche) + free check ad
-- [ ] Google Search ads: landing = matching /services/ page
-- [ ] Custom GPT "UK Marketing Cost Checker" publish
-- [ ] Outreach: 60 businesses/din
+## Organic (no ads) — roadmap-100-leads.md
+- [ ] IndexNow ping 20 URLs (outputs/_plan/indexnow.md) + GSC/Bing sitemap
+- [ ] Listings: GBP, Bing Places, Apple, LinkedIn, FB/IG, Trustpilot, Clutch, GoodFirms, Semrush (citation-pack.md)
+- [ ] Homepage Organization schema `sameAs` = har listing ka URL
+- [ ] Pitch SEO Works "GEO for Small Businesses" list + local press
+- [ ] Outreach: 50–75 local businesses/din, trial offers
+- [ ] Custom GPT (optional, free)

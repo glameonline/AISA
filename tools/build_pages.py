@@ -195,5 +195,31 @@ def blog_ctas():
         s = s.replace("<h2>Frequently asked questions</h2>", box + "<h2>Frequently asked questions</h2>", 1)
         p.write_text(s)
 
+TOWNS = ["Burnley", "Padiham", "Nelson", "Brierfield", "Colne", "Accrington", "Clitheroe", "Blackburn", "Rawtenstall", "Haslingden", "Todmorden"]
+
+def local_page():
+    url = f"{BASE}/burnley/"
+    rows = "".join(f'<tr><td><a href="/services/{s}/">{e(n)}</a></td><td>{e(sh)}</td><td>{p}/mo</td><td>{e(TRIAL[s.split("-")[0]][0])}</td><td>{"On-site in Burnley + 20 miles" if s.startswith("studio") else "Remote, UK-wide"}</td></tr>'
+                   for s, n, sh, p, *_ in F)
+    faqs = [("Do you work with businesses in Burnley?", "Yes. ContentFellow is based in Burnley, Lancashire. Shoots happen on-site at your business; editing, social, websites and SEO are done remotely."),
+            ("Which areas do you cover for photo and video shoots?", f"On-site shoots cover Burnley and about 20 miles around it, including {', '.join(TOWNS[1:])}. Ask us about other locations."),
+            ("How much does marketing cost for a small business in Burnley?", "ContentFellow plans start at £59 a month for social media, £69 for a website, £89 for SEO and GEO, £119 for video editing, £149 for a monthly shoot, or £389 for the full team."),
+            ("Can you help my Burnley business show up on Google Maps and ChatGPT?", "Yes. The Search Fellow covers local SEO, your Google Business Profile, Bing Places and the listings and pages AI assistants use to recommend local businesses.")]
+    ld = [{"@context": "https://schema.org", "@type": "ProfessionalService", "@id": f"{BASE}/#org", "name": "ContentFellow", "url": f"{BASE}/", "logo": f"{BASE}/f.webp",
+           "description": "Monthly marketing plans for small businesses: photo and video shoots, video editing, social media, websites, and SEO & GEO.",
+           "address": {"@type": "PostalAddress", "addressLocality": "Burnley", "addressRegion": "Lancashire", "addressCountry": "GB"},
+           "areaServed": [{"@type": "City", "name": t} for t in TOWNS] + [{"@type": "Country", "name": "United Kingdom"}], "priceRange": "£59–£389 a month"},
+          {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]}]
+    body = (f'<p class="mut">Burnley · Lancashire · UK</p><h1>Marketing, video and websites for Burnley and Lancashire businesses</h1>'
+            f'<p class="lead"><strong>ContentFellow is based in Burnley.</strong> Hire a Fellow from £59 a month: on-site photo and video shoots across Burnley and East Lancashire, plus video editing, social media, websites and SEO & GEO for businesses anywhere in the UK. Monthly billing, and every Fellow has a free trial.</p>'
+            f'<p><a class="btn" href="/get-started/?offer=trial">Start a free trial →</a></p>'
+            f'<h2>Services and prices</h2><table><tr><th>Fellow</th><th>What it is</th><th>Price</th><th>Free trial</th><th>Where</th></tr>{rows}</table>'
+            f'<h2>Areas we cover for shoots</h2><p>{", ".join(TOWNS)}, and nearby. Everything else (editing, social, websites, SEO and GEO) is delivered remotely across the UK.</p>'
+            f'<h2>Why local businesses use a Fellow</h2><ul><li><strong>Real content of your business</strong>, shot on-site, not stock photos.</li><li><strong>One monthly price</strong> instead of agency retainers or a full-time hire.</li><li><strong>You approve everything</strong> before it goes live.</li><li><strong>Found on Google Maps and in AI answers</strong>: the Search Fellow handles local SEO, Google Business Profile and Bing Places.</li></ul>'
+            f'<div class="cf-reviews" data-service="all" hidden></div>{cta_box()}'
+            f'<h2>Frequently asked questions</h2>{"".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in faqs)}'
+            f'<p>Guides: <a href="/blog/get-business-recommended-by-chatgpt-uk/">get recommended by ChatGPT</a> · <a href="/blog/video-production-cost-uk/">video production costs</a> · <a href="/blog/small-business-website-cost-uk/">website costs</a></p>')
+    page("burnley", "Marketing, Video & Websites in Burnley, Lancashire | ContentFellow", "Burnley-based ContentFellow: on-site photo and video shoots, editing, social media, websites and SEO & GEO from £59 a month. Free trial on every service.", body, ld)
+
 if __name__ == "__main__":
-    service_pages(); get_started(); blog_ctas(); print("ok")
+    service_pages(); get_started(); local_page(); blog_ctas(); print("ok")

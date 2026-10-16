@@ -75,11 +75,11 @@ That's why **regular short shoots usually beat one expensive production day**. F
 
 ## How ContentFellow prices video production
 
-The **[Studio Fellow](https://contentfellow.com/#fellows) is £149 a month**: one on-site shoot each month of up to three hours, covering photo and 4K video, with 20 edited photos delivered within five working days. We're based in Burnley, Lancashire. You approve everything before it's used, and each video includes two rounds of revisions.
+The **[Studio Fellow](/services/studio-fellow/) is £149 a month**: one on-site shoot each month of up to three hours, covering photo and 4K video, with 20 edited photos delivered within five working days. We're based in Burnley, Lancashire. You approve everything before it's used, and each video includes two rounds of revisions.
 
-Want the footage turned into Reels and Shorts? Add the [Creator Fellow](https://contentfellow.com/#fellows), or take the full [Growth Fellow](https://contentfellow.com/#growth) team (shoots, editing, social, website and search) for £389 a month.
+Want the footage turned into Reels and Shorts? Add the [Creator Fellow](/services/creator-fellow/), or take the full [Growth Fellow](/services/growth-fellow/) team (shoots, editing, social, website and search) for £389 a month.
 
-**[Pick your Studio Fellow →](https://contentfellow.com/#fellows)**
+**[Pick your Studio Fellow →](/services/studio-fellow/)**
 
 ## Frequently asked questions
 

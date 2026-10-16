@@ -73,11 +73,11 @@ Your own figures will differ, but the pattern holds: **a cheap build with no car
 
 ## How ContentFellow prices websites
 
-The **[Build Fellow](https://contentfellow.com/#fellows) is £69 a month**: a custom website of up to five pages, with hosting, security and updates included, plus two change requests every month. Billing is monthly, and you approve the site before it goes live.
+The **[Build Fellow](/services/build-fellow/) is £69 a month**: a custom website of up to five pages, with hosting, security and updates included, plus two change requests every month. Billing is monthly, and you approve the site before it goes live.
 
-To get found once it's built, add the [Search Fellow](https://contentfellow.com/#fellows) (£89 a month) or take the full [Growth Fellow](https://contentfellow.com/#growth) team for £389 a month. Our guide to [LLM optimisation costs](/blog/llm-optimisation-cost-small-business-uk/) explains what search work includes.
+To get found once it's built, add the [Search Fellow](/services/search-fellow/) (£89 a month) or take the full [Growth Fellow](/services/growth-fellow/) team for £389 a month. Our guide to [LLM optimisation costs](/blog/llm-optimisation-cost-small-business-uk/) explains what search work includes.
 
-**[Pick your Build Fellow →](https://contentfellow.com/#fellows)**
+**[Pick your Build Fellow →](/services/build-fellow/)**
 
 ## Frequently asked questions
 

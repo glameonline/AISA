@@ -68,11 +68,11 @@ Eight Reels a month at a typical £50 freelance rate is £400, before a podcast 
 
 ## How ContentFellow prices video editing
 
-The **[Creator Fellow](https://contentfellow.com/#fellows) is £119 a month**: 8 short videos for Reels, TikTok or Shorts, one motion graphics video, and one podcast edit of up to 60 minutes. Each video includes two rounds of revisions, and you approve everything before it's posted.
+The **[Creator Fellow](/services/creator-fellow/) is £119 a month**: 8 short videos for Reels, TikTok or Shorts, one motion graphics video, and one podcast edit of up to 60 minutes. Each video includes two rounds of revisions, and you approve everything before it's posted.
 
-Pair it with the [Studio Fellow](https://contentfellow.com/#fellows) for monthly shoots and the [Social Fellow](https://contentfellow.com/#fellows) for posting, or take all five Fellows in the [Growth Fellow](https://contentfellow.com/#growth) for £389 a month. Also see [what social media management costs in the UK](/blog/social-media-management-cost-uk/).
+Pair it with the [Studio Fellow](/services/studio-fellow/) for monthly shoots and the [Social Fellow](/services/social-fellow/) for posting, or take all five Fellows in the [Growth Fellow](/services/growth-fellow/) for £389 a month. Also see [what social media management costs in the UK](/blog/social-media-management-cost-uk/).
 
-**[Pick your Creator Fellow →](https://contentfellow.com/#fellows)**
+**[Pick your Creator Fellow →](/services/creator-fellow/)**
 
 ## Frequently asked questions
 

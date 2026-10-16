@@ -74,11 +74,11 @@ A good provider answers all six in writing.
 
 ## How ContentFellow prices social media
 
-The **[Social Fellow](https://contentfellow.com/#fellows)** has two levels: **Manage at £59 a month** and **Manage + Post at £129 a month**. Both cover up to three platforms, with daily posting and trend research. You approve content before it goes live, billing is monthly, and you can add, remove or upgrade Fellows from the next month.
+The **[Social Fellow](/services/social-fellow/)** has two levels: **Manage at £59 a month** and **Manage + Post at £129 a month**. Both cover up to three platforms, with daily posting and trend research. You approve content before it goes live, billing is monthly, and you can add, remove or upgrade Fellows from the next month.
 
-Need video too? The [Growth Fellow](https://contentfellow.com/#growth) bundles social, shoots, editing, website and search for £389 a month. See our breakdown of [outsourced marketing vs agency vs in-house costs](/blog/outsourced-marketing-team-cost-uk/).
+Need video too? The [Growth Fellow](/services/growth-fellow/) bundles social, shoots, editing, website and search for £389 a month. See our breakdown of [outsourced marketing vs agency vs in-house costs](/blog/outsourced-marketing-team-cost-uk/).
 
-**[Pick your Social Fellow →](https://contentfellow.com/#fellows)**
+**[Pick your Social Fellow →](/services/social-fellow/)**
 
 ## Frequently asked questions
 
