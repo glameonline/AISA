@@ -1,4 +1,14 @@
-# Pehli payment ke baad (owner plan: 1 hafte mein Ltd register)
+# Ltd + Wise + billing plan
+**Trigger (owner decision 17 Oct): jaise hi 3–4 free trial signups aayein, foran shuru karein**, taake trial khatam hone (7 din) tak subscription lene ka system tayyar ho.
+
+## Order (trial signups 3–4 hote hi)
+1. [ ] Companies House: naam check → Ltd register (online, aam taur par ~24 ghante; fee gov.uk par check)
+2. [ ] Wise Business account, Ltd ke naam par (verification mein kuch din lag sakte hain, is liye pehle din apply)
+3. [ ] Monthly billing: Stripe (card, subscriptions + payment links) ya GoCardless (direct debit). Payout = Wise account (sort code + account number)
+4. [ ] Har Fellow ka subscription link banana (£59/£129/£69/£89/£119/£149/£389) → main trial-end email aur service pages par "Start subscription" button laga doonga
+5. [ ] Trial khatam hone se 1 din pehle har trial client ko email: kya mila + subscription link
+
+## Pehli payment ke baad
 ## Company (Ltd)
 - [ ] Companies House par Ltd register karein (online; fee check karein gov.uk par). Naam: "ContentFellow Ltd" available hai? Pehle Companies House name search.
 - [ ] Business bank account (company ke naam par), aur payments wahan shift.
