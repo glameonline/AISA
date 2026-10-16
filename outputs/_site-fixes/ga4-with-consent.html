@@ -1,0 +1,32 @@
+<!-- ContentFellow: Google Analytics 4 (G-EZMWHSK0LD) + UK cookie consent. Paste directly below <head> in index.html -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  var cfConsent = null; try { cfConsent = localStorage.getItem('cf_consent'); } catch (e) {}
+  gtag('consent', 'default', {
+    analytics_storage: cfConsent === 'yes' ? 'granted' : 'denied',
+    ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied'
+  });
+  gtag('js', new Date());
+  gtag('config', 'G-EZMWHSK0LD');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EZMWHSK0LD"></script>
+<style>
+  #cf-cookie{position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:520px;margin:0 auto;background:#151517;color:#f5f3ee;border:1px solid #2c2c30;border-radius:14px;padding:16px;font:14px/1.5 system-ui,-apple-system,sans-serif;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  #cf-cookie p{margin:0 0 12px}
+  #cf-cookie div{display:flex;gap:8px;justify-content:flex-end}
+  #cf-cookie button{font:600 14px system-ui,sans-serif;border-radius:8px;padding:9px 16px;cursor:pointer;border:1px solid #3a3a40;background:transparent;color:#f5f3ee}
+  #cf-cookie button.cf-yes{background:#ff5a1f;border-color:#ff5a1f;color:#0c0c0d}
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (cfConsent) return;
+    var b = document.createElement('div'); b.id = 'cf-cookie'; b.setAttribute('role', 'dialog'); b.setAttribute('aria-label', 'Cookie choice');
+    b.innerHTML = '<p>We use analytics cookies to see how people use our site, so we can improve it. No advertising cookies.</p><div><button class="cf-no" type="button">Reject</button><button class="cf-yes" type="button">Accept</button></div>';
+    document.body.appendChild(b);
+    function choose(v) { try { localStorage.setItem('cf_consent', v); } catch (e) {}
+      if (v === 'yes') gtag('consent', 'update', { analytics_storage: 'granted' }); b.remove(); }
+    b.querySelector('.cf-yes').onclick = function () { choose('yes'); };
+    b.querySelector('.cf-no').onclick = function () { choose('no'); };
+  });
+</script>

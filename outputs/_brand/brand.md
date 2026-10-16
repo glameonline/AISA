@@ -18,5 +18,6 @@ Voice: British English, short confident sentences, plain words, no jargon withou
 - https://contentfellow.com/#faq — "what is GEO"
 ## Site facts for SEO
 Single-page static site, lang en-GB, no /blog, no WordPress, og:image relative ("studio.jpg" — should be absolute URL).
+GA4 Measurement ID: G-EZMWHSK0LD (snippet with UK consent banner: outputs/_site-fixes/ga4-with-consent.html)
 ## Location (from Google's cached old site, 16 Oct)
 Old site title: "Photographer & Videographer Burnley | Content Fellow". Based in Burnley, Lancashire, UK. Use for local SEO (Studio Fellow shoots on-site).
