@@ -63,6 +63,8 @@ If you pay for help, buy one plan that covers both rather than two suppliers. A 
 
 Similarweb suggests small businesses put **10 to 20% of their search budget** into AI visibility. Our split sits inside that range, because most GEO work is also SEO work.
 
+For pound-by-pound prices, see our guide: [how much LLM optimisation costs UK small businesses](/blog/llm-optimisation-cost-small-business-uk/).
+
 ## Is SEO dead because of AI search?
 
 No. Google still sends most website traffic for most UK businesses, and AI assistants often build their answers from pages that already rank well. What's changed is that ranking alone isn't enough: you also want to be the business the AI names. That's why the two belong together.

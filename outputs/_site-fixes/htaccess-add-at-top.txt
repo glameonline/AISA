@@ -1,0 +1,12 @@
+# --- ContentFellow SEO fixes (2026-10-16). Paste at the TOP of public_html/.htaccess; keep everything already there below it. ---
+RewriteEngine On
+# One canonical host: https + non-www
+RewriteCond %{HTTP_HOST} ^www\.contentfellow\.com$ [NC,OR]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://contentfellow.com/$1 [R=301,L]
+# Old WordPress pages Google still has indexed: 410 Gone
+RewriteRule ^hello-world/?$ - [G,L]
+RewriteRule ^hugo-portfolio-hero-image/?$ - [G,L]
+# Earlier manual test upload -> folder URL
+RewriteRule ^blog/llm-optimisation-cost-small-business-uk\.html$ /blog/llm-optimisation-cost-small-business-uk/ [R=301,L]
+# --- end ContentFellow SEO fixes ---

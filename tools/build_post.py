@@ -49,7 +49,7 @@ hb = markdown.markdown(body, extensions=["tables"])
 hb = re.sub(r'<img alt="([^"]*)" src="([^"]*)" />', r'<img src="\2" alt="\1" width="1200" height="630" loading="lazy">', hb)
 faqs = re.findall(r"### (.+?\?)\n(.+?)\n", body.split("## Frequently asked questions")[1]) if "## Frequently asked questions" in body else []
 url = f"https://contentfellow.com/blog/{slug}/"; date = P["date"]
-ld = [{"@context": "https://schema.org", "@type": "Article", "headline": P["title"], "description": P["meta_description"], "image": "https://contentfellow.com/studio.jpg",
+ld = [{"@context": "https://schema.org", "@type": "Article", "headline": P["title"], "description": P["meta_description"], "image": f"https://contentfellow.com/blog/{slug}/{slug}-featured.png",
        "datePublished": date, "dateModified": date, "inLanguage": "en-GB",
        "author": {"@type": "Organization", "name": "ContentFellow Search Team", "url": "https://contentfellow.com"},
        "publisher": {"@type": "Organization", "name": "ContentFellow", "logo": {"@type": "ImageObject", "url": "https://contentfellow.com/f.webp"}}, "mainEntityOfPage": url},
@@ -59,7 +59,7 @@ ld = [{"@context": "https://schema.org", "@type": "Article", "headline": P["titl
           {"@type": "ListItem", "position": 3, "name": P["meta_title"], "item": url}]}]
 if faqs: ld.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]})
 tmpl = pathlib.Path(__file__).with_name("post_template.html").read_text()
-page = (tmpl.replace("{{TITLE}}", e(P["meta_title"])).replace("{{DESC}}", e(P["meta_description"])).replace("{{URL}}", url)
+page = (tmpl.replace("{{TITLE}}", e(P["meta_title"])).replace("{{DESC}}", e(P["meta_description"])).replace("{{URL}}", url).replace("{{IMG}}", f"{url}{slug}-featured.png")
         .replace("{{LD}}", "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld)).replace("{{BODY}}", hb))
 (c / "article.html").write_text(page)
 (c / "meta.json").write_text(json.dumps({**{k: P[k] for k in ("title", "meta_title", "meta_description", "slug", "keywords", "tags", "category", "cta")},
