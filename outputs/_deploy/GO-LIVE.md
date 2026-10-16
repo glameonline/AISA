@@ -20,15 +20,15 @@ Apply `outputs/_site-fixes/homepage-changes.md` (absolute og:image, "Guides" lin
 | https://contentfellow.com/blog/ | 200, lists 2 posts |
 | /blog/geo-vs-seo-uk-small-business/ | 200, 2 images load |
 | /blog/llm-optimisation-cost-small-business-uk/ | 200, 3 images load |
-| /blog/get-business-recommended-by-chatgpt-uk/ | 200, 2 images load |
+| /blog/get-business-recommended-by-chatgpt-uk/ and the 5 service guides (social, website, video production, video editing, outsourced team) | 200, 2 images each |
 | /sitemap.xml, /robots.txt, /llms.txt | 200, new versions |
 | https://www.contentfellow.com/ | 301 → https://contentfellow.com/ |
 | /hello-world/ , /hugo-portfolio-hero-image/ | 410 |
-Also: Rich Results Test on all 3 posts (Article, FAQPage, Breadcrumb).
+Also: Rich Results Test on all 8 posts (Article, FAQPage, Breadcrumb).
 
 ## 6. Tell the search engines
-- Search Console: Sitemaps → submit `sitemap.xml`; URL Inspection → Request indexing for /blog/ and all 3 posts.
-- IndexNow (Bing/ChatGPT search): OpenSEO `submit_indexnow_urls` with the 4 blog URLs (/blog/ + 3 posts).
+- Search Console: Sitemaps → submit `sitemap.xml`; URL Inspection → Request indexing for /blog/ and all 8 posts.
+- IndexNow (Bing/ChatGPT search): OpenSEO `submit_indexnow_urls` with the 9 blog URLs (/blog/ + 8 posts).
 - Tracker: tick `outputs/_plan/publish-queue.md`, log in `outputs/_tracker/`.
 
 ## Rollback

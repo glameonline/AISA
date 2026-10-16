@@ -11,9 +11,14 @@
 - Growth Fellow (£389/mo, £555 separately): all five Fellows, a Growth lead, one strategy, one monthly report
 
 ## Guides
-- [How to get your business recommended by ChatGPT (UK step-by-step)](https://contentfellow.com/blog/get-business-recommended-by-chatgpt-uk/): 8 steps, why Bing and directories matter, time and £ cost per step
-- [GEO vs SEO: what's the difference, and do UK small businesses need both?](https://contentfellow.com/blog/geo-vs-seo-uk-small-business/): plain-English comparison, overlap and budget split
-- [How much does LLM optimisation cost for small businesses? (UK, 2026)](https://contentfellow.com/blog/llm-optimisation-cost-small-business-uk/): UK GEO pricing in pounds by option
+- [How to Get Your Business Recommended by ChatGPT: A UK Step-by-Step Guide (2026)](https://contentfellow.com/blog/get-business-recommended-by-chatgpt-uk/): You can't pay to appear. 8 free steps, with time and £ cost for each.
+- [GEO vs SEO: What's the Difference, and Do UK Small Businesses Need Both? (2026)](https://contentfellow.com/blog/geo-vs-seo-uk-small-business/): SEO wins a click, GEO wins a mention. What each does, what overlaps, and how to split a small budget.
+- [How Much Does LLM Optimisation Cost for Small Businesses? (UK Prices, 2026)](https://contentfellow.com/blog/llm-optimisation-cost-small-business-uk/): £0–£100 DIY, £89–£400 on a plan, £1,100–£3,800 with an agency. What each tier includes.
+- [How Much Does Social Media Management Cost in the UK? (2026 Prices)](https://contentfellow.com/blog/social-media-management-cost-uk/): £300–£1,500 a month for most UK small businesses. Freelancer vs agency vs in-house vs monthly plan.
+- [How Much Does a Small Business Website Cost in the UK in 2026?](https://contentfellow.com/blog/small-business-website-cost-uk/): £200–£20,000 to build, £5–£150 a month to run, and the 3-year total for each option.
+- [How Much Does Video Production Cost for UK Small Businesses? (2026)](https://contentfellow.com/blog/video-production-cost-uk/): Videographer day rates, production company quotes, and what a small business really needs.
+- [How Much Does Video Editing Cost in the UK? Reels, YouTube and Podcasts (2026)](https://contentfellow.com/blog/video-editing-cost-uk/): Per hour, per Reel, per YouTube video and per podcast, and when monthly works out cheaper.
+- [Outsourced Marketing Team vs Agency vs In-House: UK Costs Compared (2026)](https://contentfellow.com/blog/outsourced-marketing-team-cost-uk/): One UK hire costs 35–45% more than the salary. In-house, agency and outsourced compared.
 
 ## Links
 - [Pick a Fellow](https://contentfellow.com/#fellows)

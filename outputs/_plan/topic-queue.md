@@ -3,10 +3,11 @@
 - [x] GEO vs SEO: what's the difference and do UK small businesses need both? — 2026-10-16 (queued for publish)
 - [x] How to get your business recommended by ChatGPT (UK step-by-step) — 2026-10-16 (queued for publish)
 - [ ] Best GEO services for small businesses in the UK (comparison, honest)
-- [ ] How much does social media management cost in the UK? (Social Fellow)
-- [ ] How much does a small business website cost in the UK in 2026? (Build Fellow)
-- [ ] Video production costs for UK small businesses (Studio Fellow)
-- [ ] Outsourced marketing team vs agency vs in-house: UK costs (Growth Fellow)
+- [x] How much does social media management cost in the UK? (Social Fellow) — 2026-10-16 (queued for publish)
+- [x] How much does a small business website cost in the UK in 2026? (Build Fellow) — 2026-10-16 (queued for publish)
+- [x] Video production costs for UK small businesses (Studio Fellow) — 2026-10-16 (queued for publish)
+- [x] Outsourced marketing team vs agency vs in-house: UK costs (Growth Fellow) — 2026-10-16 (queued for publish)
+- [x] Video editing costs UK: Reels, YouTube, podcasts (Creator Fellow) — 2026-10-16 (queued for publish)
 - [ ] llms.txt explained: should your business have one?
 - [ ] How to check if ChatGPT, Gemini and Perplexity mention your brand
 - [ ] (EU) GEO cost in Ireland (€) · (EU) KI-Suchoptimierung Kosten (DE) · (EU) Coût du GEO pour les PME (FR)

@@ -1,0 +1,3 @@
+# Brief: Outsourced Marketing Team vs Agency vs In-House: UK Costs Compared (2026) (2026-10-16)
+Primary keyword: outsourced marketing team cost uk · Secondary: in-house marketing vs agency uk, marketing agency cost uk small business, cost of hiring a marketing manager uk, outsourced marketing for small business uk
+Sources: marketingmary.ai UK (hire costs 35–45% above salary; Content Manager £30k → ~£51k loaded, £4,286/mo; 3-person team outside London £130–180k/yr; boutique SEO £2–5k/mo, content agencies £5–10k, full-service £12–25k); chatterbuzzmedia (hidden costs 40–60%, 3–6 month ramp). Gap: guides target £120k+ budgets; nothing for a business spending under £1,000 a month.

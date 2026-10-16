@@ -3,6 +3,11 @@ Deploy = copy everything in outputs/_site/ into public_html/ (keep the existing 
 - [ ] /blog/ (index), /blog/llm-optimisation-cost-small-business-uk/ (16 Oct)
 - [ ] /blog/geo-vs-seo-uk-small-business/ (16 Oct)
 - [ ] /blog/get-business-recommended-by-chatgpt-uk/ (16 Oct)
+- [ ] /blog/social-media-management-cost-uk/ (16 Oct)
+- [ ] /blog/small-business-website-cost-uk/ (16 Oct)
+- [ ] /blog/video-production-cost-uk/ (16 Oct)
+- [ ] /blog/video-editing-cost-uk/ (16 Oct)
+- [ ] /blog/outsourced-marketing-team-cost-uk/ (16 Oct)
 - [ ] sitemap.xml + llms.txt (updated with both posts)
 - [ ] Remove manual test upload if present: /blog/llm-optimisation-cost-small-business-uk.html → 301 to folder URL
 
