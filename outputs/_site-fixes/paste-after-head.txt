@@ -1,0 +1,53 @@
+<!-- ContentFellow: Google Analytics 4 (G-EZMWHSK0LD) + UK cookie consent. Paste directly below <head> in index.html -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  var cfConsent = null; try { cfConsent = localStorage.getItem('cf_consent'); } catch (e) {}
+  gtag('consent', 'default', {
+    analytics_storage: cfConsent === 'yes' ? 'granted' : 'denied',
+    ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied'
+  });
+  gtag('js', new Date());
+  gtag('config', 'G-EZMWHSK0LD');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EZMWHSK0LD"></script>
+<style>
+  #cf-cookie{position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:520px;margin:0 auto;background:#151517;color:#f5f3ee;border:1px solid #2c2c30;border-radius:14px;padding:16px;font:14px/1.5 system-ui,-apple-system,sans-serif;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  #cf-cookie p{margin:0 0 12px}
+  #cf-cookie div{display:flex;gap:8px;justify-content:flex-end}
+  #cf-cookie button{font:600 14px system-ui,sans-serif;border-radius:8px;padding:9px 16px;cursor:pointer;border:1px solid #3a3a40;background:transparent;color:#f5f3ee}
+  #cf-cookie button.cf-yes{background:#ff5a1f;border-color:#ff5a1f;color:#0c0c0d}
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (cfConsent) return;
+    var b = document.createElement('div'); b.id = 'cf-cookie'; b.setAttribute('role', 'dialog'); b.setAttribute('aria-label', 'Cookie choice');
+    b.innerHTML = '<p>We use analytics cookies to see how people use our site, so we can improve it. No advertising cookies.</p><div><button class="cf-no" type="button">Reject</button><button class="cf-yes" type="button">Accept</button></div>';
+    document.body.appendChild(b);
+    function choose(v) { try { localStorage.setItem('cf_consent', v); } catch (e) {}
+      if (v === 'yes') gtag('consent', 'update', { analytics_storage: 'granted' }); b.remove(); }
+    b.querySelector('.cf-yes').onclick = function () { choose('yes'); };
+    b.querySelector('.cf-no').onclick = function () { choose('no'); };
+  });
+</script>
+
+<link rel="canonical" href="https://contentfellow.com/">
+<link rel="alternate" hreflang="en-GB" href="https://contentfellow.com/">
+<meta property="og:url" content="https://contentfellow.com/"><meta property="og:type" content="website"><meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://contentfellow.com/#org","name":"ContentFellow","url":"https://contentfellow.com/","logo":"https://contentfellow.com/f.webp","areaServed":["GB","IE","EU"],"description":"Hire a Fellow for production, video editing, social media, websites and SEO & GEO on simple monthly plans."},
+{"@type":"WebSite","@id":"https://contentfellow.com/#site","url":"https://contentfellow.com/","name":"ContentFellow","inLanguage":"en-GB","publisher":{"@id":"https://contentfellow.com/#org"}},
+{"@type":"OfferCatalog","name":"Fellow plans","itemListElement":[
+ {"@type":"Offer","name":"Search Fellow (SEO & GEO)","price":"89","priceCurrency":"GBP","url":"https://contentfellow.com/#fellows","itemOffered":{"@type":"Service","name":"SEO and GEO for AI search","provider":{"@id":"https://contentfellow.com/#org"}}},
+ {"@type":"Offer","name":"Growth Fellow","price":"389","priceCurrency":"GBP","url":"https://contentfellow.com/#growth","itemOffered":{"@type":"Service","name":"Full digital marketing team"}},
+ {"@type":"Offer","name":"Studio Fellow","price":"149","priceCurrency":"GBP","itemOffered":{"@type":"Service","name":"Photo and video production"}},
+ {"@type":"Offer","name":"Creator Fellow","price":"119","priceCurrency":"GBP","itemOffered":{"@type":"Service","name":"Video editing and motion graphics"}},
+ {"@type":"Offer","name":"Social Fellow","price":"59","priceCurrency":"GBP","itemOffered":{"@type":"Service","name":"Social media management"}},
+ {"@type":"Offer","name":"Build Fellow","price":"69","priceCurrency":"GBP","itemOffered":{"@type":"Service","name":"Website design, build and hosting"}}]},
+{"@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"What is GEO?","acceptedAnswer":{"@type":"Answer","text":"GEO stands for generative engine optimisation. It makes your brand easy for AI assistants like ChatGPT, Claude and Gemini to find, understand and recommend, through structured data, clear content and mentions on trusted sites."}},
+ {"@type":"Question","name":"How do monthly plans work?","acceptedAnswer":{"@type":"Answer","text":"Each Fellow is billed monthly. You can add, remove or upgrade Fellows from the next month."}},
+ {"@type":"Question","name":"Do I approve content before it goes live?","acceptedAnswer":{"@type":"Answer","text":"Yes. Videos, posts and website changes are shared with you for approval first, and each video includes two rounds of revisions."}}]}]}
+</script>
