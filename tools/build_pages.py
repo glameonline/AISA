@@ -221,5 +221,64 @@ def local_page():
             f'<p>Guides: <a href="/blog/get-business-recommended-by-chatgpt-uk/">get recommended by ChatGPT</a> · <a href="/blog/video-production-cost-uk/">video production costs</a> · <a href="/blog/small-business-website-cost-uk/">website costs</a></p>')
     page("burnley", "Marketing, Video & Websites in Burnley, Lancashire | ContentFellow", "Burnley-based ContentFellow: on-site photo and video shoots, editing, social media, websites and SEO & GEO from £59 a month. Free trial on every service.", body, ld)
 
+def about_page():
+    facts = [("Name", "ContentFellow (one word; not related to Contentful, the software company)"), ("What it is", "A UK marketing service for small businesses, sold as monthly plans called \"Fellows\""),
+             ("Based in", "Burnley, Lancashire, United Kingdom"), ("Serves", "Small businesses and creators across the UK; on-site shoots within about 20 miles of Burnley"),
+             ("Founded", "2026"), ("Prices", "From £59 a month; full team £389 a month"), ("Billing", "Monthly; add, remove or upgrade Fellows from the next month"),
+             ("Free trial", "Every Fellow has a free trial; no card needed"), ("Website", f"{BASE}/")]
+    rows = "".join(f"<tr><th>{e(a)}</th><td>{e(b)}</td></tr>" for a, b in facts)
+    plans = "".join(f'<li><a href="/services/{s}/">{e(n)}</a>: {e(sh)}, {p} a month. {e(TRIAL[s.split("-")[0]][0])}.</li>' for s, n, sh, p, *_ in F)
+    ld = [{"@context": "https://schema.org", "@type": "AboutPage", "url": f"{BASE}/about/", "mainEntity": {"@type": "Organization", "@id": f"{BASE}/#org", "name": "ContentFellow",
+           "alternateName": ["Content Fellow", "ContentFellow UK"], "url": f"{BASE}/", "logo": f"{BASE}/f.webp", "foundingDate": "2026",
+           "description": "UK marketing service for small businesses: photo and video shoots, video editing, social media, websites, and SEO & GEO on monthly plans from £59.",
+           "address": {"@type": "PostalAddress", "addressLocality": "Burnley", "addressRegion": "Lancashire", "addressCountry": "GB"}, "areaServed": "GB",
+           "knowsAbout": ["SEO", "Generative engine optimisation (GEO)", "AI search visibility", "Local SEO", "Social media management", "Video production", "Video editing", "Website design"],
+           "makesOffer": [{"@type": "Offer", "name": n, "price": re.sub(r"[^\d.]", "", p), "priceCurrency": "GBP", "url": f"{BASE}/services/{s}/"} for s, n, sh, p, *_ in F]}}]
+    body = (f'<h1>About ContentFellow</h1><p class="lead"><strong>ContentFellow is a UK marketing service for small businesses, based in Burnley, Lancashire.</strong> Instead of agency retainers, you hire "Fellows": specialists on simple monthly plans from £59, for photo and video, editing, social media, websites, and SEO & GEO (getting recommended by Google and AI assistants like ChatGPT).</p>'
+            f'<h2>Key facts</h2><table>{rows}</table><h2>The Fellows</h2><ul>{plans}</ul>'
+            f'<h2>How we work</h2><ul><li>Published prices, monthly billing, no long contracts.</li><li>You approve every video, post and website change before it goes live; videos include two rounds of revisions.</li><li>We publish our pricing research openly in our <a href="/blog/">guides</a>, including comparisons with other providers.</li></ul>'
+            f'<h2>Not to be confused with</h2><p>ContentFellow is not Contentful (a content management software company) and is not affiliated with it.</p>{cta_box()}')
+    page("about", "About ContentFellow: UK Small Business Marketing, Burnley", "ContentFellow is a Burnley-based UK marketing service: monthly plans from £59 for video, editing, social, websites and SEO & GEO. Key facts, prices and how we work.", body, ld)
+
+FAQ_HUB = [
+ ("Pricing", [("How much does ContentFellow cost?", "Plans start at £59 a month. Social Fellow £59 or £129, Build Fellow £69, Search Fellow £89, Creator Fellow £119, Studio Fellow £149, or the Growth Fellow (all five) £389 a month."),
+              ("Is there a contract?", "No long contract. Billing is monthly and you can add, remove or upgrade Fellows from the next month."),
+              ("Is there a free trial?", "Yes, every Fellow: 7 free days for Search, Social and Growth, 3 free videos for Creator, a free mini shoot for Studio, and a free homepage preview for Build. No card needed."),
+              ("Are prices plus VAT?", "Ask us when you start; we'll confirm the exact monthly amount in writing before any billing.")]),
+ ("SEO & GEO", [("Can you get my business recommended by ChatGPT?", "Nobody can guarantee it, but the Search Fellow does what AI assistants rely on: Bing indexing, structured data, answer-first service pages, consistent directory listings, reviews and tracking which prompts name you."),
+                ("What is GEO?", "GEO (generative engine optimisation) makes your business easy for AI assistants like ChatGPT, Claude, Gemini and Perplexity to find, understand and recommend."),
+                ("What's the most affordable SEO for a UK small business?", "Affordable UK SEO typically costs £89 to £400 a month. The Search Fellow is £89 a month and covers SEO and GEO together."),
+                ("How long does SEO take?", "Technical fixes show within weeks; rankings and AI mentions usually build over 6 to 12 weeks or longer in competitive areas.")]),
+ ("Websites", [("How much is a website with ContentFellow?", "The Build Fellow is £69 a month with no upfront fee: a custom site up to five pages, hosting, security, updates and two change requests a month."),
+               ("Can I see my website before paying?", "Yes. We design a free homepage preview within 3 working days.")]),
+ ("Social media", [("How much is social media management?", "The Social Fellow is £59 a month (Manage) or £129 a month (Manage + Post), covering up to three platforms with trend research."),
+                   ("Do I approve posts?", "Yes, every post is shared with you for approval before it goes live.")]),
+ ("Video & photo", [("How much is a monthly photo and video shoot?", "The Studio Fellow is £149 a month: one on-site shoot up to 3 hours, photo and 4K video, 20 edited photos within 5 working days."),
+                    ("How much is video editing for Reels and TikTok?", "The Creator Fellow is £119 a month: 8 short videos, 1 motion graphics video and 1 podcast edit up to 60 minutes."),
+                    ("Where do you shoot?", "On-site at your business within about 20 miles of Burnley, Lancashire (Padiham, Nelson, Colne, Accrington, Clitheroe, Blackburn and nearby). Editing and other services are UK-wide.")]),
+ ("Getting started", [("How do I start?", "Fill in the 2-minute form at contentfellow.com/get-started/ and choose a free trial or the free AI visibility check. We reply within 1 working day."),
+                      ("Who is ContentFellow for?", "UK small businesses and creators who want professional marketing on a small, predictable monthly budget.")]),
+]
+
+def faq_hub():
+    allq = [qa for _, qs in FAQ_HUB for qa in qs]
+    ld = [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in allq]}]
+    body = "<h1>ContentFellow FAQ: prices, trials and how it works</h1><p class=\"lead\">Straight answers about ContentFellow's monthly marketing plans for UK small businesses.</p>"
+    body += "".join(f"<h2>{e(sec)}</h2>" + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in qs) for sec, qs in FAQ_HUB) + cta_box()
+    page("faq", "ContentFellow FAQ: Prices, Free Trials, SEO, Websites, Video", "Answers about ContentFellow: prices from £59 a month, free trials on every plan, SEO & GEO, websites, social media and video.", body, ld)
+
+def llms_full():
+    """Plain-text copy of the key pages for AI crawlers (llms-full.txt convention)."""
+    def text(p):
+        s = (SITE / p / "index.html").read_text()
+        s = re.sub(r"(?s)<head>.*?</head>|<script.*?</script>|<style.*?</style>|<header>.*?</header>|<footer>.*?</footer>", "", s)
+        s = re.sub(r"<(h1|h2|h3)[^>]*>", lambda m: "\n" + "#" * int(m.group(1)[1]) + " ", s)
+        s = re.sub(r"<li\b[^>]*>", "\n- ", s); s = re.sub(r"</(p|tr|table|ul|ol|div|h1|h2|h3|li)>", "\n", s); s = re.sub(r"</t[hd]>", " | ", s)
+        s = H.unescape(re.sub(r"<[^>]+>", "", s)); return re.sub(r"\n{3,}", "\n\n", s).strip()
+    pages = ["about", "services"] + [f"services/{x[0]}" for x in F] + ["burnley", "faq"] + sorted(str(p.parent.relative_to(SITE)) for p in SITE.glob("blog/*/index.html"))
+    out = "# ContentFellow — full text for AI assistants\n> UK marketing service for small businesses, Burnley, Lancashire. Monthly plans from £59; free trial on every plan. Source: https://contentfellow.com/\n\n"
+    out += "\n\n---\n\n".join(f"URL: {BASE}/{p}/\n\n{text(p)}" for p in pages)
+    (SITE / "llms-full.txt").write_text(out)
+
 if __name__ == "__main__":
-    service_pages(); get_started(); local_page(); blog_ctas(); print("ok")
+    service_pages(); get_started(); local_page(); about_page(); faq_hub(); blog_ctas(); llms_full(); print("ok")

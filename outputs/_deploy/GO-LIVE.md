@@ -30,7 +30,8 @@ Add a "Free check" button to the homepage hero and nav linking to `/get-started/
 | /blog/get-business-recommended-by-chatgpt-uk/ and the 5 service guides (social, website, video production, video editing, outsourced team) | 200, 2 images each |
 | /services/ + 6 service pages, /get-started/ | 200; form submits to /get-started/thanks/ |
 | /burnley/, /5ba1ed0245094aa65dacdb4a3ec88d27.txt (IndexNow key) | 200 |
-| /sitemap.xml, /robots.txt, /llms.txt | 200, new versions (20 URLs in sitemap) |
+| /about/, /faq/, /llms-full.txt | 200 |
+| /sitemap.xml, /robots.txt, /llms.txt | 200, new versions (25 URLs in sitemap) |
 | https://www.contentfellow.com/ | 301 → https://contentfellow.com/ |
 | /hello-world/ , /hugo-portfolio-hero-image/ | 410 |
 Also: Rich Results Test on all 8 posts (Article, FAQPage, Breadcrumb).
