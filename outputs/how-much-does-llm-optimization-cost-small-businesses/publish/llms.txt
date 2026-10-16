@@ -1,0 +1,19 @@
+# ContentFellow
+
+> ContentFellow is a UK creative and digital marketing service. Businesses and creators hire "Fellows" (specialists) on simple monthly plans from £59 a month: production, video editing, social media, websites and SEO & GEO for AI search.
+
+## Plans (brand pricing, monthly; personal plans 15% lower)
+- Studio Fellow (£149/mo): one on-site shoot a month up to 3 hours, photo + 4K video, 20 edited photos in 5 working days
+- Creator Fellow (£119/mo): 8 short videos for Reels/TikTok/Shorts, 1 motion graphics video, 1 podcast edit up to 60 min
+- Social Fellow (£59/mo manage, £129/mo manage + post): up to 3 platforms, daily posting, trend research
+- Build Fellow (£69/mo): custom website up to 5 pages, hosting, security, updates, 2 change requests a month
+- Search Fellow (£89/mo): SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, monthly ranking + AI visibility report
+- Growth Fellow (£389/mo, £555 separately): all five Fellows, a Growth lead, one strategy, one monthly report
+
+## Guides
+- [How much does LLM optimisation cost for small businesses? (UK, 2026)](https://contentfellow.com/blog/llm-optimisation-cost-small-business-uk/): UK GEO pricing in pounds by option
+
+## Links
+- [Pick a Fellow](https://contentfellow.com/#fellows)
+- [Growth Fellow](https://contentfellow.com/#growth)
+- [FAQ](https://contentfellow.com/#faq)

@@ -1,0 +1,195 @@
+<title>ContentFellow Growth Desk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: manager's desk — status strip, then pipeline, rankings, fixes, plan; single column that splits to two on wide screens */
+:root{
+  --bg:#f6f4f1;--panel:#ffffff;--ink:#17161a;--mut:#6d6873;--line:#e4e0e8;--accent:#e2531f;--accent-soft:#fbe6dd;
+  --ok:#1f8a5b;--warn:#b7791f;--bad:#c2362b;--ok-soft:#e1f3ea;--warn-soft:#faefd9;--bad-soft:#f8e1de;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;--body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121114;--panel:#1b1a1f;--ink:#f1eef3;--mut:#a39ead;--line:#2d2b33;--accent:#ff6a33;--accent-soft:#3a2219;--ok:#4cc38a;--warn:#e0a84a;--bad:#ef6a5e;--ok-soft:#163327;--warn-soft:#352a14;--bad-soft:#3a1d1a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121114;--panel:#1b1a1f;--ink:#f1eef3;--mut:#a39ead;--line:#2d2b33;--accent:#ff6a33;--accent-soft:#3a2219;--ok:#4cc38a;--warn:#e0a84a;--bad:#ef6a5e;--ok-soft:#163327;--warn-soft:#352a14;--bad-soft:#3a1d1a;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px}
+.wrap{max-width:1120px;margin:0 auto;display:grid;gap:20px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:clamp(28px,4.5vw,42px);font-weight:800;letter-spacing:-.01em}
+h2{font-size:20px;font-weight:600}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.top{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:end;justify-content:space-between}
+.top p{margin:6px 0 0;color:var(--mut);max-width:62ch}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}
+.grid2{display:grid;gap:20px;grid-template-columns:1fr}
+@media (min-width:880px){.grid2{grid-template-columns:1fr 1fr}}
+.kpis{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
+.kpi{border-left:3px solid var(--line);padding:4px 0 4px 12px}
+.kpi b{display:block;font:600 26px var(--display);font-variant-numeric:tabular-nums}
+.kpi span{color:var(--mut);font-size:13px}
+.kpi.bad{border-color:var(--bad)}.kpi.warn{border-color:var(--warn)}.kpi.ok{border-color:var(--ok)}
+.pill{display:inline-block;font:500 12px var(--mono);padding:2px 8px;border-radius:99px;white-space:nowrap}
+.pill.ok{background:var(--ok-soft);color:var(--ok)}.pill.warn{background:var(--warn-soft);color:var(--warn)}.pill.bad{background:var(--bad-soft);color:var(--bad)}
+.head{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap;margin-bottom:14px}
+.head small{color:var(--mut)}
+/* pipeline */
+.pipe{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));counter-reset:s}
+.step{border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:4px;align-content:start}
+.step .n{font:500 11px var(--mono);color:var(--mut)}
+.step b{font-size:14px}
+.step code{font:12px var(--mono);color:var(--mut);word-break:break-word}
+.step.done{border-color:var(--ok)}.step.block{border-color:var(--warn)}
+/* bars */
+.bars{display:grid;gap:12px}
+.bar{display:grid;gap:4px}
+.bar .lab{display:flex;justify-content:space-between;gap:8px;font-size:13px}
+.bar .lab span:last-child{font-family:var(--mono);color:var(--mut);white-space:nowrap}
+.track{display:flex;height:14px;border-radius:4px;overflow:hidden;background:var(--line)}
+.track i{display:block;height:100%}
+.track .them{background:var(--mut);opacity:.55}.track .us{background:var(--accent)}
+.legend{display:flex;gap:16px;font-size:12px;color:var(--mut);margin-top:10px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+/* trend */
+.trend{position:relative}
+.trend svg{width:100%;height:auto;display:block}
+.trend text{fill:var(--mut);font:11px var(--mono)}
+.empty{position:absolute;inset:18% 10% auto;text-align:center;color:var(--mut);font-size:13px}
+.empty b{display:block;color:var(--ink);font-size:14px;margin-bottom:2px}
+/* lists */
+ol.fix{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+ol.fix li{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start}
+ol.fix li p{margin:0}
+ol.fix li p small{display:block;color:var(--mut)}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.week{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
+.day{border-top:3px solid var(--line);padding-top:8px;font-size:13px}
+.day b{display:block;font:500 12px var(--mono);color:var(--mut)}
+.day.today{border-color:var(--accent)}
+.checks{display:grid;gap:6px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin:0;padding:0;list-style:none}
+.checks li{display:flex;gap:8px;align-items:center;font-size:14px}
+footer{color:var(--mut);font-size:12px}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">Manager report · Day 0 · Fri 16 Oct 2026 · Market: UK</div>
+      <h1>ContentFellow Growth Desk</h1>
+      <p>Daily view of what the agent team shipped, where contentfellow.com ranks on Google and AI assistants, and what to fix next. Unmeasured numbers show as “—”. The tracker never fills in estimates.</p>
+    </div>
+    <span class="pill warn">First article ready · waiting for deploy access</span>
+  </header>
+
+  <section class="panel" aria-labelledby="h-kpi">
+    <div class="head"><h2 id="h-kpi">Today at a glance</h2><small>Sources: Google UK SERP check, OpenSEO</small></div>
+    <div class="kpis">
+      <div class="kpi bad"><b>Not found</b><span>Google UK rank for “ContentFellow”</span></div>
+      <div class="kpi bad"><b>0 / 30</b><span>Our results in top 10 across 3 target searches</span></div>
+      <div class="kpi warn"><b>12 × 5</b><span>AI prompts × engines tracked (first check unpaid)</span></div>
+      <div class="kpi"><b>—</b><span>Website views (needs GA4 connected)</span></div>
+      <div class="kpi"><b>—</b><span>AI share of voice</span></div>
+      <div class="kpi ok"><b>1</b><span>Article written + 3 images</span></div>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-test">
+    <div class="head"><h2 id="h-test">Test run: “How Much Does LLM Optimization Cost for Small Businesses?”</h2><small>6 of 7 boxes done</small></div>
+    <ul class="checks">
+      <li><span class="pill ok">done</span>Researched the topic</li>
+      <li><span class="pill ok">done</span>Checked competitors</li>
+      <li><span class="pill ok">done</span>Found keywords</li>
+      <li><span class="pill ok">done</span>Full SEO + AEO + GEO article</li>
+      <li><span class="pill ok">done</span>3 images made</li>
+      <li><span class="pill ok">done</span>Saved in the right folders</li>
+      <li><span class="pill warn">blocked</span>Live / draft on the site</li>
+    </ul>
+  </section>
+
+  <section class="panel" aria-labelledby="h-pipe">
+    <div class="head"><h2 id="h-pipe">Which agent ran, in what order</h2><small>Manager: content-agent-orchestrator</small></div>
+    <div class="pipe">
+      <div class="step done"><span class="n">1 · research</span><b>Topic + keywords</b><code>firecrawl · keywordtool UK</code></div>
+      <div class="step done"><span class="n">2 · competitors</span><b>Competitor check</b><code>competitor-site-scraper</code></div>
+      <div class="step done"><span class="n">3 · brand</span><b>Read our site</b><code>website-brand-scraper</code></div>
+      <div class="step done"><span class="n">4 · write</span><b>1,540-word article</b><code>blog-writer-seo-aeo-geo</code></div>
+      <div class="step done"><span class="n">5 · images</span><b>Featured, chart, diagram</b><code>blog-image-generator</code></div>
+      <div class="step block"><span class="n">6 · publish</span><b>Package ready</b><code>wordpress-publisher</code></div>
+      <div class="step done"><span class="n">7 · track</span><b>Baseline logged</b><code>seo-geo-tracker</code></div>
+    </div>
+  </section>
+
+  <div class="grid2">
+    <section class="panel" aria-labelledby="h-own">
+      <div class="head"><h2 id="h-own">Who gets the clicks today</h2><small>Google UK top 10, 16 Oct</small></div>
+      <div class="bars">
+        <div class="bar"><div class="lab"><span>“best GEO agency for small businesses UK”</span><span>us 0 · them 10</span></div><div class="track"><i class="them" style="width:100%"></i></div></div>
+        <div class="bar"><div class="lab"><span>“social media management monthly plan UK price”</span><span>us 0 · them 10</span></div><div class="track"><i class="them" style="width:100%"></i></div></div>
+        <div class="bar"><div class="lab"><span>“ContentFellow” (our brand)</span><span>us 0 · them 10</span></div><div class="track"><i class="them" style="width:100%"></i></div></div>
+      </div>
+      <div class="legend"><span><i style="background:var(--accent)"></i>contentfellow.com</span><span><i style="background:var(--mut);opacity:.55"></i>competitors and other sites</span></div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-trend">
+      <div class="head"><h2 id="h-trend">Views and AI mentions, daily</h2><small>Day 1 of 7</small></div>
+      <div class="trend">
+        <svg viewBox="0 0 520 220" role="img" aria-label="Daily trend chart, no data points yet">
+          <g stroke="var(--line)" stroke-width="1">
+            <line x1="40" y1="20" x2="510" y2="20"/><line x1="40" y1="80" x2="510" y2="80"/><line x1="40" y1="140" x2="510" y2="140"/><line x1="40" y1="190" x2="510" y2="190"/>
+          </g>
+          <text x="40" y="210">16 Oct</text><text x="200" y="210">18 Oct</text><text x="355" y="210">20 Oct</text><text x="470" y="210">22 Oct</text>
+          <circle cx="40" cy="190" r="4" fill="var(--accent)"/>
+        </svg>
+        <div class="empty"><b>The trend line starts once the blog is live</b>Connect GA4 + Search Console in OpenSEO for views, and top up credits for AI checks.</div>
+      </div>
+    </section>
+  </div>
+
+  <div class="grid2">
+    <section class="panel" aria-labelledby="h-fix">
+      <div class="head"><h2 id="h-fix">Mistakes to fix</h2><small>Ordered by impact on sales</small></div>
+      <ol class="fix">
+        <li><span class="pill bad">critical</span><p>Site isn't indexed: our own brand name doesn't rank.<small>Verify Google Search Console + Bing Webmaster Tools, submit sitemap, request indexing.</small></p></li>
+        <li><span class="pill bad">critical</span><p>One-page site with no blog or service pages to rank.<small>Give each Fellow its own URL, then add /blog. Package ready.</small></p></li>
+        <li><span class="pill warn">high</span><p>AI answers cite “best UK GEO agencies” listicles we're missing from.<small>Pitch SEO Works, ClickSlice, Blue Array, LenGreo, XEOPULSE.</small></p></li>
+        <li><span class="pill warn">high</span><p>No structured data, robots.txt, sitemap or llms.txt.<small>Paste homepage-seo-head.html and upload the 3 root files.</small></p></li>
+        <li><span class="pill warn">medium</span><p>Name collides with “Contentful” in search.<small>Same name and details on Google Business Profile, LinkedIn, Trustpilot, Clutch.</small></p></li>
+        <li><span class="pill warn">medium</span><p>og:image is a relative path (“studio.jpg”).<small>Use the full https:// URL so link previews work.</small></p></li>
+      </ol>
+    </section>
+
+    <section class="panel" aria-labelledby="h-prompts">
+      <div class="head"><h2 id="h-prompts">Prompts we're tracking (UK)</h2><small>ChatGPT · Gemini · AI Overviews · Claude · Perplexity</small></div>
+      <div class="tbl"><table>
+        <thead><tr><th>Prompt</th><th>Mentions us</th><th>Who wins now</th></tr></thead>
+        <tbody>
+          <tr><td>How much does GEO cost for a small business in the UK?</td><td><span class="pill warn">pending</span></td><td>WebFX, Nutshell (USD guides)</td></tr>
+          <tr><td>Best GEO agency for small businesses in the UK</td><td><span class="pill bad">no</span></td><td>SEO Works, ClickSlice, Blue Array</td></tr>
+          <tr><td>Cheapest way to get my business recommended by ChatGPT</td><td><span class="pill warn">pending</span></td><td>—</td></tr>
+          <tr><td>How much does social media management cost in the UK?</td><td><span class="pill bad">no</span></td><td>Birdeye, 99social (£99), Wrise (£199)</td></tr>
+          <tr><td>Outsourced digital marketing team on a monthly plan UK</td><td><span class="pill warn">pending</span></td><td>—</td></tr>
+          <tr><td>+ 7 more prompts in OpenSEO</td><td></td><td></td></tr>
+        </tbody>
+      </table></div>
+    </section>
+  </div>
+
+  <section class="panel" aria-labelledby="h-week">
+    <div class="head"><h2 id="h-week">This week's plan: UK first, then EU</h2><small>One article a day, chosen by the tracker</small></div>
+    <div class="week">
+      <div class="day today"><b>Fri 16</b>Agent team built · LLM cost article · baseline</div>
+      <div class="day"><b>Sat 17</b>Deploy blog + SEO fixes · IndexNow · GEO vs SEO article</div>
+      <div class="day"><b>Sun 18</b>“Get recommended by ChatGPT” guide · directory listings</div>
+      <div class="day"><b>Mon 19</b>Social media cost UK (vs 99social, Wrise)</div>
+      <div class="day"><b>Tue 20</b>Website cost UK · listicle outreach</div>
+      <div class="day"><b>Wed 21</b>Outsourced team vs agency (Growth Fellow)</div>
+      <div class="day"><b>Thu 22</b>EU: Ireland € version · weekly AI check</div>
+    </div>
+  </section>
+
+  <footer>Data files: outputs/_tracker/daily.csv, prompts.csv, report-2026-10-16.md · OpenSEO project “ContentFellow UK”</footer>
+</div>

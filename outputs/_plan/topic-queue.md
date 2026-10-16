@@ -1,0 +1,12 @@
+# Topic queue (UK first → EU). Orchestrator takes the top unchecked row each day.
+- [x] How much does LLM optimisation cost for small businesses? (UK) — 2026-10-16
+- [ ] GEO vs SEO: what's the difference and do UK small businesses need both?
+- [ ] How to get your business recommended by ChatGPT (UK step-by-step)
+- [ ] Best GEO services for small businesses in the UK (comparison, honest)
+- [ ] How much does social media management cost in the UK? (Social Fellow)
+- [ ] How much does a small business website cost in the UK in 2026? (Build Fellow)
+- [ ] Video production costs for UK small businesses (Studio Fellow)
+- [ ] Outsourced marketing team vs agency vs in-house: UK costs (Growth Fellow)
+- [ ] llms.txt explained: should your business have one?
+- [ ] How to check if ChatGPT, Gemini and Perplexity mention your brand
+- [ ] (EU) GEO cost in Ireland (€) · (EU) KI-Suchoptimierung Kosten (DE) · (EU) Coût du GEO pour les PME (FR)

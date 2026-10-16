@@ -1,0 +1,13 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'>
+<rect width='1200' height='630' fill='#0c0c0d'/><circle cx='1040' cy='120' r='260' fill='#ff5a1f' opacity='.12'/>
+<circle cx='1040' cy='120' r='150' fill='none' stroke='#ff5a1f' stroke-width='3' opacity='.6'/>
+<text x='70' y='110' font-family='Inter,Helvetica,Arial,sans-serif' font-size='26' fill='#ff5a1f' font-weight='700' letter-spacing='3'>UK PRICE GUIDE · 2026</text>
+<text x='70' y='220' font-family='Inter,Helvetica,Arial,sans-serif' font-size='68' fill='#f5f3ee' font-weight='800'>How much does LLM</text>
+<text x='70' y='300' font-family='Inter,Helvetica,Arial,sans-serif' font-size='68' fill='#f5f3ee' font-weight='800'>optimisation cost?</text>
+<text x='70' y='370' font-family='Inter,Helvetica,Arial,sans-serif' font-size='32' fill='#9a968e'>GEO &amp; AI search for small businesses, in pounds</text>
+<g font-family='Inter,Helvetica,Arial,sans-serif' font-size='26' font-weight='700'>
+<rect x='70' y='430' width='230' height='90' rx='14' fill='#1c1c1f'/><text x='90' y='470' fill='#9a968e' font-size='18'>DIY</text><text x='90' y='505' fill='#f5f3ee'>£0–£100</text>
+<rect x='320' y='430' width='250' height='90' rx='14' fill='#ff5a1f'/><text x='340' y='470' fill='#0c0c0d' font-size='18'>PRODUCTISED PLAN</text><text x='340' y='505' fill='#0c0c0d'>£89–£400</text>
+<rect x='590' y='430' width='250' height='90' rx='14' fill='#1c1c1f'/><text x='610' y='470' fill='#9a968e' font-size='18'>FREELANCER</text><text x='610' y='505' fill='#f5f3ee'>£300–£1,000</text>
+<rect x='860' y='430' width='270' height='90' rx='14' fill='#1c1c1f'/><text x='880' y='470' fill='#9a968e' font-size='18'>AGENCY</text><text x='880' y='505' fill='#f5f3ee'>£1,100–£3,800</text></g>
+<text x='70' y='585' font-family='Inter,Helvetica,Arial,sans-serif' font-size='22' fill='#9a968e'>contentfellow.com · per month, as of October 2026</text></svg>
