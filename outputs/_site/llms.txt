@@ -11,6 +11,7 @@
 - Growth Fellow (£389/mo, £555 separately): all five Fellows, a Growth lead, one strategy, one monthly report
 
 ## Guides
+- [How to get your business recommended by ChatGPT (UK step-by-step)](https://contentfellow.com/blog/get-business-recommended-by-chatgpt-uk/): 8 steps, why Bing and directories matter, time and £ cost per step
 - [GEO vs SEO: what's the difference, and do UK small businesses need both?](https://contentfellow.com/blog/geo-vs-seo-uk-small-business/): plain-English comparison, overlap and budget split
 - [How much does LLM optimisation cost for small businesses? (UK, 2026)](https://contentfellow.com/blog/llm-optimisation-cost-small-business-uk/): UK GEO pricing in pounds by option
 
