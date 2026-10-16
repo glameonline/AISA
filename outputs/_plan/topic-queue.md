@@ -1,6 +1,6 @@
 # Topic queue (UK first → EU). Orchestrator takes the top unchecked row each day.
 - [x] How much does LLM optimisation cost for small businesses? (UK) — 2026-10-16
-- [ ] GEO vs SEO: what's the difference and do UK small businesses need both?
+- [x] GEO vs SEO: what's the difference and do UK small businesses need both? — 2026-10-16 (queued for publish)
 - [ ] How to get your business recommended by ChatGPT (UK step-by-step)
 - [ ] Best GEO services for small businesses in the UK (comparison, honest)
 - [ ] How much does social media management cost in the UK? (Social Fellow)

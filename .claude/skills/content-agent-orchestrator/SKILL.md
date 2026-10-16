@@ -24,7 +24,7 @@ Target site: **contentfellow.com** (UK first, then EU). Business goal: subscript
 | 7 | Publish | `wordpress-publisher` (WordPress draft if a WP site is configured, else static blog package for contentfellow.com) | `publish/` + publish log |
 | 8 | Track | `seo-geo-tracker` | `outputs/_tracker/` + dashboard |
 
-Folder: `outputs/<topic-slug>/{research,content,images,publish}/`
+Folder: `outputs/<topic-slug>/{research,content,images}/`. Write content/post.json + article.md, then `python3 tools/build_post.py <dir>` and `node tools/render.js <dir>`. Add the post to the deploy mirror `outputs/_site/` (blog index, sitemap, llms.txt) and to `outputs/_plan/publish-queue.md`. Never ask the owner; deploy when access exists.
 
 ## Topic selection for daily runs
 Pick the next unpublished row in `outputs/_plan/topic-queue.md` (UK priority, then EU).
