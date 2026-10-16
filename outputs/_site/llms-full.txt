@@ -15,6 +15,7 @@ Founded | 2026 |
 Prices | From £59 a month; full team £389 a month | 
 Billing | Monthly; add, remove or upgrade Fellows from the next month | 
 Free trial | Every Fellow has a free trial; no card needed | 
+VAT | Not VAT registered: prices shown are the full amount, no VAT added | 
 Website | https://contentfellow.com/ | 
 
 ## The Fellows
@@ -553,7 +554,7 @@ No long contract. Billing is monthly and you can add, remove or upgrade Fellows 
 Yes, every Fellow: 7 free days for Search, Social and Growth, 3 free videos for Creator, a free mini shoot for Studio, and a free homepage preview for Build. No card needed.
 
 ### Are prices plus VAT?
-Ask us when you start; we'll confirm the exact monthly amount in writing before any billing.
+No. ContentFellow is not currently VAT registered, so the price shown is the full monthly amount you pay, with no VAT added.
 
 ## SEO & GEO
 

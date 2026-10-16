@@ -27,7 +27,7 @@ def page(path, title, desc, body, ld=None, noindex=False, extra_head=""):
            f'<meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}/studio.jpg">'
            f'<meta property="og:locale" content="en_GB"><link rel="icon" href="{BASE}/f.webp">{GA}{lds}{extra_head}<style>{CSS}</style></head><body>'
            f'<header><a href="{BASE}/">ContentFellow</a><a href="/services/">Services</a><a href="/blog/">Guides</a><a href="/get-started/">Free check</a></header>'
-           f'<main>{body}</main><footer>© 2026 ContentFellow · Burnley, Lancashire, UK · Monthly plans, no long contracts · <a href="/get-started/">Contact</a></footer></body></html>')
+           f'<main>{body}</main><footer>© 2026 ContentFellow · Burnley, Lancashire, UK · Monthly plans, no long contracts · <a href="/get-started/">Contact</a> · <a href="/privacy/">Privacy</a></footer></body></html>')
     p = SITE / path; p.mkdir(parents=True, exist_ok=True); (p / "index.html").write_text(out)
 
 def cta_box(service=""):
@@ -156,7 +156,7 @@ def get_started():
             '<label>Anything else? (optional)<textarea name="message" rows="3"></textarea></label>'
             '<input class="hp" name="company_url" tabindex="-1" autocomplete="off" aria-hidden="true">'
             '<input type="hidden" name="source" id="cf-src">'
-            '<label style="display:flex;gap:8px;align-items:flex-start;color:var(--fg)"><input type="checkbox" name="consent" value="yes" required> I agree ContentFellow can contact me about my free check. We never share your details.</label>'
+            '<label style="display:flex;gap:8px;align-items:flex-start;color:var(--fg)"><input type="checkbox" name="consent" value="yes" required> I agree ContentFellow can contact me about my request. We never share your details. <a href="/privacy/">Privacy notice</a></label>'
             '<button class="btn" type="submit">Send me my free check →</button></form>'
             '<p class="mut">Prefer to talk? Reply to our email and we\'ll book a 15-minute call.</p>'
             '<script>(function(){var q=new URLSearchParams(location.search),s=q.get("service");if(s){var b=document.querySelector(\'input[value="\'+s+\'"]\');if(b)b.checked=true}if(q.get("offer")==="trial"||s)document.getElementById("cf-offer").value="trial";else document.getElementById("cf-offer").value="check";'
@@ -225,7 +225,7 @@ def about_page():
     facts = [("Name", "ContentFellow (one word; not related to Contentful, the software company)"), ("What it is", "A UK marketing service for small businesses, sold as monthly plans called \"Fellows\""),
              ("Based in", "Burnley, Lancashire, United Kingdom"), ("Serves", "Small businesses and creators across the UK; on-site shoots within about 20 miles of Burnley"),
              ("Founded", "2026"), ("Prices", "From £59 a month; full team £389 a month"), ("Billing", "Monthly; add, remove or upgrade Fellows from the next month"),
-             ("Free trial", "Every Fellow has a free trial; no card needed"), ("Website", f"{BASE}/")]
+             ("Free trial", "Every Fellow has a free trial; no card needed"), ("VAT", "Not VAT registered: prices shown are the full amount, no VAT added"), ("Website", f"{BASE}/")]
     rows = "".join(f"<tr><th>{e(a)}</th><td>{e(b)}</td></tr>" for a, b in facts)
     plans = "".join(f'<li><a href="/services/{s}/">{e(n)}</a>: {e(sh)}, {p} a month. {e(TRIAL[s.split("-")[0]][0])}.</li>' for s, n, sh, p, *_ in F)
     ld = [{"@context": "https://schema.org", "@type": "AboutPage", "url": f"{BASE}/about/", "mainEntity": {"@type": "Organization", "@id": f"{BASE}/#org", "name": "ContentFellow",
@@ -244,7 +244,7 @@ FAQ_HUB = [
  ("Pricing", [("How much does ContentFellow cost?", "Plans start at £59 a month. Social Fellow £59 or £129, Build Fellow £69, Search Fellow £89, Creator Fellow £119, Studio Fellow £149, or the Growth Fellow (all five) £389 a month."),
               ("Is there a contract?", "No long contract. Billing is monthly and you can add, remove or upgrade Fellows from the next month."),
               ("Is there a free trial?", "Yes, every Fellow: 7 free days for Search, Social and Growth, 3 free videos for Creator, a free mini shoot for Studio, and a free homepage preview for Build. No card needed."),
-              ("Are prices plus VAT?", "Ask us when you start; we'll confirm the exact monthly amount in writing before any billing.")]),
+              ("Are prices plus VAT?", "No. ContentFellow is not currently VAT registered, so the price shown is the full monthly amount you pay, with no VAT added.")]),
  ("SEO & GEO", [("Can you get my business recommended by ChatGPT?", "Nobody can guarantee it, but the Search Fellow does what AI assistants rely on: Bing indexing, structured data, answer-first service pages, consistent directory listings, reviews and tracking which prompts name you."),
                 ("What is GEO?", "GEO (generative engine optimisation) makes your business easy for AI assistants like ChatGPT, Claude, Gemini and Perplexity to find, understand and recommend."),
                 ("What's the most affordable SEO for a UK small business?", "Affordable UK SEO typically costs £89 to £400 a month. The Search Fellow is £89 a month and covers SEO and GEO together."),
@@ -259,6 +259,17 @@ FAQ_HUB = [
  ("Getting started", [("How do I start?", "Fill in the 2-minute form at contentfellow.com/get-started/ and choose a free trial or the free AI visibility check. We reply within 1 working day."),
                       ("Who is ContentFellow for?", "UK small businesses and creators who want professional marketing on a small, predictable monthly budget.")]),
 ]
+
+def privacy_page():
+    body = ('<h1>Privacy notice</h1><p class="mut">Last updated 16 October 2026</p>'
+            '<p>This notice explains how ContentFellow (Burnley, Lancashire, UK) uses the personal information you send us through this website.</p>'
+            '<h2>What we collect</h2><p>When you fill in our form: your name, business name, website, email, phone (optional), area, the services you are interested in, budget, your message, and how you found us. Our server also records your IP address with the request to help prevent spam.</p>'
+            '<h2>Why we use it</h2><p>To reply to your request, deliver your free trial or AI visibility check, and talk to you about our services. Our lawful basis is your consent (the tick box on the form) and our legitimate interest in responding to enquiries.</p>'
+            '<h2>Analytics</h2><p>We use Google Analytics only if you accept analytics cookies in the cookie banner. We do not use advertising cookies.</p>'
+            '<h2>Who sees it</h2><p>Only ContentFellow. We never sell or share your details. Our website host (Namecheap) and email provider store data on our behalf.</p>'
+            '<h2>How long we keep it</h2><p>Enquiries that don\'t become clients are deleted after 12 months. Client records are kept as long as needed for the work and for legal and accounting reasons.</p>'
+            '<h2>Your rights</h2><p>You can ask to see, correct or delete your information, or withdraw consent, at any time by replying to any email from us. You can also complain to the Information Commissioner\'s Office (ico.org.uk).</p>')
+    page("privacy", "Privacy Notice | ContentFellow", "How ContentFellow uses the information you send through our website.", body)
 
 def faq_hub():
     allq = [qa for _, qs in FAQ_HUB for qa in qs]
@@ -281,4 +292,4 @@ def llms_full():
     (SITE / "llms-full.txt").write_text(out)
 
 if __name__ == "__main__":
-    service_pages(); get_started(); local_page(); about_page(); faq_hub(); blog_ctas(); llms_full(); print("ok")
+    service_pages(); get_started(); local_page(); about_page(); privacy_page(); faq_hub(); blog_ctas(); llms_full(); print("ok")

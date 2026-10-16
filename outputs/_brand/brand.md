@@ -19,5 +19,7 @@ Voice: British English, short confident sentences, plain words, no jargon withou
 ## Site facts for SEO
 Single-page static site, lang en-GB, no /blog, no WordPress, og:image relative ("studio.jpg" — should be absolute URL).
 GA4 Measurement ID: G-EZMWHSK0LD (snippet with UK consent banner: outputs/_site-fixes/ga4-with-consent.html)
+## Legal & VAT (16 Oct)
+Sole trader for now, NOT VAT registered: prices are the full amount, no VAT added (say this; competitors often add VAT). Plan: register Ltd within a week of first payment (outputs/_plan/after-first-payment.md).
 ## Location (from Google's cached old site, 16 Oct)
 Old site title: "Photographer & Videographer Burnley | Content Fellow". Based in Burnley, Lancashire, UK. Use for local SEO (Studio Fellow shoots on-site).

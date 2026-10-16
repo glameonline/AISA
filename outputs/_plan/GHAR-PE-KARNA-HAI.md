@@ -7,6 +7,7 @@ Full technical steps: `outputs/_deploy/GO-LIVE.md` · Upload: `outputs/_deploy/c
 - [ ] Trial capacity: har hafte kitne free trials le sakte hain? (videos aur shoots mein waqt lagta hai)
 - [ ] Studio mini shoot: Burnley se 20 miles theek hai? Time-based trials 7 din (data) ya 3 din (owner)? `tools/build_pages.py` → `TRIAL_DAYS`
 - [ ] Business phone number + email jo har directory par same rahe (citation-pack.md)
+- [ ] Privacy notice (/privacy/) padh kar confirm karein (form ke liye UK GDPR)
 - [ ] Google Business Profile hai? Reviews hain? Place ID + Places API key (reviews widget)
 
 ## Live karna (order)
