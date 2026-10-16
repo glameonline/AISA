@@ -1,0 +1,7 @@
+.cf-reviews{margin:24px 0}
+.cf-rev-head{font-size:15px;color:#9a968e;margin:0 0 12px}.cf-rev-head a{color:#ff5a1f}
+.cf-rev-list{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.cf-rev{margin:0;background:#151517;border:1px solid #2c2c30;border-radius:14px;padding:16px}
+.cf-rev blockquote{margin:8px 0;font-size:15px;line-height:1.5;color:#f5f3ee}
+.cf-rev figcaption{font-size:13px;color:#9a968e}.cf-rev figcaption a{color:inherit}
+.cf-stars{color:#ffb400;letter-spacing:2px}.cf-stars span{color:#3a3a40}

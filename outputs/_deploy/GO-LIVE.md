@@ -13,6 +13,9 @@ Paste `outputs/_site-fixes/htaccess-add-at-top.txt` at the top of `public_html/.
 ## 4. Homepage
 Apply `outputs/_site-fixes/homepage-changes.md` (absolute og:image, "Guides" link to /blog/).
 
+## 4b. Live reviews under each service (needs Google Place ID + API key)
+Follow `outputs/_site-fixes/reviews/README.md`: upload `reviews/`, add config outside public_html, add the CSS/JS lines and one `<div class="cf-reviews" data-service="…">` under each service. Real reviews only.
+
 ## 5. Verify (each must pass)
 | URL | Expect |
 |---|---|
