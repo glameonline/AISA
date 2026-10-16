@@ -1,5 +1,5 @@
 # 7-day roadmap: 100+ form fills (17–23 Oct 2026)
-Goal: 100 completed forms at https://contentfellow.com/get-started/ → free AI visibility check → sell a Fellow.
+Goal: 100 completed forms at https://contentfellow.com/get-started/ → free trial (or free AI visibility check) → sell a Fellow. Every Fellow now has a free trial (see GHAR-PE-KARNA-HAI.md); plan trial capacity before scaling ads.
 
 ## Reality check (read first)
 - **Organic AI/Google visibility will not bring 100 leads this week.** Search Console shows 0 impressions; AI assistants typically start naming a business after 6–12 weeks of listings, reviews and mentions. We start that now, it pays off from November.
@@ -55,7 +55,11 @@ Email template:
 **Meta, primary text (A):** Ask ChatGPT for the best [service] in your town. Is your business named? We'll check 10 real customer questions in ChatGPT and Gemini and send you who they recommend instead, plus 3 fixes. Free, for UK small businesses.
 **Meta, primary text (B):** UK agencies charge £1,100+ a month for SEO. Our Search Fellow is £89 a month, monthly, no contract, and covers Google and AI search. Start with a free AI visibility check.
 **Meta, primary text (C):** A website for £69 a month: custom design, hosting, updates and 2 changes every month. No £3,000 upfront bill. Get a free plan for your business.
-Headlines: "Free AI visibility check" · "Is ChatGPT recommending you?" · "Marketing from £59/month"
+**Free trial ads (lead with these, trials convert better than a check):**
+- (D) Got footage on your phone? We'll edit 3 short videos for your Reels and TikTok, free. Keep them either way. No card needed. → /services/creator-fellow/
+- (E) Try a marketing team free for 7 days: AI visibility check, 2 videos, a week of posts and a homepage preview. Then £389/month, monthly, or walk away. → /services/growth-fellow/
+- (F) See your new homepage before you pay a penny. Free preview in 3 working days, then £69/month with hosting and updates. → /services/build-fellow/
+Headlines: "3 free videos" · "Try it free for 7 days" · "Free AI visibility check" · "Is ChatGPT recommending you?" · "Marketing from £59/month"
 **Google RSA headlines:** SEO & GEO from £89/Month · Get Recommended by ChatGPT · Free AI Visibility Check · UK Small Business Marketing · Website from £69/Month · No Long Contracts
 **Descriptions:** We check what ChatGPT and Gemini say about your business, free. Monthly plans from £59. · SEO for Google + GEO for AI search in one plan. Monthly billing, approve everything first.
 

@@ -4,7 +4,7 @@ import json, pathlib, re, html as H
 SITE = pathlib.Path("outputs/_site"); BASE = "https://contentfellow.com"
 e = lambda s: H.escape(s, quote=True)
 CSS = """:root{--bg:#0c0c0d;--fg:#f5f3ee;--mut:#9a968e;--ac:#ff5a1f;--card:#1c1c1f}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.7 Inter,Helvetica,Arial,sans-serif}
-header,main,footer{max-width:820px;margin:auto;padding:0 20px}header{padding:24px 20px}header a{color:var(--fg);font-weight:800;text-decoration:none}header a{white-space:nowrap}header a+a{font-weight:400;color:var(--mut);margin-left:12px}
+header,main,footer{max-width:820px;margin:auto;padding:0 20px}header{padding:24px 20px;display:flex;flex-wrap:wrap;gap:4px 14px}header a{color:var(--fg);font-weight:800;text-decoration:none;white-space:nowrap}header a+a{font-weight:400;color:var(--mut)}
 h1{font-size:clamp(30px,5vw,46px);line-height:1.15}h2{margin-top:2em;line-height:1.25}a{color:var(--ac)}
 .lead{background:var(--card);border-left:4px solid var(--ac);padding:12px 20px;border-radius:8px}
 .price{font-size:40px;font-weight:800}.price small{font-size:18px;color:var(--mut);font-weight:400}
@@ -86,6 +86,23 @@ F = [  # slug, name, short, price, what, includes, who, compare (label, typical)
    ("Can I start with one Fellow and upgrade?", "Yes. You can add, remove or upgrade Fellows from the next month.")]),
 ]
 
+# Free trial per Fellow: (badge, what you get, how long). Change TRIAL_DAYS to switch the time-based trials (owner asked 3; data says 7 converts best).
+TRIAL_DAYS = 7
+TRIAL = {
+ "search":  (f"Free {TRIAL_DAYS}-day trial", f"For {TRIAL_DAYS} days we work on your search for free: your AI visibility check (who ChatGPT and Gemini recommend instead of you), Bing Webmaster Tools set-up, AI crawler access fixed, and your Google Business Profile tidied. You keep every fix."),
+ "social":  (f"Free {TRIAL_DAYS}-day trial", f"For {TRIAL_DAYS} days we plan and post for you on one platform: a short content plan, 5 posts written and designed for your approval, and trend ideas for your industry. You keep all the content."),
+ "build":   ("Free homepage preview", "We design a preview of your new homepage, with your brand, services and prices, within 3 working days. You only pay if you go ahead."),
+ "studio":  ("Free mini shoot", "A free 30-minute mini shoot at your business (within 20 miles of Burnley): 5 edited photos and 1 short vertical video, delivered within 5 working days. You keep them."),
+ "creator": ("3 free videos", "Send us your footage and we edit 3 short videos for Reels, TikTok or Shorts, with captions and two rounds of revisions. You keep all 3 either way."),
+ "growth":  (f"Free {TRIAL_DAYS}-day trial", f"For {TRIAL_DAYS} days you get a taste of the whole team: your AI visibility check, 2 free short videos, a week of posts on one platform, a homepage preview and a 30-minute strategy call with your Growth lead."),
+}
+TRIAL_TERMS = "No card needed. One free trial per business, UK businesses only. We take a limited number of new trials each week so every one gets proper attention."
+
+def trial_block(key):
+    badge, what = TRIAL[key]
+    return (f'<div class="cta" id="trial"><p class="mut" style="margin:0">{e(badge)}</p><h3>Try it free first</h3><p>{e(what)}</p>'
+            f'<p><a class="btn" href="/get-started/?service={key}&amp;offer=trial">Start my free trial →</a></p><p class="mut" style="font-size:14px">{e(TRIAL_TERMS)}</p></div>')
+
 def service_pages():
     cards = ""
     for slug, name, short, price, what, inc, who, comp, guides, faqs in F:
@@ -95,7 +112,9 @@ def service_pages():
                "provider": {"@type": "Organization", "@id": f"{BASE}/#org", "name": "ContentFellow", "url": f"{BASE}/"}, "areaServed": "GB", "url": url,
                "offers": {"@type": "Offer", "price": num, "priceCurrency": "GBP", "url": url,
                           "priceSpecification": {"@type": "UnitPriceSpecification", "price": num, "priceCurrency": "GBP", "unitText": "MONTH"}}},
-              {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]},
+              {"@context": "https://schema.org", "@type": "Offer", "name": f"{name}: {TRIAL[slug.split('-')[0]][0]}", "description": TRIAL[slug.split('-')[0]][1],
+               "price": "0", "priceCurrency": "GBP", "url": f"{url}#trial", "eligibleRegion": "GB", "seller": {"@type": "Organization", "@id": f"{BASE}/#org"}},
+              {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs + [("Is there a free trial?", TRIAL[slug.split('-')[0]][1] + " " + TRIAL_TERMS)]]},
               {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
                   {"@type": "ListItem", "position": 1, "name": "ContentFellow", "item": f"{BASE}/"},
                   {"@type": "ListItem", "position": 2, "name": "Services", "item": f"{BASE}/services/"},
@@ -103,26 +122,29 @@ def service_pages():
         key = slug.split("-")[0]
         body = (f'<p class="mut">ContentFellow · {e(short)} · UK</p><h1>{e(name)}: {e(short)} for UK small businesses</h1>'
                 f'<p class="lead"><strong>{e(name)} costs {price} a month.</strong> {e(what)} Monthly billing, no long contract, and you approve work before it goes live.</p>'
-                f'<p class="price">{price}<small> / month</small></p><p><a class="btn" href="/get-started/?service={key}">Get a free plan for my business →</a></p>'
+                f'<p class="price">{price}<small> / month</small></p><p><strong style="color:var(--ac)">{e(TRIAL[key][0])}</strong> · no card needed</p>'
+                f'<p><a class="btn" href="/get-started/?service={key}&amp;offer=trial">Start my free trial →</a></p>{trial_block(key)}'
                 f'<h2>What\'s included</h2><ul>{"".join(f"<li>{e(x)}</li>" for x in inc)}</ul>'
                 f'<h2>Who it\'s for</h2><p>{e(who)}</p>'
                 f'<h2>How it compares on price</h2><table><tr><th>Option</th><th>Typical UK cost</th></tr>{"".join(f"<tr><td>{e(a)}</td><td>{e(b)}</td></tr>" for a, b in comp)}</table>'
                 f'<p class="mut">Typical UK prices from our guides: {", ".join(f"<a href=\'/blog/{g}/\'>{e(t)}</a>" for g, t in guides)}.</p>'
                 f'<div class="cf-reviews" data-service="{key}" hidden></div>'
-                f'<h2>How it works</h2><ol><li><strong>Tell us about your business</strong> (2-minute form).</li><li><strong>Get a free plan</strong> by email within 2 working days.</li><li><strong>Start monthly</strong>; change or cancel from the next month.</li></ol>'
-                f'{cta_box(key)}<h2>Frequently asked questions</h2>{"".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in faqs)}'
+                f'<h2>How it works</h2><ol><li><strong>Tell us about your business</strong> (2-minute form).</li><li><strong>Get your free trial</strong>: {e(TRIAL[key][0].lower())}, no card needed.</li><li><strong>Like it? Start monthly</strong> at {price} a month; change or cancel from the next month.</li></ol>'
+                f'{cta_box(key)}<h2>Frequently asked questions</h2>{"".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in faqs + [("Is there a free trial?", TRIAL[key][1] + " " + TRIAL_TERMS)])}'
                 f'<p><a href="/services/">See all Fellows →</a></p>')
         page(f"services/{slug}", f"{name}: {short} UK | {price}/month | ContentFellow", f"{name} by ContentFellow: {what} {price} a month, monthly billing, UK.", body, ld)
-        cards += f'<a class="card" href="/services/{slug}/" style="text-decoration:none;color:inherit"><h3>{e(name)} · {price}/mo</h3><p class="mut">{e(short)}</p><p>{e(what)}</p></a>'
+        cards += (f'<a class="card" href="/services/{slug}/" style="text-decoration:none;color:inherit"><h3>{e(name)} · {price}/mo</h3><p class="mut">{e(short)}</p><p>{e(what)}</p>'
+                  f'<p style="color:var(--ac);font-weight:700;margin:0">{e(TRIAL[key][0])} →</p></a>')
     ld = [{"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f"{BASE}/services/{x[0]}/", "name": x[1]} for i, x in enumerate(F)]}]
     page("services", "ContentFellow Services & Prices: Monthly Marketing Plans from £59 (UK)",
          "Hire a Fellow: SEO & GEO £89, social media £59, websites £69, photo & video £149, editing £119, or the full team £389 a month.",
-         f'<h1>Monthly marketing plans for UK small businesses</h1><p class="lead">Hire a Fellow from <strong>£59 a month</strong>: one specialist, or the whole team for £389. Monthly billing, no long contracts.</p><div class="grid">{cards}</div>{cta_box()}', ld)
+         f'<h1>Monthly marketing plans for UK small businesses</h1><p class="lead">Hire a Fellow from <strong>£59 a month</strong>: one specialist, or the whole team for £389. Monthly billing, no long contracts, and <strong>every Fellow has a free trial</strong>, no card needed.</p><div class="grid">{cards}</div>{cta_box()}', ld)
 
 def get_started():
     opts = "".join(f'<label><input type="checkbox" name="services[]" value="{s.split("-")[0]}"> {n} ({p}/mo)</label>' for s, n, _, p, *_ in F)
-    form = (f'<h1>{OFFER}</h1><p class="lead">{OFFER_LINE}</p>'
+    form = (f'<h1>Start free: trial or AI visibility check</h1><p class="lead"><strong>Every Fellow has a free trial</strong>: 3 free edited videos, a free mini shoot, a free homepage preview, or {TRIAL_DAYS} free days of search or social. No card needed. Or ask for the {OFFER.lower()}: {OFFER_LINE[0].lower()+OFFER_LINE[1:]}</p>'
             '<form method="post" action="/get-started/submit.php" id="cf-form">'
+            '<label>I want<select name="offer" id="cf-offer"><option value="trial">A free trial of a Fellow</option><option value="check">The free AI visibility check</option><option value="call">A 15-minute call</option></select></label>'
             '<label>Your name<input name="name" required autocomplete="name"></label>'
             '<label>Business name<input name="business" required autocomplete="organization"></label>'
             '<label>Website (if you have one)<input name="website" type="url" placeholder="https://" autocomplete="url"></label>'
@@ -137,11 +159,11 @@ def get_started():
             '<label style="display:flex;gap:8px;align-items:flex-start;color:var(--fg)"><input type="checkbox" name="consent" value="yes" required> I agree ContentFellow can contact me about my free check. We never share your details.</label>'
             '<button class="btn" type="submit">Send me my free check →</button></form>'
             '<p class="mut">Prefer to talk? Reply to our email and we\'ll book a 15-minute call.</p>'
-            '<script>(function(){var q=new URLSearchParams(location.search),s=q.get("service");if(s){var b=document.querySelector(\'input[value="\'+s+\'"]\');if(b)b.checked=true}'
+            '<script>(function(){var q=new URLSearchParams(location.search),s=q.get("service");if(s){var b=document.querySelector(\'input[value="\'+s+\'"]\');if(b)b.checked=true}if(q.get("offer")==="trial"||s)document.getElementById("cf-offer").value="trial";else document.getElementById("cf-offer").value="check";'
             'document.getElementById("cf-src").value=[q.get("utm_source")||"",q.get("utm_campaign")||"",document.referrer].join("|")})();</script>')
     page("get-started", f"{OFFER} for UK Small Businesses | ContentFellow", "See who ChatGPT and Gemini recommend instead of you, and the 3 fixes that matter most. Free, within 2 working days.", form)
     page("get-started/thanks", "Thanks: your free check is on its way | ContentFellow", "Thanks for your request.",
-         '<h1>Thanks, we\'ve got it.</h1><p class="lead">Your free AI visibility check will be in your inbox within 2 working days. Check your spam folder if you don\'t see it.</p>'
+         '<h1>Thanks, we\'ve got it.</h1><p class="lead">We\'ll email you within 1 working day to start your free trial or send your free AI visibility check. Check your spam folder if you don\'t see it.</p>'
          '<p>While you wait: <a href="/blog/get-business-recommended-by-chatgpt-uk/">how to get your business recommended by ChatGPT</a>.</p>'
          '<script>gtag("event","generate_lead",{currency:"GBP",value:89});</script>', noindex=True)
     (SITE / "get-started/submit.php").write_text(SUBMIT)
@@ -156,11 +178,11 @@ $f = function ($k, $n = 300) { return trim(mb_substr(strip_tags((string)($_POST[
 $email = filter_var($f('email'), FILTER_VALIDATE_EMAIL);
 if (!$email || !$f('name') || ($_POST['consent'] ?? '') !== 'yes') { header('Location: /get-started/?error=1'); exit; }
 $services = implode(', ', array_map('strip_tags', (array)($_POST['services'] ?? [])));
-$row = [date('c'), $f('name'), $f('business'), $f('website'), $email, $f('phone'), $f('area'), $services, $f('budget'), $f('message', 1000), $f('source'), $_SERVER['REMOTE_ADDR'] ?? ''];
+$row = [date('c'), $f('offer'), $f('name'), $f('business'), $f('website'), $email, $f('phone'), $f('area'), $services, $f('budget'), $f('message', 1000), $f('source'), $_SERVER['REMOTE_ADDR'] ?? ''];
 $new = !is_file($CSV); $fh = @fopen($CSV, 'a');
-if ($fh) { if ($new) fputcsv($fh, ['time','name','business','website','email','phone','area','services','budget','message','source','ip']); fputcsv($fh, $row); fclose($fh); }
-$body = "New free-check request\n\n" . implode("\n", array_map(fn($k, $v) => "$k: $v", ['Name','Business','Website','Email','Phone','Area','Services','Budget','Message','Source'], array_slice($row, 1, 10)));
-@mail($TO, "New lead: {$row[2]} ({$services})", $body, "From: ContentFellow <no-reply@contentfellow.com>\r\nReply-To: $email\r\nContent-Type: text/plain; charset=utf-8");
+if ($fh) { if ($new) fputcsv($fh, ['time','offer','name','business','website','email','phone','area','services','budget','message','source','ip']); fputcsv($fh, $row); fclose($fh); }
+$body = "New free-check request\n\n" . implode("\n", array_map(fn($k, $v) => "$k: $v", ['Wants','Name','Business','Website','Email','Phone','Area','Services','Budget','Message','Source'], array_slice($row, 1, 11)));
+@mail($TO, "New lead ({$row[1]}): {$row[3]} ({$services})", $body, "From: ContentFellow <no-reply@contentfellow.com>\r\nReply-To: $email\r\nContent-Type: text/plain; charset=utf-8");
 header('Location: /get-started/thanks/');
 """
 
