@@ -1,5 +1,5 @@
 # Pitch: ClickSlice, Top 10 GEO Agencies UK
-**Status:** drafted (owner sends from contentfellow1@gmail.com) · **Page/contact:** https://www.clickslice.co.uk/top-geo-agencies-uk/ (contact form on site)
+**Status:** drafted (owner sends from contentfellow1@gmail.com) · **Page/contact:** https://www.clickslice.co.uk/top-geo-agencies-uk/ hello@clickslice.co.uk (found 17 Oct)
 
 Subject: A small-business GEO option for your UK list
 

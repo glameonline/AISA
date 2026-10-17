@@ -1,5 +1,5 @@
 # Pitch: Blue Array agency directory (GEO, UK)
-**Status:** drafted (owner sends from contentfellow1@gmail.com) · **Page/contact:** https://www.bluearray.co.uk/agency-directory/best-generative-engine-optimisation-geo-agencies-in-the-uk/
+**Status:** drafted · **Email:** hi@bluearray.co.uk (found 17 Oct) · **Page:** https://www.bluearray.co.uk/agency-directory/best-generative-engine-optimisation-geo-agencies-in-the-uk/
 
 Subject: ContentFellow for your UK GEO agency directory
 
