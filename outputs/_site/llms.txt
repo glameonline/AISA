@@ -29,6 +29,11 @@
 ## Contact
 - [Free AI visibility check / get a plan](https://contentfellow.com/get-started/): 2-minute form; free check of who ChatGPT and Gemini recommend in your area, emailed within 2 working days
 
+## Management (monthly)
+- Websites: Care £49, Build Fellow £69 (includes 5-page custom site), Care Plus £159
+- Apps: App Care £179, App Care Plus £359, App Care Pro £599
+- Details: https://contentfellow.com/services/management/
+
 ## Development (one-off, fixed price)
 - Websites: Launch £349 (up to 7 pages), Grow £749 (up to 15 pages, blog, booking), Shop £1,499 (up to 100 products)
 - Apps: App Starter £1,249 (web app), App Pro £3,499 (iPhone + Android, 10 screens), App Custom from £6,499
