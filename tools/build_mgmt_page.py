@@ -35,11 +35,11 @@ page("services/management", "Website & App Management UK | From £49/month | Con
      "Monthly website care from £49, Build Fellow £69 and Care Plus £159. App care from £149, App Care Plus £359 and App Care Pro £599. UK, monthly billing.", body, ld)
 hub = SITE / "services/index.html"; h = hub.read_text()
 if "/services/management/" not in h:
-    h = h.replace("</main>", '<h2><a href="/services/management/">Website &amp; app management</a></h2><p>Monthly care: websites from £49, apps from £179.</p></main>', 1); hub.write_text(h)
+    h = h.replace("</main>", '<h2><a href="/services/management/">Website &amp; app management</a></h2><p>Monthly care: websites from £49, apps from £149.</p></main>', 1); hub.write_text(h)
 sm = SITE / "sitemap.xml"; s = sm.read_text()
 if "/services/management/" not in s:
     s = s.replace("</urlset>", f"<url><loc>{BASE}/services/management/</loc><lastmod>2026-10-17</lastmod></url>\n</urlset>"); sm.write_text(s)
 ll = SITE / "llms.txt"; l = ll.read_text()
 if "Management (monthly)" not in l:
-    l = l.replace("## Development (one-off", "## Management (monthly)\n- Websites: Care £49, Build Fellow £69 (includes 5-page custom site), Care Plus £159\n- Apps: App Care £179, App Care Plus £359, App Care Pro £599\n- Details: https://contentfellow.com/services/management/\n\n## Development (one-off", 1); ll.write_text(l)
+    l = l.replace("## Development (one-off", "## Management (monthly)\n- Websites: Care £49, Build Fellow £69 (includes 5-page custom site), Care Plus £159\n- Apps: App Care £149, App Care Plus £359, App Care Pro £599\n- Details: https://contentfellow.com/services/management/\n\n## Development (one-off", 1); ll.write_text(l)
 print("ok")
