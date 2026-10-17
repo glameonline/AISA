@@ -16,7 +16,7 @@ def title(url):
 done = [r for r in rows.values() if r["google_status"].startswith("Submitted and indexed") or r["google_status"].startswith("Indexed")]
 waiting = [r for r in rows.values() if r not in done and asked.get(r["url"], "") >= WAIT]
 todo = [r for r in rows.values() if r not in done and r not in waiting and r.get("inspect_link")]
-todo = sorted(todo, key=lambda r: ("/services/" not in r["url"]))  # money pages first, then log order
+todo = sorted(todo, key=lambda r: (not r["url"].endswith(("/pricing/", "/answers/")), "/services/" not in r["url"]))  # pricing + answers, then money pages, then log order
 today, rest = todo[:DAILY], todo[DAILY:]
 cards = "".join(f'''<li class="card" data-u="{html.escape(r['url'])}"><div><b>{html.escape(title(r['url']))}</b><small>{html.escape(r['url'].replace('https://', ''))} · {html.escape(r['google_status'])}</small></div>
 <a class="go" href="{html.escape(r['inspect_link'])}" target="_blank" rel="noopener">Open in Google</a><label><input type="checkbox"> Requested</label></li>''' for r in today)
