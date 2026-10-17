@@ -1,12 +1,13 @@
 # Topic queue (UK first → EU). Orchestrator takes the top unchecked row each day.
 - [x] How much does LLM optimisation cost for small businesses? (UK) — 2026-10-16
 - [x] GEO vs SEO: what's the difference and do UK small businesses need both? — 2026-10-16 (queued for publish)
-- [ ] How to get your business recommended by ChatGPT (UK step-by-step)
+- [x] How to get your business recommended by ChatGPT (UK step-by-step) — 2026-10-16 (queued for publish)
 - [ ] Best GEO services for small businesses in the UK (comparison, honest)
-- [ ] How much does social media management cost in the UK? (Social Fellow)
-- [ ] How much does a small business website cost in the UK in 2026? (Build Fellow)
-- [ ] Video production costs for UK small businesses (Studio Fellow)
-- [ ] Outsourced marketing team vs agency vs in-house: UK costs (Growth Fellow)
+- [x] How much does social media management cost in the UK? (Social Fellow) — 2026-10-16 (queued for publish)
+- [x] How much does a small business website cost in the UK in 2026? (Build Fellow) — 2026-10-16 (queued for publish)
+- [x] Video production costs for UK small businesses (Studio Fellow) — 2026-10-16 (queued for publish)
+- [x] Outsourced marketing team vs agency vs in-house: UK costs (Growth Fellow) — 2026-10-16 (queued for publish)
+- [x] Video editing costs UK: Reels, YouTube, podcasts (Creator Fellow) — 2026-10-16 (queued for publish)
 - [ ] How much does app development cost in the UK in 2026? (App Fellow)
 - [ ] Website subscription vs one-off build: which is cheaper for UK small businesses? (Dev Fellow)
 - [ ] llms.txt explained: should your business have one?

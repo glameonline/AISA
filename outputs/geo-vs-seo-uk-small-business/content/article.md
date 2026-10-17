@@ -63,15 +63,17 @@ If you pay for help, buy one plan that covers both rather than two suppliers. A 
 
 Similarweb suggests small businesses put **10 to 20% of their search budget** into AI visibility. Our split sits inside that range, because most GEO work is also SEO work.
 
+For pound-by-pound prices, see our guide: [how much LLM optimisation costs UK small businesses](/blog/llm-optimisation-cost-small-business-uk/).
+
 ## Is SEO dead because of AI search?
 
 No. Google still sends most website traffic for most UK businesses, and AI assistants often build their answers from pages that already rank well. What's changed is that ranking alone isn't enough: you also want to be the business the AI names. That's why the two belong together.
 
 ## How ContentFellow handles SEO and GEO
 
-The **[Search Fellow](https://contentfellow.com/#fellows) is £89 a month** and covers both: SEO to climb Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing rankings and AI visibility side by side. For a full team (shoots, editing, social, website and search), the **[Growth Fellow](https://contentfellow.com/#growth) is £389 a month**.
+The **[Search Fellow](/services/search-fellow/) is £89 a month** and covers both: SEO to climb Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing rankings and AI visibility side by side. For a full team (shoots, editing, social, website and search), the **[Growth Fellow](/services/growth-fellow/) is £389 a month**.
 
-**[Pick your Search Fellow →](https://contentfellow.com/#fellows)**
+**[Pick your Search Fellow →](/services/search-fellow/)**
 
 ## Frequently asked questions
 

@@ -1,0 +1,3 @@
+# Brief: How Much Does Social Media Management Cost in the UK? (2026 Prices) (2026-10-16)
+Primary keyword: social media management cost uk · Secondary: how much does social media management cost uk, social media manager price uk, social media packages uk, social media management for small business uk
+Sources: birdeye.com UK edition (£500–£5,000/mo; small agencies £500–£1,500; basic £300–£1,000); gokrakensocials.com (UK SMM salary £34,229 Indeed Jun 2026 → ~£3,290/mo loaded; freelance day £334 YunoJuno; single-channel agency retainers £1,250–£3,500 Whito; £300–£1,500 realistic SME budget). Gap: most guides are US $ or agency sales pages; no £59-level option or per-platform breakdown.
