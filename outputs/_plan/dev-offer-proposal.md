@@ -14,3 +14,20 @@
 One-off option: website from £1,495; web-app MVP from £5,995; mobile-app MVP from £8,995.
 Hook: "Launch your app for £2,495 + £399/mo, not £15,000+ upfront."
 Check before launch: confirm dev capacity and hourly cost so each plan keeps margin; set fair-use rules (hours, one active request).
+
+## Update 17 Oct: stop "build for £69 then cancel"
+Owner concern: a client pays £69 once, gets a full site, cancels.
+1. Build Fellow £69/mo: choose at checkout
+   - 12-month minimum, £0 setup (site is hosted and maintained by us; £828 total in year 1), or
+   - no minimum, £495 setup fee.
+   - Leaving: after 12 months, take the site with a £295 handover fee (files, domain transfer); free after 24 months. Cancel before 12 months = pay the remaining months or the £995 buyout, whichever is lower.
+   - Terms line: "Your website stays hosted and maintained by ContentFellow while your plan is active."
+2. One-off website builds (no subscription), 50% upfront and 50% at launch, 2 revision rounds:
+   | Package | Price | Includes |
+   |---|---|---|
+   | Starter site | £995 | up to 5 pages, mobile, contact form, basic SEO + schema, 1 month support |
+   | Business site | £1,995 | up to 10 pages, blog, booking or quote form, GA4 + Search Console, SEO/GEO setup |
+   | Online shop | £2,995 | up to 50 products, payments, delivery rules, product schema |
+   | Custom web app | from £5,995 | portals, dashboards, member areas (scoped quote) |
+   After launch (optional): Hosting & Care £39/mo (hosting, security, backups, no changes) or move onto Build Fellow £69/mo with changes included.
+Market check: UK freelancer £500–£2,500, agency £3,000–£10,000, ecommerce £2,000–£10,000+ (our small-business-website-cost-uk guide).
