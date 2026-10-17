@@ -1,0 +1,70 @@
+# Deploys outputs/_site to contentfellow.com (cPanel) whenever the site package changes.
+# One-time setup: repo Settings > Secrets and variables > Actions > New secret CPANEL_TOKEN
+# (cPanel > Security > Manage API Tokens). Without the secret the job skips safely.
+name: Deploy contentfellow.com
+on:
+  push:
+    branches: [claude/seo-geo-content-agents]
+    paths: ["outputs/_deploy/**", ".github/workflows/deploy-contentfellow.yml"]
+  workflow_dispatch:
+concurrency: { group: deploy-contentfellow, cancel-in-progress: false }
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CP_USER: contwfah
+      HOST: https://server247.web-hosting.com:2083
+      DOC: /home/contwfah/public_html
+      TOKEN: ${{ secrets.CPANEL_TOKEN }}
+    steps:
+      - name: Check secret
+        id: s
+        run: |
+          if [ -z "$TOKEN" ]; then echo "::warning::CPANEL_TOKEN secret missing - add it in repo Settings > Secrets and variables > Actions."; echo "go=0" >> "$GITHUB_OUTPUT"; else echo "go=1" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/checkout@v4
+        if: steps.s.outputs.go == '1'
+      - name: Back up, upload, extract
+        if: steps.s.outputs.go == '1'
+        run: |
+          set -euo pipefail
+          AUTH="Authorization: cpanel $CP_USER:$TOKEN"
+          api() { curl -fsS -H "$AUTH" "$@"; }
+          ok() { grep -q '"status":1\|"result":1\|"result" : 1' "$1"; }
+          ZIP=$(ls outputs/_deploy/*.zip | head -1); NAME=$(basename "$ZIP")
+          api -G "$HOST/execute/Fileman/list_files" --data-urlencode "dir=$DOC" -o list.json
+          ok list.json || { echo "Login failed - check CPANEL_TOKEN"; exit 1; }
+          mkdir -p backup
+          for f in index.html .htaccess; do
+            api -G "$HOST/execute/Fileman/get_file_content" --data-urlencode "dir=$DOC" --data-urlencode "file=$f" -o "backup/$f.json"
+            ok "backup/$f.json" || { echo "Backup of $f failed, nothing changed"; exit 1; }
+          done
+          api -F "dir=$DOC" -F "overwrite=1" -F "file-1=@$ZIP" "$HOST/execute/Fileman/upload_files" -o up.json
+          ok up.json || { echo "Upload failed"; cat up.json; exit 1; }
+          j() { api -G "$HOST/json-api/cpanel" --data-urlencode "cpanel_jsonapi_user=$CP_USER" --data-urlencode "cpanel_jsonapi_apiversion=2" \
+                --data-urlencode "cpanel_jsonapi_module=Fileman" --data-urlencode "cpanel_jsonapi_func=fileop" "$@"; }
+          j --data-urlencode "op=extract" --data-urlencode "sourcefiles=$DOC/$NAME" --data-urlencode "destfiles=$DOC" -o ex.json
+          ok ex.json || { echo "Extract failed"; cat ex.json; exit 1; }
+          j --data-urlencode "op=unlink" --data-urlencode "sourcefiles=$DOC/$NAME" -o rm.json || true
+          python3 - <<'PY'
+          import json
+          old = json.load(open("backup/.htaccess.json"))["data"]["content"] or ""
+          add = open("outputs/_site-fixes/htaccess-add-at-top.txt").read()
+          open("htaccess-new.txt", "w").write(old if "ContentFellow SEO fixes" in old else add + "\n" + old)
+          PY
+          api -F "dir=$DOC" -F "file=.htaccess" -F "content=<htaccess-new.txt" "$HOST/execute/Fileman/save_file_content" -o ht.json
+          ok ht.json || { echo ".htaccess update failed"; cat ht.json; }
+      - name: Keep backup
+        if: steps.s.outputs.go == '1'
+        uses: actions/upload-artifact@v4
+        with: { name: cpanel-backup, path: backup/, retention-days: 30 }
+      - name: Check live pages
+        if: steps.s.outputs.go == '1'
+        run: |
+          fail=0
+          for p in "" blog/ services/development/ services/management/ media/contentfellow-reel.mp4 sitemap.xml llms.txt; do
+            c=$(curl -s -o /dev/null -w '%{http_code}' "https://contentfellow.com/$p"); echo "/$p $c"; [ "$c" = 200 ] || fail=1
+          done
+          for d in outputs/_site/blog/*/; do
+            s=$(basename "$d"); c=$(curl -s -o /dev/null -w '%{http_code}' "https://contentfellow.com/blog/$s/"); echo "/blog/$s/ $c"; [ "$c" = 200 ] || fail=1
+          done
+          exit $fail
