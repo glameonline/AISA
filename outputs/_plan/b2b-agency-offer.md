@@ -1,5 +1,5 @@
 # B2B offer: white-label bulk production for UK agencies ("Partner Fellow")
-Drafted 17 Oct 2026. Status: PROPOSAL, waiting for owner approval of prices before going live.
+Drafted 17 Oct 2026. Status: APPROVED by owner 17 Oct; live at https://contentfellow.com/agencies/
 
 ## The idea
 Marketing, web and social agencies in Lancashire, Manchester and across the UK sell content to their clients but don't have editors or crews in-house. ContentFellow does the production under their brand (white-label: no ContentFellow logo, delivered as theirs), in bulk, for a fixed monthly price. They mark it up 50–100% to their clients.
