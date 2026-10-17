@@ -1,0 +1,2 @@
+# Online shop website cost UK (17 Oct 2026)
+Sources: Charle (Shopify UK: Starter £5, Basic £19 annual/£25 monthly, Grow £49/£65, Plus from £1,800; apps £150–£600/mo typical DTC; domain ~£11/yr), RVS Media (main plans £19–£259 annual), GoDaddy UK (small/medium ecommerce design £5,000–£10,000; large £10,000–£30,000; maintenance £2,000+/yr), Juggernaut Tech (£1,249 booking/shop package), WebPulse Lab (ecommerce maintenance £99–£250). CTA: Shop £1,499.

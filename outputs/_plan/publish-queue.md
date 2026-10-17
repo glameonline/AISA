@@ -26,4 +26,5 @@ Deploy = copy everything in outputs/_site/ into public_html/ (keep the existing 
 - [ ] /services/management/ (new, 17 Oct) + updated services/index.html, sitemap.xml, llms.txt
 - [ ] Backlinks: work outputs/_plan/backlinks.md (skill: backlink-builder)
 - [ ] 17 Oct: 4 new posts: /blog/app-development-cost-uk/, /blog/website-subscription-vs-one-off-build/, /blog/llms-txt-explained/, /blog/check-if-chatgpt-mentions-your-brand/
+- [ ] 17 Oct (extra batch): /blog/website-maintenance-cost-uk/, /blog/online-shop-website-cost-uk/, /blog/app-maintenance-cost-uk/, /blog/web-app-vs-mobile-app/
 - [ ] 17 Oct: SEO audit fixes (shorter titles on 9 pages, 3 descriptions) in services, about, burnley, get-started, 2 posts

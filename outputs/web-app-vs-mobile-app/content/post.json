@@ -1,0 +1,10 @@
+{"slug": "web-app-vs-mobile-app", "title": "Web App vs Mobile App: Which Should a UK Small Business Build?", "title_short": "Web app or mobile app?",
+ "meta_title": "Web App vs Mobile App: Which Should You Build? (UK)", "meta_description": "Web apps cost less and work on every phone; native apps get the app stores and full phone features. Costs, pros and cons for UK small businesses.",
+ "eyebrow": "UK small business guide · 2026", "subtitle": "Cost, features and which to build first",
+ "stats": [["Web app", "from £1,249"], ["iPhone + Android", "from £3,499"], ["Agency native", "£8k–£40k"], ["Start with", "web app"]], "highlight": 0,
+ "points_title": "Choose a web app or mobile app", "points_subtitle": "Four questions that decide it",
+ "points": [["Need the app stores?", "Discovery in stores|Brand credibility|Native wins"], ["Phone features?", "Camera, GPS, offline|Bluetooth, health|Native wins"], ["Budget and speed?", "One build, no reviews|Launch in weeks|Web app wins"], ["How often updated?", "Instant updates|No store approval|Web app wins"]],
+ "featured_alt": "Web app vs mobile app for UK small businesses: web app from £1,249, iPhone and Android from £3,499",
+ "diagram_alt": "Four questions to choose a web app or a mobile app: app stores, phone features, budget, updates",
+ "keywords": ["web app vs mobile app", "pwa vs native app", "web app or app for small business", "progressive web app uk"],
+ "tags": ["Apps", "Development"], "category": "Development", "cta": "App Starter £1,249", "date": "2026-10-17"}

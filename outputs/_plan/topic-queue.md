@@ -2,7 +2,6 @@
 - [x] How much does LLM optimisation cost for small businesses? (UK) — 2026-10-16
 - [x] GEO vs SEO: what's the difference and do UK small businesses need both? — 2026-10-16 (queued for publish)
 - [x] How to get your business recommended by ChatGPT (UK step-by-step) — 2026-10-16 (queued for publish)
-- [ ] Best GEO services for small businesses in the UK (comparison, honest)
 - [x] How much does social media management cost in the UK? (Social Fellow) — 2026-10-16 (queued for publish)
 - [x] How much does a small business website cost in the UK in 2026? (Build Fellow) — 2026-10-16 (queued for publish)
 - [x] Video production costs for UK small businesses (Studio Fellow) — 2026-10-16 (queued for publish)
@@ -12,4 +11,24 @@
 - [x] Website subscription vs one-off build: which is cheaper for UK small businesses? (Dev Fellow) — 2026-10-17 (queued for publish)
 - [x] llms.txt explained: should your business have one? — 2026-10-17 (queued for publish)
 - [x] How to check if ChatGPT, Gemini and Perplexity mention your brand — 2026-10-17 (queued for publish)
-- [ ] (EU) GEO cost in Ireland (€) · (EU) KI-Suchoptimierung Kosten (DE) · (EU) Coût du GEO pour les PME (FR)
+- [x] Website maintenance cost UK 2026 (Care plans) — 2026-10-17 (queued for publish)
+- [x] How much does an online shop website cost in the UK? (Shop £1,499) — 2026-10-17 (queued for publish)
+- [x] App maintenance cost UK: what keeping an app running really costs (App Care) — 2026-10-17 (queued for publish)
+- [x] Web app vs mobile app: which should a UK small business build? — 2026-10-17 (queued for publish)
+- [ ] How long does it take to build a website in the UK?
+- [ ] Booking website cost UK for salons, clinics and trades
+- [ ] Restaurant and café website cost UK
+- [ ] Tradesperson website cost UK (plumbers, electricians, builders)
+- [ ] Burnley web design prices: what local businesses pay
+- [ ] Lancashire videographer prices 2026 (Studio Fellow)
+- [ ] Podcast editing cost UK (Creator Fellow)
+- [ ] How much do TikTok and Reels videos cost for a UK small business?
+- [ ] Google Business Profile optimisation: UK step-by-step
+- [ ] How to get more Google reviews for a UK small business
+- [ ] How to appear in Google AI Overviews (UK small business guide)
+- [ ] How to get cited by Perplexity
+- [ ] Freelancer vs agency vs subscription for marketing in the UK
+- [ ] Best GEO services for small businesses in the UK (honest comparison)
+- [ ] (EU) Website cost in Ireland 2026 (€)
+- [ ] (EU) GEO cost in Ireland (€)
+- [ ] (EU) KI-Suchoptimierung Kosten (DE) · (EU) Coût du GEO pour les PME (FR)

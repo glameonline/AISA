@@ -1,0 +1,2 @@
+# Website maintenance cost UK (17 Oct 2026)
+Sources: WebPulse Lab (small business £29–£100/mo; budget £20–£40; entry managed £29–£59; standard £59–£100; local agency £80–£200; small ecommerce £99–£250; ad-hoc £50–£300/incident), UK IT Services (basic £30–£75; most small businesses £75–£150; hacked-site clean-up £500–£3,000), CenoDigital (hosting £5–£60/mo). CTA: Care £49, Build Fellow £69, Care Plus £159.

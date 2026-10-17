@@ -45,6 +45,10 @@
 - Details: https://contentfellow.com/services/development/
 
 ## Guides
+- [Web App vs Mobile App: Which Should a UK Small Business Build?](https://contentfellow.com/blog/web-app-vs-mobile-app/): Web apps cost less and work on every phone; native apps get the app stores and full phone features. Costs, pros and cons for UK small businesses.
+- [App Maintenance Cost UK: What It Really Costs to Keep an App Running (2026)](https://contentfellow.com/blog/app-maintenance-cost-uk/): Keeping an app running in the UK costs £149 to £1,495 a month on a care plan, plus store and hosting fees. What's included and how to budget for it.
+- [How Much Does an Online Shop Website Cost in the UK? (2026)](https://contentfellow.com/blog/online-shop-website-cost-uk/): A UK online shop costs £0–£300 a month DIY, £1,250–£3,000 from small studios, or £5,000–£10,000+ at agencies. Build, platform and running costs explained.
+- [Website Maintenance Cost UK: What Small Businesses Pay in 2026](https://contentfellow.com/blog/website-maintenance-cost-uk/): UK website maintenance costs £29–£200 a month for small businesses. What's included at each price, ecommerce costs, and what skipping it can cost you.
 - [How to Check if ChatGPT, Gemini and Perplexity Mention Your Business (UK Guide)](https://contentfellow.com/blog/check-if-chatgpt-mentions-your-brand/): A free 20-minute test to see whether ChatGPT, Gemini and Perplexity recommend your business, how to track it monthly, and what to fix if they don't.
 - [llms.txt Explained: Should Your Small Business Have One? (2026)](https://contentfellow.com/blog/llms-txt-explained/): What llms.txt is, what Google and the research say about it in 2026, and what actually gets UK small businesses mentioned by ChatGPT and Gemini.
 - [Website Subscription vs One-Off Build: Which Is Cheaper for UK Small Businesses?](https://contentfellow.com/blog/website-subscription-vs-one-off-build/): Pay monthly or buy your website outright? Three-year costs side by side, what each includes, and which suits UK small businesses best in 2026.

@@ -1,0 +1,52 @@
+{
+  "title": "App Maintenance Cost UK: What It Really Costs to Keep an App Running (2026)",
+  "meta_title": "App Maintenance Cost UK 2026: Monthly Prices Explained",
+  "meta_description": "Keeping an app running in the UK costs £149 to £1,495 a month on a care plan, plus store and hosting fees. What's included and how to budget for it.",
+  "slug": "app-maintenance-cost-uk",
+  "keywords": [
+    "app maintenance cost uk",
+    "app support and maintenance uk",
+    "how much does it cost to maintain an app",
+    "app care plan"
+  ],
+  "tags": [
+    "Apps",
+    "Maintenance",
+    "Pricing"
+  ],
+  "category": "Management",
+  "cta": "App Care £149/mo",
+  "url": "https://contentfellow.com/blog/app-maintenance-cost-uk/",
+  "faq": [
+    {
+      "q": "How much does it cost to maintain an app in the UK?",
+      "a": "Expect £149 to £1,495 a month for a care plan, plus £79 a year for Apple, a one-off $25 for Google Play, and hosting."
+    },
+    {
+      "q": "What is a good annual budget for app maintenance?",
+      "a": "A common rule of thumb is 15 to 20 per cent of the original build cost each year."
+    },
+    {
+      "q": "Do I need to update my app every year?",
+      "a": "Yes. New iOS and Android versions arrive every year, and apps that aren't updated can stop working or be removed from the stores."
+    },
+    {
+      "q": "Can someone else maintain an app another agency built?",
+      "a": "Usually, yes. A new provider reviews the code and access first, then takes it onto a care plan."
+    },
+    {
+      "q": "Is hosting included in app maintenance?",
+      "a": "It depends on the plan. ContentFellow's App Care includes hosting for small apps; check the limits with any provider."
+    }
+  ],
+  "images": [
+    {
+      "file": "app-maintenance-cost-uk-featured.png",
+      "alt": "App maintenance cost UK 2026: Apple £79 a year, care plans £149 to £1,495 a month"
+    },
+    {
+      "file": "app-maintenance-cost-uk-diagram.png",
+      "alt": "What app maintenance covers: OS updates, hosting and backend, bug fixes, small improvements"
+    }
+  ]
+}
