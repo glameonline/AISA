@@ -33,3 +33,6 @@ Prefer prompts the tracker flagged as "competitor cited, we are not".
 ## Final report (always print)
 ✅/❌ Researched · Competitors · Keywords · Article · ≥2 images · Saved · Draft/Published · Tracker updated,
 plus next actions needing a human (credentials, approvals).
+
+## Going live (automatic)
+Pushing a rebuilt `outputs/_deploy/*.zip` to `claude/seo-geo-content-agents` triggers `.github/workflows/deploy-contentfellow.yml`, which backs up, uploads, extracts and checks every page returns 200 (uses the `CPANEL_TOKEN` repo secret). After pushing, check the run with the GitHub MCP `actions_list` tool; if it fails, read the job logs and fix. Then submit only the new or changed URLs with OpenSEO `submit_indexnow_urls`.
