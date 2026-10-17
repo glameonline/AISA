@@ -14,7 +14,7 @@ Full technical steps: `outputs/_deploy/GO-LIVE.md` · Upload: `outputs/_deploy/c
 1. [ ] Backup public_html (index.html, .htaccess, robots, sitemap, llms)
 2. [ ] Zip upload + extract: blog (9 guides), /services/ (6 pages + free trial each), /burnley/, /get-started/ form + thanks, IndexNow key file
 3. [ ] `.htaccess` fixes (www → non-www, /hello-world/ 410, test .html 301)
-4. [ ] Homepage `index.html`:
+4. [x] Homepage `index.html` ready in zip (built from live source 17 Oct; backup: outputs/_site-fixes/homepage-live-backup-2026-10-17.html): og:image absolute, nav Services/Guides/Free trial, "Every Fellow has a free trial" section, footer About/Burnley/Privacy, £389 placeholder. Original items:
    - [ ] og:image absolute URL
    - [ ] Nav: "Services", "Guides", "Free trial" links
    - [ ] Hero button: "Start free →" → `/get-started/`
