@@ -26,4 +26,4 @@ Old site title: "Photographer & Videographer Burnley | Content Fellow". Based in
 ## Development packages (one-off, fixed price; owner approved 17 Oct)
 Websites: Launch £349 (≤7 pages) · Grow £749 (≤15 pages, blog, booking) · Shop £1,499 (≤100 products). Apps: App Starter £1,249 (web app) · App Pro £3,499 (iOS + Android, ≤10 screens) · App Custom from £6,499. 50% upfront, 50% at launch. After launch: Build Fellow £69/mo (or app care). Page: /services/development/
 ## Management plans (monthly; owner approved 17 Oct: +20% on the new tiers, Build Fellow unchanged)
-Websites: Care £49 · Build Fellow £69 · Care Plus £159. Apps: App Care £179 · App Care Plus £359 · App Care Pro £599. Page: /services/management/
+Websites: Care £49 · Build Fellow £69 · Care Plus £159. Apps: App Care £149 · App Care Plus £359 · App Care Pro £599. Page: /services/management/

@@ -31,7 +31,7 @@
 
 ## Management (monthly)
 - Websites: Care £49, Build Fellow £69 (includes 5-page custom site), Care Plus £159
-- Apps: App Care £179, App Care Plus £359, App Care Pro £599
+- Apps: App Care £149, App Care Plus £359, App Care Pro £599
 - Details: https://contentfellow.com/services/management/
 
 ## Development (one-off, fixed price)
