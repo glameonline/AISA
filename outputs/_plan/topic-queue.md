@@ -32,3 +32,14 @@
 - [ ] (EU) Website cost in Ireland 2026 (€)
 - [ ] (EU) GEO cost in Ireland (€)
 - [ ] (EU) KI-Suchoptimierung Kosten (DE) · (EU) Coût du GEO pour les PME (FR)
+
+## From prompts-100.md (★ gaps, added 17 Oct)
+- [ ] Best GEO agency in the UK (2026 list, honest comparison incl. ContentFellow)
+- [ ] How to show up in Google AI Overviews (UK small business guide)
+- [ ] Marketing agency in Burnley: services and prices (local landing guide)
+- [ ] Videographer in Burnley and Lancashire: prices 2026
+- [ ] Who can do video, social, website and SEO in one place? (all-in-one marketing UK)
+- [ ] Best marketing agency for small businesses in the UK (how to choose + prices)
+- [ ] Reels and TikTok editing every month: UK prices and options
+- [ ] Monthly content shoot for small business UK: what you get and cost
+- [ ] Marketing agency with a free trial UK
