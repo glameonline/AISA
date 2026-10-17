@@ -1,0 +1,1 @@
+# Booking website cost UK (17 Oct). Fresha: independent ~$19.95/mo + per-staff, 20% one-off fee on new marketplace clients (US-published pricing via GlossGenius/Booksy blogs); Booksy $29.99/mo + $20/staff; Setmore free plan; SimplyBook.me free (50 bookings/mo). Use as guide; UK prices similar in £. CTA Grow £749 (booking form), App Starter £1,249 (custom booking web app).

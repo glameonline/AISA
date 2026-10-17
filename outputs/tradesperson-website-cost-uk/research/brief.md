@@ -1,0 +1,1 @@
+# Tradesperson website cost UK (17 Oct). Market: freelancer £500–£3,000, budget packages £399–£1,249 (Cheap Web Design, Juggernaut), agency £3k–£10k; care £29–£100/mo (WebPulse Lab). CTA Launch £349, Grow £749, Build Fellow £69.

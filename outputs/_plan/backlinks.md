@@ -13,11 +13,23 @@
 | 10 | LinkedIn company page | profile | entity + AI knowledge | ready-to-submit | 17 Oct: outreach/linkedin-company-page.md; owner submits/sends |
 | 11 | Companies House / Crunchbase | entity | brand entity consistency | ready-to-submit | 17 Oct: outreach/companies-house-crunchbase.md; owner submits/sends |
 | 12 | The SEO Works: "20 best GEO agencies in the UK" | listicle | ranks #1 for best GEO agency UK | drafted | 17 Oct: outreach/seo-works-listicle-pitch.md; owner submits/sends |
-| 13 | ClickSlice: "Top 10 GEO agencies UK" | listicle | page 1 Google UK | todo | pitch |
-| 14 | Blue Array agency directory (GEO UK) | listicle | page 1 Google UK | todo | pitch |
-| 15 | LenGreo: "10 best UK companies for AEO/GEO/LLMO" | listicle | page 1 Google UK | todo | pitch |
-| 16 | XEOPULSE UK SEO & GEO directory | directory | page 1 Google UK | todo | submit listing |
-| 17 | Lancashire Business View / Lancashire Telegraph | local press | local authority links | todo | pitch "Burnley studio launches £89 AI search plan" |
-| 18 | Burnley Bondholders / Burnley Business Network | local network | local links + referrals | todo | membership info |
+| 13 | ClickSlice: "Top 10 GEO agencies UK" | listicle | page 1 Google UK | drafted | 17 Oct: outreach/clickslice-listicle-pitch.md; owner submits/sends |
+| 14 | Blue Array agency directory (GEO UK) | listicle | page 1 Google UK | drafted | 17 Oct: outreach/blue-array-directory-pitch.md; owner submits/sends |
+| 15 | LenGreo: "10 best UK companies for AEO/GEO/LLMO" | listicle | page 1 Google UK | drafted | 17 Oct: outreach/lengreo-listicle-pitch.md; owner submits/sends |
+| 16 | XEOPULSE UK SEO & GEO directory | directory | page 1 Google UK | ready-to-submit | 17 Oct: outreach/xeopulse.md; owner submits/sends |
+| 17 | Lancashire Business View / Lancashire Telegraph | local press | local authority links | drafted | 17 Oct: outreach/lancashire-press-pitch.md; owner submits/sends |
+| 18 | Burnley Bondholders / Burnley Business Network | local network | local links + referrals | ready-to-submit | 17 Oct: outreach/burnley-business-network.md; owner submits/sends |
 | 19 | Qwoted / Featured.com / SourceBottle | expert quotes | journalist links | todo | create profiles, answer 2 queries a week on GEO/SEO costs |
 | 20 | Guest post: UK small-business blogs (e.g. Small Business UK, Smarta) | guest post | topical authority | todo | pitch "What GEO costs a UK small business" |
+| 21 | Scoot | directory | UK citation network | todo | free listing |
+| 22 | Cylex UK | directory | UK citation | todo | free listing |
+| 23 | Hotfrog UK | directory | UK citation | todo | free listing |
+| 24 | Brownbook | directory | global citation | todo | free listing |
+| 25 | Yelp UK | reviews | AI assistants cite Yelp | todo | claim business page |
+| 26 | Bark.com | marketplace | UK service leads + profile link | todo | create seller profile (check lead costs first) |
+| 27 | Foursquare / Factual | data | feeds maps and AI place data | todo | claim listing |
+| 28 | Boost Lancashire (growth hub) | local | Lancashire business support links | todo | register and ask about supplier directory |
+| 29 | Business Matters magazine | guest post | UK SME readers | todo | pitch "What AI search means for UK small businesses" |
+| 30 | Small Business Britain community | community | SME network | todo | join; contribute a GEO tips post |
+| 31 | ResponseSource / journalist requests | expert quotes | UK press links | todo | sign up for free journalist enquiries; reply on SEO/GEO costs |
+| 32 | Podcast guest spots (UK small business podcasts) | podcast | show-notes links + AI mentions | todo | list 10 shows, draft one pitch |

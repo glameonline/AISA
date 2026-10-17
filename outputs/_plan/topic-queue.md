@@ -15,10 +15,10 @@
 - [x] How much does an online shop website cost in the UK? (Shop £1,499) — 2026-10-17 (queued for publish)
 - [x] App maintenance cost UK: what keeping an app running really costs (App Care) — 2026-10-17 (queued for publish)
 - [x] Web app vs mobile app: which should a UK small business build? — 2026-10-17 (queued for publish)
-- [ ] How long does it take to build a website in the UK?
-- [ ] Booking website cost UK for salons, clinics and trades
-- [ ] Restaurant and café website cost UK
-- [ ] Tradesperson website cost UK (plumbers, electricians, builders)
+- [x] How long does it take to build a website in the UK? — 2026-10-17 pm (queued for publish)
+- [x] Booking website cost UK for salons, clinics and trades — 2026-10-17 pm (queued for publish)
+- [x] Restaurant and café website cost UK — 2026-10-17 pm (queued for publish)
+- [x] Tradesperson website cost UK (plumbers, electricians, builders) — 2026-10-17 pm (queued for publish)
 - [ ] Burnley web design prices: what local businesses pay
 - [ ] Lancashire videographer prices 2026 (Studio Fellow)
 - [ ] Podcast editing cost UK (Creator Fellow)

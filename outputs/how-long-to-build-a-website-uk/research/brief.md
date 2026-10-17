@@ -1,0 +1,1 @@
+# Timeline brief (17 Oct): based on ContentFellow delivery times (Launch 1–2 wks, Grow/Shop 2–4 wks), agency norms 6–12 weeks for custom builds (GoDaddy UK/agency guides), content readiness is the main delay.

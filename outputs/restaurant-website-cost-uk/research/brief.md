@@ -1,0 +1,1 @@
+# Restaurant website cost UK (17 Oct). Delivery commissions: Deliveroo 30–35% full service (Aexir), Just Eat 14–16% own delivery + 2.9%+25p processing (Aexir), Deliveroo 25–35% (Jamezz). Own ordering = 0% commission (card fees only). CTA Grow £749, Shop £1,499 (online ordering), Care £49.
