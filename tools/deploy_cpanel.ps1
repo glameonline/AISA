@@ -8,9 +8,10 @@ $sec = Read-Host "cPanel API token" -AsSecureString
 $Token = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($sec))
 $H = @{ Authorization = "cpanel ${CpUser}:$Token" }
 $Bk = Join-Path $HOME ("contentfellow-backup-" + (Get-Date -Format "yyyyMMdd-HHmm")); New-Item -ItemType Directory -Force $Bk | Out-Null; Set-Location $Bk
-function Uapi($mod, $fn, $q) { Invoke-RestMethod -Headers $H -Uri ("$HostUrl/execute/${mod}/${fn}?" + (($q.GetEnumerator() | % { "$($_.Key)=$([uri]::EscapeDataString($_.Value))" }) -join "&")) }
+function Qs($q) { ($q.GetEnumerator() | ForEach-Object { $_.Key + "=" + [uri]::EscapeDataString([string]$_.Value) }) -join "&" }
+function Uapi($mod, $fn, $q) { $u = $HostUrl + "/execute/" + $mod + "/" + $fn + "?" + (Qs $q); Invoke-RestMethod -Headers $H -Uri $u }
 function Api2($q) { $q.cpanel_jsonapi_user=$CpUser; $q.cpanel_jsonapi_apiversion="2"; $q.cpanel_jsonapi_module="Fileman"; $q.cpanel_jsonapi_func="fileop"
-  Invoke-RestMethod -Headers $H -Uri ("$HostUrl/json-api/cpanel?" + (($q.GetEnumerator() | % { "$($_.Key)=$([uri]::EscapeDataString($_.Value))" }) -join "&")) }
+  $u = $HostUrl + "/json-api/cpanel?" + (Qs $q); Invoke-RestMethod -Headers $H -Uri $u }
 
 Write-Host "1/6 Checking login..."
 $l = Uapi "Fileman" "list_files" @{ dir = $Doc }; if ($l.status -ne 1) { throw "Login failed: $($l.errors)" }
