@@ -4,7 +4,7 @@
 | 1 | Google Business Profile | citation | Maps + AI local answers | ready-to-submit | 17 Oct: copy in outreach/google-business-profile.md + listing-kit.md; owner submits |
 | 2 | Bing Places | citation | feeds Copilot/ChatGPT search | ready-to-submit | 17 Oct: copy in outreach/bing-places.md + listing-kit.md; owner submits |
 | 3 | Apple Business Connect | citation | Siri/Apple Maps | ready-to-submit | 17 Oct: copy in outreach/apple-business-connect.md + listing-kit.md; owner submits |
-| 4 | Yell.com | directory | top UK directory | ready-to-submit | 17 Oct: copy in outreach/yell.md + listing-kit.md; owner submits |
+| 4 | Yell.com | directory | top UK directory | live | 17 Oct: verified live https://www.yell.com/biz/content-fellow-burnley-11050665/ (links to contentfellow.com). Fix: name "ContentFellow", main category Digital Marketing Agency, add dev/management plans, get first reviews |
 | 5 | Thomson Local | directory | UK citation | ready-to-submit | 17 Oct: copy in outreach/thomson-local.md + listing-kit.md; owner submits |
 | 6 | FreeIndex | directory | UK services + reviews | ready-to-submit | 17 Oct: copy in outreach/freeindex.md + listing-kit.md; owner submits |
 | 7 | Clutch.co | directory | agency reviews, AI-cited | ready-to-submit | 17 Oct: outreach/clutch.md; owner submits/sends |
