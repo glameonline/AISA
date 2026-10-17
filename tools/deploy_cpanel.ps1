@@ -8,7 +8,7 @@ $sec = Read-Host "cPanel API token" -AsSecureString
 $Token = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($sec))
 $H = @{ Authorization = "cpanel ${CpUser}:$Token" }
 $Bk = Join-Path $HOME ("contentfellow-backup-" + (Get-Date -Format "yyyyMMdd-HHmm")); New-Item -ItemType Directory -Force $Bk | Out-Null; Set-Location $Bk
-function Uapi($mod, $fn, $q) { Invoke-RestMethod -Headers $H -Uri ("$HostUrl/execute/$mod/$fn?" + (($q.GetEnumerator() | % { "$($_.Key)=$([uri]::EscapeDataString($_.Value))" }) -join "&")) }
+function Uapi($mod, $fn, $q) { Invoke-RestMethod -Headers $H -Uri ("$HostUrl/execute/${mod}/${fn}?" + (($q.GetEnumerator() | % { "$($_.Key)=$([uri]::EscapeDataString($_.Value))" }) -join "&")) }
 function Api2($q) { $q.cpanel_jsonapi_user=$CpUser; $q.cpanel_jsonapi_apiversion="2"; $q.cpanel_jsonapi_module="Fileman"; $q.cpanel_jsonapi_func="fileop"
   Invoke-RestMethod -Headers $H -Uri ("$HostUrl/json-api/cpanel?" + (($q.GetEnumerator() | % { "$($_.Key)=$([uri]::EscapeDataString($_.Value))" }) -join "&")) }
 
