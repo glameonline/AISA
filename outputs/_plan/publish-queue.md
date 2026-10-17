@@ -21,4 +21,4 @@ Deploy = copy everything in outputs/_site/ into public_html/ (keep the existing 
 ## LIVE 17 Oct 2026 01:25 (owner ran tools/deploy_cpanel.ps1)
 - [x] 25 sitemap URLs 200, 25 images 200, homepage trials/nav/og:image, www→non-www 301, /hello-world/ + /hugo-portfolio-hero-image/ 410, test .html 301, IndexNow key 200, form → thanks (test lead sent)
 - [x] IndexNow: 27 URLs sent direct to Bing, HTTP 202 (17 Oct)
-- [ ] GSC + Bing sitemap submit, request indexing
+- [x] GSC request indexing /services/ + /blog/ (owner, 17 Oct); sitemap via robots.txt
