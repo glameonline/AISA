@@ -2,7 +2,7 @@
 Full technical steps: `outputs/_deploy/GO-LIVE.md` · Upload: `outputs/_deploy/contentfellow-site-2026-10-16.zip`
 
 ## Owner se chahiye (pehle 10 minute)
-- [ ] Desktop access (Desktop Commander) + cPanel login
+- [x] cPanel access (owner ran deploy script from PowerShell)
 - [ ] Leads kis email par aayein? (abhi `contentfellow1@gmail.com`, `get-started/submit.php` mein `$TO`)
 - [ ] Trial capacity: har hafte kitne free trials le sakte hain? (videos aur shoots mein waqt lagta hai)
 - [ ] Studio mini shoot: Burnley se 20 miles theek hai? Time-based trials 7 din (data) ya 3 din (owner)? `tools/build_pages.py` → `TRIAL_DAYS`
@@ -11,9 +11,9 @@ Full technical steps: `outputs/_deploy/GO-LIVE.md` · Upload: `outputs/_deploy/c
 - [ ] Google Business Profile hai? Reviews hain? Place ID + Places API key (reviews widget)
 
 ## Live karna (order)
-1. [ ] Backup public_html (index.html, .htaccess, robots, sitemap, llms)
-2. [ ] Zip upload + extract: blog (9 guides), /services/ (6 pages + free trial each), /burnley/, /get-started/ form + thanks, IndexNow key file
-3. [ ] `.htaccess` fixes (www → non-www, /hello-world/ 410, test .html 301)
+1. [x] Backup public_html (index.html, .htaccess, robots, sitemap, llms)
+2. [x] Zip upload + extract: blog (9 guides), /services/ (6 pages + free trial each), /burnley/, /get-started/ form + thanks, IndexNow key file
+3. [x] `.htaccess` fixes (www → non-www, /hello-world/ 410, test .html 301)
 4. [x] Homepage `index.html` ready in zip (built from live source 17 Oct; backup: outputs/_site-fixes/homepage-live-backup-2026-10-17.html): og:image absolute, nav Services/Guides/Free trial, "Every Fellow has a free trial" section, footer About/Burnley/Privacy, £389 placeholder. Original items:
    - [ ] og:image absolute URL
    - [ ] Nav: "Services", "Guides", "Free trial" links
@@ -22,8 +22,8 @@ Full technical steps: `outputs/_deploy/GO-LIVE.md` · Upload: `outputs/_deploy/c
      Search "Free 7-day trial" · Social "Free 7-day trial" · Build "Free homepage preview" · Studio "Free mini shoot" · Creator "3 free videos" · Growth "Free 7-day trial"
    - [ ] Har card ke neeche `<div class="cf-reviews" data-service="…" hidden></div>` + reviews CSS/JS
 5. [ ] Reviews widget: `/reviews/` upload + config outside public_html (`outputs/_site-fixes/reviews/README.md`)
-6. [ ] Test form → email aaya? `cf-leads.csv` mein row? thanks page?
-7. [ ] Verify table in GO-LIVE.md (sab URLs 200, www 301, old pages 410)
+6. [x] Test form → email aaya? `cf-leads.csv` mein row? thanks page?
+7. [x] Verify table in GO-LIVE.md (sab URLs 200, www 301, old pages 410)
 8. [ ] GA4: `generate_lead` key event · Search Console + Bing: sitemap submit, request indexing · IndexNow
 
 ## Free trials (har service)
