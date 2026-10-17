@@ -36,3 +36,11 @@ plus next actions needing a human (credentials, approvals).
 
 ## Going live (automatic)
 Pushing a rebuilt `outputs/_deploy/*.zip` to `claude/seo-geo-content-agents` triggers `.github/workflows/deploy-contentfellow.yml`, which backs up, uploads, extracts and checks every page returns 200 (uses the `CPANEL_TOKEN` repo secret). After pushing, check the run with the GitHub MCP `actions_list` tool; if it fails, read the job logs and fix. Then submit only the new or changed URLs with OpenSEO `submit_indexnow_urls`.
+
+## Google indexing check (every run, after the deploy succeeds)
+Google re-reads `sitemap.xml` on its own (it is listed in robots.txt and was submitted in Search Console once). `tools/add_to_site.py` sets `<lastmod>` to today for new posts, `/` and `/blog/`, which is the signal Google uses to recrawl. Do not resubmit the sitemap or use the Indexing API (job/livestream pages only).
+1. OpenSEO `inspect_urls` (max 10 per call): the new URLs from this run, plus any URL in `outputs/_tracker/indexing.csv` whose latest status is not "Submitted and indexed".
+2. Append one row per URL to `outputs/_tracker/indexing.csv` (date,url,google_status,last_crawl).
+3. Fix any "Crawled - currently not indexed" or canonical mismatch: strengthen internal links from `/blog/` and related posts, and improve the intro answer.
+4. OpenSEO `submit_indexnow_urls` with only the new or changed URLs (Bing and others). If it says to wait, skip it; the next run retries.
+5. Put "Google indexed X of Y posts" in the report and on the dashboard.

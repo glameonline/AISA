@@ -9,5 +9,8 @@ for arg in sys.argv[1:]:
     if f"/blog/{slug}/" not in h: new += f'<article><p class="tag">{tag}</p><h2><a href="/blog/{slug}/">{meta["title"]}</a></h2><p>{meta["meta_description"]}</p></article>'
     if f"/blog/{slug}/" not in s: s = s.replace("</urlset>", f"<url><loc>{B}/blog/{slug}/</loc><lastmod>{today}</lastmod></url>\n</urlset>")
     if f"/blog/{slug}/" not in l: l = l.replace("## Guides\n", f"## Guides\n- [{meta['title']}]({B}/blog/{slug}/): {meta['meta_description']}\n", 1)
+import re
+if new:  # tell Google the home page and blog index changed today
+    for u in (f"{B}/", f"{B}/blog/"): s = re.sub(rf"(<loc>{re.escape(u)}</loc><lastmod>)[^<]+", rf"\g<1>{today}", s)
 idx.write_text(h.replace("<article>", new + "<article>", 1)); sm.write_text(s); ll.write_text(l)
 print("posts:", (h + new).count("<article>"), "sitemap urls:", s.count("<url>"))
