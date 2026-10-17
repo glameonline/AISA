@@ -1,0 +1,4 @@
+node_modules/
+out/
+contentfellow/audio/vo/*_48k.wav
+contentfellow/audio/vo_dry.wav
