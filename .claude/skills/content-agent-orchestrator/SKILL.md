@@ -45,4 +45,5 @@ Google re-reads `sitemap.xml` on its own (it is listed in robots.txt and was sub
 4. OpenSEO `submit_indexnow_urls` with only the new or changed URLs (Bing and others). If it says to wait, skip it; the next run retries.
 5. Put "Google indexed X of Y posts" in the report and on the dashboard.
 6. Owner tap list: the `inspect_urls` result's `inspectionResultLink` goes in the `inspect_link` column (these links change, so always store the newest one). Run `python3 tools/index_page.py`, then republish `outputs/index-today/index.html` with the Artifact tool (same file path, keeps https://claude.ai/artifact/CeRpSr7cJiobuvjR3JzwHZ).
-7. If the page lists anything to tap, send ONE PushNotification: "Google: N pages to index, tap: https://claude.ai/artifact/CeRpSr7cJiobuvjR3JzwHZ". Also put that link first in the run summary.
+7. Do NOT send a notification from the content runs. The evening run at 18:52 UK ("ContentFellow evening Google indexing") sends the owner ONE notification a day with the tap link. Put the link first in the run summary.
+8. The deploy robot also resubmits sitemap.xml to Google after every deploy once the `GOOGLE_SA_JSON` repo secret exists (a service account added as Owner in Search Console).
