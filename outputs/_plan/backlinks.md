@@ -2,7 +2,7 @@
 | # | Site | Type | Why | Status | Next step |
 |---|---|---|---|---|---|
 | 1 | Google Business Profile | citation | Maps + AI local answers | live (edits pending Google approval) | 17 Oct: owner submitted all fixes, waiting for Google review. https://maps.google.com/?cid=6675954353271833173, 5.0 (5 reviews). Fixes sent: name "ContentFellow" (drop "(Event Photographer)"), primary category Marketing agency, add website, hours, description, services, photos, reel |
-| 2 | Bing Places | citation | feeds Copilot/ChatGPT search | ready-to-submit | 17 Oct: copy in outreach/bing-places.md + listing-kit.md; owner submits |
+| 2 | Bing Places | citation | feeds Copilot/ChatGPT search | submitted (awaiting PIN) | 17 Oct: owner created listing (ContentFellow, Marketing agency); waiting for Bing verification PIN, then enter it in bingplaces.com |
 | 3 | Apple Business Connect | citation | Siri/Apple Maps | ready-to-submit | 17 Oct: copy in outreach/apple-business-connect.md + listing-kit.md; owner submits |
 | 4 | Yell.com | directory | top UK directory | live | 17 Oct: verified live https://www.yell.com/biz/content-fellow-burnley-11050665/ (links to contentfellow.com). Fix: name "ContentFellow", main category Digital Marketing Agency, add dev/management plans, get first reviews |
 | 5 | Thomson Local | directory | UK citation | ready-to-submit | 17 Oct: copy in outreach/thomson-local.md + listing-kit.md; owner submits |
