@@ -35,7 +35,7 @@ Prefer prompts the tracker flagged as "competitor cited, we are not".
 plus next actions needing a human (credentials, approvals).
 
 ## Going live (automatic)
-Pushing a rebuilt `outputs/_deploy/*.zip` to `claude/seo-geo-content-agents` triggers `.github/workflows/deploy-contentfellow.yml`, which backs up, uploads, extracts and checks every page returns 200 (uses the `CPANEL_TOKEN` repo secret). After pushing, check the run with the GitHub MCP `actions_list` tool; if it fails, read the job logs and fix. Then submit only the new or changed URLs with OpenSEO `submit_indexnow_urls`.
+Rebuild the zip with `python3 tools/build_zip.py` (it first runs `tools/add_profiles.py`, which links the Google Maps and Yell profiles from every page). Pushing a rebuilt `outputs/_deploy/*.zip` to `claude/seo-geo-content-agents` triggers `.github/workflows/deploy-contentfellow.yml`, which backs up, uploads, extracts and checks every page returns 200 (uses the `CPANEL_TOKEN` repo secret). After pushing, check the run with the GitHub MCP `actions_list` tool; if it fails, read the job logs and fix. Then submit only the new or changed URLs with OpenSEO `submit_indexnow_urls`.
 
 ## Google indexing check (every run, after the deploy succeeds)
 Google re-reads `sitemap.xml` on its own (it is listed in robots.txt and was submitted in Search Console once). `tools/add_to_site.py` sets `<lastmod>` to today for new posts, `/` and `/blog/`, which is the signal Google uses to recrawl. Do not resubmit the sitemap or use the Indexing API (job/livestream pages only).
