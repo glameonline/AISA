@@ -38,13 +38,16 @@ ul{{list-style:none;padding:0;margin:0;display:grid;gap:10px}}.card{{background:
 label{{color:var(--mut);font-size:14px;display:flex;gap:8px;align-items:center}}.card.done{{opacity:.5}}.card.done .go{{background:var(--ok)}}
 .empty{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center}}p.note{{color:var(--mut);font-size:13px;margin-top:18px}}
 </style></head><body><main>
-<h1>Google indexing: today</h1><p class="sub">ContentFellow · updated {upd}</p>
+<h1>Google indexing: this evening</h1><p class="sub">ContentFellow · updated {upd}</p>
 <div class="stat"><div><b>{len(done)}</b><span>pages in Google</span></div><div><b>{len(waiting)}</b><span>requested, Google checking</span></div><div><b>{len(today)}</b><span>to tap today</span></div></div>
+<div class="card all"><div><b>Step 1 · All pages in one go</b><small>Send Google the sitemap again. One submit covers every page, with no daily limit. Skip this once the robot does it for you (GOOGLE_SA_JSON set).</small></div>
+<a class="go" href="https://search.google.com/search-console/sitemaps?resource_id=sc-domain%3Acontentfellow.com" target="_blank" rel="noopener">Open Sitemaps in Google</a><small>Type <b>sitemap.xml</b> in "Add a new sitemap" and tap <b>SUBMIT</b>.</small></div>
+<h2 style="font-size:18px;margin:20px 0 6px">Step 2 · Fast lane (up to {DAILY} pages)</h2>
 <ol class="how"><li>Tap <b>Open in Google</b>.</li><li>Wait for the check to load, then tap <b>REQUEST INDEXING</b>.</li><li>Come back and tick <b>Requested</b>. Then do the next one.</li></ol>
 {f"<ul>{cards}</ul>" if today else '<div class="empty"><b>Nothing to do today 🎉</b><br>Every checked page is already in Google.</div>'}
 <p class="note">Google allows about {DAILY} requests a day, so this list shows the {DAILY} most important pages. {len(rest)} more will show up tomorrow. Pages you already requested stay off the list for a week while Google checks them. Pages Google has already indexed drop off this list on their own. Open the links while signed in to the Google account that owns Search Console.</p>
 </main><script>
-document.querySelectorAll('.card').forEach(c=>{{const k='idx:'+c.dataset.u+':{upd}',b=c.querySelector('input');
+document.querySelectorAll('.card[data-u]').forEach(c=>{{const k='idx:'+c.dataset.u+':{upd}',b=c.querySelector('input');
 try{{if(localStorage.getItem(k)){{b.checked=true;c.classList.add('done')}}}}catch(e){{}}
 const mark=()=>{{c.classList.toggle('done',b.checked);try{{b.checked?localStorage.setItem(k,1):localStorage.removeItem(k)}}catch(e){{}}}};
 b.addEventListener('change',mark);c.querySelector('.go').addEventListener('click',()=>{{b.checked=true;mark()}});}});

@@ -68,3 +68,20 @@ jobs:
             s=$(basename "$d"); c=$(curl -s -o /dev/null -w '%{http_code}' "https://contentfellow.com/blog/$s/"); echo "/blog/$s/ $c"; [ "$c" = 200 ] || fail=1
           done
           exit $fail
+      - name: Resubmit sitemap to Google (all pages in one go)
+        if: steps.s.outputs.go == '1'
+        env:
+          SA: ${{ secrets.GOOGLE_SA_JSON }}
+        run: |
+          if [ -z "$SA" ]; then echo "::notice::GOOGLE_SA_JSON secret not set - skipping Google sitemap resubmit."; exit 0; fi
+          pip install -q google-auth requests
+          python3 - <<'PY'
+          import json, os, urllib.parse, requests
+          from google.oauth2 import service_account
+          from google.auth.transport.requests import Request
+          c = service_account.Credentials.from_service_account_info(json.loads(os.environ["SA"]), scopes=["https://www.googleapis.com/auth/webmasters"])
+          c.refresh(Request())
+          site = urllib.parse.quote("sc-domain:contentfellow.com", safe=""); sm = urllib.parse.quote("https://contentfellow.com/sitemap.xml", safe="")
+          r = requests.put(f"https://www.googleapis.com/webmasters/v3/sites/{site}/sitemaps/{sm}", headers={"Authorization": f"Bearer {c.token}"})
+          print("Google sitemap resubmit:", r.status_code, r.text[:300]); r.raise_for_status()
+          PY
