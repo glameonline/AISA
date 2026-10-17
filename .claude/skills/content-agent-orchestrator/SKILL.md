@@ -44,3 +44,5 @@ Google re-reads `sitemap.xml` on its own (it is listed in robots.txt and was sub
 3. Fix any "Crawled - currently not indexed" or canonical mismatch: strengthen internal links from `/blog/` and related posts, and improve the intro answer.
 4. OpenSEO `submit_indexnow_urls` with only the new or changed URLs (Bing and others). If it says to wait, skip it; the next run retries.
 5. Put "Google indexed X of Y posts" in the report and on the dashboard.
+6. Owner tap list: the `inspect_urls` result's `inspectionResultLink` goes in the `inspect_link` column (these links change, so always store the newest one). Run `python3 tools/index_page.py`, then republish `outputs/index-today/index.html` with the Artifact tool (same file path, keeps https://claude.ai/artifact/CeRpSr7cJiobuvjR3JzwHZ).
+7. If the page lists anything to tap, send ONE PushNotification: "Google: N pages to index, tap: https://claude.ai/artifact/CeRpSr7cJiobuvjR3JzwHZ". Also put that link first in the run summary.

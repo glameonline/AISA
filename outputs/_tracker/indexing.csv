@@ -1,6 +1,20 @@
-date,url,google_status,last_crawl
-2026-10-17,https://contentfellow.com/,Submitted and indexed,2026-10-17
-2026-10-17,https://contentfellow.com/blog/,Submitted and indexed,2026-10-17
-2026-10-17,https://contentfellow.com/blog/llm-optimisation-cost-small-business-uk/,URL is unknown to Google,
-2026-10-17,https://contentfellow.com/blog/app-development-cost-uk/,URL is unknown to Google,
-2026-10-17,https://contentfellow.com/services/development/,URL is unknown to Google,
+date,url,google_status,last_crawl,inspect_link
+2026-10-17,https://contentfellow.com/,Submitted and indexed,2026-10-17,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=RbGoRPjo3Xyy2qgxdj8vAA
+2026-10-17,https://contentfellow.com/blog/,Submitted and indexed,2026-10-17,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=czUXjNsnrNoYtOuEyPlQog
+2026-10-17,https://contentfellow.com/blog/get-business-recommended-by-chatgpt-uk/,Submitted and indexed,2026-10-17,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=aW_wqxQqNhkW13PIZiOXlw
+2026-10-17,https://contentfellow.com/services/development/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=TY-bhg_ByG2qQmRpjoYmog
+2026-10-17,https://contentfellow.com/services/management/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=bbv4w2DdxSLFMCZl-xJzQQ
+2026-10-17,https://contentfellow.com/blog/llm-optimisation-cost-small-business-uk/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=jQjCzN27lr3-E_9ayjQWNQ
+2026-10-17,https://contentfellow.com/blog/geo-vs-seo-uk-small-business/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=3j0h_KzVwPRS3OsXxTmXZw
+2026-10-17,https://contentfellow.com/blog/app-development-cost-uk/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=e7Bij1aINKSwmqTcDnjD6A
+2026-10-17,https://contentfellow.com/blog/website-subscription-vs-one-off-build/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=UKZkY5wKj08DUfyQjifxsA
+2026-10-17,https://contentfellow.com/blog/online-shop-website-cost-uk/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=kTyqzb1qb1TFysJL7LkrQg
+2026-10-17,https://contentfellow.com/blog/website-maintenance-cost-uk/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=vlILx3e_McKYGUQVdHL1nQ
+2026-10-17,https://contentfellow.com/blog/check-if-chatgpt-mentions-your-brand/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=Jk4lqIAKbB9UgzfwbAQpGw
+2026-10-17,https://contentfellow.com/blog/llms-txt-explained/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=oFlo1LqAmxA3ccG52EOpTQ
+2026-10-17,https://contentfellow.com/blog/app-maintenance-cost-uk/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=3KXmsY_ySoHRxRtfuw8RGw
+2026-10-17,https://contentfellow.com/blog/web-app-vs-mobile-app/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=klQq3LtOHcadalRm00T-Ow
+2026-10-17,https://contentfellow.com/blog/how-long-to-build-a-website-uk/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=icOglfTk7v08rYRPijT81g
+2026-10-17,https://contentfellow.com/blog/booking-website-cost-uk/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=lK6EG8Byb769vYh9RUzW4g
+2026-10-17,https://contentfellow.com/blog/restaurant-website-cost-uk/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=KyWRe06Et9HQqwLIeaMTsg
+2026-10-17,https://contentfellow.com/blog/tradesperson-website-cost-uk/,URL is unknown to Google,,https://search.google.com/search-console/inspect?resource_id=sc-domain:contentfellow.com&id=6dkYcBUCbdlEH7UI8pWGCg
