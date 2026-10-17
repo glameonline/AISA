@@ -43,7 +43,7 @@ if ($old[".htaccess"] -notmatch "ContentFellow SEO fixes") {
 } else { Write-Host "   rules already present." }
 
 Write-Host "6/6 Checking pages..."
-foreach ($p in "", "blog/", "services/", "services/search-fellow/", "get-started/", "burnley/", "about/", "faq/", "privacy/", "sitemap.xml", "llms.txt", "llms-full.txt") {
+foreach ($p in "", "blog/", "services/", "services/development/", "services/management/", "services/search-fellow/", "get-started/", "burnley/", "about/", "faq/", "privacy/", "sitemap.xml", "llms.txt", "llms-full.txt") {
   $code = curl.exe -s -o NUL -w "%{http_code}" "https://contentfellow.com/$p"; Write-Host ("  /{0,-28} {1}" -f $p, $code)
 }
 Write-Host ("  www -> non-www: " + (curl.exe -s -o NUL -w "%{http_code} %{redirect_url}" "https://www.contentfellow.com/"))

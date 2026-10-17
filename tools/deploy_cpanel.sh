@@ -56,7 +56,7 @@ else
 fi
 
 echo "6/6 Checking pages..."
-for p in "" blog/ services/ services/search-fellow/ get-started/ burnley/ about/ faq/ privacy/ sitemap.xml llms.txt llms-full.txt; do
+for p in "" blog/ services/ services/development/ services/management/ services/search-fellow/ get-started/ burnley/ about/ faq/ privacy/ sitemap.xml llms.txt llms-full.txt; do
   printf "  %-28s %s\n" "/$p" "$(curl -s -o /dev/null -w '%{http_code}' "https://contentfellow.com/$p")"
 done
 printf "  %-28s %s\n" "www -> non-www" "$(curl -s -o /dev/null -w '%{http_code} %{redirect_url}' https://www.contentfellow.com/)"
