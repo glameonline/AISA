@@ -31,3 +31,18 @@ Owner concern: a client pays £69 once, gets a full site, cancels.
    | Custom web app | from £5,995 | portals, dashboards, member areas (scoped quote) |
    After launch (optional): Hosting & Care £39/mo (hosting, security, backups, no changes) or move onto Build Fellow £69/mo with changes included.
 Market check: UK freelancer £500–£2,500, agency £3,000–£10,000, ecommerce £2,000–£10,000+ (our small-business-website-cost-uk guide).
+
+## Update 17 Oct (2): owner keeps the management plans (Build Fellow £69, app care) as they are. 3 new one-off DEVELOPMENT plans each for websites and apps; owner picks final prices.
+### Websites: UK market (Google UK, 17 Oct)
+- Budget fixed packages: Cheap Web Design £399+VAT (4 pages); Juggernaut Tech £499 (7 pages), £699 (12), £899 (20, SEO), £1,249 (25, booking/shop) + £29.99/mo, 12-month minimum
+- Freelancer brochure site: £500–£3,000 (cheapwebdesign.co.uk); Reddit UK designers: not below £600–£800
+- Glide Marketing: £2,000–£5,000 is the small-business "sweet spot"
+- Agency: GoDaddy UK basic design £4,500; Opace £3,700–£8,600 (freelancer) / £5,700–£14,100 (agency) for 1–5 pages
+- Ecommerce: GoDaddy UK £5,000–£10,000 small/medium; £10,000–£30,000 large
+### Apps: UK market
+- Simple app / MVP: £8,000–£15,000 (Fulminous), £15,000–£40,000 (Foresight Mobile), £15,000–£35,000 (Appscrip)
+- Medium: £40,000–£80,000 (Foresight); complex: £80,000+; Appinventiv UK £23,780–£198,180+
+- Design/prototype only: £3,000–£12,000 (Pixelfield)
+### Suggested starting prices (owner to confirm)
+Web: Launch £795 · Grow £1,795 · Shop/Pro £3,495
+App: App Starter (web app/PWA) £2,995 · App Pro (iOS + Android, ~10 screens) £7,995 · App Custom (backend, payments, admin) from £14,995
