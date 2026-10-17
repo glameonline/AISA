@@ -132,11 +132,11 @@ def service_pages():
                 f'<h2>How it works</h2><ol><li><strong>Tell us about your business</strong> (2-minute form).</li><li><strong>Get your free trial</strong>: {e(TRIAL[key][0].lower())}, no card needed.</li><li><strong>Like it? Start monthly</strong> at {price} a month; change or cancel from the next month.</li></ol>'
                 f'{cta_box(key)}<h2>Frequently asked questions</h2>{"".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in faqs + [("Is there a free trial?", TRIAL[key][1] + " " + TRIAL_TERMS)])}'
                 f'<p><a href="/services/">See all Fellows →</a></p>')
-        page(f"services/{slug}", f"{name}: {short} UK | {price}/month | ContentFellow", f"{name} by ContentFellow: {what} {price} a month, monthly billing, UK.", body, ld)
+        page(f"services/{slug}", f"{name}: {short} | {price}/mo", f"{name} by ContentFellow: {what} {price} a month, monthly billing, UK.", body, ld)
         cards += (f'<a class="card" href="/services/{slug}/" style="text-decoration:none;color:inherit"><h3>{e(name)} · {price}/mo</h3><p class="mut">{e(short)}</p><p>{e(what)}</p>'
                   f'<p style="color:var(--ac);font-weight:700;margin:0">{e(TRIAL[key][0])} →</p></a>')
     ld = [{"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f"{BASE}/services/{x[0]}/", "name": x[1]} for i, x in enumerate(F)]}]
-    page("services", "ContentFellow Services & Prices: Monthly Marketing Plans from £59 (UK)",
+    page("services", "Services & Prices: Plans from £59 (UK) | ContentFellow",
          "Hire a Fellow: SEO & GEO £89, social media £59, websites £69, photo & video £149, editing £119, or the full team £389 a month.",
          f'<h1>Monthly marketing plans for UK small businesses</h1><p class="lead">Hire a Fellow from <strong>£59 a month</strong>: one specialist, or the whole team for £389. Monthly billing, no long contracts, and <strong>every Fellow has a free trial</strong>, no card needed.</p><div class="grid">{cards}</div>{cta_box()}', ld)
 
@@ -161,7 +161,7 @@ def get_started():
             '<p class="mut">Prefer to talk? Reply to our email and we\'ll book a 15-minute call.</p>'
             '<script>(function(){var q=new URLSearchParams(location.search),s=q.get("service");if(s){var b=document.querySelector(\'input[value="\'+s+\'"]\');if(b)b.checked=true}if(q.get("offer")==="trial"||s)document.getElementById("cf-offer").value="trial";else document.getElementById("cf-offer").value="check";'
             'document.getElementById("cf-src").value=[q.get("utm_source")||"",q.get("utm_campaign")||"",document.referrer].join("|")})();</script>')
-    page("get-started", f"{OFFER} for UK Small Businesses | ContentFellow", "See who ChatGPT and Gemini recommend instead of you, and the 3 fixes that matter most. Free, within 2 working days.", form)
+    page("get-started", f"{OFFER} | ContentFellow", "See who ChatGPT and Gemini recommend instead of you, and the 3 fixes that matter most. Free, within 2 working days.", form)
     page("get-started/thanks", "Thanks: your free check is on its way | ContentFellow", "Thanks for your request.",
          '<h1>Thanks, we\'ve got it.</h1><p class="lead">We\'ll email you within 1 working day to start your free trial or send your free AI visibility check. Check your spam folder if you don\'t see it.</p>'
          '<p>While you wait: <a href="/blog/get-business-recommended-by-chatgpt-uk/">how to get your business recommended by ChatGPT</a>.</p>'
@@ -219,7 +219,7 @@ def local_page():
             f'<div class="cf-reviews" data-service="all" hidden></div>{cta_box()}'
             f'<h2>Frequently asked questions</h2>{"".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in faqs)}'
             f'<p>Guides: <a href="/blog/get-business-recommended-by-chatgpt-uk/">get recommended by ChatGPT</a> · <a href="/blog/video-production-cost-uk/">video production costs</a> · <a href="/blog/small-business-website-cost-uk/">website costs</a></p>')
-    page("burnley", "Marketing, Video & Websites in Burnley, Lancashire | ContentFellow", "Burnley-based ContentFellow: on-site photo and video shoots, editing, social media, websites and SEO & GEO from £59 a month. Free trial on every service.", body, ld)
+    page("burnley", "Burnley Marketing, Video & Websites | ContentFellow", "Burnley-based ContentFellow: on-site photo and video shoots, editing, social media, websites and SEO & GEO from £59 a month. Free trial on every service.", body, ld)
 
 def about_page():
     facts = [("Name", "ContentFellow (one word; not related to Contentful, the software company)"), ("What it is", "A UK marketing service for small businesses, sold as monthly plans called \"Fellows\""),
@@ -238,7 +238,7 @@ def about_page():
             f'<h2>Key facts</h2><table>{rows}</table><h2>The Fellows</h2><ul>{plans}</ul>'
             f'<h2>How we work</h2><ul><li>Published prices, monthly billing, no long contracts.</li><li>You approve every video, post and website change before it goes live; videos include two rounds of revisions.</li><li>We publish our pricing research openly in our <a href="/blog/">guides</a>, including comparisons with other providers.</li></ul>'
             f'<h2>Not to be confused with</h2><p>ContentFellow is not Contentful (a content management software company) and is not affiliated with it.</p>{cta_box()}')
-    page("about", "About ContentFellow: UK Small Business Marketing, Burnley", "ContentFellow is a Burnley-based UK marketing service: monthly plans from £59 for video, editing, social, websites and SEO & GEO. Key facts, prices and how we work.", body, ld)
+    page("about", "About ContentFellow: UK Small Business Marketing, Burnley", "Burnley-based UK marketing service: monthly plans from £59 for video, social, websites and SEO & GEO. Key facts, prices and how we work.", body, ld)
 
 FAQ_HUB = [
  ("Pricing", [("How much does ContentFellow cost?", "Plans start at £59 a month. Social Fellow £59 or £129, Build Fellow £69, Search Fellow £89, Creator Fellow £119, Studio Fellow £149, or the Growth Fellow (all five) £389 a month."),

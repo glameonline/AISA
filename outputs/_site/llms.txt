@@ -39,7 +39,16 @@
 - Apps: App Starter £1,249 (web app), App Pro £3,499 (iPhone + Android, 10 screens), App Custom from £6,499
 - Details: https://contentfellow.com/services/development/
 
+## Development (one-off, fixed price)
+- Websites: Launch £349 (up to 7 pages), Grow £749 (up to 15 pages, blog, booking), Shop £1,499 (up to 100 products)
+- Apps: App Starter £1,249 (web app), App Pro £3,499 (iPhone + Android, 10 screens), App Custom from £6,499
+- Details: https://contentfellow.com/services/development/
+
 ## Guides
+- [How to Check if ChatGPT, Gemini and Perplexity Mention Your Business (UK Guide)](https://contentfellow.com/blog/check-if-chatgpt-mentions-your-brand/): A free 20-minute test to see whether ChatGPT, Gemini and Perplexity recommend your business, how to track it monthly, and what to fix if they don't.
+- [llms.txt Explained: Should Your Small Business Have One? (2026)](https://contentfellow.com/blog/llms-txt-explained/): What llms.txt is, what Google and the research say about it in 2026, and what actually gets UK small businesses mentioned by ChatGPT and Gemini.
+- [Website Subscription vs One-Off Build: Which Is Cheaper for UK Small Businesses?](https://contentfellow.com/blog/website-subscription-vs-one-off-build/): Pay monthly or buy your website outright? Three-year costs side by side, what each includes, and which suits UK small businesses best in 2026.
+- [How Much Does App Development Cost in the UK? (2026 Prices)](https://contentfellow.com/blog/app-development-cost-uk/): UK app development costs £8,000 to £80,000+ at agencies. What simple, medium and complex apps cost, upkeep, and cheaper routes for small businesses.
 - [Video Editing Subscriptions Compared: Best Value for Small Businesses (2026)](https://contentfellow.com/blog/video-editing-subscription-comparison/): From $99 to $1,700+ a month: price per video, formats and which plan fits a small business.
 - [Pay Monthly Websites UK: 2026 Price Comparison for Small Businesses](https://contentfellow.com/blog/pay-monthly-website-uk-comparison/): £49–£199 a month, no upfront fee: published prices and the ownership questions to ask.
 - [Affordable Social Media Management for UK Small Businesses: 2026 Price Comparison](https://contentfellow.com/blog/affordable-social-media-management-uk/): Published UK package prices from £59 to £3,499, the extras that double them, and red flags.

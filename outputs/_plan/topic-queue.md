@@ -8,8 +8,8 @@
 - [x] Video production costs for UK small businesses (Studio Fellow) — 2026-10-16 (queued for publish)
 - [x] Outsourced marketing team vs agency vs in-house: UK costs (Growth Fellow) — 2026-10-16 (queued for publish)
 - [x] Video editing costs UK: Reels, YouTube, podcasts (Creator Fellow) — 2026-10-16 (queued for publish)
-- [ ] How much does app development cost in the UK in 2026? (App Fellow)
-- [ ] Website subscription vs one-off build: which is cheaper for UK small businesses? (Dev Fellow)
-- [ ] llms.txt explained: should your business have one?
-- [ ] How to check if ChatGPT, Gemini and Perplexity mention your brand
+- [x] How much does app development cost in the UK in 2026? (App Fellow) — 2026-10-17 (queued for publish)
+- [x] Website subscription vs one-off build: which is cheaper for UK small businesses? (Dev Fellow) — 2026-10-17 (queued for publish)
+- [x] llms.txt explained: should your business have one? — 2026-10-17 (queued for publish)
+- [x] How to check if ChatGPT, Gemini and Perplexity mention your brand — 2026-10-17 (queued for publish)
 - [ ] (EU) GEO cost in Ireland (€) · (EU) KI-Suchoptimierung Kosten (DE) · (EU) Coût du GEO pour les PME (FR)

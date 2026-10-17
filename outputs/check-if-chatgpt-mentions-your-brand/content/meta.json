@@ -1,0 +1,52 @@
+{
+  "title": "How to Check if ChatGPT, Gemini and Perplexity Mention Your Business (UK Guide)",
+  "meta_title": "How to Check if ChatGPT Mentions Your Business (UK)",
+  "meta_description": "A free 20-minute test to see whether ChatGPT, Gemini and Perplexity recommend your business, how to track it monthly, and what to fix if they don't.",
+  "slug": "check-if-chatgpt-mentions-your-brand",
+  "keywords": [
+    "check if chatgpt mentions my business",
+    "ai visibility check",
+    "brand mentions in chatgpt",
+    "track ai search visibility"
+  ],
+  "tags": [
+    "GEO",
+    "AI search",
+    "Tracking"
+  ],
+  "category": "SEO & GEO",
+  "cta": "Free AI visibility check",
+  "url": "https://contentfellow.com/blog/check-if-chatgpt-mentions-your-brand/",
+  "faq": [
+    {
+      "q": "How do I know if ChatGPT recommends my business?",
+      "a": "Ask ChatGPT the questions your customers ask, in a fresh logged-out chat, and see whether your business is named. Repeat across several questions and record the results."
+    },
+    {
+      "q": "Why does ChatGPT recommend my competitors and not me?",
+      "a": "Usually because competitors are mentioned on more trusted sites (reviews, directories, best-of lists) and have clearer pages answering the exact question."
+    },
+    {
+      "q": "How often should I check AI visibility?",
+      "a": "Monthly is enough for most small businesses. AI answers change, so compare the same prompts each month."
+    },
+    {
+      "q": "Can I see ChatGPT traffic in Google Analytics?",
+      "a": "Yes, as referrals from chatgpt.com and similar domains, but many AI answers send no click, so GA4 shows only part of the picture."
+    },
+    {
+      "q": "Do Gemini and ChatGPT give the same answers?",
+      "a": "No. Each assistant uses different sources and can name different businesses, so test all the main ones."
+    }
+  ],
+  "images": [
+    {
+      "file": "check-if-chatgpt-mentions-your-brand-featured.png",
+      "alt": "How to check if ChatGPT, Gemini and Perplexity mention your business: 20-minute monthly test"
+    },
+    {
+      "file": "check-if-chatgpt-mentions-your-brand-diagram.png",
+      "alt": "Four-step AI visibility test: list questions, ask each AI, record results, fix and repeat"
+    }
+  ]
+}

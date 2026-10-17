@@ -1,0 +1,4 @@
+# Brief: llms.txt explained (17 Oct 2026)
+Primary: llms.txt · Secondary: what is llms.txt, does llms.txt help seo, llms.txt for small business, should I add llms.txt
+Facts (Google UK 17 Oct): proposed by Jeremy Howard (Answer.AI), Sept 2024. Google added "Clarifying guidance on llms.txt files" to its AI optimization guide on 15 June 2026: no effect on Search rankings or AI Overviews. Mueller (2025) compared it to meta keywords; Illyes (July 2025) said Google doesn't support it. SE Ranking 300k-domain study: ~10% adoption, no link to AI citations. OtterlyAI: 84 of 62,100 AI bot requests hit llms.txt. Limy: 408 of 500M AI bot visits. Coding assistants (Cursor, Copilot) do read it.
+Angle: honest. Many agencies sell llms.txt as a GEO lever; we say it's a 10-minute optional extra and point to what works. Builds trust and AI citability.

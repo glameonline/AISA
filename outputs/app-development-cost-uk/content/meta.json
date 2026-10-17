@@ -1,0 +1,52 @@
+{
+  "title": "How Much Does App Development Cost in the UK? (2026 Prices)",
+  "meta_title": "App Development Cost UK 2026: Real Prices Explained",
+  "meta_description": "UK app development costs £8,000 to £80,000+ at agencies. What simple, medium and complex apps cost, upkeep, and cheaper routes for small businesses.",
+  "slug": "app-development-cost-uk",
+  "keywords": [
+    "app development cost uk",
+    "how much does it cost to build an app uk",
+    "mvp development cost uk",
+    "app maintenance cost uk"
+  ],
+  "tags": [
+    "App development",
+    "Pricing",
+    "UK small business"
+  ],
+  "category": "Development",
+  "cta": "App Pro £3,499",
+  "url": "https://contentfellow.com/blog/app-development-cost-uk/",
+  "faq": [
+    {
+      "q": "How much does a simple app cost in the UK?",
+      "a": "A simple app or MVP from a UK agency usually costs £8,000 to £40,000. A web app that installs from the browser can cost much less, from about £1,249 with a fixed-price provider."
+    },
+    {
+      "q": "How much does it cost to maintain an app?",
+      "a": "Expect store fees (£79 a year for Apple), hosting from about £10 a month, and a maintenance plan. UK studios charge £675 to £1,495 a month; smaller providers start from around £149 a month."
+    },
+    {
+      "q": "Is it cheaper to build a web app or a native app?",
+      "a": "A web app is usually cheaper because one build works on every device and there are no app store reviews. Native iPhone and Android apps cost more but can use more phone features."
+    },
+    {
+      "q": "How long does it take to build an app?",
+      "a": "A simple app usually takes 4 to 8 weeks, a medium-complexity app 2 to 4 months, and a complex app 4 months or more."
+    },
+    {
+      "q": "Do I own my app after it is built?",
+      "a": "You should. Check your contract says you own the code, the app store listings and the data, whichever provider you use."
+    }
+  ],
+  "images": [
+    {
+      "file": "app-development-cost-uk-featured.png",
+      "alt": "App development cost UK 2026: web app from £1,249, simple app £8k to £40k, medium £40k to £80k"
+    },
+    {
+      "file": "app-development-cost-uk-diagram.png",
+      "alt": "Four app cost drivers: platforms, screens and features, backend, ongoing upkeep"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "title": "llms.txt Explained: Should Your Small Business Have One? (2026)",
+  "meta_title": "llms.txt Explained: Does Your Business Need One? (2026)",
+  "meta_description": "What llms.txt is, what Google and the research say about it in 2026, and what actually gets UK small businesses mentioned by ChatGPT and Gemini.",
+  "slug": "llms-txt-explained",
+  "keywords": [
+    "llms.txt",
+    "what is llms.txt",
+    "does llms.txt help seo",
+    "llms.txt for small business"
+  ],
+  "tags": [
+    "GEO",
+    "AI search",
+    "Technical SEO"
+  ],
+  "category": "SEO & GEO",
+  "cta": "Search Fellow £89/mo",
+  "url": "https://contentfellow.com/blog/llms-txt-explained/",
+  "faq": [
+    {
+      "q": "What is llms.txt?",
+      "a": "A Markdown file at the root of a website that lists its key pages with short descriptions so AI tools can find them. It was proposed by Jeremy Howard of Answer.AI in 2024."
+    },
+    {
+      "q": "Does llms.txt improve Google rankings?",
+      "a": "No. Google said in June 2026 that llms.txt has no effect on Search rankings or AI Overviews."
+    },
+    {
+      "q": "Does ChatGPT read llms.txt?",
+      "a": "There's no public confirmation that ChatGPT's answer engine uses it. Studies of AI bot traffic show crawlers rarely request the file."
+    },
+    {
+      "q": "Is llms.txt the same as robots.txt?",
+      "a": "No. robots.txt controls which crawlers can access your site; llms.txt only suggests which pages matter and can't block anything."
+    },
+    {
+      "q": "What should I do instead to appear in AI answers?",
+      "a": "Allow AI crawlers, add structured data, write answer-first pages with clear prices, and earn reviews and mentions on trusted UK sites."
+    }
+  ],
+  "images": [
+    {
+      "file": "llms-txt-explained-featured.png",
+      "alt": "llms.txt explained for small businesses: about 10% of sites use it, no Google ranking effect"
+    },
+    {
+      "file": "llms-txt-explained-diagram.png",
+      "alt": "Four things that get businesses named by AI assistants: crawler access, structured data, answer-first pages, mentions"
+    }
+  ]
+}
