@@ -24,3 +24,4 @@ Deploy = copy everything in outputs/_site/ into public_html/ (keep the existing 
 - [x] GSC request indexing /services/ + /blog/ (owner, 17 Oct); sitemap via robots.txt
 - [ ] /services/development/ (new, 17 Oct) + updated services/index.html, sitemap.xml, llms.txt
 - [ ] /services/management/ (new, 17 Oct) + updated services/index.html, sitemap.xml, llms.txt
+- [ ] Backlinks: work outputs/_plan/backlinks.md (skill: backlink-builder)
