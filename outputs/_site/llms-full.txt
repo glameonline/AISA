@@ -174,11 +174,11 @@ No card needed. One free trial per business, UK businesses only. We take a limit
 
 ## What's included
 
-- Up to 3 platforms (e.g. Instagram, Facebook, TikTok or LinkedIn)
+- Manage (£59/mo): account management on up to 2 platforms, replies to comments and messages every weekday, ad campaigns set up and managed (ad spend separate)
 
-- Daily posting with the Manage + Post plan (£129/mo)
+- Manage + Post (£129/mo): everything in Manage on up to 3 platforms, plus daily posting from a monthly content calendar
 
-- Trend research: formats, sounds and topics
+- Trend research, hooks and hashtags built for reach (Manage + Post)
 
 - You approve content before it goes live
 
@@ -208,7 +208,7 @@ Get my free check →
 ## Frequently asked questions
 
 ### What's the difference between Manage and Manage + Post?
-Both cover up to three platforms with trend research; Manage + Post (£129 a month) includes daily posting for you.
+Manage (£59 a month) covers account management on up to 2 platforms, weekday replies to comments and messages, and ad campaign set-up. Manage + Post (£129 a month) adds daily posting from a monthly content calendar, trend research, and up to 3 platforms.
 
 ### Do I approve posts?
 Yes. Content is shared with you for approval before it goes live.
@@ -581,7 +581,7 @@ Yes. We design a free homepage preview within 3 working days.
 ## Social media
 
 ### How much is social media management?
-The Social Fellow is £59 a month (Manage) or £129 a month (Manage + Post), covering up to three platforms with trend research.
+The Social Fellow is £59 a month (Manage: up to 2 platforms, weekday replies, ad set-up) or £129 a month (Manage + Post: up to 3 platforms with daily posting and trend research).
 
 ### Do I approve posts?
 Yes, every post is shared with you for approval before it goes live.
@@ -758,7 +758,7 @@ What the price covers (as published) |
 
 ContentFellow Social Fellow | 
 £59 a month (Manage) or £129 a month (Manage + Post) | 
-Up to 3 platforms, daily posting on Manage + Post, trend research, free 7-day trial | 
+Manage: up to 2 platforms, weekday replies, ad set-up. Manage + Post: up to 3 platforms, daily posting, trend research. Free 7-day trial | 
 
 Wrise | 
 £99 a month + VAT | 
@@ -823,7 +823,7 @@ Add a video service, e.g. video production or editing |
 
 ## How the Social Fellow compares
 
-The Social Fellow is £59 a month (Manage) or £129 a month (Manage + Post), covering up to three platforms with trend research, and daily posting on Manage + Post. Billing is monthly, you approve content before it goes live, and you can try it free for 7 days (a short content plan and 5 posts on one platform; you keep the content).
+The Social Fellow is £59 a month (Manage) or £129 a month (Manage + Post), where Manage covers up to 2 platforms with weekday replies and ad set-up, and Manage + Post covers up to 3 platforms with daily posting and trend research. Billing is monthly, you approve content before it goes live, and you can try it free for 7 days (a short content plan and 5 posts on one platform; you keep the content).
 
 Start your free Social Fellow trial →
 
@@ -1828,7 +1828,7 @@ Businesses posting a lot every day |
 
 Monthly plan (Social Fellow) | 
 £59 or £129 | 
-Up to 3 platforms, daily posting, trend research | 
+Manage: 2 platforms + replies; Manage + Post: 3 platforms + daily posting | 
 Small businesses wanting consistency on a budget | 
 
 Sources: Birdeye's UK pricing guide puts most UK social media marketing at £500–£5,000 a month. Kraken's 2026 analysis puts single-channel agency retainers at £1,250–£3,500 (Whito data) and the average UK freelance social media day rate at £334 (YunoJuno).
@@ -1877,7 +1877,7 @@ A good provider answers all six in writing.
 
 ## How ContentFellow prices social media
 
-The Social Fellow has two levels: Manage at £59 a month and Manage + Post at £129 a month. Both cover up to three platforms, with daily posting and trend research. You approve content before it goes live, billing is monthly, and you can add, remove or upgrade Fellows from the next month.
+The Social Fellow has two levels: Manage at £59 a month and Manage + Post at £129 a month. Manage covers up to 2 platforms with weekday replies to comments and messages and ad campaign set-up; Manage + Post covers up to 3 platforms with daily posting from a monthly content calendar and trend research. You approve content before it goes live, billing is monthly, and you can add, remove or upgrade Fellows from the next month.
 
 Need video too? The Growth Fellow bundles social, shoots, editing, website and search for £389 a month. See our breakdown of outsourced marketing vs agency vs in-house costs.
 

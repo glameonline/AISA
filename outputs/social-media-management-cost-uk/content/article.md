@@ -34,7 +34,7 @@ Cheaper quotes often cover only scheduling and posting. Before comparing prices,
 | Small agency | £500–£1,500 | Posting, content, light reporting | Businesses wanting a team without a big retainer |
 | Agency (per channel) | £1,250–£3,500 | Strategy, content, community, reporting | Larger SMEs with paid ads |
 | In-house hire | ~£3,290 | One person, full-time | Businesses posting a lot every day |
-| Monthly plan (Social Fellow) | £59 or £129 | Up to 3 platforms, daily posting, trend research | Small businesses wanting consistency on a budget |
+| Monthly plan (Social Fellow) | £59 or £129 | Manage: 2 platforms + replies; Manage + Post: 3 platforms + daily posting | Small businesses wanting consistency on a budget |
 
 Sources: Birdeye's UK pricing guide puts most UK social media marketing at £500–£5,000 a month. Kraken's 2026 analysis puts single-channel agency retainers at £1,250–£3,500 (Whito data) and the average UK freelance social media day rate at £334 (YunoJuno).
 
@@ -74,7 +74,7 @@ A good provider answers all six in writing.
 
 ## How ContentFellow prices social media
 
-The **[Social Fellow](/services/social-fellow/)** has two levels: **Manage at £59 a month** and **Manage + Post at £129 a month**. Both cover up to three platforms, with daily posting and trend research. You approve content before it goes live, billing is monthly, and you can add, remove or upgrade Fellows from the next month.
+The **[Social Fellow](/services/social-fellow/)** has two levels: **Manage at £59 a month** and **Manage + Post at £129 a month**. Manage covers up to 2 platforms with weekday replies to comments and messages and ad campaign set-up; Manage + Post covers up to 3 platforms with daily posting from a monthly content calendar and trend research. You approve content before it goes live, billing is monthly, and you can add, remove or upgrade Fellows from the next month.
 
 Need video too? The [Growth Fellow](/services/growth-fellow/) bundles social, shoots, editing, website and search for £389 a month. See our breakdown of [outsourced marketing vs agency vs in-house costs](/blog/outsourced-marketing-team-cost-uk/).
 

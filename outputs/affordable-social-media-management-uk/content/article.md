@@ -18,7 +18,7 @@ market: en-GB
 
 | Provider / type | Published price | What the price covers (as published) |
 |---|---|---|
-| ContentFellow Social Fellow | £59 a month (Manage) or £129 a month (Manage + Post) | Up to 3 platforms, daily posting on Manage + Post, trend research, free 7-day trial |
+| ContentFellow Social Fellow | £59 a month (Manage) or £129 a month (Manage + Post) | Manage: up to 2 platforms, weekday replies, ad set-up. Manage + Post: up to 3 platforms, daily posting, trend research. Free 7-day trial |
 | Wrise | £99 a month + VAT | Starter package; extras: platform £40, post £40, reporting £30, engagement £120 a month |
 | Freelancers (Birdeye UK guide) | £200–£500 a month | Basic help |
 | Hello Social Avenue | Entry level £250–£500; partner package from £950 a month | Light support to done-with-you |
@@ -56,7 +56,7 @@ A £99 package with a second platform (£40), monthly reporting (£30) and engag
 
 ## How the Social Fellow compares
 
-The **[Social Fellow](/services/social-fellow/)** is **£59 a month (Manage)** or **£129 a month (Manage + Post)**, covering up to three platforms with trend research, and daily posting on Manage + Post. Billing is monthly, you approve content before it goes live, and you can **try it free for 7 days** (a short content plan and 5 posts on one platform; you keep the content).
+The **[Social Fellow](/services/social-fellow/)** is **£59 a month (Manage)** or **£129 a month (Manage + Post)**, where Manage covers up to 2 platforms with weekday replies and ad set-up, and Manage + Post covers up to 3 platforms with daily posting and trend research. Billing is monthly, you approve content before it goes live, and you can **try it free for 7 days** (a short content plan and 5 posts on one platform; you keep the content).
 
 **[Start your free Social Fellow trial →](/services/social-fellow/)**
 

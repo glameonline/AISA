@@ -4,7 +4,7 @@ Voice: British English, short confident sentences, plain words, no jargon withou
 ## Plans (brand pricing; personal plans 15% lower)
 - Studio Fellow £149/mo — 1 on-site shoot/month (≤3h), photo + 4K video, 20 edited photos in 5 working days
 - Creator Fellow £119/mo — 8 short videos, 1 motion graphics video, 1 podcast edit (≤60 min)
-- Social Fellow £59/mo Manage · £129/mo Manage + Post (≤3 platforms, daily posting, trend research)
+- Social Fellow £59/mo Manage (≤2 platforms, weekday replies, ad set-up) · £129/mo Manage + Post (≤3 platforms, daily posting, trend research)
 - Build Fellow £69/mo — custom site ≤5 pages, hosting/security/updates, 2 change requests/month
 - **Search Fellow £89/mo — SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, monthly ranking + AI visibility report**
 - Growth Fellow £389/mo (vs £555 separately, save £166) — all 5 Fellows, Growth lead, one strategy, monthly call + combined report

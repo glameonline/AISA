@@ -249,6 +249,10 @@ section.block{position:relative;padding-block:clamp(80px,12vw,150px)}
 .pts{list-style:none;margin:0;padding:0;display:grid;gap:9px}
 .pts li{display:grid;grid-template-columns:18px 1fr;gap:10px;font-size:14.5px;line-height:1.45}
 .pts li::before{content:"";width:16px;height:16px;margin-top:2px;border-radius:50%;background:rgba(242,106,27,.14) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.5 8.2l2.2 2.2 4.8-4.8' fill='none' stroke='%23ff9a4a' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/100% no-repeat}
+.c-trial{display:flex;align-items:center;gap:8px;margin:-2px 0 2px;padding:8px 12px;border-radius:10px;background:rgba(242,106,27,.1);border:1px solid rgba(242,106,27,.28);font-size:13.5px;color:var(--silver-hi)}
+.c-trial svg{width:16px;height:16px;color:var(--orange-hi);flex:none}.c-trial b{color:var(--orange-hi);font-weight:700}
+.c-trial-btn{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:10px;min-height:42px;border-radius:999px;border:1px dashed rgba(242,106,27,.55);color:var(--orange-hi);font-weight:600;font-size:14px;text-decoration:none;transition:background .25s}
+.c-trial-btn:hover{background:rgba(242,106,27,.12)}.c-trial-btn svg{width:14px;height:14px}
 .tiers{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:5px;border-radius:12px;background:rgba(255,255,255,.04);border:1px solid var(--line)}
 .tiers button{padding:9px 8px;border-radius:9px;font-size:13px;font-weight:600;color:var(--silver);transition:.25s;line-height:1.2}
 .tiers button small{display:block;font:500 11px/1.3 var(--mono);color:var(--mute);margin-top:3px}
@@ -699,6 +703,9 @@ const gbp=n=>'£'+Math.round(n).toLocaleString('en-GB');
 const ICON_PLUS='<svg viewBox="0 0 16 16"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
 const ICON_ARROW='<svg viewBox="0 0 16 16"><path d="M3 8h9M8.5 4.5L12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
+const TRIAL={studio:'Free mini shoot',creator:'3 free videos',social:'Free 7-day trial',build:'Free homepage preview',search:'Free 7-day trial',growth:'Free 7-day trial'};
+const trialLine=id=>`<div class="c-trial"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>${TRIAL[id]}</b> · no card needed</span></div>`;
+const trialBtn=id=>`<a class="c-trial-btn" href="/get-started/?service=${id}&amp;offer=trial">Start free trial ${ICON_ARROW}</a>`;
 /* ================= DATA ================= */
 const FELLOWS=[
  {id:'studio',name:'Studio Fellow',role:'Production',price:149,scene:'studio',
@@ -807,17 +814,19 @@ function cardHTML(f){
   return `<div class="glare"></div><div class="scene"></div><div class="c-body">
     <div class="c-top"><div><div class="c-role">${f.role}</div><h3 class="c-name">${f.name}</h3></div>
       <div class="price"><div class="amt" data-amt>${gbp(priceOf(f,tier))}</div><div class="per">per month</div></div></div>
+    ${trialLine(f.id)}
     ${f.tiers?`<div class="tiers" role="group" aria-label="Social Fellow plan">${Object.entries(f.tiers).map(([k,t])=>`<button type="button" data-tier="${k}" aria-pressed="${k===tier}">${t.label}<small>${gbp(t.price*mult())}/mo</small></button>`).join('')}</div>`:''}
     <ul class="pts">${pts.map(p=>`<li>${p}</li>`).join('')}</ul>
-    <div class="c-actions"><button type="button" class="btn btn-p" data-add="${f.id}">${ICON_PLUS}<span>Add to crew</span></button><button type="button" class="btn btn-g" data-open="${f.id}" aria-label="Details for ${f.name}">Details ${ICON_ARROW}</button></div></div>`;
+    <div class="c-actions"><button type="button" class="btn btn-p" data-add="${f.id}">${ICON_PLUS}<span>Add to crew</span></button><button type="button" class="btn btn-g" data-open="${f.id}" aria-label="Details for ${f.name}">Details ${ICON_ARROW}</button></div>${trialBtn(f.id)}</div>`;
 }
 function growthCard(){
   const g=growthCalc();
   return `<span class="badge">Best value</span><div class="glare"></div><div class="scene"></div><div class="c-body">
     <div class="c-top"><div><div class="c-role">${GROWTH.role}</div><h3 class="c-name">${GROWTH.name}</h3></div>
       <div class="price"><s>${gbp(g.was)}</s><div class="amt" data-amt>${gbp(g.now)}</div><div class="per">per month</div></div></div>
+    ${trialLine('growth')}
     <ul class="pts">${GROWTH.points.map(p=>`<li>${p}</li>`).join('')}</ul>
-    <div class="c-actions"><a class="btn btn-p" href="#growth">Build your plan ${ICON_ARROW}</a><button type="button" class="btn btn-g" data-open="growth" aria-label="Details for Growth Fellow">Details</button></div></div>`;
+    <div class="c-actions"><a class="btn btn-p" href="#growth">Build your plan ${ICON_ARROW}</a><button type="button" class="btn btn-g" data-open="growth" aria-label="Details for Growth Fellow">Details</button></div>${trialBtn('growth')}</div>`;
 }
 function renderCards(){
   grid.innerHTML='';
@@ -894,26 +903,34 @@ function renderCrew(){
     return `<div class="line-item"><div><h5>${nameOf(c.fid)}</h5><div class="sub">${sub}</div>${c.note?`<div class="sub">Note: ${esc(c.note)}</div>`:''}</div><div class="pr">${gbp(lineTotal(c))}<div class="sub">/mo</div></div>
       <div class="acts">${c.fid!=='growth'?`<button type="button" data-edit="${c.fid}">Edit</button>`:`<button type="button" data-goto="growth">Edit</button>`}<button type="button" data-rm="${idx}">Remove</button></div></div>`}).join('')+
     `<p style="font-size:13px;color:var(--mute);margin:16px 0 0">Prices are ${S.aud==='self'?'personal':'brand'} plan prices. Switch in the Fellows section.</p>`;
-  foot.innerHTML=`<div class="tot"><div class="k">Monthly total<br>${S.crew.length} Fellow${S.crew.length>1?'s':''}</div><div class="v">${gbp(crewTotal())}<small> /mo</small></div></div><button type="button" class="btn btn-p" id="toForm">Continue ${ICON_ARROW}</button>`;
+  foot.innerHTML=`<div class="tot"><div class="k">Monthly total<br>${S.crew.length} Fellow${S.crew.length>1?'s':''}</div><div class="v">${gbp(crewTotal())}<small> /mo</small></div></div><button type="button" class="btn btn-p" id="toForm">Start free trial ${ICON_ARROW}</button><p style="grid-column:1/-1;margin:8px 0 0;font-size:12.5px;color:var(--mute)">Every Fellow starts with a free trial. No card needed; you only pay if you continue.</p>`;
 }
 const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const state={crewMode:'list'};
 function renderForm(){
   $('#cBody').innerHTML=`<form id="reqForm" class="d-sec" style="border:0" novalidate>
-    <h4>Your details</h4>
+    <h4>Start your free trial</h4><p style="margin:0 0 6px;font-size:13.5px;color:var(--mute)">No card needed. We reply within 1 working day to set up your trial.</p>
     <label class="f" for="f-name">Full name<input type="text" id="f-name" autocomplete="name" required></label>
     <label class="f" for="f-email">Email<input type="email" id="f-email" autocomplete="email" required></label>
     <label class="f" for="f-phone">Phone (optional)<input type="tel" id="f-phone" autocomplete="tel"></label>
     <label class="f" for="f-brand">${S.aud==='self'?'Your handle or website':'Brand name'}<input type="text" id="f-brand"></label>
     <label class="f" for="f-goal">What do you want to achieve?<textarea id="f-goal" rows="3" placeholder="For example: grow Instagram to 10K, launch a new website, get more bookings"></textarea></label>
+    <label style="display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--silver)"><input type="checkbox" id="f-ok" style="margin-top:3px"> I agree ContentFellow can contact me about my request. <a href="/privacy/" style="color:var(--orange-hi)">Privacy</a></label>
     <p class="warn" id="fErr" style="color:var(--orange-hi);margin:0;min-height:1.2em"></p></form>`;
-  $('#cFoot').innerHTML=`<div class="tot"><div class="k">Monthly total</div><div class="v">${gbp(crewTotal())}<small> /mo</small></div></div><div style="display:grid;grid-template-columns:auto 1fr;gap:10px"><button type="button" class="btn btn-g" id="backList">Back</button><button type="submit" form="reqForm" class="btn btn-p">Send request</button></div>`;
+  $('#cFoot').innerHTML=`<div class="tot"><div class="k">Monthly total</div><div class="v">${gbp(crewTotal())}<small> /mo</small></div></div><div style="display:grid;grid-template-columns:auto 1fr;gap:10px"><button type="button" class="btn btn-g" id="backList">Back</button><button type="submit" form="reqForm" class="btn btn-p" id="fSend">Start my free trial</button></div>`;
   $('#reqForm').addEventListener('submit',e=>{e.preventDefault();const n=$('#f-name').value.trim(),em=$('#f-email').value.trim();
     if(!n){$('#fErr').textContent='Add your name so we know who to reply to.';$('#f-name').focus();return}
     if(!/^\S+@\S+\.\S+$/.test(em)){$('#fErr').textContent='Add a valid email address so we can confirm your plan.';$('#f-email').focus();return}
-    const sum=summaryText(n,em);state.crewMode='done';
-    $('#cBody').innerHTML=`<div class="done"><div class="ok"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div><h3 style="font-size:22px">Request received</h3><p style="margin:0">Thanks ${esc(n.split(' ')[0])}. We'll email ${esc(em)} within 24 hours to confirm your plan and book your kickoff call.</p><pre id="sumTxt">${esc(sum)}</pre></div>`;
-    $('#cFoot').innerHTML=`<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px"><button type="button" class="btn btn-g" id="copySum">Copy summary</button><button type="button" class="btn btn-w" id="newCrew">Done</button></div>`;});
+    if(!$('#f-ok').checked){$('#fErr').textContent='Please tick the box so we can contact you.';return}
+    const sum=summaryText(n,em);const fd=new FormData();
+    fd.append('offer','trial');fd.append('name',n);fd.append('email',em);fd.append('phone',$('#f-phone').value.trim());
+    fd.append('business',$('#f-brand').value.trim()||n);fd.append('area','Homepage crew order');fd.append('budget',gbp(crewTotal())+'/mo ('+(S.aud==='self'?'personal':'brand')+')');
+    S.crew.forEach(c=>{(c.fid==='growth'?['growth']:[c.fid]).forEach(x=>fd.append('services[]',x))});
+    fd.append('message',($('#f-goal').value.trim()?'Goal: '+$('#f-goal').value.trim()+'\n\n':'')+sum);fd.append('consent','yes');fd.append('source','homepage-crew|'+document.referrer);
+    $('#fSend').disabled=true;$('#fSend').textContent='Sending...';
+    fetch('/get-started/submit.php',{method:'POST',body:fd}).then(r=>{if(!r.ok)throw 0;try{gtag('event','generate_lead',{currency:'GBP',value:crewTotal()})}catch(_){}}).catch(()=>{$('#fErr').innerHTML='Could not send. Please use <a href="/get-started/" style="color:var(--orange-hi)">this form</a> instead.';$('#fSend').disabled=false;$('#fSend').textContent='Start my free trial';throw 'x'}).then(()=>{state.crewMode='done';
+    $('#cBody').innerHTML=`<div class="done"><div class="ok"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div><h3 style="font-size:22px">Free trial requested</h3><p style="margin:0">Thanks ${esc(n.split(' ')[0])}. We'll email ${esc(em)} within 1 working day to start your free trial. Check your spam folder if you don't see it.</p><pre id="sumTxt">${esc(sum)}</pre></div>`;
+    $('#cFoot').innerHTML=`<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px"><button type="button" class="btn btn-g" id="copySum">Copy summary</button><button type="button" class="btn btn-w" id="newCrew">Done</button></div>`;}).catch(()=>{});});
 }
 function summaryText(n,em){return `ContentFellow plan request\nName: ${n}\nEmail: ${em}\nPlan type: ${S.aud==='self'?'Personal':'Brand'}\n\n`+S.crew.map(c=>`• ${nameOf(c.fid)} — ${gbp(lineTotal(c))}/mo`).join('\n')+`\n\nMonthly total: ${gbp(crewTotal())}`}
 $('#crew').addEventListener('click',e=>{
