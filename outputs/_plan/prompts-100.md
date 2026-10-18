@@ -123,4 +123,4 @@ Written 17 Oct 2026. These are the questions buyers type into ChatGPT, Gemini, C
 100. Questions to ask before hiring a marketing agency UK
 
 ## Already have a blog answer (live)
-2, 25, 35, 36, 45, 46, 55, 56, 58, 60, 61, 62, 63, 64, 65, 67, 69, 71, 76, 85, 86, 89, 90, 92 (24 of 100). The gaps marked ★ were added to outputs/_plan/topic-queue.md on 17 Oct.
+1, 2, 9, 13, 14, 25, 35, 36, 45, 46, 55, 56, 58, 60, 61, 62, 63, 64, 65, 67, 69, 71, 76, 84, 85, 86, 87, 89, 90, 92 (30 of 100 have a full article; 49 more are answered on /answers/). The gaps marked ★ were added to outputs/_plan/topic-queue.md on 17 Oct.

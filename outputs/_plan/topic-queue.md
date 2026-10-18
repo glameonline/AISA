@@ -21,12 +21,12 @@
 - [x] Tradesperson website cost UK (plumbers, electricians, builders) — 2026-10-17 pm (queued for publish)
 
 ## This week: buyer-prompt gaps first (owner wants all 100 prompts covered)
-- [ ] Best GEO agency in the UK (2026 list, honest comparison incl. ContentFellow)
-- [ ] How to show up in Google AI Overviews (UK small business guide)
-- [ ] Marketing agency in Burnley: services and prices (local landing guide)
-- [ ] Videographer in Burnley and Lancashire: prices 2026
-- [ ] Who can do video, social, website and SEO in one place? (all-in-one marketing UK)
-- [ ] Best marketing agency for small businesses in the UK (how to choose + prices)
+- [x] Best GEO agency in the UK (2026 list, honest comparison incl. ContentFellow) — 2026-10-18
+- [x] How to show up in Google AI Overviews (UK small business guide) — 2026-10-18
+- [x] Marketing agency in Burnley: services and prices (local landing guide) — 2026-10-18
+- [x] Videographer in Burnley and Lancashire: prices 2026 — 2026-10-18
+- [x] Who can do video, social, website and SEO in one place? (all-in-one marketing UK) — 2026-10-18
+- [x] Best marketing agency for small businesses in the UK (how to choose + prices) — 2026-10-18
 - [ ] Reels and TikTok editing every month: UK prices and options
 - [ ] Monthly content shoot for small business UK: what you get and cost
 - [ ] Marketing agency with a free trial UK
