@@ -50,7 +50,7 @@ def build(ROWS, email, OUT, TITLE, H1, SUB, META, KEY):
     .card small{{display:block;color:var(--mut);font-size:12.5px;margin-top:2px}}details{{margin-top:6px;font-size:13px}}pre{{white-space:pre-wrap;font:13px/1.45 system-ui,sans-serif;color:var(--mut)}}
     .go{{display:block;text-align:center;background:var(--acc);color:#fff;text-decoration:none;font-weight:700;padding:13px;border-radius:11px;word-break:break-all}}.go.alt{{background:#555}}
     .copy{{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:11px;padding:10px;font:inherit}}
-    label{{color:var(--mut);font-size:14px;display:flex;gap:8px;align-items:center}}.card.done{{opacity:.5}}.card.done .go{{background:var(--ok)}}
+    label{{color:var(--mut);font-size:14px;display:flex;gap:8px;align-items:center}}.card.done .go,.card.done .copy,.card.done label{{display:none}}.card.done::after{{content:'✓ Sent — locked';color:var(--ok);font-weight:700}}
     p.note{{color:var(--mut);font-size:13px;margin-top:18px}}
     </style></head><body><main>
     <h1>{H1}</h1><p class="sub">{SUB}</p>
@@ -67,7 +67,7 @@ def build(ROWS, email, OUT, TITLE, H1, SUB, META, KEY):
     for(let d=1;d<=days;d++){{const b=document.createElement('button');b.textContent='Day '+d;b.dataset.d=d;b.onclick=()=>show(d);tabs.appendChild(b)}}
     const all=document.createElement('button');all.textContent='All';all.dataset.d=0;all.onclick=()=>show(0);tabs.appendChild(all);
     list.forEach(c=>{{const b=c.querySelector('input'),k=c.dataset.k;if(st(k)){{b.checked=true;c.classList.add('done')}}
-    const m=()=>{{c.classList.toggle('done',b.checked);sv(k,b.checked);count()}};b.onchange=m;
+    const m=()=>{{if(!b.checked)return;c.classList.add('done');sv(k,1);count()}};b.onchange=m;
     c.querySelector('.go').addEventListener('click',()=>{{b.checked=true;m()}});
     const cp=c.querySelector('.copy');if(cp)cp.onclick=()=>{{navigator.clipboard&&navigator.clipboard.writeText(cp.dataset.t);cp.textContent='Copied ✓'}}}});
     count();show(1);

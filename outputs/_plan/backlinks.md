@@ -20,16 +20,16 @@
 | 17 | Lancashire Business View / Lancashire Telegraph | local press | local authority links | drafted | 17 Oct: outreach/lancashire-press-pitch.md; owner submits/sends |
 | 18 | Burnley Bondholders / Burnley Business Network | local network | local links + referrals | ready-to-submit | 17 Oct: outreach/burnley-business-network.md; owner submits/sends |
 | 19 | Qwoted / Featured.com / SourceBottle | expert quotes | journalist links | ready-to-submit | 18 Oct: outreach/qwoted-featured-sourcebottle.md (sign-up URLs, bio, answer starter); owner signs up, then answers 2 queries/week |
-| 20 | Guest post: UK small-business blogs (e.g. Small Business UK, Smarta) | guest post | topical authority | todo | pitch "What GEO costs a UK small business" |
+| 20 | Guest post: UK small-business blogs (e.g. Small Business UK, Smarta) | guest post | topical authority | drafted | 18 Oct: outreach/small-business-uk-guest-post.md (Small Business UK pitch to editor per contributor guidelines + Lilach Bullock alt; Smarta inactive, dropped); owner sends |
 | 21 | Scoot | directory | UK citation network | ready-to-submit | 18 Oct: outreach/scoot.md (https://www.scoot.co.uk/add-listing; also feeds Independent/Mirror/Standard directories); owner submits |
-| 22 | Cylex UK | directory | UK citation | todo | free listing |
-| 23 | Hotfrog UK | directory | UK citation | todo | free listing |
-| 24 | Brownbook | directory | global citation | todo | free listing |
-| 25 | Yelp UK | reviews | AI assistants cite Yelp | todo | claim business page |
-| 26 | Bark.com | marketplace | UK service leads + profile link | todo | create seller profile (check lead costs first) |
+| 22 | Cylex UK | directory | UK citation | ready-to-submit | 18 Oct: outreach/cylex-uk.md (register at cylex-uk.co.uk, claim any auto-listing); owner submits |
+| 23 | Hotfrog UK | directory | UK citation | ready-to-submit | 18 Oct: outreach/hotfrog-uk.md (free basic profile, skip AdVantage upsell); owner submits |
+| 24 | Brownbook | directory | global citation | ready-to-submit | 18 Oct: outreach/brownbook.md (brownbook.net/register then Add a business; free); owner submits |
+| 25 | Yelp UK | reviews | AI assistants cite Yelp | ready-to-submit | 18 Oct: outreach/yelp-uk.md (biz.yelp.co.uk claim/add, service-area hides address; no solicited reviews); owner claims |
+| 26 | Bark.com | marketplace | UK service leads + profile link | ready-to-submit | 18 Oct: outreach/bark.md (free profile; leads ~£7–£40 each in credits: don't buy until budget set); owner decides |
 | 27 | Foursquare / Factual | data | feeds maps and AI place data | ready-to-submit | 18 Oct: outreach/foursquare.md (https://business.foursquare.com/ claim/add); owner claims |
 | 28 | Boost Lancashire (growth hub) | local | Lancashire business support links | drafted | 18 Oct: outreach/boost-business-lancashire.md (register + workshop offer); owner sends via site form/info@ email |
-| 29 | Business Matters magazine | guest post | UK SME readers | todo | pitch "What AI search means for UK small businesses" |
-| 30 | Small Business Britain community | community | SME network | todo | join; contribute a GEO tips post |
-| 31 | ResponseSource / journalist requests | expert quotes | UK press links | todo | sign up for free journalist enquiries; reply on SEO/GEO costs |
-| 32 | Podcast guest spots (UK small business podcasts) | podcast | show-notes links + AI mentions | todo | list 10 shows, draft one pitch |
+| 29 | Business Matters magazine | guest post | UK SME readers | drafted | 18 Oct: outreach/business-matters.md (opinion pitch; note: no outbound links in body, brand/byline mention); owner sends |
+| 30 | Small Business Britain community | community | SME network | drafted | 18 Oct: outreach/small-business-britain.md (join free programmes + offer tips piece/session via /contact); owner sends |
+| 31 | ResponseSource / journalist requests | expert quotes | UK press links | ready-to-submit | 18 Oct: outreach/responsesource-journorequest.md (ResponseSource is paid for sources: owner checks price; start free with #journorequest + reply template) |
+| 32 | Podcast guest spots (UK small business podcasts) | podcast | show-notes links + AI mentions | drafted | 18 Oct: outreach/podcast-guest-pitches.md (7 checked UK shows + pitch); owner applies; add 3 more next run |

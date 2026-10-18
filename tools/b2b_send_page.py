@@ -14,7 +14,7 @@ def email(r):
             "- Free AI visibility check: we test the questions your buyers ask and show who gets named instead of you, plus the 3 fixes that matter most\n"
             "- Then a free 7-day trial, no card needed\n"
             "- £89 a month after that, cancel any time, with a monthly ranking and AI visibility report\n\n"
-            "Start the free check: https://contentfellow.com/get-started/?offer=trial\n"
+            "👉 Claim your free trial (2-minute form): https://contentfellow.com/get-started/?offer=trial\n"
             "How it works: https://contentfellow.com/services/search-fellow/\n\n"
             f"Would it help if we ran the check for \"{q}\" and sent you what we find?\n\n"
             "Best,\nThe ContentFellow team\nContentFellow · Burnley, Lancashire · https://contentfellow.com\n"
