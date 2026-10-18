@@ -1,0 +1,3 @@
+# Brief: How to show up in Google AI Overviews (2026-10-18)
+Primary: how to show up in google ai overviews · Secondary: get cited in ai overviews, ai overviews seo uk
+Sources read 18 Oct 2026: developers.google.com/search/docs/appearance/ai-features (no extra tech requirements; indexed + snippet-eligible; SEO basics list; Search Console Performance "Web"; Googlebot robots = control; Google-Extended separate); developers.google.com/search/docs/fundamentals/ai-optimization-guide (updated 10 Jul 2026; non-commodity content; Business Profile); digitalmarketinginstitute.com (Ahrefs 34.5% lower CTR; ads tests in AIO 2025).

@@ -1,0 +1,62 @@
+{
+  "title": "How to Show Up in Google AI Overviews: A Practical Guide for UK Small Businesses (2026)",
+  "meta_title": "How to Show Up in Google AI Overviews (UK Guide 2026)",
+  "meta_description": "Google says AI Overviews have no extra technical rules: be indexed and snippet-eligible. 8 practical steps for UK small businesses to get cited.",
+  "slug": "google-ai-overviews-small-business-uk",
+  "keywords": [
+    "how to show up in google ai overviews",
+    "google ai overviews small business",
+    "how to get cited in ai overviews",
+    "ai overviews seo uk",
+    "optimise for ai overviews"
+  ],
+  "tags": [
+    "AI Overviews",
+    "Google",
+    "GEO",
+    "UK small business"
+  ],
+  "category": "SEO & GEO",
+  "cta": "Search Fellow £89/mo",
+  "url": "https://contentfellow.com/blog/google-ai-overviews-small-business-uk/",
+  "faq": [
+    {
+      "q": "How do I get my business into Google AI Overviews?",
+      "a": "Make sure your pages are indexed and eligible for a snippet in Google Search, then answer customer questions clearly in the first sentence. Keep your Google Business Profile and structured data accurate and build mentions on trusted sites."
+    },
+    {
+      "q": "Are there special technical requirements for AI Overviews?",
+      "a": "No. Google says a page only needs to be indexed and eligible to show with a snippet. There is no special markup or file required."
+    },
+    {
+      "q": "Can I pay to appear in AI Overviews?",
+      "a": "You can't pay to be a cited source. Google has been testing ads in and around AI Overviews, but organic citations are earned through normal SEO."
+    },
+    {
+      "q": "Does blocking Google-Extended remove me from AI Overviews?",
+      "a": "No. Google says robots.txt rules for Googlebot control how your site is crawled for Search, including AI features. Google-Extended relates to training and grounding in some of Google's other systems."
+    },
+    {
+      "q": "How do I know if my site appears in AI Overviews?",
+      "a": "Search Console counts AI Overview traffic within the Performance report but doesn't separate it. Check your key customer questions on Google each month and note who is cited."
+    },
+    {
+      "q": "How long does it take to appear in AI Overviews?",
+      "a": "If your page is already indexed and ranking, changes can show once Google recrawls it, which can take days to months. New sites need to be indexed and trusted first."
+    },
+    {
+      "q": "Do AI Overviews show for local searches in the UK?",
+      "a": "Sometimes. Google only shows them when it decides they add value, and many local searches still show the map pack first. That's why your Google Business Profile matters as much as your website."
+    }
+  ],
+  "images": [
+    {
+      "file": "google-ai-overviews-small-business-uk-featured.png",
+      "alt": "How to show up in Google AI Overviews: no extra technical rules, be indexed, write clear answers, measure in Search Console"
+    },
+    {
+      "file": "google-ai-overviews-small-business-uk-diagram.png",
+      "alt": "Four steps to get cited in Google AI Overviews: be indexable, answer first, prove the facts, measure monthly"
+    }
+  ]
+}

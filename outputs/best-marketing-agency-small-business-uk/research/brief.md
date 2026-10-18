@@ -1,0 +1,2 @@
+# Brief: Best marketing agency for small businesses in the UK (2026-10-18)
+Sources read: whito.co.uk/research/uk-agency-retainers/ (updated 12 Oct 2026): retainers by channel and size, SME start £1,000–£2,000, red flags (no deliverables, lock-in, agency owns accounts, vanity reporting, guarantees), 13 of 21 providers don't state VAT. Freelancer £300–£1,000/mo is ContentFellow's own estimate (labelled in article).

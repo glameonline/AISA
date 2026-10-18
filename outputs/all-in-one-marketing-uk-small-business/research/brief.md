@@ -1,0 +1,2 @@
+# Brief: Who can do video, social media, website and SEO in one place? (2026-10-18)
+Sources read: prospects.ac.uk/job-profiles/marketing-executive (marketing exec £29k–£34k, senior £35k–£42k, manager ~£58k; cites Marketing Week 2024 survey); whito.co.uk/research/uk-agency-retainers/ (updated 12 Oct 2026: single channel £1,250–£3,500, full service £3,500–£16,750, social £800–£2,500, SEO £1,000–£3,500, website care £50–£177.50); whito photography-costs-uk (monthly social video £295–£650).
