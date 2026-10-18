@@ -19,16 +19,16 @@
 | 16 | XEOPULSE UK SEO & GEO directory | directory | page 1 Google UK | ready-to-submit | 17 Oct: outreach/xeopulse.md; owner submits/sends |
 | 17 | Lancashire Business View / Lancashire Telegraph | local press | local authority links | drafted | 17 Oct: outreach/lancashire-press-pitch.md; owner submits/sends |
 | 18 | Burnley Bondholders / Burnley Business Network | local network | local links + referrals | ready-to-submit | 17 Oct: outreach/burnley-business-network.md; owner submits/sends |
-| 19 | Qwoted / Featured.com / SourceBottle | expert quotes | journalist links | todo | create profiles, answer 2 queries a week on GEO/SEO costs |
+| 19 | Qwoted / Featured.com / SourceBottle | expert quotes | journalist links | ready-to-submit | 18 Oct: outreach/qwoted-featured-sourcebottle.md (sign-up URLs, bio, answer starter); owner signs up, then answers 2 queries/week |
 | 20 | Guest post: UK small-business blogs (e.g. Small Business UK, Smarta) | guest post | topical authority | todo | pitch "What GEO costs a UK small business" |
-| 21 | Scoot | directory | UK citation network | todo | free listing |
+| 21 | Scoot | directory | UK citation network | ready-to-submit | 18 Oct: outreach/scoot.md (https://www.scoot.co.uk/add-listing; also feeds Independent/Mirror/Standard directories); owner submits |
 | 22 | Cylex UK | directory | UK citation | todo | free listing |
 | 23 | Hotfrog UK | directory | UK citation | todo | free listing |
 | 24 | Brownbook | directory | global citation | todo | free listing |
 | 25 | Yelp UK | reviews | AI assistants cite Yelp | todo | claim business page |
 | 26 | Bark.com | marketplace | UK service leads + profile link | todo | create seller profile (check lead costs first) |
-| 27 | Foursquare / Factual | data | feeds maps and AI place data | todo | claim listing |
-| 28 | Boost Lancashire (growth hub) | local | Lancashire business support links | todo | register and ask about supplier directory |
+| 27 | Foursquare / Factual | data | feeds maps and AI place data | ready-to-submit | 18 Oct: outreach/foursquare.md (https://business.foursquare.com/ claim/add); owner claims |
+| 28 | Boost Lancashire (growth hub) | local | Lancashire business support links | drafted | 18 Oct: outreach/boost-business-lancashire.md (register + workshop offer); owner sends via site form/info@ email |
 | 29 | Business Matters magazine | guest post | UK SME readers | todo | pitch "What AI search means for UK small businesses" |
 | 30 | Small Business Britain community | community | SME network | todo | join; contribute a GEO tips post |
 | 31 | ResponseSource / journalist requests | expert quotes | UK press links | todo | sign up for free journalist enquiries; reply on SEO/GEO costs |
