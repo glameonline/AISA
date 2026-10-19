@@ -33,3 +33,48 @@
 | 30 | Small Business Britain community | community | SME network | drafted | 18 Oct: outreach/small-business-britain.md (join free programmes + offer tips piece/session via /contact); owner sends |
 | 31 | ResponseSource / journalist requests | expert quotes | UK press links | ready-to-submit | 18 Oct: outreach/responsesource-journorequest.md (ResponseSource is paid for sources: owner checks price; start free with #journorequest + reply template) |
 | 32 | Podcast guest spots (UK small business podcasts) | podcast | show-notes links + AI mentions | drafted | 18 Oct: outreach/podcast-guest-pitches.md (7 checked UK shows + pitch); owner applies; add 3 more next run |
+| 33 | Yably UK | directory | UK citation | ready-to-submit | 19 Oct: outreach/yably.md; owner submits |
+| 34 | Opendi UK | directory | UK citation | ready-to-submit | 19 Oct: outreach/opendi-uk.md; owner submits |
+| 35 | Misterwhat UK | directory | UK citation | ready-to-submit | 19 Oct: outreach/misterwhat-uk.md; owner submits |
+| 36 | Fyple UK | directory | UK citation | ready-to-submit | 19 Oct: outreach/fyple-uk.md; owner submits |
+| 37 | Infobel UK | directory | UK/EU citation | ready-to-submit | 19 Oct: outreach/infobel-uk.md; owner submits |
+| 38 | 192.com Business | directory | UK citation | ready-to-submit | 19 Oct: outreach/192-business.md; owner submits |
+| 39 | UK Small Business Directory | directory | UK SME citation | ready-to-submit | 19 Oct: outreach/uk-small-business-directory.md; owner submits |
+| 40 | TechBehemoths | directory | agency listings, AI-cited | ready-to-submit | 19 Oct: outreach/techbehemoths.md; owner submits |
+| 41 | The Manifest | directory | Clutch sister listicles | ready-to-submit | 19 Oct: outreach/the-manifest.md; owner submits |
+| 42 | Mandy.com | profile | video production entity | ready-to-submit | 19 Oct: outreach/mandy.md; owner submits |
+| 43 | Behance | profile | portfolio + entity | ready-to-submit | 19 Oct: outreach/behance.md; owner submits |
+| 44 | thebestof Burnley | local | local guide link | drafted | 19 Oct: outreach/best-of-burnley.md; owner sends |
+| 45 | East Lancashire Chamber of Commerce | local network | local authority + referrals | drafted | 19 Oct: outreach/east-lancs-chamber.md; owner sends |
+| 46 | Burnley Express | local press | local news link | drafted | 19 Oct: outreach/burnley-express.md; owner sends |
+| 47 | Semrush Agency Partners | directory | agency directory, SEO trust | drafted | 19 Oct: outreach/semrush-agency-partners.md; owner sends |
+| 48 | Agency Spotter | directory | agency reviews | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 49 | UpCity (UK) | directory | agency marketplace | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 50 | Agency Vista | directory | agency profiles | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 51 | TopDevelopers.co | directory | app/web dev listings | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 52 | AppFutura | directory | app dev directory | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 53 | ITFirms | directory | app/web dev listicles | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 54 | G2 services listing | directory | AI-cited reviews | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 55 | Kompass UK | directory | B2B citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 56 | Europages | directory | EU B2B (EU expansion) | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 57 | Cybo | directory | global citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 58 | Tuugo UK | directory | UK citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 59 | Find Open UK | directory | UK citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 60 | Hub.biz | directory | citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 61 | Zipleaf UK | directory | UK citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 62 | Marketing Lancashire | local | county business site | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 63 | Digital Lancashire | local network | Lancashire tech community | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 64 | Burnley BID | local | town centre business links | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 65 | Prolific North | press/directory | North marketing trade news | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 66 | BusinessCloud | press | North tech/business news | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 67 | TheBusinessDesk.com North West | press | regional business news | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 68 | Bdaily | press | news submissions, North | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 69 | Small Business Saturday UK (Small Biz 100) | award | national SME profile | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 70 | Enterprise Nation advisers | marketplace | SME adviser profile | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 71 | Startups.co.uk expert comments | expert quotes | SME authority | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 72 | Smallbusiness.co.uk contributor | guest post | SME readers | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 73 | Marketing Donut expert | guest post | SME marketing advice | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 74 | Vimeo business profile | profile | video entity | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 75 | YouTube channel (brand) | profile | video + AI entity | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 76 | Dribbble | profile | design portfolio | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 77 | Lancashire Digital Skills Partnership | local | skills/partner links | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |

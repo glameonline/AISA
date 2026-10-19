@@ -29,3 +29,4 @@ Deploy = copy everything in outputs/_site/ into public_html/ (keep the existing 
 - [ ] 17 Oct (extra batch): /blog/website-maintenance-cost-uk/, /blog/online-shop-website-cost-uk/, /blog/app-maintenance-cost-uk/, /blog/web-app-vs-mobile-app/
 - [ ] 17 Oct (afternoon run): /blog/how-long-to-build-a-website-uk/, /blog/booking-website-cost-uk/, /blog/restaurant-website-cost-uk/, /blog/tradesperson-website-cost-uk/
 - [ ] 17 Oct: SEO audit fixes (shorter titles on 9 pages, 3 descriptions) in services, about, burnley, get-started, 2 posts
+- [x] 19 Oct: 6 new posts: /blog/reels-tiktok-editing-monthly-uk/, /blog/monthly-content-shoot-uk/, /blog/marketing-agency-free-trial-uk/, /blog/web-designer-burnley/, /blog/video-production-company-lancashire/, /blog/podcast-editing-cost-uk/

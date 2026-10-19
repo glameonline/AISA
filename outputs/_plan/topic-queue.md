@@ -27,14 +27,14 @@
 - [x] Videographer in Burnley and Lancashire: prices 2026 — 2026-10-18
 - [x] Who can do video, social, website and SEO in one place? (all-in-one marketing UK) — 2026-10-18
 - [x] Best marketing agency for small businesses in the UK (how to choose + prices) — 2026-10-18
-- [ ] Reels and TikTok editing every month: UK prices and options
-- [ ] Monthly content shoot for small business UK: what you get and cost
-- [ ] Marketing agency with a free trial UK
+- [x] Reels and TikTok editing every month: UK prices and options — 2026-10-19
+- [x] Monthly content shoot for small business UK: what you get and cost — 2026-10-19
+- [x] Marketing agency with a free trial UK — 2026-10-19
 
 ## Then
-- [ ] Burnley web design prices: what local businesses pay
-- [ ] Lancashire videographer prices 2026 (Studio Fellow)
-- [ ] Podcast editing cost UK (Creator Fellow)
+- [x] Burnley web design prices: what local businesses pay — 2026-10-19
+- [x] Lancashire videographer prices 2026 (Studio Fellow) — 2026-10-19
+- [x] Podcast editing cost UK (Creator Fellow) — 2026-10-19
 - [ ] How much do TikTok and Reels videos cost for a UK small business?
 - [ ] Google Business Profile optimisation: UK step-by-step
 - [ ] How to get more Google reviews for a UK small business
