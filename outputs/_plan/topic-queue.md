@@ -35,13 +35,26 @@
 - [x] Burnley web design prices: what local businesses pay — 2026-10-19
 - [x] Lancashire videographer prices 2026 (Studio Fellow) — 2026-10-19
 - [x] Podcast editing cost UK (Creator Fellow) — 2026-10-19
-- [ ] How much do TikTok and Reels videos cost for a UK small business?
-- [ ] Google Business Profile optimisation: UK step-by-step
-- [ ] How to get more Google reviews for a UK small business
-- [ ] How to appear in Google AI Overviews (UK small business guide)
-- [ ] How to get cited by Perplexity
-- [ ] Freelancer vs agency vs subscription for marketing in the UK
-- [ ] Best GEO services for small businesses in the UK (honest comparison)
-- [ ] (EU) Website cost in Ireland 2026 (€)
+- [x] How much do TikTok and Reels videos cost for a UK small business? (/blog/pay-someone-to-edit-tiktoks-uk/) — 2026-10-19 (pm)
+- [x] Google Business Profile optimisation: UK step-by-step (/blog/rank-on-google-maps-uk/) — 2026-10-19 (pm)
+- [x] How to get more Google reviews for a UK small business (/blog/get-more-google-reviews-uk/) — 2026-10-19 (pm)
+- [x] How to appear in Google AI Overviews (UK small business guide) — already covered by /blog/google-ai-overviews-small-business-uk/ (no duplicate written)
+- [x] How to get cited by Perplexity (/blog/get-mentioned-by-gemini-claude-perplexity/) — 2026-10-19 (pm)
+- [x] Freelancer vs agency vs subscription for marketing in the UK (/blog/freelancer-vs-agency-marketing-uk/) — 2026-10-19 (pm)
+- [x] Best GEO services for small businesses in the UK — already covered by /blog/best-geo-agency-uk/ (no duplicate written)
+- [x] (EU) Website cost in Ireland 2026 (€) (/blog/website-cost-ireland/) — 2026-10-19 (pm)
 - [ ] (EU) GEO cost in Ireland (€)
 - [ ] (EU) KI-Suchoptimierung Kosten (DE) · (EU) Coût du GEO pour les PME (FR)
+
+## Added 19 Oct (pm): next uncovered buyer prompts (prompts-100.md)
+- [ ] How much does a marketing agency cost per month in the UK? (prompt 3)
+- [ ] Marketing subscription service for small businesses UK (prompt 4)
+- [ ] Alternative to hiring a marketing manager for a small business (prompt 5)
+- [ ] Monthly marketing package for small business UK with prices (prompt 6)
+- [ ] Marketing agency with no long contract UK (prompt 8)
+- [ ] Fractional marketing team cost UK (prompt 12)
+- [ ] Business photographer cost UK per hour (prompt 27)
+- [ ] Corporate video production cost UK (prompt 28)
+- [ ] Who can manage and update my website every month? (prompt 66)
+- [ ] How much does SEO cost for a small business in the UK? (prompt 75)
+- [ ] Local SEO for small business UK price (prompt 77)

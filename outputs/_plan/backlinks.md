@@ -48,21 +48,21 @@
 | 45 | East Lancashire Chamber of Commerce | local network | local authority + referrals | drafted | 19 Oct: outreach/east-lancs-chamber.md; owner sends |
 | 46 | Burnley Express | local press | local news link | drafted | 19 Oct: outreach/burnley-express.md; owner sends |
 | 47 | Semrush Agency Partners | directory | agency directory, SEO trust | drafted | 19 Oct: outreach/semrush-agency-partners.md; owner sends |
-| 48 | Agency Spotter | directory | agency reviews | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 49 | UpCity (UK) | directory | agency marketplace | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 50 | Agency Vista | directory | agency profiles | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 51 | TopDevelopers.co | directory | app/web dev listings | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 52 | AppFutura | directory | app dev directory | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 53 | ITFirms | directory | app/web dev listicles | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 54 | G2 services listing | directory | AI-cited reviews | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 55 | Kompass UK | directory | B2B citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 56 | Europages | directory | EU B2B (EU expansion) | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 57 | Cybo | directory | global citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 58 | Tuugo UK | directory | UK citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 59 | Find Open UK | directory | UK citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 60 | Hub.biz | directory | citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 61 | Zipleaf UK | directory | UK citation | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 62 | Marketing Lancashire | local | county business site | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 48 | Agency Spotter | directory | agency reviews | ready-to-submit | 19 Oct pm: listing copy in outreach/agency-spotter.md; owner submits (confirm free tier, verify email) |
+| 49 | UpCity (UK) | directory | agency marketplace | ready-to-submit | 19 Oct pm: listing copy in outreach/upcity.md; owner submits (confirm free tier, verify email) |
+| 50 | Agency Vista | directory | agency profiles | ready-to-submit | 19 Oct pm: listing copy in outreach/agency-vista.md; owner submits (confirm free tier, verify email) |
+| 51 | TopDevelopers.co | directory | app/web dev listings | ready-to-submit | 19 Oct pm: listing copy in outreach/topdevelopers.md; owner submits (confirm free tier, verify email) |
+| 52 | AppFutura | directory | app dev directory | ready-to-submit | 19 Oct pm: listing copy in outreach/appfutura.md; owner submits (confirm free tier, verify email) |
+| 53 | ITFirms | directory | app/web dev listicles | ready-to-submit | 19 Oct pm: listing copy in outreach/itfirms.md; owner submits (confirm free tier, verify email) |
+| 54 | G2 services listing | directory | AI-cited reviews | ready-to-submit | 19 Oct pm: listing copy in outreach/g2-services.md; owner submits (confirm free tier, verify email) |
+| 55 | Kompass UK | directory | B2B citation | ready-to-submit | 19 Oct pm: listing copy in outreach/kompass-uk.md; owner submits (confirm free tier, verify email) |
+| 56 | Europages | directory | EU B2B (EU expansion) | ready-to-submit | 19 Oct pm: listing copy in outreach/europages.md; owner submits (confirm free tier, verify email) |
+| 57 | Cybo | directory | global citation | ready-to-submit | 19 Oct pm: listing copy in outreach/cybo.md; owner submits (confirm free tier, verify email) |
+| 58 | Tuugo UK | directory | UK citation | ready-to-submit | 19 Oct pm: listing copy in outreach/tuugo-uk.md; owner submits (confirm free tier, verify email) |
+| 59 | Find Open UK | directory | UK citation | ready-to-submit | 19 Oct pm: listing copy in outreach/find-open-uk.md; owner submits (confirm free tier, verify email) |
+| 60 | Hub.biz | directory | citation | ready-to-submit | 19 Oct pm: listing copy in outreach/hub-biz.md; owner submits (confirm free tier, verify email) |
+| 61 | Zipleaf UK | directory | UK citation | ready-to-submit | 19 Oct pm: listing copy in outreach/zipleaf-uk.md; owner submits (confirm free tier, verify email) |
+| 62 | Marketing Lancashire | local | county business site | drafted | 19 Oct pm: pitch in outreach/marketing-lancashire.md; owner sends |
 | 63 | Digital Lancashire | local network | Lancashire tech community | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
 | 64 | Burnley BID | local | town centre business links | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
 | 65 | Prolific North | press/directory | North marketing trade news | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
@@ -78,3 +78,18 @@
 | 75 | YouTube channel (brand) | profile | video + AI entity | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
 | 76 | Dribbble | profile | design portfolio | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
 | 77 | Lancashire Digital Skills Partnership | local | skills/partner links | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 78 | PickAnAgency UK lists (pickanagency.com) | listicle | competitor ClickSlice listed (best agencies UK) | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 79 | SEOCompare.co.uk AI search agencies (seocompare.co.uk) | listicle | lists AI search/GEO agencies by UK city | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 80 | Marketing Agency Index UK (marketingagencyindex.com) | listicle | UK 'best agencies' journal | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 81 | Get Found on ChatGPT vendors (getfoundonchatgpt.com) | directory | GEO vendor directory (competitor listed) | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 82 | ClickDo business stories (business.clickdo.co.uk) | guest post | founder story features (competitor featured) | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 83 | The Marketing Blog UK (themarketingblog.co.uk) | guest post | UK marketing blog, accepts contributors | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 84 | PCTechMag agency roundups (pctechmag.com) | listicle | 'recommended UK agencies' roundups | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 85 | BabyLoveGrowth agency comparisons (babylovegrowth.ai) | listicle | agency comparison posts cited by AI | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 86 | Antspath company directory (antspath.com) | directory | B2B company profile (competitor listed) | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 87 | WTO Register (wtoregister.com) | directory | business profile (competitor listed) | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 88 | Spotsnow brand pages (spotsnow.io) | directory | brand profile (competitor listed) | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 89 | Leadstal (leadstal.com) | directory | service business profile (competitor listed) | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 90 | Lancashire Business View (lancashirebusinessview.co.uk) | press | county business magazine, news submissions | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 91 | FSB member directory (fsb.org.uk) | directory | Federation of Small Businesses, UK SME trust | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 92 | Manchester Digital (manchesterdigital.com) | local network | North West digital trade body directory | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
