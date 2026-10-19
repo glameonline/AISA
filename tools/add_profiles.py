@@ -32,3 +32,10 @@ for f in SITE.rglob("*.html"):
     if f.parent.name in LOCAL and 'class="cf-find"' not in s: s = s.replace("</main>", BOX + "</main>", 1)
     if s != o: f.write_text(s); n += 1
 print("pages updated:", n)
+
+# /ai-check/: same form as /get-started/ but with the ChatGPT graphic as the link preview (WhatsApp/social)
+_gs = SITE / "get-started" / "index.html" if "SITE" in globals() else None
+if _gs and _gs.exists():
+    _h = _gs.read_text().replace("https://contentfellow.com/studio.jpg", "https://contentfellow.com/img/outreach/search.png")
+    _h = _h.replace('href="https://contentfellow.com/get-started/"', 'href="https://contentfellow.com/ai-check/"')
+    (SITE / "ai-check").mkdir(exist_ok=True); (SITE / "ai-check" / "index.html").write_text(_h)
