@@ -26,9 +26,12 @@ def make(r, f):
     note = you(r.get("personal_note", ""))
     prob = f["problem"][0].upper() + f["problem"][1:]
     subj = SUBJ[k].format(n=n)
+    ag = k == "partner"
+    TRIAL = "https://contentfellow.com/get-started/?service=partner-trial" if ag else globals()["TRIAL"]
+    offer = "with 5 free credits to test us first (no card needed)" if ag else "with a free 7-day trial first (no card needed)"
     body = (f"Hi {n} team,\n\n{note}\n\n{prob}.\n\n"
-            f"That's what our {name} is for: {what}. {price}, with a free 7-day trial first (no card needed).\n\n"
-            f"Claim your free trial: {TRIAL}\nHow it works: https://contentfellow.com{page}\n\n"
+            f"That's what our {name} is for: {what}. {price}, {offer}.\n\n"
+            f"{"Claim 5 free credits" if ag else "Claim your free trial"}: {TRIAL}\nHow it works: https://contentfellow.com{page}\n\n"
             f"Best,\nThe ContentFellow team\nContentFellow · Burnley, Lancashire · https://contentfellow.com\n{OPT}")
     e = html.escape
     h = f"""<!doctype html><html><body style="margin:0;padding:0;background:#f4f4f5">
@@ -39,8 +42,8 @@ def make(r, f):
 <p style="margin:0 0 14px">Hi {e(n)} team,</p>
 <p style="margin:0 0 14px">{e(note)}</p>
 <p style="margin:0 0 14px"><strong>{e(prob)}.</strong></p>
-<p style="margin:0 0 20px">That's what our <strong>{e(name)}</strong> is for: {e(what)}. <strong>{e(price)}</strong>, with a free 7-day trial first, no card needed.</p>
-<table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="border-radius:28px;background:#f26a1b"><a href="{TRIAL}" style="display:inline-block;padding:14px 30px;color:#ffffff;font-weight:bold;text-decoration:none;font-size:17px">Claim free trial</a></td></tr></table>
+<p style="margin:0 0 20px">That's what our <strong>{e(name)}</strong> is for: {e(what)}. <strong>{e(price)}</strong>, {e(offer)}.</p>
+<table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="border-radius:28px;background:#f26a1b"><a href="{TRIAL}" style="display:inline-block;padding:14px 30px;color:#ffffff;font-weight:bold;text-decoration:none;font-size:17px">{"Claim 5 free credits" if ag else "Claim free trial"}</a></td></tr></table>
 <p style="margin:20px 0 0;font-size:14px"><a href="https://contentfellow.com{page}" style="color:#b84308">How {e(name)} works</a></p>
 </td></tr>
 <tr><td style="padding:20px 32px 28px">
