@@ -63,21 +63,21 @@
 | 60 | Hub.biz | directory | citation | ready-to-submit | 19 Oct pm: listing copy in outreach/hub-biz.md; owner submits (confirm free tier, verify email) |
 | 61 | Zipleaf UK | directory | UK citation | ready-to-submit | 19 Oct pm: listing copy in outreach/zipleaf-uk.md; owner submits (confirm free tier, verify email) |
 | 62 | Marketing Lancashire | local | county business site | drafted | 19 Oct pm: pitch in outreach/marketing-lancashire.md; owner sends |
-| 63 | Digital Lancashire | local network | Lancashire tech community | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 64 | Burnley BID | local | town centre business links | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 65 | Prolific North | press/directory | North marketing trade news | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 66 | BusinessCloud | press | North tech/business news | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 67 | TheBusinessDesk.com North West | press | regional business news | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 68 | Bdaily | press | news submissions, North | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 69 | Small Business Saturday UK (Small Biz 100) | award | national SME profile | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 70 | Enterprise Nation advisers | marketplace | SME adviser profile | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 71 | Startups.co.uk expert comments | expert quotes | SME authority | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 72 | Smallbusiness.co.uk contributor | guest post | SME readers | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 73 | Marketing Donut expert | guest post | SME marketing advice | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 74 | Vimeo business profile | profile | video entity | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 75 | YouTube channel (brand) | profile | video + AI entity | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 76 | Dribbble | profile | design portfolio | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
-| 77 | Lancashire Digital Skills Partnership | local | skills/partner links | todo | 19 Oct: added (Firecrawl out of credits, verify site, free option and terms before working) |
+| 63 | Digital Lancashire | local network | Lancashire tech community | drafted | 20 Oct: outreach/digital-lancashire.md written; owner reviews and sends pitch |
+| 64 | Burnley BID | local | town centre business links | drafted | 20 Oct: outreach/burnley-bid.md written; owner reviews and sends pitch |
+| 65 | Prolific North | press/directory | North marketing trade news | drafted | 20 Oct: outreach/prolific-north.md written; owner reviews and sends pitch |
+| 66 | BusinessCloud | press | North tech/business news | drafted | 20 Oct: outreach/businesscloud.md written; owner reviews and sends pitch |
+| 67 | TheBusinessDesk.com North West | press | regional business news | drafted | 20 Oct: outreach/thebusinessdesk-nw.md written; owner reviews and sends pitch |
+| 68 | Bdaily | press | news submissions, North | ready-to-submit | 20 Oct: outreach/bdaily.md written; owner submits (login needed) |
+| 69 | Small Business Saturday UK (Small Biz 100) | award | national SME profile | ready-to-submit | 20 Oct: outreach/small-business-saturday.md written; owner submits (login needed) |
+| 70 | Enterprise Nation advisers | marketplace | SME adviser profile | ready-to-submit | 20 Oct: outreach/enterprise-nation.md written; owner submits (login needed) |
+| 71 | Startups.co.uk expert comments | expert quotes | SME authority | drafted | 20 Oct: outreach/startups-co-uk.md written; owner reviews and sends pitch |
+| 72 | Smallbusiness.co.uk contributor | guest post | SME readers | drafted | 20 Oct: outreach/smallbusiness-co-uk.md written; owner reviews and sends pitch |
+| 73 | Marketing Donut expert | guest post | SME marketing advice | drafted | 20 Oct: outreach/marketing-donut.md written; owner reviews and sends pitch |
+| 74 | Vimeo business profile | profile | video entity | ready-to-submit | 20 Oct: outreach/vimeo.md written; owner submits (login needed) |
+| 75 | YouTube channel (brand) | profile | video + AI entity | ready-to-submit | 20 Oct: outreach/youtube-channel.md written; owner submits (login needed) |
+| 76 | Dribbble | profile | design portfolio | ready-to-submit | 20 Oct: outreach/dribbble.md written; owner submits (login needed) |
+| 77 | Lancashire Digital Skills Partnership | local | skills/partner links | drafted | 20 Oct: outreach/lancashire-dsp.md written; owner reviews and sends pitch |
 | 78 | PickAnAgency UK lists (pickanagency.com) | listicle | competitor ClickSlice listed (best agencies UK) | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
 | 79 | SEOCompare.co.uk AI search agencies (seocompare.co.uk) | listicle | lists AI search/GEO agencies by UK city | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
 | 80 | Marketing Agency Index UK (marketingagencyindex.com) | listicle | UK 'best agencies' journal | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
@@ -93,3 +93,18 @@
 | 90 | Lancashire Business View (lancashirebusinessview.co.uk) | press | county business magazine, news submissions | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
 | 91 | FSB member directory (fsb.org.uk) | directory | Federation of Small Businesses, UK SME trust | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
 | 92 | Manchester Digital (manchesterdigital.com) | local network | North West digital trade body directory | todo | 19 Oct pm: found via OpenSEO get_backlinks_profile (clickslice.co.uk) / regional research; check free option and editorial rules |
+| 93 | The Drum Recommends | agency directory | UK marketing trade directory | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 94 | Reviews.io | reviews | UK review platform, Google seller ratings | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 95 | Nextdoor Business page | local | Burnley neighbourhood recommendations | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 96 | Pinterest Business profile | profile | visual portfolio + link | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 97 | Help a B2B Writer | expert quotes | journalist requests (B2B) | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 98 | PodMatch | podcast | podcast guest matching | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 99 | Matchmaker.fm | podcast | podcast guest matching | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 100 | Red Rose Awards (Lancashire) | award | Lancashire business awards | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 101 | Burnley Business Awards | award | local awards + press | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 102 | UCLan Burnley business partnerships | local/edu | university partner links | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 103 | Lancs Live business news | press | Lancashire news | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 104 | Shopify Partner Directory | directory | we build Shop sites £1,499 | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 105 | Upwork agency profile | marketplace | agency profile + link | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 106 | LinkedIn Services Page | profile | services listing on LinkedIn | todo | 20 Oct: added; verify official URL, free option and terms before working |
+| 107 | Contra portfolio | profile | freelance/agency portfolio | todo | 20 Oct: added; verify official URL, free option and terms before working |
