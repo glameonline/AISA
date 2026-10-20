@@ -4,3 +4,4 @@ date,sessions,engaged_sessions,gsc_clicks,gsc_impressions,avg_position,ai_prompt
 2026-10-18,pending,pending,0,0,n/a,12,n/a,n/a,30 posts,6 new posts + answers + pricing + agencies live
 2026-10-18,0,0,0,0,n/a,12,n/a,n/a,30 posts,GA4 18 Oct: 0 sessions (all channels); GSC 9-16 Oct: 1 impression
 2026-10-19,n/a,n/a,n/a,n/a,n/a,12,n/a,n/a,42 posts,pm run: 6 new posts live (deploy ok); Google indexed 7 of 42 posts; 40/100 prompts have a full article; IndexNow rate-limited; 15 backlink rows worked (14 ready-to-submit 1 drafted)
+2026-10-20,0,0,0,3,56,12,n/a,n/a,48 posts,am run: 6 new posts (deploy started); GA4 19 Oct 0 sessions; GSC 10-17 Oct 0 clicks 3 impressions; Google indexed 27 of 66 tracked URLs; 45/100 prompts; IndexNow 8 URLs submitted; 15 backlink rows (6 ready-to-submit 9 drafted); Firecrawl out of credits
