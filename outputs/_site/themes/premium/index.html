@@ -54,6 +54,13 @@ footer{padding:28px 24px;text-align:center;font-size:14px;opacity:.7}
 .face b{font:800 70px/1 Syne;opacity:.3}.face h3{font:800 clamp(26px,4vw,40px)/1 Syne;margin:0}
 .d3 h2{position:absolute;top:10vh;left:0;right:0;text-align:center;font:800 clamp(32px,6vw,72px)/1 Syne;margin:0;z-index:2}
 .d3 .orb{position:absolute;border-radius:50%;background:radial-gradient(circle at 30% 30%,#fff,var(--ac) 40%,var(--ink));filter:drop-shadow(0 20px 30px #0008);will-change:transform}
+.panel{background-size:cover!important;background-position:center!important}.panel::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 20%,color-mix(in srgb,var(--ink) 85%,transparent));z-index:0}.panel>*{position:relative;z-index:1}
+.panel:nth-child(even)::before{background:linear-gradient(180deg,transparent 20%,color-mix(in srgb,var(--ac) 85%,transparent))}
+.face{background-size:cover!important;background-position:center!important;color:#fff}.face::before{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(180deg,transparent 30%,color-mix(in srgb,var(--ac2) 80%,#000))}.face>*{position:relative}
+.circle{background:conic-gradient(from 0deg,var(--ac),var(--ac2),var(--ac3),var(--ac))}.bar{background:linear-gradient(90deg,var(--ac),var(--ac2),var(--ac3))}
+.big span{background:linear-gradient(90deg,var(--ac),var(--ac2),var(--ac3));-webkit-background-clip:text;background-clip:text;color:transparent}
+.par{background:center/cover}.par::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,color-mix(in srgb,var(--ink) 80%,transparent),color-mix(in srgb,var(--ac2) 60%,transparent))}.par h2{position:relative}
+.sc:nth-child(3){background:linear-gradient(135deg,var(--ac2),var(--ac3))}.bx.ph{background:center/cover}.bx.ph::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent,#000c);z-index:-1}
 </style></head><body>
 <div id="load"><span class="brand"></span></div><div class="bar"></div><div class="cur"></div>
 <nav><div class="logo"><span id="em"></span><span class="brand"></span></div><a class="btn call" href="#">📞 Call</a></nav>
@@ -69,8 +76,8 @@ footer{padding:28px 24px;text-align:center;font-size:14px;opacity:.7}
 <div class="sc"><div><h3>Proper results</h3><p>Work done right the first time, by a friendly local team.</p></div><b>03</b></div></div></section>
 <section><div class="wrap bento"><div class="bx w"><div class="stars">★★★★★</div><h4>“Honestly the best we've used.”</h4><p>Sample review. Your real Google reviews go here.</p></div>
 <div class="bx"><div class="k">24/7</div><h4>Online booking</h4></div><div class="bx"><div class="k">100%</div><h4>Fully insured</h4></div>
-<div class="bx w"><h4>Local and proud</h4><p>Serving your town and nearby areas. Tap call and talk to a real person.</p><a class="btn call" href="#" style="background:var(--ac);color:var(--ink);margin-top:10px">📞 Call now</a></div></div></section>
-<section class="par" id="par"><div class="l" style="left:8%;top:10%" data-s=".4"></div><div class="l" style="right:6%;bottom:6%" data-s="-.3"></div><h2 class="tag"></h2></section>
+<div class="bx w ph" data-img="21" data-w="900" data-h="500"><h4>Local and proud</h4><p>Serving your town and nearby areas. Tap call and talk to a real person.</p><a class="btn call" href="#" style="background:var(--ac);color:var(--ink);margin-top:10px">📞 Call now</a></div></div></section>
+<section class="par" id="par" data-img="20" data-w="1600" data-h="900"><div class="l" style="left:8%;top:10%" data-s=".4"></div><div class="l" style="right:6%;bottom:6%" data-s="-.3"></div><h2 class="tag"></h2></section>
 <section class="cta"><div class="wrap"><h2>Let's talk.</h2><span class="mag"><a class="btn call" href="#">📞 <span class="ctat"></span></a></span></div></section>
 <footer><span class="brand"></span> · Sample website by ContentFellow · Premium theme (scroll motion) · <a class="cf-prof" href="https://maps.google.com/?cid=6675954353271833173" rel="noopener" target="_blank">Google Maps &amp; reviews</a> · <a href="https://www.yell.com/biz/content-fellow-burnley-11050665/" rel="noopener" target="_blank">Yell</a></footer>
 <script src="/themes/industries.js"></script><script src="/themes/fill.js"></script>
@@ -79,7 +86,7 @@ var d=IND[indKey()],R=document.documentElement;
 document.querySelectorAll(".par .l").forEach(function(l){l.textContent=d.e});
 var txt=d.b+" is the "+d.n.toLowerCase()+" people recommend. We listen, we turn up, and we do the job properly, every single time.";
 document.getElementById("fill").innerHTML=txt.split(" ").map(function(w){return"<span>"+w+" </span>"}).join("");
-document.getElementById("track").innerHTML=d.s.map(function(s,i){return'<div class="panel"><b>0'+(i+1)+'</b><div><h3>'+s+'</h3><p>Expert '+s.toLowerCase()+' with clear prices and a friendly team.</p></div></div>'}).join("")+'<div class="panel"><b>→</b><div><h3>'+d.cta+'</h3><p>Tap call and talk to us now.</p></div></div>';
+document.getElementById("track").innerHTML=d.s.map(function(s,i){return'<div class="panel" data-img="'+(i+2)+'" data-w="900" data-h="1100"><b>0'+(i+1)+'</b><div><h3>'+s+'</h3><p>Expert '+s.toLowerCase()+' with clear prices and a friendly team.</p></div></div>'}).join("")+'<div class="panel"><b>→</b><div><h3>'+d.cta+'</h3><p>Tap call and talk to us now.</p></div></div>';
 var lw=Math.max.apply(null,(d.n+" done right").split(" ").map(function(w){return w.length}));document.querySelector(".big").style.fontSize="min("+Math.min(13,84/lw).toFixed(1)+"vw,220px)";
 setTimeout(function(){document.getElementById("load").classList.add("go")},700);
 var hero=document.getElementById("hero"),hs=document.getElementById("hs"),tr=document.getElementById("track"),words=document.querySelectorAll("#fill span"),cnt=document.getElementById("cnt"),par=document.getElementById("par");
@@ -95,7 +102,7 @@ function tick(){
  requestAnimationFrame(tick)}
 tick();
 var ring=document.getElementById("ring"),fs=d.s.concat([d.cta]),R3=Math.round(Math.max(190,Math.min(innerWidth*.42,440)));
-ring.innerHTML=fs.map(function(x,i){return'<div class="face" style="transform:rotateY('+(i*360/fs.length)+'deg) translateZ('+R3+'px)"><b>0'+(i+1)+'</b><h3>'+x+'</h3></div>'}).join("");
+ring.innerHTML=fs.map(function(x,i){return'<div class="face" data-img="'+(i+12)+'" data-w="600" data-h="760" style="transform:rotateY('+(i*360/fs.length)+'deg) translateZ('+R3+'px)"><b>0'+(i+1)+'</b><h3>'+x+'</h3></div>'}).join("");
 var d3=document.getElementById("d3"),orbs=d3.querySelectorAll(".orb");
 (function r3(){var q=prog(d3);ring.style.transform="translateZ(-"+R3+"px) rotateX("+(10-q*20)+"deg) rotateY("+(-q*360)+"deg)";
 orbs.forEach(function(o){var z=+o.dataset.z;o.style.transform="translate3d("+(Math.sin(q*6)*60*z)+"px,"+(Math.cos(q*5)*80)+"px,0) scale("+(1+q*.6)+")"});requestAnimationFrame(r3)})();
@@ -108,4 +115,5 @@ document.querySelectorAll(".rv2").forEach(function(h){h.innerHTML=h.textContent.
 var cur=document.querySelector(".cur");addEventListener("pointermove",function(e){cur.style.left=e.clientX+"px";cur.style.top=e.clientY+"px"});
 document.querySelectorAll("a,.panel").forEach(function(a){a.addEventListener("pointerenter",function(){cur.classList.add("big")});a.addEventListener("pointerleave",function(){cur.classList.remove("big")})});
 document.querySelectorAll(".mag").forEach(function(m){var b=m.firstElementChild;m.addEventListener("pointermove",function(e){var r=m.getBoundingClientRect();b.style.transform="translate("+(e.clientX-r.left-r.width/2)*.3+"px,"+(e.clientY-r.top-r.height/2)*.4+"px)"});m.addEventListener("pointerleave",function(){b.style.transform=""})});
+document.querySelectorAll('.panel[data-img],.face[data-img]').forEach(function(el){el.style.backgroundImage='url('+IMG(+el.dataset.img,+el.dataset.w,+el.dataset.h)+'),linear-gradient(135deg,var(--ac),var(--ac2))'});
 </script></body></html>

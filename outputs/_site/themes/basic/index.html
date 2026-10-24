@@ -26,13 +26,20 @@ section{padding:64px 0}h2{font:800 clamp(28px,4vw,40px)/1.15 Fraunces,serif;marg
 footer{padding:32px 0;color:#777;font-size:14px;text-align:center}
 .fab{position:fixed;right:16px;bottom:16px;z-index:9}
 @media(max-width:760px){.hero .wrap{grid-template-columns:1fr}.art{max-width:320px;margin:auto;font-size:90px}nav .btn{padding:10px 14px;font-size:14px}}
+.ci{height:170px;margin:-24px -24px 16px;border-radius:inherit;border-bottom-left-radius:0;border-bottom-right-radius:0;background:linear-gradient(135deg,var(--ac),var(--ac2)) center/cover}.art{background:linear-gradient(135deg,var(--ac),var(--ac2)) center/cover;font-size:0;border:6px solid #fff;outline:3px solid var(--ac2);transform:rotate(-3deg)}.art::after{display:none}
+.hero{background:radial-gradient(600px 400px at 90% 0%,color-mix(in srgb,var(--ac2) 35%,transparent),transparent),radial-gradient(500px 300px at 0% 100%,color-mix(in srgb,var(--ac3) 30%,transparent),transparent)}
+.kick{background:linear-gradient(90deg,var(--ac),var(--ac2));color:#fff}.card{background:#fff;box-shadow:0 20px 40px -25px #0005;padding:24px}.card i{background:linear-gradient(135deg,var(--ac),var(--ac2))}
+.gal{display:grid;gap:12px;grid-template-columns:2fr 1fr 1fr;grid-auto-rows:200px}.gal div{border-radius:20px;background:linear-gradient(135deg,var(--ac),var(--ac3)) center/cover}.gal div:first-child{grid-row:span 2}
+@media(max-width:760px){.gal{grid-template-columns:1fr 1fr;grid-auto-rows:150px}}
+.btn{background:linear-gradient(90deg,var(--ac),var(--ac2))}.quote{background:linear-gradient(135deg,var(--ink),color-mix(in srgb,var(--ink) 60%,var(--ac)))}
 </style></head><body>
 <nav><div class="wrap"><div class="logo"><span id="em"></span><span class="brand"></span></div><a class="btn call" href="#">📞 Call now</a></div></nav>
 <header class="hero"><div class="wrap"><div><span class="kick ind"></span><h1 class="tag"></h1><p class="sub">Local, trusted and easy to reach. See our services below, then call or book in seconds.</p>
 <div class="row"><a class="btn call" href="#">📞 <span class="ctat"></span></a><a class="btn ghost" href="#services">Our services</a></div>
 <div class="trust"><div><b>5★</b>Google reviews</div><div><b>10+ yrs</b>experience</div><div><b>Fast</b>replies</div></div></div>
-<div class="art" id="art"></div></div></header>
+<div class="art" data-img="0" data-w="900" data-h="900"></div></div></header>
 <section id="services"><div class="wrap"><h2>What we do</h2><div class="cards" id="svc"></div></div></section>
+<section><div class="wrap"><h2>Our work</h2><div class="gal"><div data-img="7" data-w="900" data-h="900"></div><div data-img="8" data-w="500" data-h="400"></div><div data-img="9" data-w="500" data-h="400"></div><div data-img="10" data-w="500" data-h="400"></div><div data-img="11" data-w="500" data-h="400"></div></div></div></section>
 <section><div class="wrap"><div class="quote"><p>“Brilliant service from start to finish. Friendly, on time and great value. I'd recommend them to anyone.”</p><span>Sample review: your real Google reviews go here</span></div></div></section>
 <section><div class="wrap cta"><h2>Ready when you are</h2><p>Call us today. We'll answer your questions and give you a clear price.</p><a class="btn call" href="#">📞 Call now</a></div></section>
 <footer><span class="brand"></span> · Sample website by ContentFellow · Basic theme · <a class="cf-prof" href="https://maps.google.com/?cid=6675954353271833173" rel="noopener" target="_blank">Google Maps &amp; reviews</a> · <a href="https://www.yell.com/biz/content-fellow-burnley-11050665/" rel="noopener" target="_blank">Yell</a></footer>

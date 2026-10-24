@@ -37,14 +37,20 @@ section{padding:96px 0}h2{font:700 clamp(32px,5vw,56px)/1.05 "Space Grotesk";mar
 footer{text-align:center;color:#ffffff70;padding:40px 0;font-size:14px}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}h1 .w,.reveal{opacity:1;transform:none}}
 @media(max-width:600px){nav .btn{padding:9px 14px;font-size:14px}}
+.ci{height:170px;margin:-28px -28px 16px;border-radius:inherit;border-bottom-left-radius:0;border-bottom-right-radius:0;background:linear-gradient(135deg,var(--ac),var(--ac2)) center/cover}.hero-img{position:absolute;inset:0;z-index:-1;background:center/cover;opacity:.35;mask:linear-gradient(#000 40%,transparent);-webkit-mask:linear-gradient(#000 40%,transparent)}
+.b2{background:var(--ac2)!important;opacity:.45!important}.b3{background:var(--ac3)!important;opacity:.35!important}
+.strip{display:flex;gap:16px;overflow:hidden;padding:0 0 20px}.strip div{flex:0 0 min(70vw,360px);height:460px;border-radius:28px;background:linear-gradient(135deg,var(--ac),var(--ac2)) center/cover;transform:rotate(var(--r));transition:transform .5s;box-shadow:0 30px 60px -30px #000}
+.strip div:hover{transform:rotate(0) scale(1.03)}.grad{background-image:linear-gradient(90deg,#fff,var(--ac),var(--ac2),var(--ac3),#fff)}.btn.ac{background:linear-gradient(90deg,var(--ac),var(--ac2))}
+.cta{background:radial-gradient(circle at 20% 20%,var(--ac2),transparent 50%),radial-gradient(circle at 80% 80%,var(--ac3),transparent 50%),var(--ac)}
 </style></head><body>
 <div class="bg"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div><div class="grain"></div>
 <nav><div class="logo"><span id="em"></span><span class="brand"></span></div><a class="btn call" href="#">📞 Call</a></nav>
-<header class="hero"><div class="orbit"><span id="art"></span></div><div class="wrap"><span class="pill">Taking new bookings this week</span>
+<header class="hero"><div class="hero-img" data-img="0" data-w="1600" data-h="1000"></div><div class="orbit"><span id="art"></span></div><div class="wrap"><span class="pill">Taking new bookings this week</span>
 <h1 id="h1"></h1><p class="sub"><span class="ind"></span> you can trust. Fast replies, fair prices and work you'll be proud to show off.</p>
 <a class="btn ac call" href="#">📞 <span class="ctat"></span></a></div></header>
 <div class="marq"><div id="mq"></div></div>
 <section><div class="wrap"><h2 class="reveal">Services built<br>around <span class="grad">you</span></h2><div class="cards" id="svc"></div></div></section>
+<section style="padding-top:0"><div class="strip" id="strip"><div data-img="6" data-w="720" data-h="920" style="--r:-4deg"></div><div data-img="7" data-w="720" data-h="920" style="--r:3deg"></div><div data-img="8" data-w="720" data-h="920" style="--r:-2deg"></div><div data-img="9" data-w="720" data-h="920" style="--r:4deg"></div><div data-img="10" data-w="720" data-h="920" style="--r:-3deg"></div></div></section>
 <section><div class="wrap stats"><div class="stat reveal"><b data-n="500">0</b><span>happy customers</span></div><div class="stat reveal"><b data-n="12">0</b><span>years local</span></div><div class="stat reveal"><b data-n="5">0</b><span>star rated</span></div></div></section>
 <section><div class="wrap"><div class="cta reveal"><h2>Let's get you sorted</h2><p class="sub">One quick call. A clear price. No pressure.</p><a class="btn call" href="#">📞 Call now</a></div></div></section>
 <footer><span class="brand"></span> · Sample website by ContentFellow · Standard theme (motion graphics) · <a class="cf-prof" href="https://maps.google.com/?cid=6675954353271833173" rel="noopener" target="_blank">Google Maps &amp; reviews</a> · <a href="https://www.yell.com/biz/content-fellow-burnley-11050665/" rel="noopener" target="_blank">Yell</a></footer>
