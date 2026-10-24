@@ -8,7 +8,7 @@ $f = function ($k, $n = 300) { return trim(mb_substr(strip_tags((string)($_POST[
 $email = filter_var($f('email'), FILTER_VALIDATE_EMAIL);
 if (!$email || !$f('name') || ($_POST['consent'] ?? '') !== 'yes') { header('Location: /get-started/?error=1'); exit; }
 $services = implode(', ', array_map('strip_tags', (array)($_POST['services'] ?? [])));
-$row = [date('c'), $f('offer'), $f('name'), $f('business'), $f('website'), $email, $f('phone'), $f('area'), $services, $f('budget'), $f('message', 1000), $f('source'), $_SERVER['REMOTE_ADDR'] ?? ''];
+$row = [date('c'), $f('offer'), $f('name'), $f('business'), $f('website'), $email, $f('phone'), $f('area'), $services, $f('budget'), trim($f('message', 1000) . ($f('plan') ? ' [Plan: ' . $f('plan', 40) . ']' : '') . ($f('promo') ? ' [Promo: ' . strtoupper($f('promo', 40)) . (strcasecmp($f('promo'), 'GhostFellow7') === 0 ? ' = 25% OFF' : ' = invalid') . ']' : '')), $f('source'), $_SERVER['REMOTE_ADDR'] ?? ''];
 $new = !is_file($CSV); $fh = @fopen($CSV, 'a');
 if ($fh) { if ($new) fputcsv($fh, ['time','offer','name','business','website','email','phone','area','services','budget','message','source','ip']); fputcsv($fh, $row); fclose($fh); }
 $body = "New free-check request\n\n" . implode("\n", array_map(fn($k, $v) => "$k: $v", ['Wants','Name','Business','Website','Email','Phone','Area','Services','Budget','Message','Source'], array_slice($row, 1, 11)));
