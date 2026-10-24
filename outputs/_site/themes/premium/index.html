@@ -46,6 +46,14 @@ footer{padding:28px 24px;text-align:center;font-size:14px;opacity:.7}
 .bx h4{font:800 28px Syne;margin:0 0 8px}.bx .k{font:800 clamp(48px,7vw,90px)/1 Syne;color:var(--ac)}.bx .stars{font-size:28px;letter-spacing:4px;color:#ffc94a}
 @media(max-width:760px){.bx,.bx.w{grid-column:span 6}.sc{grid-template-columns:1fr}}
 .rv2 .ch{display:inline-block;opacity:0;transform:translateY(.6em) rotate(8deg);transition:opacity .5s,transform .6s cubic-bezier(.2,.8,.2,1)}.rv2.in .ch{opacity:1;transform:none}
+.d3{height:420vh;position:relative}.d3 .stick{perspective:1100px;background:radial-gradient(circle at 50% 60%,color-mix(in srgb,var(--ac) 30%,var(--ink)),var(--ink) 70%);color:var(--soft)}
+.d3 .floor{position:absolute;width:300vmax;height:300vmax;left:50%;top:55%;margin-left:-150vmax;transform:rotateX(78deg) translateZ(-200px);background-image:linear-gradient(color-mix(in srgb,var(--ac) 50%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,var(--ac) 50%,transparent) 1px,transparent 1px);background-size:80px 80px;mask:radial-gradient(circle,#000 10%,transparent 45%);-webkit-mask:radial-gradient(circle,#000 10%,transparent 45%)}
+.ring{position:relative;width:min(300px,62vw);height:min(380px,60vh);transform-style:preserve-3d;will-change:transform}
+.face{position:absolute;inset:0;border-radius:28px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(160deg,color-mix(in srgb,var(--ac) 85%,#fff),var(--ac));color:var(--ink);backface-visibility:hidden;box-shadow:0 30px 60px -20px #000a}
+.face:nth-child(even){background:linear-gradient(160deg,var(--soft),color-mix(in srgb,var(--soft) 70%,var(--ac)))}
+.face b{font:800 70px/1 Syne;opacity:.3}.face h3{font:800 clamp(26px,4vw,40px)/1 Syne;margin:0}
+.d3 h2{position:absolute;top:10vh;left:0;right:0;text-align:center;font:800 clamp(32px,6vw,72px)/1 Syne;margin:0;z-index:2}
+.d3 .orb{position:absolute;border-radius:50%;background:radial-gradient(circle at 30% 30%,#fff,var(--ac) 40%,var(--ink));filter:drop-shadow(0 20px 30px #0008);will-change:transform}
 </style></head><body>
 <div id="load"><span class="brand"></span></div><div class="bar"></div><div class="cur"></div>
 <nav><div class="logo"><span id="em"></span><span class="brand"></span></div><a class="btn call" href="#">📞 Call</a></nav>
@@ -53,6 +61,7 @@ footer{padding:28px 24px;text-align:center;font-size:14px;opacity:.7}
 <section class="intro"><div class="wrap"><p class="fill" id="fill"></p></div></section>
 <section class="hs" id="hs"><div class="stick"><div class="hs-title">What we do · scroll</div><div class="track" id="track"></div></div></section>
 <section class="num"><div class="wrap"><b id="cnt">0</b><p>happy customers and counting</p></div></section>
+<section class="d3" id="d3"><div class="stick"><h2>Our services in 3D</h2><div class="floor"></div><div class="orb" style="width:90px;height:90px;left:12%;top:30%" data-z="1"></div><div class="orb" style="width:50px;height:50px;right:14%;top:62%" data-z="-1"></div><div class="ring" id="ring"></div></div></section>
 <div class="mq2"><div id="mq2"></div></div>
 <section class="stack"><div class="wrap"><h2 class="rv2">Why people choose us</h2>
 <div class="sc"><div><h3>Fast replies</h3><p>Call, message or book online. We get back to you the same day.</p></div><b>01</b></div>
@@ -85,6 +94,11 @@ function tick(){
  var pr=par.getBoundingClientRect();par.querySelectorAll(".l").forEach(function(l){l.style.transform="translateY("+(pr.top*l.dataset.s)+"px) rotate("+pr.top*.05+"deg)"});
  requestAnimationFrame(tick)}
 tick();
+var ring=document.getElementById("ring"),fs=d.s.concat([d.cta]),R3=Math.round(Math.max(190,Math.min(innerWidth*.42,440)));
+ring.innerHTML=fs.map(function(x,i){return'<div class="face" style="transform:rotateY('+(i*360/fs.length)+'deg) translateZ('+R3+'px)"><b>0'+(i+1)+'</b><h3>'+x+'</h3></div>'}).join("");
+var d3=document.getElementById("d3"),orbs=d3.querySelectorAll(".orb");
+(function r3(){var q=prog(d3);ring.style.transform="translateZ(-"+R3+"px) rotateX("+(10-q*20)+"deg) rotateY("+(-q*360)+"deg)";
+orbs.forEach(function(o){var z=+o.dataset.z;o.style.transform="translate3d("+(Math.sin(q*6)*60*z)+"px,"+(Math.cos(q*5)*80)+"px,0) scale("+(1+q*.6)+")"});requestAnimationFrame(r3)})();
 var mw=d.s.map(function(x,i){return(i%2?"<em>":"<i>")+x+(i%2?"</em>":"</i>")+" ✦ "}).join("");var m2=document.getElementById("mq2");m2.innerHTML=mw+mw;var mx=0,ly=scrollY,vel=0;
 (function mq(){var dy=scrollY-ly;ly=scrollY;vel+=(dy-vel)*.1;mx-=1+Math.abs(vel)*.6;if(-mx>m2.scrollWidth/2)mx=0;m2.style.transform="translateX("+mx+"px) skewX("+Math.max(-12,Math.min(12,-vel*.4))+"deg)";requestAnimationFrame(mq)})();
 var cards=document.querySelectorAll(".sc");(function st(){cards.forEach(function(c,i){var n=cards[i+1];if(!n)return;var r=n.getBoundingClientRect(),t=Math.min(1,Math.max(0,1-(r.top-innerHeight*.15)/innerHeight));c.style.transform="scale("+(1-t*.08)+")";c.style.filter="brightness("+(1-t*.35)+")"});requestAnimationFrame(st)})();
