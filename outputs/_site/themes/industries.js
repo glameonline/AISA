@@ -1,0 +1,25 @@
+// Demo content for the sample website themes. ?i=<key> picks the industry.
+window.IND = {
+  "aesthetic-clinic": {n:"Aesthetic Clinic", b:"Lumière Aesthetics", t:"Natural results. Expert hands.", s:["Anti-wrinkle","Dermal fillers","Skin boosters","Chemical peels"], c:["#f6e7e1","#b07a6a","#2b1f1c"], e:"✨", cta:"Book a consultation"},
+  "plumber": {n:"Plumber", b:"FlowRight Plumbing", t:"Leaks fixed fast. Same-day callouts.", s:["Emergency repairs","Boiler service","Bathroom fitting","Blocked drains"], c:["#e6f1fb","#1f6fb2","#0d2236"], e:"🔧", cta:"Call a plumber"},
+  "driving-school": {n:"Driving School", b:"PassFirst Driving", t:"Pass first time with calm, patient instructors.", s:["Manual lessons","Automatic lessons","Intensive courses","Pass Plus"], c:["#fff6db","#e0a400","#2a2100"], e:"🚗", cta:"Book a lesson"},
+  "electrician": {n:"Electrician", b:"BrightSpark Electrical", t:"Safe, certified electrical work.", s:["Rewiring","EV charger install","Fuse boards","EICR certificates"], c:["#fff4e0","#f08a00","#26180a"], e:"⚡", cta:"Get a quote"},
+  "construction": {n:"Construction Company", b:"Keystone Build", t:"Extensions, new builds and renovations done right.", s:["Extensions","Loft conversions","New builds","Groundworks"], c:["#eceae6","#c9541a","#1c1a17"], e:"🏗️", cta:"Start your project"},
+  "it-company": {n:"IT Company", b:"Northgrid IT", t:"IT support that just works.", s:["Managed IT","Cyber security","Cloud & Microsoft 365","Helpdesk"], c:["#e8ecff","#4b5cff","#0e1130"], e:"💻", cta:"Book a free IT check"},
+  "restaurant": {n:"Restaurant", b:"Ember & Oak", t:"Wood-fired food, made to share.", s:["Dinner menu","Sunday roast","Private dining","Takeaway"], c:["#f7ece2","#a8401f","#22130c"], e:"🍽️", cta:"Book a table"},
+  "barber": {n:"Barber", b:"Sharp & Co Barbers", t:"Fresh fades. Clean shaves.", s:["Skin fades","Beard trims","Hot towel shave","Kids cuts"], c:["#ededed","#111111","#111111"], e:"💈", cta:"Book a cut"},
+  "hair-salon": {n:"Hair & Beauty Salon", b:"Halo Hair Studio", t:"Colour, cuts and care you'll love.", s:["Balayage","Cut & finish","Keratin","Bridal hair"], c:["#f6eaf1","#b03a7a","#2a0f1e"], e:"💇", cta:"Book an appointment"},
+  "dentist": {n:"Dentist", b:"Smile Studio Dental", t:"Gentle dentistry for the whole family.", s:["Check-ups","Teeth whitening","Invisalign","Implants"], c:["#e7f7f5","#0f9b8e","#06302c"], e:"🦷", cta:"Book a check-up"},
+  "gym": {n:"Gym & Personal Trainer", b:"Forge Fitness", t:"Stronger every week.", s:["Personal training","Group classes","Nutrition plans","Online coaching"], c:["#eef0e6","#6b8e00","#151a05"], e:"🏋️", cta:"Start free trial"},
+  "cleaning": {n:"Cleaning Company", b:"Sparkle Clean Co", t:"Spotless homes and offices.", s:["Home cleaning","Office cleaning","End of tenancy","Carpet cleaning"], c:["#e9f6ff","#1aa0e0","#05263a"], e:"🧽", cta:"Get a quote"},
+  "accountant": {n:"Accountant", b:"Ledger & Lane", t:"Stress-free tax and accounts.", s:["Self assessment","Bookkeeping","VAT returns","Payroll"], c:["#eef1f6","#2b4a7e","#0d1729"], e:"📊", cta:"Book a free call"},
+  "estate-agent": {n:"Estate Agent", b:"Hearth Homes", t:"Sell faster. Let smarter.", s:["Sales","Lettings","Free valuation","Property management"], c:["#f3efe8","#7a5c2e","#211a0e"], e:"🏡", cta:"Free valuation"},
+  "roofer": {n:"Roofer", b:"TopLine Roofing", t:"Roofs repaired and replaced.", s:["Roof repairs","New roofs","Flat roofs","Gutters & fascias"], c:["#ecebf2","#4a3f8f","#14112a"], e:"🏠", cta:"Free roof check"},
+  "solicitor": {n:"Solicitor", b:"Carter Lowe Solicitors", t:"Clear legal advice, fixed fees.", s:["Conveyancing","Wills & probate","Family law","Employment"], c:["#efece6","#5a1f2b","#1e0a0f"], e:"⚖️", cta:"Free first call"},
+  "photographer": {n:"Photographer", b:"Golden Hour Studio", t:"Photos you'll keep forever.", s:["Weddings","Portraits","Products","Events"], c:["#f5f0e6","#c08a2e","#21180a"], e:"📷", cta:"Check my dates"},
+  "mechanic": {n:"Car Garage & Mechanic", b:"Gearhead Garage", t:"Honest repairs. Fair prices.", s:["MOT","Servicing","Diagnostics","Tyres & brakes"], c:["#ececec","#d32f2f","#1a0606"], e:"🔩", cta:"Book an MOT"},
+  "care-home": {n:"Care Home & Home Care", b:"Willow Care", t:"Kind care, close to home.", s:["Home care","Respite care","Dementia care","Live-in care"], c:["#edf5ec","#3f8a4a","#0f2412"], e:"🤝", cta:"Arrange a visit"},
+  "landscaper": {n:"Gardener & Landscaper", b:"Greenleaf Gardens", t:"Gardens you'll love being in.", s:["Garden design","Patios","Fencing","Maintenance"], c:["#ecf4e6","#4c8a2b","#12240a"], e:"🌿", cta:"Get a quote"}
+};
+window.indKey = function(){var k=new URLSearchParams(location.search).get("i");return IND[k]?k:"plumber"};
+window.CALL = "07535677302";
