@@ -34,6 +34,18 @@ nav .btn{background:#fff;color:#000;padding:10px 18px}
 .mag{display:inline-block}
 footer{padding:28px 24px;text-align:center;font-size:14px;opacity:.7}
 @media(prefers-reduced-motion:reduce){.big,.circle{transform:none!important}#load{display:none}}
+.mq2{overflow:hidden;white-space:nowrap;padding:6vh 0;border-block:1px solid color-mix(in srgb,var(--ink) 15%,transparent)}
+.mq2 div{display:inline-block;font:800 clamp(60px,12vw,170px)/1 Syne;text-transform:uppercase;will-change:transform}.mq2 i{font-style:normal;color:var(--ac);-webkit-text-stroke:0}.mq2 em{font-style:normal;color:transparent;-webkit-text-stroke:2px var(--ink)}
+.stack{padding:10vh 0}.stack h2{font:800 clamp(36px,6vw,80px)/1 Syne;margin:0 0 6vh}
+.sc{position:sticky;top:12vh;height:62vh;border-radius:36px;padding:clamp(24px,4vw,56px);margin-bottom:6vh;display:grid;grid-template-columns:1fr auto;align-items:end;color:var(--soft);background:var(--ink);transform-origin:center top;box-shadow:0 -20px 60px -30px #0008;overflow:hidden}
+.sc:nth-child(2){background:var(--ac);top:15vh}.sc:nth-child(3){background:color-mix(in srgb,var(--ink) 75%,var(--ac));top:18vh}
+.sc h3{font:800 clamp(34px,6vw,84px)/.95 Syne;margin:0}.sc p{max-width:32ch;opacity:.85}.sc b{font:800 clamp(80px,16vw,220px)/.8 Syne;opacity:.2}
+.bento{display:grid;gap:16px;grid-template-columns:repeat(6,1fr);padding:10vh 0}
+.bx{position:relative;border-radius:28px;padding:28px;min-height:220px;background:color-mix(in srgb,var(--ink) 92%,var(--ac));color:var(--soft);overflow:hidden;grid-column:span 2;isolation:isolate}
+.bx.w{grid-column:span 4}.bx::before{content:"";position:absolute;inset:0;background:radial-gradient(300px circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--ac) 55%,transparent),transparent 60%);opacity:0;transition:opacity .3s;z-index:-1}.bx:hover::before{opacity:1}
+.bx h4{font:800 28px Syne;margin:0 0 8px}.bx .k{font:800 clamp(48px,7vw,90px)/1 Syne;color:var(--ac)}.bx .stars{font-size:28px;letter-spacing:4px;color:#ffc94a}
+@media(max-width:760px){.bx,.bx.w{grid-column:span 6}.sc{grid-template-columns:1fr}}
+.rv2 .ch{display:inline-block;opacity:0;transform:translateY(.6em) rotate(8deg);transition:opacity .5s,transform .6s cubic-bezier(.2,.8,.2,1)}.rv2.in .ch{opacity:1;transform:none}
 </style></head><body>
 <div id="load"><span class="brand"></span></div><div class="bar"></div><div class="cur"></div>
 <nav><div class="logo"><span id="em"></span><span class="brand"></span></div><a class="btn call" href="#">📞 Call</a></nav>
@@ -41,6 +53,14 @@ footer{padding:28px 24px;text-align:center;font-size:14px;opacity:.7}
 <section class="intro"><div class="wrap"><p class="fill" id="fill"></p></div></section>
 <section class="hs" id="hs"><div class="stick"><div class="hs-title">What we do · scroll</div><div class="track" id="track"></div></div></section>
 <section class="num"><div class="wrap"><b id="cnt">0</b><p>happy customers and counting</p></div></section>
+<div class="mq2"><div id="mq2"></div></div>
+<section class="stack"><div class="wrap"><h2 class="rv2">Why people choose us</h2>
+<div class="sc"><div><h3>Fast replies</h3><p>Call, message or book online. We get back to you the same day.</p></div><b>01</b></div>
+<div class="sc"><div><h3>Clear prices</h3><p>You know the full price before we start. No surprises later.</p></div><b>02</b></div>
+<div class="sc"><div><h3>Proper results</h3><p>Work done right the first time, by a friendly local team.</p></div><b>03</b></div></div></section>
+<section><div class="wrap bento"><div class="bx w"><div class="stars">★★★★★</div><h4>“Honestly the best we've used.”</h4><p>Sample review. Your real Google reviews go here.</p></div>
+<div class="bx"><div class="k">24/7</div><h4>Online booking</h4></div><div class="bx"><div class="k">100%</div><h4>Fully insured</h4></div>
+<div class="bx w"><h4>Local and proud</h4><p>Serving your town and nearby areas. Tap call and talk to a real person.</p><a class="btn call" href="#" style="background:var(--ac);color:var(--ink);margin-top:10px">📞 Call now</a></div></div></section>
 <section class="par" id="par"><div class="l" style="left:8%;top:10%" data-s=".4"></div><div class="l" style="right:6%;bottom:6%" data-s="-.3"></div><h2 class="tag"></h2></section>
 <section class="cta"><div class="wrap"><h2>Let's talk.</h2><span class="mag"><a class="btn call" href="#">📞 <span class="ctat"></span></a></span></div></section>
 <footer><span class="brand"></span> · Sample website by ContentFellow · Premium theme (scroll motion) · <a class="cf-prof" href="https://maps.google.com/?cid=6675954353271833173" rel="noopener" target="_blank">Google Maps &amp; reviews</a> · <a href="https://www.yell.com/biz/content-fellow-burnley-11050665/" rel="noopener" target="_blank">Yell</a></footer>
@@ -65,6 +85,12 @@ function tick(){
  var pr=par.getBoundingClientRect();par.querySelectorAll(".l").forEach(function(l){l.style.transform="translateY("+(pr.top*l.dataset.s)+"px) rotate("+pr.top*.05+"deg)"});
  requestAnimationFrame(tick)}
 tick();
+var mw=d.s.map(function(x,i){return(i%2?"<em>":"<i>")+x+(i%2?"</em>":"</i>")+" ✦ "}).join("");var m2=document.getElementById("mq2");m2.innerHTML=mw+mw;var mx=0,ly=scrollY,vel=0;
+(function mq(){var dy=scrollY-ly;ly=scrollY;vel+=(dy-vel)*.1;mx-=1+Math.abs(vel)*.6;if(-mx>m2.scrollWidth/2)mx=0;m2.style.transform="translateX("+mx+"px) skewX("+Math.max(-12,Math.min(12,-vel*.4))+"deg)";requestAnimationFrame(mq)})();
+var cards=document.querySelectorAll(".sc");(function st(){cards.forEach(function(c,i){var n=cards[i+1];if(!n)return;var r=n.getBoundingClientRect(),t=Math.min(1,Math.max(0,1-(r.top-innerHeight*.15)/innerHeight));c.style.transform="scale("+(1-t*.08)+")";c.style.filter="brightness("+(1-t*.35)+")"});requestAnimationFrame(st)})();
+document.querySelectorAll(".bx").forEach(function(b){b.addEventListener("pointermove",function(e){var r=b.getBoundingClientRect();b.style.setProperty("--mx",e.clientX-r.left+"px");b.style.setProperty("--my",e.clientY-r.top+"px")})});
+document.querySelectorAll(".rv2").forEach(function(h){h.innerHTML=h.textContent.split("").map(function(c,i){return'<span class="ch" style="transition-delay:'+i*25+'ms">'+(c==" "?"&nbsp;":c)+"</span>"}).join("");new IntersectionObserver(function(es,o){if(es[0].isIntersecting){h.classList.add("in");o.disconnect()}}).observe(h)});
+
 var cur=document.querySelector(".cur");addEventListener("pointermove",function(e){cur.style.left=e.clientX+"px";cur.style.top=e.clientY+"px"});
 document.querySelectorAll("a,.panel").forEach(function(a){a.addEventListener("pointerenter",function(){cur.classList.add("big")});a.addEventListener("pointerleave",function(){cur.classList.remove("big")})});
 document.querySelectorAll(".mag").forEach(function(m){var b=m.firstElementChild;m.addEventListener("pointermove",function(e){var r=m.getBoundingClientRect();b.style.transform="translate("+(e.clientX-r.left-r.width/2)*.3+"px,"+(e.clientY-r.top-r.height/2)*.4+"px)"});m.addEventListener("pointerleave",function(){b.style.transform=""})});
