@@ -1,4 +1,15 @@
 # Topic queue (UK first → EU). Orchestrator takes the top unchecked row each day.
+## PRIORITY (owner keywords 25 Oct) — do these first
+- [ ] Best social media management agency in Burnley
+- [ ] Affordable social media management for small businesses in Lancashire
+- [ ] Who can manage my business Instagram and Facebook near Burnley?
+- [ ] pay monthly websites uk (refresh /pay-monthly-websites/ + support post)
+- [ ] marketing agency burnley
+- [ ] Videographer for small events and birthdays in Burnley
+- [ ] Content creator for local businesses near Burnley
+- [ ] Monthly social media packages with a free trial UK (only if a real free trial exists, else "trial month" wording from brand.md)
+- [ ] REFRESH: How much does a small business website cost in the UK? (add new £225/£520/£1,099 + monthly prices)
+- [ ] REFRESH: What is GEO and how do I get my business recommended by ChatGPT? (update existing posts, no duplicate)
 - [x] How much does LLM optimisation cost for small businesses? (UK) — 2026-10-16
 - [x] GEO vs SEO: what's the difference and do UK small businesses need both? — 2026-10-16 (queued for publish)
 - [x] How to get your business recommended by ChatGPT (UK step-by-step) — 2026-10-16 (queued for publish)
