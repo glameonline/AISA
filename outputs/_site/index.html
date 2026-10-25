@@ -488,6 +488,89 @@ label.f{display:grid;gap:6px;font-size:13px;font-weight:600;color:var(--silver)}
   .word img{clip-path:none!important}.cue{opacity:1!important}
   .rv{transform:none;opacity:1}
 }
+/* ---------- screen 1: logo high + big scroll guide (owner request 25 Oct) ---------- */
+.lockup{align-self:start;margin-top:max(58px,calc(env(safe-area-inset-top,0px) + 7vh));will-change:transform}
+.lockup .cuewrap{position:static;margin-top:clamp(18px,6vh,56px);pointer-events:auto}
+.lockup .mark{width:min(100%,46vh,460px)}
+.cue{all:unset;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:10px;color:var(--silver-hi);font:700 clamp(17px,2.2vw,21px)/1 var(--body);letter-spacing:.02em;opacity:0;-webkit-tap-highlight-color:transparent}
+.ready .cue{animation:fade .8s ease 1.4s forwards}
+.cue::after{display:none}
+.cue .ic{position:relative;width:34px;height:54px;border:2.5px solid var(--silver-hi);border-radius:20px}
+.cue .ic::before{content:"";position:absolute;left:50%;top:9px;width:5px;height:10px;margin-left:-2.5px;border-radius:3px;background:var(--orange);animation:wheel 1.6s ease-in-out infinite}
+.cue .fing{display:none;font-size:40px;line-height:1;animation:swipe 1.6s ease-in-out infinite}
+@media (hover:none){.cue .ic{display:none}.cue .fing{display:block}}
+.cue .ch{display:grid;justify-items:center;margin-top:-4px}
+.cue .ch i{width:16px;height:16px;border-right:3px solid var(--orange);border-bottom:3px solid var(--orange);transform:rotate(45deg);margin-top:-6px;animation:chev 1.6s ease-in-out infinite;opacity:0}
+.cue .ch i:nth-child(2){animation-delay:.2s}.cue .ch i:nth-child(3){animation-delay:.4s}
+.cue .tx{padding:10px 18px;border-radius:999px;background:rgba(242,106,27,.14);border:1px solid rgba(242,106,27,.5);box-shadow:0 0 30px rgba(242,106,27,.25)}
+@keyframes wheel{0%{transform:translateY(0);opacity:1}70%{transform:translateY(16px);opacity:0}100%{opacity:0}}
+@keyframes swipe{0%,100%{transform:translateY(-6px)}50%{transform:translateY(12px)}}
+@keyframes chev{0%{opacity:0;transform:rotate(45deg) translate(-6px,-6px)}50%{opacity:1}100%{opacity:0;transform:rotate(45deg) translate(6px,6px)}}
+@media (max-height:640px){.cue .ic{height:42px;width:28px}.cue .fing{font-size:30px}.cue .ch{display:none}}
+.cfcall{transition:opacity .35s,transform .35s}
+body.s1 .cfcall{opacity:0;transform:translateY(24px);pointer-events:none}
+
+/* ---------- screen 2: hero buttons ---------- */
+.reveal p{margin-top:14px}
+.hero-cta{display:grid;gap:12px;justify-items:center;margin-top:22px}
+.hbtn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-width:min(100%,320px);padding:16px 26px;border-radius:999px;font:700 clamp(17px,2vw,20px)/1.2 var(--body);text-decoration:none;position:relative}
+.hbtn small{display:block;font-weight:500;font-size:13px;opacity:.9}
+.hbtn.svc{background:var(--orange);color:#0c0c0d;box-shadow:0 0 0 0 var(--glow);animation:pulse 1.8s ease-out infinite}
+.hbtn.svc .click{position:absolute;top:-12px;right:14px;background:#fff;color:#111;font:800 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:5px 8px;border-radius:999px;animation:nudge 1.2s ease-in-out infinite}
+.hbtn.hw{background:linear-gradient(120deg,#3b0d4f,#7a1fa2 45%,#ff6a00);color:#fff;flex-direction:column;gap:2px;animation:glow 2.2s ease-in-out infinite}
+.hbtn.hw .pk{display:inline-block;animation:pkb 1.4s ease-in-out infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(242,106,27,.6)}100%{box-shadow:0 0 0 22px rgba(242,106,27,0)}}
+@keyframes nudge{50%{transform:translateY(-4px) rotate(-4deg)}}
+@keyframes glow{50%{box-shadow:0 0 34px 6px rgba(255,106,0,.55)}}
+@keyframes pkb{50%{transform:translateY(-3px) rotate(-12deg) scale(1.15)}}
+.cbtns{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:min(100%,480px);margin:14px auto 0}
+.cb{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:13px 10px;border-radius:14px;font:700 15px/1.2 var(--body);text-decoration:none;border:0;cursor:pointer;white-space:nowrap}
+.cb.wa{background:#25d366;color:#0c0c0d}.cb.call{background:var(--silver-hi);color:#111}.cb.mail{background:var(--panel-2);color:var(--silver-hi);border:1px solid var(--line-2)}
+.cb.send{background:var(--orange);color:#0c0c0d;padding:16px 22px;font-size:17px;border-radius:999px}
+@media (max-width:560px){.reveal h1{font-size:clamp(30px,9vw,40px)}.reveal p{font-size:15px}.reveal p.rx{display:none}.hbtn{padding:14px 20px}.hero-cta{margin-top:16px;gap:10px}}
+
+/* ---------- screen 3: portfolio (website demo chooser) ---------- */
+#portfolio .head{margin-bottom:22px}
+.pf-chips{display:flex;flex-wrap:wrap;gap:8px}
+.pf-chips button{border:1px solid var(--line-2);background:var(--panel);color:var(--silver-hi);padding:10px 14px;border-radius:999px;font:600 14px var(--body);cursor:pointer;transition:all .2s}
+.pf-chips button:hover{border-color:var(--orange)}.pf-chips button.on{background:var(--orange);color:#0c0c0d;border-color:var(--orange)}
+.pf-plans{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));margin-top:26px}
+.pf-plan{background:var(--panel);border:1px solid var(--line);border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
+.pf-plan.pop{border-color:var(--orange);box-shadow:0 30px 70px -40px var(--orange)}
+.pf-shot{height:220px;position:relative;overflow:hidden;background:#000;cursor:pointer}
+.pf-shot iframe{width:1280px;height:800px;border:0;transform:scale(.3);transform-origin:0 0;pointer-events:none;position:absolute;top:0;left:0}
+.pf-shot::after{content:"▶  Open live preview";position:absolute;inset:0;display:grid;place-items:end center;padding-bottom:14px;background:linear-gradient(transparent 50%,#000c);color:#fff;font-weight:700}
+.pf-badge{position:absolute;top:12px;left:12px;z-index:2;background:var(--orange);color:#0c0c0d;font-weight:800;font-size:12px;padding:5px 10px;border-radius:999px;text-transform:uppercase}
+.pf-pb{padding:20px;display:flex;flex-direction:column;gap:10px;flex:1}.pf-pb h3{font-size:19px}
+.pf-price{font:600 34px/1 var(--display);color:var(--silver-hi)}.pf-price small{font:400 14px var(--body);color:var(--mute)}
+.pf-was{text-decoration:line-through;color:var(--mute);font-size:18px;margin-right:6px}.pf-sale{display:inline-block;background:#ff6a00;color:#fff;font:800 12px var(--body);border-radius:999px;padding:4px 9px;margin-left:6px;vertical-align:middle}
+.pf-ghost{font-size:14px;color:#ffb27a}
+.pf-pb ul{list-style:none;padding:0;margin:0;display:grid;gap:6px;font-size:15px}.pf-pb li::before{content:"✓";color:var(--orange);font-weight:800;margin-right:8px}
+.pf-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.pf-pb .pf-row{margin-top:auto}
+.pf-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--orange);color:#0c0c0d;font-weight:700;padding:12px 18px;border-radius:999px;text-decoration:none;border:0;font-size:15px;cursor:pointer;flex:1;white-space:nowrap}
+.pf-btn.alt{background:transparent;color:var(--silver-hi);border:1px solid var(--line-2)}
+.pf-more{margin-top:24px;text-align:center}.pf-more .pf-btn{flex:none;font-size:17px;padding:15px 28px}
+.pf-modal{position:fixed;inset:0;z-index:120;background:#0c0c0d;display:none;flex-direction:column;padding:12px}
+.pf-modal.open{display:flex}.pf-mbar{display:flex;gap:8px;align-items:center;justify-content:space-between;padding:6px 4px 12px;flex-wrap:wrap;color:var(--silver-hi)}
+.pf-dev{display:flex;gap:6px}.pf-dev button{background:var(--panel);color:var(--silver-hi);border:1px solid var(--line-2);border-radius:10px;padding:8px 12px}.pf-dev button.on{border-color:var(--orange)}
+.pf-mbar .pf-btn{flex:none;padding:10px 14px;font-size:14px}
+.pf-x{background:#fff;color:#000;border-radius:50%;width:38px;height:38px;font-size:20px}
+.pf-frame{flex:1;display:flex;justify-content:center}.pf-frame iframe{width:100%;height:100%;border:0;border-radius:14px;background:#fff;transition:width .4s}
+
+/* ---------- screen 4: contact ---------- */
+.ct-wrap{max-width:760px}
+.ct-form{display:grid;grid-template-columns:1fr 1fr;gap:14px;background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:22px}
+.ct-form label{display:grid;gap:6px;font-size:14px;color:var(--silver)}.ct-form .full{grid-column:1/-1}
+.ct-form input[type=text],.ct-form input[type=email],.ct-form input[type=tel],.ct-form textarea{font:16px var(--body);background:var(--ink-2);color:var(--silver-hi);border:1px solid var(--line-2);border-radius:12px;padding:12px;width:100%}
+.ct-form .ok{display:flex;gap:10px;align-items:flex-start}.ct-form .ok input{margin-top:4px}
+.ct-form .hp{position:absolute;left:-9999px;width:1px;height:1px}
+.ct-addr{text-align:center;margin-top:16px;color:var(--silver)}
+@media (max-width:560px){.ct-form{grid-template-columns:1fr;padding:18px}}
+#contact .cbtns{margin-top:18px}
+
+/* ---------- plans teaser ---------- */
+.teaser{display:grid;gap:14px;justify-items:start;text-decoration:none;padding:clamp(22px,4vw,40px);border-radius:24px;border:1px solid rgba(242,106,27,.45);background:linear-gradient(180deg,rgba(54,30,16,.75),rgba(22,18,16,.92))}
+.teaser h2 em{color:var(--orange);font-style:normal}
 </style>
 
 </head>
@@ -501,10 +584,10 @@ label.f{display:grid;gap:6px;font-size:13px;font-weight:600;color:var(--silver)}
     <img class="w" src="word.webp" alt="">
   </a>
   <nav class="links" aria-label="Main">
-    <a href="#fellows">Fellows</a><a href="#growth">Growth Fellow</a><a href="#how">How it works</a><a href="#faq">FAQ</a><a href="/services/">Services</a><a href="/blog/">Guides</a><a href="/get-started/?offer=trial">Free trial</a>
+    <a href="#portfolio">Portfolio</a><a href="/services/#fellows">Fellows</a><a href="/services/#growth">Growth Fellow</a><a href="#how">How it works</a><a href="#faq">FAQ</a><a href="/services/">Services</a><a href="/blog/">Guides</a><a href="/get-started/?offer=trial">Free trial</a><a href="#contact">Contact</a>
   </nav>
   <div class="nav-r">
-    <button class="crew-btn" id="crewBtn" aria-label="Open your crew"><span class="t">Your crew</span><span class="n" id="crewN">0</span></button>
+    <a class="crew-btn" href="#contact" style="text-decoration:none"><span class="t">Contact us</span><span class="n">→</span></a>
   </div>
 </header>
 
@@ -553,16 +636,17 @@ label.f{display:grid;gap:6px;font-size:13px;font-weight:600;color:var(--silver)}
           </svg>
         </div>
       </div>
-      <div class="copy" id="copy"><div class="word"><img src="word.webp" alt="ContentFellow"></div></div>
+      <div class="copy" id="copy"><div class="word"><img src="word.webp" alt="ContentFellow"></div></div><div class="cuewrap" id="cueWrap"><button type="button" class="cue" id="cue" aria-label="Scroll to explore"><span class="ic" aria-hidden="true"></span><span class="fing" aria-hidden="true">👆</span><span class="ch" aria-hidden="true"><i></i><i></i><i></i></span><span class="tx">Scroll to explore</span></button></div>
     </div>
     <div class="veil" id="veil"></div>
     <div class="reveal" id="reveal">
       <div>
         <h1>Hire a Fellow.<br><b>Build your crew.</b></h1><p><a href="/pay-monthly-websites/"><strong>Websites built from £225, then pay monthly from £49: see 3 live demos →</strong></a></p>
-        <p>Shoot, edit, post, build and rank. Pick the specialists you need on one simple monthly plan, from £59 a month.</p>
+        <p class="rx">Shoot, edit, post, build and rank. Pick the specialists you need on one simple monthly plan, from £59 a month.</p>
+        <div class="hero-cta"><a class="hbtn svc" href="/services/">Our services →<span class="click">Click here</span></a><a class="hbtn hw" id="hwBtn" href="/pay-monthly-websites/"><span><span class="pk">🎃</span> Halloween discount</span><small>20% off until 31 Oct · code GhostFellow7 = 25% off</small></a></div>
+        <div class="cbtns"><a class="cb wa" href="https://wa.me/447535677302" target="_blank" rel="noopener">💬 WhatsApp</a><a class="cb call" href="tel:+447535677302">📞 Call</a><a class="cb mail" href="mailto:info@contentfellow.com">✉️ Email</a></div>
       </div>
     </div>
-    <div class="cuewrap" id="cueWrap"><div class="cue">Scroll</div></div>
     <div class="hud"><span>f/<em id="fstop">16</em></span><span><em id="focal">24</em>mm</span><span>ISO <em id="iso">100</em></span><span><em id="pct">00</em>%</span></div>
     <div class="progress" id="bar"></div>
   </div>
@@ -570,51 +654,47 @@ label.f{display:grid;gap:6px;font-size:13px;font-weight:600;color:var(--silver)}
 
 <div class="marquee" aria-hidden="true"><div class="row"><span>Production</span><span>Video editing</span><span>Motion graphics</span><span>Podcast editing</span><span>Social media</span><span>Websites &amp; apps</span><span>SEO</span><span>GEO for AI search</span><span>Production</span><span>Video editing</span><span>Motion graphics</span><span>Podcast editing</span><span>Social media</span><span>Websites &amp; apps</span><span>SEO</span><span>GEO for AI search</span></div></div>
 
-<!-- ================= FELLOWS ================= -->
-<section class="block" id="fellows">
+<!-- ================= PORTFOLIO (website demos) ================= -->
+<section class="block" id="portfolio" aria-label="Our portfolio">
   <div class="wrap">
-    <div class="head rv">
-      <span class="eyebrow">The Fellows</span>
-      <h2>Pick the specialists you need. <em>Add them to your crew.</em></h2>
-      <p>Every Fellow is a monthly plan with clear deliverables. Open any card to see exactly what's included and add extras.</p>
-    </div>
-    <div class="who rv" id="who">
-      <span class="lbl">This plan is for</span>
-      <div class="seg" id="seg" role="group" aria-label="Who is this plan for">
-        <span class="pill" aria-hidden="true"></span>
-        <button type="button" id="aud-self" data-aud="self" aria-pressed="false">Myself<small>Creator, freelancer, personal brand</small></button>
-        <button type="button" id="aud-brand" data-aud="brand" aria-pressed="true">My brand<small>Business, shop or startup</small></button>
-      </div>
-      <span class="save" id="saveNote">Personal plans are 15% lower</span>
-    </div>
-    <div class="grid" id="grid"></div>
+    <div class="head rv"><span class="eyebrow">Our portfolio</span><h2>See a website <em>built for your business.</em></h2><p>Tap your industry. All 3 sample websites change to match it. Open any preview to try the full site, on desktop or phone size.</p></div>
+    <div class="pf-chips" id="pfChips"></div>
+    <div class="pf-plans" id="pfPlans"></div>
+    <p class="pf-more"><a class="pf-btn" href="/pay-monthly-websites/">See all prices →</a></p>
+  </div>
+</section>
+<div class="pf-modal" id="pfModal" role="dialog" aria-modal="true" aria-label="Live website preview"><div class="pf-mbar"><b id="pfMt"></b><div class="pf-dev"><button type="button" data-w="100%" class="on">💻 Desktop</button><button type="button" data-w="390px">📱 Phone</button></div><div class="pf-row"><a class="pf-btn" href="/get-started/?offer=website&amp;source=home-portfolio">🛒 I want this one</a><button type="button" class="pf-x" id="pfX" aria-label="Close">×</button></div></div><div class="pf-frame"><iframe id="pfF" title="Live website preview"></iframe></div></div>
+
+<!-- ================= CONTACT ================= -->
+<section class="block" id="contact" aria-label="Contact us">
+  <div class="wrap ct-wrap">
+    <div class="head rv"><span class="eyebrow">Contact us</span><h2>Tell us what you need. <em>We reply fast.</em></h2><p>Send a short message, or WhatsApp, call or email us directly. Have a promo code? Add it below.</p></div>
+    <form class="ct-form rv" id="ctForm" action="/get-started/submit.php" method="post">
+      <input type="hidden" name="offer" value="call"><input type="hidden" name="source" value="home">
+      <input class="hp" type="text" name="company_url" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label>Name<input type="text" name="name" autocomplete="name" required></label>
+      <label>Email<input type="email" name="email" autocomplete="email" required></label>
+      <label>Phone<input type="tel" name="phone" autocomplete="tel"></label>
+      <label>Promo code (optional)<input type="text" name="promo" id="ctPromo" placeholder="e.g. GhostFellow7"></label>
+      <label class="full">Message<textarea name="message" rows="4" placeholder="For example: I need a new website for my salon"></textarea></label>
+      <label class="ok full"><input type="checkbox" name="consent" value="yes" required> I agree ContentFellow can contact me about this request.</label>
+      <button class="cb send full" type="submit">Send message →</button>
+    </form>
+    <div class="cbtns"><a class="cb wa" href="https://wa.me/447535677302" target="_blank" rel="noopener">💬 WhatsApp</a><a class="cb call" href="tel:+447535677302">📞 Call</a><a class="cb mail" href="mailto:info@contentfellow.com">✉️ Email</a></div>
+    <p class="ct-addr">📍 Burnley, Lancashire, UK</p>
   </div>
 </section>
 
-<!-- ================= GROWTH BUILDER ================= -->
-<section class="block" id="growth">
-  <div class="wrap">
-    <div class="head rv">
-      <span class="eyebrow">Premium · Growth Fellow</span>
-      <h2>Your full digital marketing team, <em>at 30% off.</em></h2>
-      <p>The Growth Fellow brings every Fellow together under one strategy and one monthly report. Untick anything you don't need and the price drops straight away.</p>
-    </div>
-    <div class="builder">
-      <div class="opts rv" id="opts"></div>
-      <aside class="summary rv" aria-live="polite">
-        <span class="eyebrow">Growth Fellow</span>
-        <h3 id="gTitle">Full team · 5 Fellows</h3>
-        <div class="big-price"><span class="amt" id="gAmt">£389</span><span class="per">per month</span></div>
-        <div class="compare"><span>Separately <s id="gWas">£545</s></span><span class="sv" id="gSave">You save £146</span></div>
-        <div class="meter" aria-hidden="true"><i id="gMeter"></i></div>
-        <p class="warn" id="gWarn"></p>
-        <p class="note">Includes a dedicated Growth lead, one shared strategy, a monthly planning call and one combined report.</p>
-        <button class="btn btn-p" id="gAdd" type="button">Add Growth Fellow to crew</button>
-        <button class="btn btn-g" type="button" data-open="growth">See what's included</button>
-      </aside>
-    </div>
-  </div>
+<!-- ================= PLANS TEASER (plans live on /services/) ================= -->
+<section class="block" id="plans-teaser">
+  <div class="wrap"><a class="teaser rv" href="/services/">
+    <span class="eyebrow">The Fellows · monthly plans</span>
+    <h2>Pick the specialists you need. <em>Build your crew.</em></h2>
+    <p>Production, editing, social, websites and SEO &amp; GEO from £59 a month, or the full Growth team for £389. Every Fellow has a free trial.</p>
+    <span class="cb send">Open our services &amp; plans →</span>
+  </a></div>
 </section>
+
 
 <!-- ================= HOW IT WORKS ================= -->
 <section class="block" id="reel" aria-label="ContentFellow in 48 seconds"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px;align-items:center;justify-content:center"><div style="flex:1 1 300px;max-width:460px"><span class="eyebrow">Watch · 48 seconds</span><h2>Most small businesses don't have a <em>content problem.</em></h2><p>They have a time problem. ContentFellow gives you one small crew with clear deliverables: shoots, edits, social, your website and search, for a fixed monthly price. Every Fellow has a free trial.</p><p><a class="btn btn-p" href="/get-started/?offer=trial">Start a free trial</a></p></div><video style="flex:0 1 400px;width:100%;max-width:400px;aspect-ratio:720/866;border-radius:18px;display:block;object-fit:cover" src="/media/contentfellow-reel.mp4?v=2" poster="/media/contentfellow-reel-poster.jpg?v=2" muted autoplay loop playsinline controls preload="none" width="720" height="866" title="ContentFellow: Your Content. Our Fellows."></video></div>
@@ -655,7 +735,7 @@ label.f{display:grid;gap:6px;font-size:13px;font-weight:600;color:var(--silver)}
   <div class="wrap cta rv">
     <span class="eyebrow">Ready when you are</span>
     <h2>Your Content. Our Fellows.<br><b>Your Success.</b></h2>
-    <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center"><a class="btn btn-p" href="#fellows">Choose your Fellows</a><a class="btn btn-g" href="#growth">Build a Growth plan</a></div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center"><a class="btn btn-p" href="/services/#fellows">Choose your Fellows</a><a class="btn btn-g" href="/services/#growth">Build a Growth plan</a></div>
   </div>
 </section>
 <section id="ai-questions" style="margin:32px 0"><h2>Popular questions, answered with UK prices</h2><ul><li><a href="/blog/llm-optimisation-cost-small-business-uk/">How much does GEO cost for a small business in the UK?</a></li><li><a href="/blog/best-geo-agency-uk/">Best GEO agency for small businesses in the UK</a></li><li><a href="/blog/get-business-recommended-by-chatgpt-uk/">Cheapest way to get my business recommended by ChatGPT</a></li><li><a href="/blog/social-media-management-cost-uk/">How much does social media management cost in the UK?</a></li><li><a href="/blog/outsourced-marketing-team-cost-uk/">Outsourced digital marketing team on a monthly plan UK</a></li><li><a href="/blog/affordable-social-media-management-uk/">Best monthly social media management service for small businesses UK</a></li><li><a href="/blog/video-editing-subscription-comparison/">Best video editing subscription for creators UK</a></li><li><a href="/blog/affordable-seo-geo-services-uk/">Affordable SEO and AI search optimisation monthly plan UK</a></li><li><a href="/blog/monthly-content-shoot-uk/">Content production and video shoots for small businesses monthly plan UK</a></li><li><a href="/blog/pay-monthly-website-uk-comparison/">How much does a small business website cost per month UK</a></li><li><a href="/answers/">All answers →</a></li></ul></section></main>
@@ -663,20 +743,6 @@ label.f{display:grid;gap:6px;font-size:13px;font-weight:600;color:var(--silver)}
 <footer><div class="wrap"><span>© 2026 ContentFellow</span><span>Production · Editing · Social · Web · SEO &amp; GEO · <a href="/about/">About</a> · <a href="/burnley/">Burnley</a> · <a href="/privacy/">Privacy</a> · <a class="cf-prof" href="https://maps.google.com/?cid=6675954353271833173" rel="noopener" target="_blank">Google Maps &amp; reviews</a> · <a href="https://www.yell.com/biz/content-fellow-burnley-11050665/" rel="noopener" target="_blank">Yell</a> · <a href="/answers/">Answers</a> · <a href="/pricing/">Pricing</a> · <a href="/agencies/">For agencies</a></span></div></footer>
 
 <!-- detail sheet -->
-<div class="scrim" id="scrim"></div>
-<aside class="sheet" id="detail" role="dialog" aria-modal="true" aria-labelledby="dTitle" aria-hidden="true">
-  <div class="sheet-h"><div><div class="c-role" id="dRole"></div><h3 id="dTitle" style="margin-top:6px"></h3></div><button class="x" data-close aria-label="Close"><svg viewBox="0 0 16 16"><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button></div>
-  <div class="sheet-b" id="dBody"></div>
-  <div class="sheet-f"><div class="tot"><div><div class="k">Monthly price</div><div class="k" id="dFor"></div></div><div class="v" id="dTot">£0<small> /mo</small></div></div><button class="btn btn-p" id="dAdd" type="button">Add to crew</button></div>
-</aside>
-
-<!-- crew sheet -->
-<aside class="sheet" id="crew" role="dialog" aria-modal="true" aria-labelledby="cTitle" aria-hidden="true">
-  <div class="sheet-h"><h3 id="cTitle">Your crew</h3><button class="x" data-close aria-label="Close"><svg viewBox="0 0 16 16"><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button></div>
-  <div class="sheet-b" id="cBody"></div>
-  <div class="sheet-f" id="cFoot"></div>
-</aside>
-<div class="toast" id="toast" role="status"></div>
 
 <script>
 document.documentElement.classList.remove('no-js');
@@ -689,304 +755,6 @@ const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const gbp=n=>'£'+Math.round(n).toLocaleString('en-GB');
 const ICON_PLUS='<svg viewBox="0 0 16 16"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
 const ICON_ARROW='<svg viewBox="0 0 16 16"><path d="M3 8h9M8.5 4.5L12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-
-const TRIAL={studio:'Free mini shoot',creator:'3 free videos',social:'Free 7-day trial',build:'Free homepage preview',search:'Free 7-day trial',growth:'Free 7-day trial'};
-const trialLine=id=>`<div class="c-trial"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>${TRIAL[id]}</b> · no card needed</span></div>`;
-const trialBtn=id=>`<a class="c-trial-btn" href="/get-started/?service=${id}&amp;offer=trial">Start free trial ${ICON_ARROW}</a>`;
-/* ================= DATA ================= */
-const FELLOWS=[
- {id:'studio',name:'Studio Fellow',role:'Production',price:149,scene:'studio',
-  points:['One on-site shoot every month, up to 3 hours','Photo and 4K video captured in the same visit','20 edited photos and all usable clips in 5 working days'],
-  desc:'Your Studio Fellow comes to you. We plan the shoot together in advance, arrive with camera, lighting and audio kit, and capture photos and video of your products, place and people. You end every month with a library of fresh, professional content that is edited and ready to post.',
-  inc:['Shoot plan and shot list agreed before the day','Camera, lighting and microphone kit included','Product, food, venue, portrait and behind-the-scenes coverage','20 colour-graded photos each month','Every usable video clip delivered in 4K','Private download folder for all files'],
-  addons:[{id:'hour',name:'Extra shoot hour',price:35,max:4},{id:'drone',name:'Drone footage',price:45,max:1},{id:'loc',name:'Extra location on the same day',price:20,max:2},{id:'rush',name:'48-hour rush delivery',price:25,max:1}]},
- {id:'creator',name:'Creator Fellow',role:'Editing & motion',price:119,scene:'creator',
-  points:['8 short videos edited for Reels, TikTok and Shorts','1 motion graphics video every month','1 podcast episode edited, up to 60 minutes'],
-  desc:'Send us your raw footage, or use what your Studio Fellow shot. Your Creator Fellow cuts it into scroll-stopping short videos with captions, music and pacing built for each platform, designs animated motion graphics for your brand, and turns your podcast into a clean full episode plus ready-to-post clips.',
-  inc:['Short-form editing with captions, sound design and colour grade','Motion graphics: logo animations, explainers and promo videos','Podcast editing: noise clean-up, levels, intro and outro','3 short clips cut from every podcast episode','Thumbnails and cover frames for each video','2 rounds of revisions on every video'],
-  addons:[{id:'reels',name:'4 extra short videos',price:39,max:4},{id:'motion',name:'Extra motion graphics video',price:29,max:3},{id:'pod',name:'Extra podcast episode',price:35,max:4},{id:'thumb',name:'Thumbnail pack, 5 designs',price:15,max:4}]},
- {id:'social',name:'Social Fellow',role:'Social media',scene:'social',
-  tiers:{manage:{label:'Manage',price:59,points:['Account management on up to 2 platforms','Replies to comments and messages every weekday','Ad campaigns set up and managed (ad spend paid separately)']},
-         post:{label:'Manage + Post',price:129,points:['Everything in Manage, on up to 3 platforms','Daily posting from a monthly content calendar','Trend research, hooks and hashtags built for reach']}},
-  desc:'Your Social Fellow runs your accounts so you don’t have to. Choose Manage if you make your own posts and want someone looking after your profiles, community and ads. Choose Manage + Post if you want us to plan, write and publish every day, with every post shaped to reach new people and go further.',
-  inc:['Profile set-up and optimisation on every platform','Comment and message replies on weekdays','Meta, TikTok and LinkedIn ad campaigns managed','Monthly performance report with next steps','Manage + Post: content calendar sent for your approval','Manage + Post: captions, hashtags and daily scheduling','Manage + Post: weekly trend check and viral post formats'],
-  addons:[{id:'plat',name:'Extra platform',price:19,max:3},{id:'stories',name:'Daily stories',price:25,max:1},{id:'infl',name:'Influencer outreach',price:39,max:1},{id:'ads',name:'Extra ad campaign',price:19,max:3}]},
- {id:'build',name:'Build Fellow',role:'Websites & apps',price:69,scene:'build',
-  points:['Custom website up to 5 pages, designed and built','Hosting, security and updates included','2 change requests every month'],
-  desc:'Your Build Fellow designs and builds a fast, mobile-first website for your business, then keeps it running. Need more than a website? We also build web apps and management tools such as booking systems, client portals and internal dashboards, added to your plan as modules.',
-  inc:['Design in your brand, built mobile-first','Hosting, SSL certificate and daily backups','Speed, security and software updates','Contact forms and Google Analytics set up','2 content or design changes every month','Web apps and management tools available as modules'],
-  addons:[{id:'pages',name:'5 extra pages',price:15,max:4},{id:'shop',name:'Online shop',price:29,max:1},{id:'book',name:'Booking system',price:19,max:1},{id:'app',name:'Custom app or management tool module',price:49,max:3}]},
- {id:'search',name:'Search Fellow',role:'SEO & GEO',price:89,scene:'search',
-  points:['SEO to climb Google search results','GEO so ChatGPT, Claude and Gemini recommend you','Monthly ranking and AI visibility report'],
-  desc:'People now search in two places: Google, and AI assistants. Your Search Fellow works on both. For SEO we fix technical issues, target the words your customers actually type and build your local presence. For GEO (generative engine optimisation) we test how AI assistants describe your brand, add the structured data they read, and rewrite key pages so they are easy for AI to quote and recommend.',
-  inc:['Technical SEO audit and fixes','Keyword research and on-page optimisation','Google Business Profile management','2 SEO articles written every month','AI visibility checks across ChatGPT, Claude, Gemini and Perplexity','Schema markup and FAQ content written for AI answers','Monthly report on rankings and AI mentions'],
-  addons:[{id:'arts',name:'4 extra articles',price:35,max:3},{id:'weekly',name:'Weekly AI visibility tracking',price:15,max:1},{id:'pr',name:'Backlink and PR outreach',price:39,max:2},{id:'gap',name:'Competitor gap report',price:19,max:1}]},
-];
-const GROWTH={id:'growth',name:'Growth Fellow',role:'Digital marketing · Premium',scene:'growth',rate:.7,
-  points:['Every Fellow working as one team','One strategy, one plan and one monthly report','Untick any service you don’t need and pay less'],
-  desc:'Your Growth Fellow is a digital marketing lead who coordinates every other Fellow around one goal: growing your audience and your sales. Shoots feed the edits, edits feed your socials, your website turns visitors into customers, and search brings in new people every month, all planned together and reported in one place.',
-  inc:['A dedicated Growth lead as your single point of contact','Monthly strategy and planning call','Every Fellow you keep ticked, at 30% off','Social Fellow on Manage + Post by default','Content shot once and reused across every channel','One combined monthly report with clear next steps']};
-const byId=Object.fromEntries(FELLOWS.map(f=>[f.id,f]));
-
-/* ================= STATE ================= */
-const S={aud:'brand',tiers:{social:'post'},crew:[],growth:{studio:true,creator:true,social:true,build:true,search:true,socialTier:'post'}};
-try{const s=JSON.parse(localStorage.getItem('cf-state')||'null');if(s){Object.assign(S,s)}}catch(e){}
-const save=()=>{try{localStorage.setItem('cf-state',JSON.stringify(S))}catch(e){}};
-const mult=()=>S.aud==='self'?.85:1;
-const basePrice=(f,tier)=>f.tiers?f.tiers[tier||'post'].price:f.price;
-const growthCalc=()=>{let sum=0,n=0;FELLOWS.forEach(f=>{if(S.growth[f.id]){sum+=basePrice(f,f.id==='social'?S.growth.socialTier:null);n++}});
-  const was=sum*mult(), now=n>=2?Math.round(sum*GROWTH.rate*mult()):Math.round(was);return{was:Math.round(was),now,n}};
-
-/* ================= SCENES ================= */
-const scenes={
- studio:()=>`<video src="studio.mp4" poster="studio.jpg" muted loop playsinline preload="metadata"></video><div class="shade"></div><div class="sc-label"><i></i>STUDIO</div><div class="vf"><b></b><b></b><b></b><b></b></div><div class="focus"></div><div class="tc">00:00:00:00</div><div class="expo"><span>1/125</span><span>f/2.8</span><span>ISO 400</span><span>4K 25p</span></div><div class="flash"></div>`,
- creator:()=>{const clips=(cols)=>Array.from({length:10},(_,i)=>`<div class="clip" style="width:${30+((i*37)%50)}px;background:${cols[i%cols.length]}"></div>`).join('');
-   const wave=Array.from({length:22},(_,i)=>`<i style="animation-delay:${(i*73%900)/1000}s"></i>`).join('');
-   return `<div class="pv"><video src="creator.mp4" poster="creator.jpg" muted loop playsinline preload="metadata"></video><div class="cap">EDIT · 4K</div></div>
-   <div class="tl"><div class="trk"><div class="rail">${clips(['#f26a1b','#b84308','#ff9a4a'])}${clips(['#f26a1b','#b84308','#ff9a4a'])}</div></div>
-   <div class="trk"><div class="rail">${clips(['#3b4252','#4c566a','#2e3440'])}${clips(['#3b4252','#4c566a','#2e3440'])}</div></div>
-   <div class="trk"><div class="rail"><div class="wave">${wave}</div><div class="wave">${wave}</div><div class="wave">${wave}</div><div class="wave">${wave}</div></div></div><div class="ph"></div></div>`},
- social:()=>{const cols=['linear-gradient(135deg,#f26a1b,#7a2a06)','linear-gradient(135deg,#3b4252,#1b1e26)','linear-gradient(135deg,#ff9a4a,#c2410c)','linear-gradient(135deg,#5e6a80,#20242e)'];
-   const posts=Array.from({length:8},(_,i)=>`<div class="post"><div class="img" style="background:${cols[i%4]}"></div><div class="ln"></div><div class="ln s"></div></div>`).join('');
-   return `<div class="sc-label"><i></i>LIVE</div><div class="phone"><div class="feed">${posts}</div></div><div class="stat"><span>Followers</span><b data-count="followers">12,480</b><span class="up">+18% this month</span></div><div class="stat r"><span>Reach</span><b data-count="reach">96.2K</b><span class="up">+41%</span></div>`},
- build:()=>`<div class="win"><div class="chrome"><i></i><i></i><i></i><span></span></div><div class="split"><div class="code" data-type></div><div class="site"><div class="blk hero"></div><div class="row"><div class="blk"></div><div class="blk"></div><div class="blk"></div></div><div class="blk big"></div></div></div></div>`,
- search:()=>`<div class="chat"><div class="q" data-q></div><div class="a" data-a>Top pick: <b>ContentFellow</b>. Shoots, editing, social and SEO on monthly plans.</div><div class="ais"><span>ChatGPT</span><span>Claude</span><span>Gemini</span></div></div>
-   <div class="rank"><div class="t">GOOGLE · RANK</div>${['Studio North','Pixel &amp; Co','ContentFellow','Brightside Media'].map((n,i)=>`<div class="rk${n==='ContentFellow'?' me':''}" data-rk="${i}" style="top:${24+i*27}px"><b>${i+1}</b>${n}</div>`).join('')}</div>`,
- growth:()=>{const labels=['Studio','Creator','Social','Build','Search'];
-   return `<div class="orbit o2"></div><div class="orbit"></div><div class="pulse"></div><div class="core"></div>${labels.map((l,i)=>`<div class="sat" data-sat="${i}"><span>${l}</span></div>`).join('')}`}
-};
-const sceneLoops=new Map();
-function runScene(el,type){
-  if(sceneLoops.has(el))return;
-  let timers=[];const T=(fn,ms)=>{const id=setInterval(fn,ms);timers.push(()=>clearInterval(id));};
-  const R=(fn,ms)=>{const id=setTimeout(fn,ms);timers.push(()=>clearTimeout(id));};
-  if(type==='studio'){const f=el.querySelector('.focus'),tc=el.querySelector('.tc'),fl=el.querySelector('.flash');let fr=0;
-    T(()=>{fr++;const s=Math.floor(fr/25),ff=fr%25;tc.textContent=`00:00:${String(Math.floor(s/1)%60).padStart(2,'0')}:${String(ff).padStart(2,'0')}`},40);
-    T(()=>{f.classList.remove('lock');f.style.left=(22+Math.random()*50)+'%';f.style.top=(18+Math.random()*44)+'%';R(()=>{f.classList.add('lock');fl.classList.remove('go');void fl.offsetWidth;fl.classList.add('go')},950)},2600);}
-  if(type==='social'){const ph=el.querySelector('.phone');const f=el.querySelector('[data-count="followers"]');let n=12480;
-    T(()=>{const h=document.createElement('div');h.className='heart';h.style.left=(42+Math.random()*16)+'%';h.style.top='70%';h.style.setProperty('--dx',(Math.random()*60-30)+'px');
-      h.innerHTML='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7.5-4.6-9.6-9.2C.8 8.3 3 4.5 6.7 4.5c2.1 0 3.6 1.1 4.3 2.4.7-1.3 2.2-2.4 4.3-2.4 3.7 0 5.9 3.8 4.3 7.3C19.5 16.4 12 21 12 21z"/></svg>';
-      el.appendChild(h);R(()=>h.remove(),2500);n+=Math.floor(Math.random()*7)+1;f.textContent=n.toLocaleString('en-GB')},520);}
-  if(type==='build'){const code=el.querySelector('[data-type]'),blks=[...el.querySelectorAll('.blk')];
-    const src=[['<span class="k">const</span> site = <span class="t">build</span>({'],['  brand: <span class="s">"yours"</span>,'],['  pages: <span class="s">5</span>,'],['  mobile: <span class="k">true</span>,'],['  speed: <span class="s">"fast"</span>'],['});'],['<span class="t">deploy</span>(site);']];
-    let i=0;const step=()=>{if(i===0){code.innerHTML='';blks.forEach(b=>b.classList.remove('in'))}
-      if(i<src.length){code.innerHTML=src.slice(0,i+1).map(l=>l[0]).join('\n')+'<span class="caret"></span>';if(blks[i-1])blks[i-1].classList.add('in');i++}
-      else{blks.forEach(b=>b.classList.add('in'));i=-3}
-      if(i<0)i++;};T(step,650);step();}
-  if(type==='search'){const q=el.querySelector('[data-q]'),a=el.querySelector('[data-a]'),ais=[...el.querySelectorAll('.ais span')],rks=[...el.querySelectorAll('.rk')];
-    const text='Best content agency for my brand?';let order=[0,1,2,3];
-    const cycle=()=>{q.textContent='';a.classList.remove('in');ais.forEach(s=>s.classList.remove('on'));order=[0,1,2,3];place();
-      let k=0;const ty=setInterval(()=>{q.textContent=text.slice(0,++k);if(k>=text.length){clearInterval(ty);
-        R(()=>{a.classList.add('in');ais.forEach((s,j)=>R(()=>s.classList.add('on'),j*260))},350);
-        R(()=>{order=[2,0,1,3];place()},900)}},45);timers.push(()=>clearInterval(ty));};
-    const place=()=>order.forEach((ri,pos)=>{rks[ri].style.top=(24+pos*27)+'px';rks[ri].querySelector('b').textContent=pos+1});
-    cycle();T(cycle,6000);}
-  if(type==='growth'){const sats=[...el.querySelectorAll('[data-sat]')];let t0=performance.now(),raf;
-    const loop=t=>{const a=(t-t0)/1000*.35;const w=el.clientWidth,h=el.clientHeight,r=Math.min(w,h)*.40;
-      sats.forEach((s,i)=>{const ang=a+i*Math.PI*2/sats.length;s.style.transform=`translate(${Math.cos(ang)*r*1.25}px,${Math.sin(ang)*r*.82}px)`});raf=requestAnimationFrame(loop)};
-    raf=requestAnimationFrame(loop);timers.push(()=>cancelAnimationFrame(raf));}
-  const vids=[...el.querySelectorAll('video')];vids.forEach(v=>{v.muted=true;const pr=v.play();if(pr&&pr.catch)pr.catch(()=>{})});timers.push(()=>vids.forEach(v=>v.pause()));
-  sceneLoops.set(el,()=>timers.forEach(f=>f()));
-}
-function stopScene(el){const s=sceneLoops.get(el);if(s){s();sceneLoops.delete(el)}}
-const sceneIO=new IntersectionObserver(es=>es.forEach(e=>{const el=e.target;if(e.isIntersecting&&!reduce)runScene(el,el.dataset.scene);else stopScene(el)}),{threshold:.15});
-function mountScene(el,type){el.innerHTML=scenes[type]();el.dataset.scene=type;el.classList.add('s-'+type);sceneIO.observe(el)}
-
-/* ================= CARDS ================= */
-const grid=$('#grid');
-function priceOf(f,tier){return Math.round(basePrice(f,tier)*mult())}
-function inCrew(id){return S.crew.some(c=>c.fid===id)}
-function cardHTML(f){
-  const tier=S.tiers[f.id]||'post';const pts=f.tiers?f.tiers[tier].points:f.points;
-  return `<div class="glare"></div><div class="scene"></div><div class="c-body">
-    <div class="c-top"><div><div class="c-role">${f.role}</div><h3 class="c-name">${f.name}</h3></div>
-      <div class="price"><div class="amt" data-amt>${gbp(priceOf(f,tier))}</div><div class="per">per month</div></div></div>
-    ${trialLine(f.id)}
-    ${f.tiers?`<div class="tiers" role="group" aria-label="Social Fellow plan">${Object.entries(f.tiers).map(([k,t])=>`<button type="button" data-tier="${k}" aria-pressed="${k===tier}">${t.label}<small>${gbp(t.price*mult())}/mo</small></button>`).join('')}</div>`:''}
-    <ul class="pts">${pts.map(p=>`<li>${p}</li>`).join('')}</ul>
-    <div class="c-actions"><button type="button" class="btn btn-p" data-add="${f.id}">${ICON_PLUS}<span>Add to crew</span></button><button type="button" class="btn btn-g" data-open="${f.id}" aria-label="Details for ${f.name}">Details ${ICON_ARROW}</button></div>${trialBtn(f.id)}</div>`;
-}
-function growthCard(){
-  const g=growthCalc();
-  return `<span class="badge">Best value</span><div class="glare"></div><div class="scene"></div><div class="c-body">
-    <div class="c-top"><div><div class="c-role">${GROWTH.role}</div><h3 class="c-name">${GROWTH.name}</h3></div>
-      <div class="price"><s>${gbp(g.was)}</s><div class="amt" data-amt>${gbp(g.now)}</div><div class="per">per month</div></div></div>
-    ${trialLine('growth')}
-    <ul class="pts">${GROWTH.points.map(p=>`<li>${p}</li>`).join('')}</ul>
-    <div class="c-actions"><a class="btn btn-p" href="#growth">Build your plan ${ICON_ARROW}</a><button type="button" class="btn btn-g" data-open="growth" aria-label="Details for Growth Fellow">Details</button></div>${trialBtn('growth')}</div>`;
-}
-function renderCards(){
-  grid.innerHTML='';
-  [...FELLOWS,GROWTH].forEach((f,i)=>{const c=document.createElement('article');c.className='card rv'+(f.id==='growth'?' premium':'');c.dataset.id=f.id;
-    c.style.transitionDelay=(i%3)*80+'ms';c.innerHTML=f.id==='growth'?growthCard():cardHTML(f);grid.appendChild(c);mountScene(c.querySelector('.scene'),f.scene);revealIO.observe(c);tilt(c)});
-  syncAddButtons();
-}
-function refreshPrices(){
-  $$('.card').forEach(c=>{const id=c.dataset.id;
-    if(id==='growth'){const g=growthCalc();animNum(c.querySelector('[data-amt]'),g.now);c.querySelector('s').textContent=gbp(g.was);return}
-    const f=byId[id],tier=S.tiers[id]||'post';animNum(c.querySelector('[data-amt]'),priceOf(f,tier));
-    if(f.tiers){c.querySelectorAll('[data-tier]').forEach(b=>{b.setAttribute('aria-pressed',b.dataset.tier===tier);b.querySelector('small').textContent=gbp(f.tiers[b.dataset.tier].price*mult())+'/mo'});
-      c.querySelector('.pts').innerHTML=f.tiers[tier].points.map(p=>`<li>${p}</li>`).join('')}});
-}
-function animNum(el,to){if(!el)return;const from=+(el.dataset.v||to);el.dataset.v=to;if(reduce||from===to){el.textContent=gbp(to);return}
-  const t0=performance.now(),d=550;const st=t=>{const k=ease(clamp((t-t0)/d));el.textContent=gbp(from+(to-from)*k);if(k<1)requestAnimationFrame(st)};requestAnimationFrame(st)}
-function syncAddButtons(){$$('[data-add]').forEach(b=>{const on=inCrew(b.dataset.add);b.classList.toggle('added',on);b.querySelector('span').textContent=on?'In your crew':'Add to crew'})}
-
-/* tilt + glare */
-function tilt(card){if(reduce)return;let raf=0;
-  card.addEventListener('pointermove',e=>{if(e.pointerType==='touch')return;const r=card.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
-    card.style.setProperty('--mx',x*100+'%');card.style.setProperty('--my',y*100+'%');cancelAnimationFrame(raf);
-    raf=requestAnimationFrame(()=>card.style.transform=`perspective(900px) rotateX(${(.5-y)*6}deg) rotateY(${(x-.5)*7}deg) translateY(-4px)`)});
-  card.addEventListener('pointerleave',()=>{cancelAnimationFrame(raf);card.style.transform=''});
-}
-
-/* ================= AUDIENCE ================= */
-const segEl=$('#seg'),pill=segEl.querySelector('.pill');
-function setAud(a,first){S.aud=a;save();segEl.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.aud===a));
-  const on=segEl.querySelector(`[data-aud="${a}"]`);pill.style.left=on.offsetLeft+'px';pill.style.width=on.offsetWidth+'px';
-  $('#saveNote').classList.toggle('on',a==='self');if(!first){refreshPrices();renderGrowth();renderCrew();if(detailId)renderDetail()}}
-segEl.addEventListener('click',e=>{const b=e.target.closest('[data-aud]');if(b)setAud(b.dataset.aud)});
-addEventListener('resize',()=>setAud(S.aud,true));
-
-/* ================= GROWTH BUILDER ================= */
-const opts=$('#opts');
-function renderGrowth(){
-  opts.innerHTML=FELLOWS.map(f=>{const on=!!S.growth[f.id];const tier=f.id==='social'?S.growth.socialTier:null;const p=basePrice(f,tier)*mult();
-    return `<label class="opt${on?' on':''}" data-g="${f.id}"><input type="checkbox" id="g-${f.id}" ${on?'checked':''}><span class="tick"><svg viewBox="0 0 16 16" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.3l3 3 6-6.3"/></svg></span>
-      <span><h4>${f.name} <span class="mono" style="font-size:11px;color:var(--mute);font-weight:500">· ${f.role}</span></h4><p>${(f.tiers?f.tiers[tier].points:f.points)[0]}</p>
-      ${f.tiers?`<span class="mini" role="group" aria-label="Social plan">${Object.entries(f.tiers).map(([k,t])=>`<button type="button" data-gt="${k}" aria-pressed="${k===tier}">${t.label}</button>`).join('')}</span>`:''}</span>
-      <span class="v">${gbp(p*GROWTH.rate)}<small><s>${gbp(p)}</s></small></span></label>`}).join('');
-  const g=growthCalc();animNum($('#gAmt'),g.now);$('#gWas').textContent=gbp(g.was);
-  $('#gSave').textContent=g.n>=2?`You save ${gbp(g.was-g.now)}`:'No bundle saving';$('#gMeter').style.width=(g.n/5*100)+'%';
-  $('#gTitle').textContent=g.n===5?'Full team · 5 Fellows':`Custom team · ${g.n} Fellow${g.n===1?'':'s'}`;
-  $('#gWarn').textContent=g.n<2?'Tick at least 2 Fellows to unlock the 30% bundle price.':'';
-  $('#gAdd').disabled=g.n===0;$('#gAdd').style.opacity=g.n===0?.5:1;
-  const gc=document.querySelector('.card[data-id="growth"]');if(gc){animNum(gc.querySelector('[data-amt]'),g.now);gc.querySelector('s').textContent=gbp(g.was)}
-}
-opts.addEventListener('click',e=>{const t=e.target.closest('[data-gt]');if(t){e.preventDefault();S.growth.socialTier=t.dataset.gt;S.growth.social=true;save();renderGrowth();return}});
-opts.addEventListener('change',e=>{const l=e.target.closest('[data-g]');if(!l)return;S.growth[l.dataset.g]=e.target.checked;save();renderGrowth();
-  requestAnimationFrame(()=>{const el=document.getElementById(e.target.id);if(el)el.focus()})});
-
-/* ================= CREW ================= */
-function lineTotal(c){
-  if(c.fid==='growth'){const sum=c.members.reduce((s,m)=>s+basePrice(byId[m],m==='social'?c.socialTier:null),0);return Math.round(sum*(c.members.length>=2?GROWTH.rate:1)*mult())}
-  const f=byId[c.fid];let t=basePrice(f,c.tier);Object.entries(c.addons||{}).forEach(([k,q])=>{const a=f.addons.find(x=>x.id===k);if(a)t+=a.price*q});return Math.round(t*mult());
-}
-function addToCrew(item,srcEl){
-  const i=S.crew.findIndex(c=>c.fid===item.fid);if(i>=0)S.crew[i]=item;else S.crew.push(item);save();renderCrew();syncAddButtons();
-  flyTo(srcEl);toast(i>=0?`${nameOf(item.fid)} updated`:`${nameOf(item.fid)} added to your crew`);
-}
-const nameOf=id=>id==='growth'?GROWTH.name:byId[id].name;
-function crewTotal(){return S.crew.reduce((s,c)=>s+lineTotal(c),0)}
-function renderCrew(){
-  $('#crewN').textContent=S.crew.length;
-  const body=$('#cBody'),foot=$('#cFoot');
-  if(state.crewMode==='done')return;
-  if(state.crewMode==='form'){renderForm();return}
-  if(!S.crew.length){body.innerHTML=`<div class="empty"><div class="ring"></div><h4 style="font-size:18px">Your crew is empty</h4><p style="margin:0;max-width:30ch">Add a Fellow from the shop, or build a Growth plan to get every Fellow at 30% off.</p><a class="btn btn-g" href="#fellows" data-close>Browse Fellows</a></div>`;foot.innerHTML='';return}
-  body.innerHTML=S.crew.map((c,idx)=>{let sub='';
-    if(c.fid==='growth')sub=c.members.map(m=>m==='social'?`Social (${byId.social.tiers[c.socialTier].label})`:byId[m].name.replace(' Fellow','')).join(' · ');
-    else{const f=byId[c.fid];const parts=[];if(f.tiers)parts.push(f.tiers[c.tier].label);Object.entries(c.addons||{}).forEach(([k,q])=>{const a=f.addons.find(x=>x.id===k);if(a&&q)parts.push(`${a.name}${q>1?' ×'+q:''}`)});sub=parts.join(' · ')||'Standard plan'}
-    return `<div class="line-item"><div><h5>${nameOf(c.fid)}</h5><div class="sub">${sub}</div>${c.note?`<div class="sub">Note: ${esc(c.note)}</div>`:''}</div><div class="pr">${gbp(lineTotal(c))}<div class="sub">/mo</div></div>
-      <div class="acts">${c.fid!=='growth'?`<button type="button" data-edit="${c.fid}">Edit</button>`:`<button type="button" data-goto="growth">Edit</button>`}<button type="button" data-rm="${idx}">Remove</button></div></div>`}).join('')+
-    `<p style="font-size:13px;color:var(--mute);margin:16px 0 0">Prices are ${S.aud==='self'?'personal':'brand'} plan prices. Switch in the Fellows section.</p>`;
-  foot.innerHTML=`<div class="tot"><div class="k">Monthly total<br>${S.crew.length} Fellow${S.crew.length>1?'s':''}</div><div class="v">${gbp(crewTotal())}<small> /mo</small></div></div><button type="button" class="btn btn-p" id="toForm">Start free trial ${ICON_ARROW}</button><p style="grid-column:1/-1;margin:8px 0 0;font-size:12.5px;color:var(--mute)">Every Fellow starts with a free trial. No card needed; you only pay if you continue.</p>`;
-}
-const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
-const state={crewMode:'list'};
-function renderForm(){
-  $('#cBody').innerHTML=`<form id="reqForm" class="d-sec" style="border:0" novalidate>
-    <h4>Start your free trial</h4><p style="margin:0 0 6px;font-size:13.5px;color:var(--mute)">No card needed. We reply within 1 working day to set up your trial.</p>
-    <label class="f" for="f-name">Full name<input type="text" id="f-name" autocomplete="name" required></label>
-    <label class="f" for="f-email">Email<input type="email" id="f-email" autocomplete="email" required></label>
-    <label class="f" for="f-phone">Phone (optional)<input type="tel" id="f-phone" autocomplete="tel"></label>
-    <label class="f" for="f-brand">${S.aud==='self'?'Your handle or website':'Brand name'}<input type="text" id="f-brand"></label>
-    <label class="f" for="f-goal">What do you want to achieve?<textarea id="f-goal" rows="3" placeholder="For example: grow Instagram to 10K, launch a new website, get more bookings"></textarea></label>
-    <label style="display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--silver)"><input type="checkbox" id="f-ok" style="margin-top:3px"> I agree ContentFellow can contact me about my request. <a href="/privacy/" style="color:var(--orange-hi)">Privacy</a></label>
-    <p class="warn" id="fErr" style="color:var(--orange-hi);margin:0;min-height:1.2em"></p></form>`;
-  $('#cFoot').innerHTML=`<div class="tot"><div class="k">Monthly total</div><div class="v">${gbp(crewTotal())}<small> /mo</small></div></div><div style="display:grid;grid-template-columns:auto 1fr;gap:10px"><button type="button" class="btn btn-g" id="backList">Back</button><button type="submit" form="reqForm" class="btn btn-p" id="fSend">Start my free trial</button></div>`;
-  $('#reqForm').addEventListener('submit',e=>{e.preventDefault();const n=$('#f-name').value.trim(),em=$('#f-email').value.trim();
-    if(!n){$('#fErr').textContent='Add your name so we know who to reply to.';$('#f-name').focus();return}
-    if(!/^\S+@\S+\.\S+$/.test(em)){$('#fErr').textContent='Add a valid email address so we can confirm your plan.';$('#f-email').focus();return}
-    if(!$('#f-ok').checked){$('#fErr').textContent='Please tick the box so we can contact you.';return}
-    const sum=summaryText(n,em);const fd=new FormData();
-    fd.append('offer','trial');fd.append('name',n);fd.append('email',em);fd.append('phone',$('#f-phone').value.trim());
-    fd.append('business',$('#f-brand').value.trim()||n);fd.append('area','Homepage crew order');fd.append('budget',gbp(crewTotal())+'/mo ('+(S.aud==='self'?'personal':'brand')+')');
-    S.crew.forEach(c=>{(c.fid==='growth'?['growth']:[c.fid]).forEach(x=>fd.append('services[]',x))});
-    fd.append('message',($('#f-goal').value.trim()?'Goal: '+$('#f-goal').value.trim()+'\n\n':'')+sum);fd.append('consent','yes');fd.append('source','homepage-crew|'+document.referrer);
-    $('#fSend').disabled=true;$('#fSend').textContent='Sending...';
-    fetch('/get-started/submit.php',{method:'POST',body:fd}).then(r=>{if(!r.ok)throw 0;try{gtag('event','generate_lead',{currency:'GBP',value:crewTotal()})}catch(_){}}).catch(()=>{$('#fErr').innerHTML='Could not send. Please use <a href="/get-started/" style="color:var(--orange-hi)">this form</a> instead.';$('#fSend').disabled=false;$('#fSend').textContent='Start my free trial';throw 'x'}).then(()=>{state.crewMode='done';
-    $('#cBody').innerHTML=`<div class="done"><div class="ok"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div><h3 style="font-size:22px">Free trial requested</h3><p style="margin:0">Thanks ${esc(n.split(' ')[0])}. We'll email ${esc(em)} within 1 working day to start your free trial. Check your spam folder if you don't see it.</p><pre id="sumTxt">${esc(sum)}</pre></div>`;
-    $('#cFoot').innerHTML=`<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px"><button type="button" class="btn btn-g" id="copySum">Copy summary</button><button type="button" class="btn btn-w" id="newCrew">Done</button></div>`;}).catch(()=>{});});
-}
-function summaryText(n,em){return `ContentFellow plan request\nName: ${n}\nEmail: ${em}\nPlan type: ${S.aud==='self'?'Personal':'Brand'}\n\n`+S.crew.map(c=>`• ${nameOf(c.fid)} — ${gbp(lineTotal(c))}/mo`).join('\n')+`\n\nMonthly total: ${gbp(crewTotal())}`}
-$('#crew').addEventListener('click',e=>{
-  if(e.target.closest('#toForm')){state.crewMode='form';renderForm();setTimeout(()=>$('#f-name')&&$('#f-name').focus(),50)}
-  if(e.target.closest('#backList')){state.crewMode='list';renderCrew()}
-  if(e.target.closest('#newCrew')){state.crewMode='list';S.crew=[];save();renderCrew();syncAddButtons();closeAll()}
-  if(e.target.closest('#copySum')){const t=$('#sumTxt').textContent;const b=e.target.closest('#copySum');
-    navigator.clipboard.writeText(t).then(()=>{b.textContent='Copied'}).catch(()=>{const r=document.createRange();r.selectNodeContents($('#sumTxt'));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected, press copy'})}
-  const rm=e.target.closest('[data-rm]');if(rm){S.crew.splice(+rm.dataset.rm,1);save();renderCrew();syncAddButtons()}
-  const ed=e.target.closest('[data-edit]');if(ed){closeSheet($('#crew'));openDetail(ed.dataset.edit)}
-  const go=e.target.closest('[data-goto]');if(go){closeAll();location.hash='';$('#growth').scrollIntoView({behavior:reduce?'auto':'smooth'})}
-});
-
-/* ================= DETAIL ================= */
-let detailId=null,draft=null;
-function openDetail(id){detailId=id;const f=id==='growth'?GROWTH:byId[id];const ex=S.crew.find(c=>c.fid===id);
-  draft=id==='growth'?null:{fid:id,tier:f.tiers?(ex?ex.tier:(S.tiers[id]||'post')):null,addons:ex?{...ex.addons}:{},note:ex?ex.note||'':''};
-  $('#dRole').textContent=f.role;$('#dTitle').textContent=f.name;renderDetail(true);openSheet($('#detail'))}
-function renderDetail(full){
-  const id=detailId,f=id==='growth'?GROWTH:byId[id];const body=$('#dBody');
-  if(full){
-    const pts=f.tiers?f.tiers[draft.tier].points:f.points;
-    body.innerHTML=`<div class="scene d-scene"></div>
-      <div class="d-sec"><h4>At a glance</h4><ul class="pts" id="dPts">${pts.map(p=>`<li>${p}</li>`).join('')}</ul></div>
-      ${f.tiers?`<div class="d-sec"><h4>Choose your plan</h4><div class="tiers" id="dTiers">${Object.entries(f.tiers).map(([k,t])=>`<button type="button" data-dt="${k}" aria-pressed="${k===draft.tier}">${t.label}<small>${gbp(t.price*mult())}/mo</small></button>`).join('')}</div></div>`:''}
-      <div class="d-sec"><h4>What your Fellow does</h4><p>${f.desc}</p></div>
-      <div class="d-sec"><h4>What's included</h4><ul class="inc">${f.inc.map((x,i)=>`<li><span>${String(i+1).padStart(2,'0')}</span>${x}</li>`).join('')}</ul></div>
-      ${f.addons?`<div class="d-sec"><h4>Add extras</h4><div style="display:grid;gap:10px" id="dAddons"></div></div>
-      <div class="d-sec"><h4>Anything else?</h4><label class="f" for="d-note">Tell your Fellow what you need<textarea id="d-note" rows="3" placeholder="For example: we sell handmade candles and want a Christmas launch">${esc(draft.note)}</textarea></label></div>`:''}`;
-    mountScene(body.querySelector('.d-scene'),f.scene);body.scrollTop=0;
-  }
-  if(f.addons){$('#dAddons').innerHTML=f.addons.map(a=>{const q=draft.addons[a.id]||0;return `<div class="addon${q?' on':''}"><div><b>${a.name}</b><small>+${gbp(a.price*mult())} / month</small></div>
-    <div class="qty"><button type="button" data-q="${a.id}" data-d="-1" aria-label="Remove one ${a.name}">−</button><output aria-live="polite">${q}</output><button type="button" data-q="${a.id}" data-d="1" aria-label="Add one ${a.name}">+</button></div></div>`}).join('')}
-  if(f.tiers){$$('#dTiers [data-dt]').forEach(b=>{b.setAttribute('aria-pressed',b.dataset.dt===draft.tier);b.querySelector('small').textContent=gbp(f.tiers[b.dataset.dt].price*mult())+'/mo'});$('#dPts').innerHTML=f.tiers[draft.tier].points.map(p=>`<li>${p}</li>`).join('')}
-  const tot=id==='growth'?growthCalc().now:lineTotal(draft);
-  $('#dTot').innerHTML=gbp(tot)+'<small> /mo</small>';$('#dFor').textContent=S.aud==='self'?'Personal plan':'Brand plan';
-  const ex=S.crew.find(c=>c.fid===id);
-  $('#dAdd').textContent=id==='growth'?'Build your Growth plan':(ex?'Update in crew':'Add to crew');
-}
-$('#dBody').addEventListener('click',e=>{const q=e.target.closest('[data-q]');if(q){const f=byId[detailId],a=f.addons.find(x=>x.id===q.dataset.q);
-    draft.addons[a.id]=clamp((draft.addons[a.id]||0)+(+q.dataset.d),0,a.max);if(!draft.addons[a.id])delete draft.addons[a.id];renderDetail()}
-  const t=e.target.closest('[data-dt]');if(t){draft.tier=t.dataset.dt;S.tiers[detailId]=t.dataset.dt;save();refreshPrices();renderDetail()}});
-$('#dBody').addEventListener('input',e=>{if(e.target.id==='d-note')draft.note=e.target.value});
-$('#dAdd').addEventListener('click',e=>{if(detailId==='growth'){closeAll();$('#growth').scrollIntoView({behavior:reduce?'auto':'smooth'});return}addToCrew({...draft,addons:{...draft.addons}},e.currentTarget);closeAll()});
-
-/* ================= SHEETS ================= */
-let lastFocus=null;
-function openSheet(el){lastFocus=document.activeElement;$$('.sheet.on').forEach(s=>{if(s!==el)closeSheet(s,true)});el.classList.add('on');el.setAttribute('aria-hidden','false');$('#scrim').classList.add('on');document.body.classList.add('lock');setTimeout(()=>el.querySelector('.x').focus(),60)}
-function closeSheet(el,keep){el.classList.remove('on');el.setAttribute('aria-hidden','true');if(el.id==='detail'){const sc=el.querySelector('.d-scene');if(sc)stopScene(sc);detailId=null}
-  if(!keep&&!$$('.sheet.on').length){$('#scrim').classList.remove('on');document.body.classList.remove('lock');if(lastFocus&&lastFocus.focus)lastFocus.focus()}}
-function closeAll(){$$('.sheet.on').forEach(s=>closeSheet(s))}
-$('#scrim').addEventListener('click',closeAll);
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeAll()});
-document.addEventListener('click',e=>{if(e.target.closest('[data-close]'))closeAll();
-  const o=e.target.closest('[data-open]');if(o){openDetail(o.dataset.open)}
-  const a=e.target.closest('[data-add]');if(a){const f=byId[a.dataset.add];if(inCrew(f.id)){openSheet($('#crew'));return}
-    addToCrew({fid:f.id,tier:f.tiers?(S.tiers[f.id]||'post'):null,addons:{},note:''},a)}
-  const t=e.target.closest('.card [data-tier]');if(t){const id=t.closest('.card').dataset.id;S.tiers[id]=t.dataset.tier;save();refreshPrices();const c=S.crew.find(x=>x.fid===id);if(c){c.tier=t.dataset.tier;save();renderCrew()}}
-});
-$('#crewBtn').addEventListener('click',()=>{if(state.crewMode==='done'){state.crewMode='list'}renderCrew();openSheet($('#crew'))});
-$('#gAdd').addEventListener('click',e=>{const members=FELLOWS.filter(f=>S.growth[f.id]).map(f=>f.id);if(!members.length)return;
-  // the bundle replaces single Fellows it already covers
-  S.crew=S.crew.filter(c=>!members.includes(c.fid));addToCrew({fid:'growth',members,socialTier:S.growth.socialTier},e.currentTarget);});
-
-function flyTo(src){if(reduce||!src)return;const a=src.getBoundingClientRect(),b=$('#crewBtn').getBoundingClientRect();const d=document.createElement('div');d.className='fly';document.body.appendChild(d);
-  const x0=a.left+a.width/2,y0=a.top+a.height/2,x1=b.left+b.width-20,y1=b.top+b.height/2;
-  d.animate([{transform:`translate(${x0}px,${y0}px) scale(1)`},{transform:`translate(${(x0+x1)/2}px,${Math.min(y0,y1)-120}px) scale(1.4)`,offset:.5},{transform:`translate(${x1}px,${y1}px) scale(.4)`,opacity:.6}],{duration:800,easing:'cubic-bezier(.5,0,.3,1)'}).onfinish=()=>{d.remove();const cb=$('#crewBtn');cb.classList.remove('bump');void cb.offsetWidth;cb.classList.add('bump')}}
-let tt;function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('on'),2200)}
-
 /* ================= REVEAL ================= */
 const revealIO=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');revealIO.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
 $$('.rv').forEach(el=>revealIO.observe(el));
@@ -997,6 +765,10 @@ let started=false;const go=()=>{if(started)return;started=true;requestAnimationF
 Promise.all(imgs.map(i=>i.decode?i.decode().catch(()=>{}):Promise.resolve())).then(go);setTimeout(go,1500);
 const scrolly=$('#scrolly'),mark=$('#mark'),ringW=$('#ringW'),fW=$('#fW'),lensW=$('#lensW'),copy=$('#copy'),cueWrap=$('#cueWrap'),veil=$('#veil'),reveal=$('#reveal'),
   bar=$('#bar'),nav=$('#nav'),pLens=$('#pLens'),vLens=$('#vLens'),iris=$('#iris'),blades=$('#blades'),fstop=$('#fstop'),focal=$('#focal'),iso=$('#iso'),pct=$('#pct');
+const lockup=document.querySelector('.lockup');
+/* lockup sits high on screen 1; slide it back to centre while zooming into the lens */
+const lockDY=()=>innerHeight/2-(lockup.offsetTop+mark.offsetTop+mark.offsetHeight*.5077);
+$('#cue').addEventListener('click',()=>scrollBy({top:innerHeight*1.1,behavior:reduce?'auto':'smooth'}));
 const stops=[16,11,8,5.6,4,2.8,2,1.4],N=7;
 const amb=$('#amb'),bokehCv=$('#bokeh'),idxEls=[...document.querySelectorAll('#idx span')];let ambI=0;
 /* ambient HUD: timecode, audio meters, histogram, service index */
@@ -1025,10 +797,10 @@ function drawIris(R,rot){const pts=[];for(let i=0;i<N;i++){const a=(i/N)*Math.PI
   let path=blades.firstChild;if(!path){path=document.createElementNS('http://www.w3.org/2000/svg','path');blades.appendChild(path)}path.setAttribute('d',d)}
 function intro(){
   const r=scrolly.getBoundingClientRect();const p=clamp(-r.top/(r.height-innerHeight));
-  if(r.bottom<0){nav.classList.add('on');return 1}
+  if(r.bottom<0){nav.classList.add('on');document.body.classList.remove('s1');reveal.style.pointerEvents='none';return 1}
   const s1=ease(seg(p,0,.22)),s2=ease(seg(p,.2,.48)),s3=seg(p,.46,.82),s4=ease(seg(p,.78,.94));
   amb.style.opacity=String(1-s2);bokehCv.style.opacity=String(1-s3*.9);idxEls.forEach((e,i)=>e.classList.toggle('on',p<.02?i===(ambI%5):false));
-  copy.style.transform=`translateY(${s1*60}px)`;copy.style.opacity=String(1-s1);cueWrap.style.opacity=p>0.01?'0':'1';
+  copy.style.transform=`translateY(${s1*60}px)`;copy.style.opacity=String(1-s1);cueWrap.style.opacity=p>0.01?'0':'1';cueWrap.style.pointerEvents=p>0.01?'none':'auto';document.body.classList.toggle('s1',p<.78);lockup.style.transform=`translateY(${lockDY()*s2}px)`;reveal.style.pointerEvents=s4>.6?'auto':'none';
   ringW.style.transform=`rotate(${-200*s2}deg) scale(${1+.15*s2})`;ringW.style.opacity=String(1-s2);
   fW.style.transform=`translateX(${60*s2}%)`;fW.style.opacity=String(clamp(1-s2*1.6));
   lensW.style.transform=`rotate(${140*s2+90*s3}deg)`;const xf=seg(p,.4,.5);vLens.style.opacity=String(xf);pLens.style.opacity=String(1-xf);
@@ -1086,7 +858,30 @@ const gl=(function(){
 })();
 
 /* ================= BOOT ================= */
-renderCards();renderGrowth();setAud(S.aud,true);refreshPrices();renderCrew();tick();
+document.body.classList.add('s1');tick();
+})();
+</script>
+<script src="/themes/industries.js"></script>
+<script>
+/* Portfolio: website demo chooser (same data as /pay-monthly-websites/) */
+(function(){if(typeof IND==="undefined")return;
+var PL=[{k:"basic",n:"Basic",p:"225",d:"Clean, modern and fast.",f:["Up to 3 pages","Mobile friendly + tap to call","Contact form + Google Maps","Google basics (SEO)","2 rounds of changes"]},
+{k:"standard",n:"Standard",p:"520",d:"Bold motion graphics that wow.",pop:1,f:["Up to 6 pages","Motion graphics + animations","Animated stats and reviews","Local SEO setup","3 rounds of changes"]},
+{k:"premium",n:"Premium",p:"1,099",d:"Award-style scroll motion.",f:["Up to 10 pages","Advanced creative scroll motion","Custom design for your brand","SEO + ChatGPT/AI search setup","3 rounds of changes","1 month management free"]}];
+var END=new Date(2026,10,1),SALE=Date.now()<END,cur="plumber",chips=document.getElementById("pfChips"),plans=document.getElementById("pfPlans");
+var hw=document.getElementById("hwBtn");if(hw&&!SALE)hw.remove();
+chips.innerHTML=Object.keys(IND).map(function(k){return'<button type="button" data-k="'+k+'">'+IND[k].e+" "+IND[k].n+"</button>"}).join("");
+var n=function(p){return +p.replace(",","")},f=function(x){return Math.round(x).toLocaleString("en-GB")};
+function render(){chips.querySelectorAll("button").forEach(function(c){c.classList.toggle("on",c.dataset.k===cur)});var nm=IND[cur].n;
+ plans.innerHTML=PL.map(function(p){var u="/themes/"+p.k+"/?i="+cur,t=p.n+" theme · "+nm;return'<div class="pf-plan'+(p.pop?" pop":"")+'"><div class="pf-shot" data-u="'+u+'" data-t="'+t+'">'+(p.pop?'<span class="pf-badge">Most popular</span>':"")+'<iframe loading="lazy" tabindex="-1" title="'+p.n+' preview" src="'+u+'"></iframe></div><div class="pf-pb"><h3>'+p.n+" · "+nm+'</h3><div class="pf-price">'+(SALE?'<span class="pf-was">£'+p.p+'</span>£'+f(n(p.p)*.8)+'<span class="pf-sale">-20%</span>':'£'+p.p)+' <small>one-off, to build</small></div><div class="pf-ghost">👻 With code GhostFellow7: £'+f(n(p.p)*.75)+' (25% off)</div><span style="color:var(--mute)">'+p.d+'</span><ul>'+p.f.map(function(x){return"<li>"+x+"</li>"}).join("")+'</ul><div class="pf-row"><button type="button" class="pf-btn alt pf-open" data-u="'+u+'" data-t="'+t+'">👁 Live preview</button><a class="pf-btn" href="/get-started/?plan='+p.k+'&promo=GhostFellow7&source=home-portfolio">🛒 Get this</a></div></div></div>'}).join("");
+ plans.querySelectorAll(".pf-shot,.pf-open").forEach(function(el){el.onclick=function(){openM(el.dataset.u,el.dataset.t)}})}
+chips.onclick=function(e){var b=e.target.closest("button");if(b){cur=b.dataset.k;render()}};
+render();
+var m=document.getElementById("pfModal"),mf=document.getElementById("pfF");document.body.appendChild(m);/* escape main's stacking context so the modal sits above the nav */
+function openM(u,t){mf.src=u;document.getElementById("pfMt").textContent=t;m.classList.add("open");document.body.style.overflow="hidden"}
+function closeM(){m.classList.remove("open");mf.src="about:blank";document.body.style.overflow=""}
+document.getElementById("pfX").onclick=closeM;addEventListener("keydown",function(e){if(e.key==="Escape"&&m.classList.contains("open"))closeM()});
+m.querySelectorAll(".pf-dev button").forEach(function(b){b.onclick=function(){m.querySelectorAll(".pf-dev button").forEach(function(x){x.classList.remove("on")});b.classList.add("on");mf.style.width=b.dataset.w}});
 })();
 </script>
 
