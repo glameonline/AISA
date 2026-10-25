@@ -46,4 +46,5 @@ window.PICS = {
   "care-home":["1576765608535-5f04d1e3f289", "1559234938-b60fff04894d", "1447005497901-b3e9ee359928", "1573497019940-1c28c88b4f3e", "1544027993-37dbfe43562a"],
   "landscaper":["1558904541-efa843a96f01", "1585320806297-9794b3e4eeae", "1416879595882-3373a0480b5b", "1592150621744-aca64f48394a", "1523348837708-15d4a09cfac2", "1466692476868-aef1dfb1e735", "1598902108854-10e335adac99"]
 };
-window.IMG=function(i,w,h){var p=PICS[indKey()];return"https://images.unsplash.com/photo-"+p[i%p.length]+"?w="+(w||1200)+"&h="+(h||800)+"&fit=crop&auto=format&q=70"};
+// Photos are self-hosted copies of the PICS list (8 per industry) so they always load.
+window.IMG=function(i){return"/img/themes/"+indKey()+"/"+(i%8)+".jpg"};
