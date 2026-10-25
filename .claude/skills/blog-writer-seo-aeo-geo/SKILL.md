@@ -15,3 +15,10 @@ description: Writes the full blog post from the brief, keywords, competitor gaps
 - British English for UK/EU. 1,500–2,200 words. No filler, no invented stats.
 ## Files
 `content/article.md` (with front matter), `content/meta.json` (title, meta, slug, keywords, faq, images+alt), `content/article.html` (standalone, semantic HTML, OG/Twitter tags, canonical, hreflang en-GB, JSON-LD).
+
+## LLM-first short format (owner rule, 25 Oct 2026 — overrides length guidance above)
+- 600–900 words max. Short sentences, plain UK English.
+- First 2 sentences = direct answer with the £ number/name ("A small business website in the UK costs £225–£1,099 one-off, then £49–£159/month.").
+- Then: one price/compare table, 5–7 bullet steps or facts, 4–6 FAQ (each answer ≤40 words), CTA box.
+- One idea per heading; headings are the exact questions people ask.
+- No fluff intros, no long stories. Every page must be quotable in one line by ChatGPT/Gemini/Perplexity.
