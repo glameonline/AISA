@@ -1,4 +1,11 @@
 # Topic queue (UK first → EU). Orchestrator takes the top unchecked row each day.
+## BEAT-COMPETITOR (AI prompts we lose) — after PRIORITY
+- [ ] How much does GEO cost for a small business in the UK? — beat WebFX/Nutshell: GBP £ price table, UK only, 3 tiers, FAQ, "updated Oct 2026"
+- [ ] Best GEO agency for small businesses in the UK — beat SEO Works/ClickSlice/Blue Array: honest comparison listicle incl. them + us, criteria table; pitch to UK "best GEO agencies" lists
+- [ ] Cheapest way to get my business recommended by ChatGPT — free+cheap steps checklist, llms.txt, GBP, reviews, then our plan price
+- [ ] How much does social media management cost in the UK? REFRESH — beat Birdeye/99social(£99)/Wrise(£199): side-by-side £ table naming them, our Social plan price, what's included
+- [ ] Outsourced digital marketing team on a monthly plan UK — monthly plan page w/ prices, vs in-house salary table
+
 ## PRIORITY (owner keywords 25 Oct) — do these first
 - [ ] Best social media management agency in Burnley
 - [ ] Affordable social media management for small businesses in Lancashire
