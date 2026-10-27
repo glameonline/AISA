@@ -1,4 +1,26 @@
 # Topic queue (UK first → EU). Orchestrator takes the top unchecked row each day.
+## TOWN PAGES (target page 1 by end Nov: Burnley, Nelson, Colne first; Manchester/Leeds longer) — do 2/day before other rows
+- [ ] Marketing agency Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Social media management Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Web designer Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Videographer Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] SEO agency Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Marketing agency Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Social media management Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Web designer Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Videographer Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] SEO agency Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Marketing agency Manchester (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Social media management Manchester (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Web designer Manchester (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Videographer Manchester (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] SEO agency Manchester (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Marketing agency Leeds (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Social media management Leeds (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Web designer Leeds (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] Videographer Leeds (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [ ] SEO agency Leeds (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+
 ## BEAT-COMPETITOR (AI prompts we lose) — after PRIORITY
 - [x] How much does GEO cost for a small business in the UK? (geo-cost-uk 2026-10-26) — beat WebFX/Nutshell: GBP £ price table, UK only, 3 tiers, FAQ, "updated Oct 2026"
 - [ ] Best GEO agency for small businesses in the UK — beat SEO Works/ClickSlice/Blue Array: honest comparison listicle incl. them + us, criteria table; pitch to UK "best GEO agencies" lists
