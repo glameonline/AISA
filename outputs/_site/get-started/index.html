@@ -12,4 +12,4 @@ fieldset{border:1px solid #3a3a40;border-radius:10px;padding:12px}fieldset label
 if(q.get("plan")){document.getElementById("cf-plan").value=q.get("plan");O.value="website"}if(q.get("promo"))P.value=q.get("promo");
 var base={basic:225,standard:520,premium:1099};function chk(){var v=P.value.trim().toLowerCase(),pl=q.get("plan");if(!v){M.textContent="";return}
 if(v==="ghostfellow7"){M.style.color="#2dff8a";M.textContent="✓ 25% off applied"+(base[pl]?": "+pl+" website £"+Math.round(base[pl]*.75)+" instead of £"+base[pl]:" to your website build")}else{M.style.color="#ff8a5c";M.textContent="Code not recognised"}}
-P.addEventListener("input",chk);chk()})();</script></body></html>
+P.addEventListener("input",chk);chk()})();</script><!--cf-track--><script>document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a||!window.gtag)return;var h=a.getAttribute("href")||"";var t=h.indexOf("tel:")==0?"call_click":h.indexOf("mailto:")==0?"email_click":/wa\.me|whatsapp/.test(h)?"whatsapp_click":"";if(t)gtag("event",t,{link_url:h,page_path:location.pathname})});</script></body></html>
