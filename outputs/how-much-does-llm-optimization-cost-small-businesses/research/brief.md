@@ -7,4 +7,4 @@ Note: "llm optimization" is ambiguous (also means inference cost cutting, and th
 ## Angle (the gap)
 Every ranking page prices GEO in US dollars for US agencies ($1,500–$5,000/mo small business). No page gives UK small businesses £ budgets, tiers below £1k/mo, or what each tier actually includes. We own: "UK £ price guide + which tier fits which business".
 ## Funnel CTA
-Search Fellow £89/mo (SEO + GEO + monthly AI visibility report); Growth Fellow £389/mo for full-team.
+SEO & AI Search £89/mo (SEO + GEO + monthly AI visibility report); Full Marketing Team £389/mo for full-team.

@@ -96,5 +96,5 @@ kw = ["llm optimisation cost", "geo optimisation cost", "generative engine optim
 (c / "meta.json").write_text(json.dumps({"title": "How Much Does LLM Optimisation Cost for Small Businesses? (UK Prices, 2026)", "meta_title": title,
     "meta_description": desc, "slug": slug, "url": url, "market": "en-GB", "primary_keyword": kw[0], "keywords": kw,
     "faq": [{"q": q, "a": a} for q, a in faqs], "images": [{"file": f, "alt": a} for f, a in alts.items()],
-    "category": "SEO & GEO", "tags": ["GEO", "LLM optimisation", "AI search", "SEO pricing", "UK small business"], "cta": "Search Fellow £89/mo"}, indent=2, ensure_ascii=False))
+    "category": "SEO & GEO", "tags": ["GEO", "LLM optimisation", "AI search", "SEO pricing", "UK small business"], "cta": "SEO & AI Search £89/mo"}, indent=2, ensure_ascii=False))
 print("faqs", len(faqs), "words", len(re.sub(r"[#*|>\[\]()!-]", " ", body).split()), "meta_title", len(title), "desc", len(desc))

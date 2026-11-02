@@ -5,7 +5,7 @@ description: Manager agent. Give it one topic (or "daily run") and it runs the w
 # Content Agent Orchestrator (the Manager)
 
 Target site: **contentfellow.com** (UK first, then EU). Business goal: subscriptions to Fellow plans
-(Search Fellow £89/mo is the main offer for SEO/GEO topics; Growth Fellow £389/mo for full-team topics).
+(SEO & AI Search £89/mo is the main offer for SEO/GEO topics; Full Marketing Team £389/mo for full-team topics).
 
 ## Token rules (keep every run cheap)
 - Brand facts live in `outputs/_brand/brand.md`. Re-scrape only if older than 7 days.

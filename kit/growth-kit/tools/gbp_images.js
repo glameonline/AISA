@@ -36,10 +36,10 @@ ${lines(60, 335, ['Content, websites, social &amp; Google/AI search', 'on simple
 <rect x="60" y="440" width="330" height="70" rx="35" fill="${O}"/><text x="225" y="485" fill="#fff" font-size="28" font-weight="700" text-anchor="middle">contentfellow.com</text>
 <circle cx="860" cy="250" r="110" fill="none" stroke="${O}" stroke-width="16"/><text x="860" y="285" fill="#fff" font-size="100" font-weight="700" text-anchor="middle">CF</text>`)],
   'post-ai-check': [1200, 900, post(['Does ChatGPT', 'recommend your', 'business?'], ['Free AI visibility check: see if', 'ChatGPT, Claude &amp; Gemini mention you'], 'Get free check →', chat)],
-  'post-search-fellow': [1200, 900, post(['Get found on', 'Google and AI'], ['Search Fellow: SEO + GEO', 'Monthly ranking + AI visibility report'], 'See Search Fellow →', price('£89', 'per month'), 420)],
-  'post-websites': [1200, 900, post(['Pay-monthly', 'websites'], ['Build Fellow from £69/month', 'or a Launch website for £349', '(up to 7 pages)'], 'Get a website →', browser)],
-  'post-social': [1200, 900, post(['Social media,', 'managed monthly'], ['Social Fellow from £59/month', 'Manage + Post £129/month'], 'See Social Fellow →', cal, 420)],
-  'post-studio': [1200, 900, post(['Video &amp; photo', 'shoots in', 'Lancashire'], ['Studio Fellow £149/month: 1 on-site shoot,', '4K video + 20 edited photos'], 'Book a shoot →', cam)],
+  'post-search-fellow': [1200, 900, post(['Get found on', 'Google and AI'], ['SEO & AI Search: SEO + GEO', 'Monthly ranking + AI visibility report'], 'See SEO & AI Search →', price('£89', 'per month'), 420)],
+  'post-websites': [1200, 900, post(['Pay-monthly', 'websites'], ['Website Management from £69/month', 'or a Launch website for £349', '(up to 7 pages)'], 'Get a website →', browser)],
+  'post-social': [1200, 900, post(['Social media,', 'managed monthly'], ['Social Media Management from £59/month', 'Manage + Post £129/month'], 'See Social Media Management →', cal, 420)],
+  'post-studio': [1200, 900, post(['Video &amp; photo', 'shoots in', 'Lancashire'], ['Photo & Video Shoots £149/month: 1 on-site shoot,', '4K video + 20 edited photos'], 'Book a shoot →', cam)],
   'post-free-trial': [1200, 900, post(['Try us free', 'for 7 days'], ['Free AI visibility check included', 'contentfellow.com/ai-check'], 'Start free trial →', gift, 400)],
 };
 (async () => {

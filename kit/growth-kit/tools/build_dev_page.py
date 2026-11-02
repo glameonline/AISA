@@ -10,7 +10,7 @@ APP = [("App Starter", 1249, "Web app that installs on any phone from the browse
 FAQ = [("How much does a website cost with ContentFellow?", "One-off website builds start at £349 for Launch (up to 7 pages), £749 for Grow (up to 15 pages with blog and booking) and £1,499 for an online shop."),
        ("How much does an app cost?", "Apps start at £1,249 for a web app, £3,499 for an iPhone and Android app with up to 10 screens, and from £6,499 for a custom app with backend and payments."),
        ("How do I pay?", "Half when we start and half when your website or app goes live. The price is fixed before we begin."),
-       ("What happens after launch?", "You own the build. For hosting, security and changes, join the Build Fellow at £69 a month, or app care for apps."),
+       ("What happens after launch?", "You own the build. For hosting, security and changes, join the Website Management at £69 a month, or app care for apps."),
        ("How long does it take?", "Launch sites usually go live in 1 to 2 weeks, Grow and Shop in 2 to 4 weeks, and apps in 3 to 8 weeks depending on the plan.")]
 def card(n, p, inc, kind):
     return f'<div class="card" style="background:var(--card);border-radius:12px;padding:16px 20px;margin:12px 0"><h3 style="margin:0">{n}</h3><p class="price">£{p:,} <small>one-off</small></p><p>{inc}</p><p><a class="btn" href="/get-started/?service=dev-{kind}-{n.lower().replace(" ","-")}">Get a fixed quote →</a></p></div>'
@@ -24,7 +24,7 @@ ld = [{"@context": "https://schema.org", "@type": "Service", "name": "Website an
        {"@type": "ListItem", "position": 2, "name": "Services", "item": f"{BASE}/services/"}, {"@type": "ListItem", "position": 3, "name": "Website & app development", "item": f"{BASE}/services/development/"}]}]
 body = ('<h1>Website and app development, fixed prices</h1>'
         '<p class="lead"><strong>Quick answer:</strong> ContentFellow builds websites from <strong>£349</strong> and apps from <strong>£1,249</strong>, one-off and fixed price. '
-        'Pay half to start and half at launch. After launch, keep it running with the <a href="/services/build-fellow/">Build Fellow</a> at £69 a month.</p>'
+        'Pay half to start and half at launch. After launch, keep it running with the <a href="/services/build-fellow/">Website Management</a> at £69 a month.</p>'
         '<h2>Websites</h2>' + "".join(card(n, p, i, "web") for n, p, i in WEB) +
         '<h2>Apps</h2>' + "".join(card(n, p, i, "app") for n, p, i in APP) +
         '<h2>How this compares in the UK</h2><p>UK freelancers typically charge £500–£3,000 for a small business website and agencies £3,000–£10,000. '

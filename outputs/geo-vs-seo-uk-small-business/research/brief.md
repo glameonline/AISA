@@ -1,6 +1,6 @@
 # Brief: GEO vs SEO for UK small businesses (2026-10-16)
 Primary keyword: geo vs seo · Secondary: difference between geo and seo, do I need geo and seo, generative engine optimisation vs seo, seo vs aeo vs geo, geo for small business uk
-Intent: informational → commercial (Search Fellow £89/mo does both).
+Intent: informational → commercial (SEO & AI Search £89/mo does both).
 ## Competitors (Google UK, Firecrawl 16 Oct)
 aptimized.com (confuses GEO with *geographic* targeting), ivanvislavskiy.com, localwebsitedesign.services (SEO vs AEO vs GEO), geoseo.co.uk ("SEO wins a click, GEO wins a mention"), entlify.com (links vs zero-click mentions), Quora/Reddit threads (mixed definitions).
 ## Gaps = our angle

@@ -11,10 +11,10 @@ LOG = pathlib.Path("outputs/_plan/outreach/sent-log.csv")
 TRIAL = "https://contentfellow.com/get-started/?offer=trial"
 IMG = "https://contentfellow.com/img/outreach/{}.png"
 SVC = {  # name, price line, what you get, page
-    "search": ("Search Fellow", "£89 a month", "SEO for Google plus GEO so ChatGPT, Claude and Gemini recommend you, with a monthly ranking and AI visibility report", "/services/search-fellow/"),
-    "creator": ("Creator Fellow", "£119 a month", "8 short videos, 1 motion graphics video and 1 podcast edit every month", "/services/creator-fellow/"),
-    "social": ("Social Fellow", "from £59 a month", "we manage your social accounts and replies (£129 adds daily posting on up to 3 platforms)", "/services/social-fellow/"),
-    "studio": ("Studio Fellow", "£149 a month", "1 on-site shoot a month with photo and 4K video, 20 edited photos within 5 working days", "/services/studio-fellow/"),
+    "search": ("SEO & AI Search", "£89 a month", "SEO for Google plus GEO so ChatGPT, Claude and Gemini recommend you, with a monthly ranking and AI visibility report", "/services/search-fellow/"),
+    "creator": ("Video Editing", "£119 a month", "8 short videos, 1 motion graphics video and 1 podcast edit every month", "/services/creator-fellow/"),
+    "social": ("Social Media Management", "from £59 a month", "we manage your social accounts and replies (£129 adds daily posting on up to 3 platforms)", "/services/social-fellow/"),
+    "studio": ("Photo & Video Shoots", "£149 a month", "1 on-site shoot a month with photo and 4K video, 20 edited photos within 5 working days", "/services/studio-fellow/"),
     "partner": ("white-label video service", "30 videos for £249 a month", "Reels, TikToks, YouTube and podcast edits under your brand, 2-3 day turnaround, you set your own price", "/agencies/"),
 }
 SUBJ = {"search": "{n}: buyers asking ChatGPT may not find you", "creator": "{n}: turning more site visitors into enquiries",

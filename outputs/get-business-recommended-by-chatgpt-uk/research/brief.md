@@ -1,6 +1,6 @@
 # Brief: How to get your business recommended by ChatGPT (UK) — 2026-10-16
 Primary keyword: how to get your business recommended by chatgpt · Secondary: how to get recommended by chatgpt, how do i get recommended by chatgpt, how to get your company/website recommended by chatgpt, geo llm seo get recommended by ai (Keyword Tool UK; volumes need Pro).
-Intent: how-to → commercial (Search Fellow £89/mo).
+Intent: how-to → commercial (SEO & AI Search £89/mo).
 ## Sources (Firecrawl, 16 Oct)
 - sorttheclicks.com: no ad product, submission form or listing fee puts you in ChatGPT; baseline with customer-style prompts.
 - clickforest.com: ChatGPT uses its own OAI-SearchBot crawler plus search partners (Microsoft); measure via GA4 chatgpt.com visits.
