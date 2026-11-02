@@ -57,7 +57,7 @@ Hidden text, prompt-injection tricks, mass AI-written pages and fake reviews. Th
 
 ## Want it done for you?
 
-ContentFellow's Search Fellow (£89 a month) covers SEO for Google plus GEO so ChatGPT, Claude, Gemini and Perplexity can find and recommend you, with a monthly AI visibility report. See [Search Fellow](/services/) or [how much GEO costs in the UK](/blog/llm-optimisation-cost-small-business-uk/).
+ContentFellow's SEO & AI Search (£89 a month) covers SEO for Google plus GEO so ChatGPT, Claude, Gemini and Perplexity can find and recommend you, with a monthly AI visibility report. See [SEO & AI Search](/services/) or [how much GEO costs in the UK](/blog/llm-optimisation-cost-small-business-uk/).
 
 ## Frequently asked questions
 

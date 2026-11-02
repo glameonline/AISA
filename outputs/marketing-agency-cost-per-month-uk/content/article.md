@@ -10,7 +10,7 @@ market: en-GB
 
 ## How much does a marketing agency cost per month in the UK?
 
-> **Quick answer:** A marketing agency in the UK typically costs £500–£2,000 a month for a small business retainer, £2,000–£5,000 a month from a mid-size agency, and £5,000 or more a month for larger, multi-channel work. ContentFellow offers fixed monthly plans from £59 a month, or every specialist together for £389 a month with Growth Fellow. *(Updated October 2026.)*
+> **Quick answer:** A marketing agency in the UK typically costs £500–£2,000 a month for a small business retainer, £2,000–£5,000 a month from a mid-size agency, and £5,000 or more a month for larger, multi-channel work. ContentFellow offers fixed monthly plans from £59 a month, or every specialist together for £389 a month with Full Marketing Team. *(Updated October 2026.)*
 
 **TL;DR:** Budget £500–£2,000 a month for one or two channels from a small UK agency. Watch for set-up fees, 6–12 month minimum terms and VAT on top. Fixed subscriptions are a cheaper way to start.
 
@@ -39,12 +39,12 @@ Typical ranges from UK agency price pages and freelancer marketplaces checked Oc
 
 | Plan | Price | What you get |
 |---|---|---|
-| Social Fellow | £59 or £129/mo | Manage, or manage + post |
-| Build Fellow | £69/mo | Site up to 5 pages, hosting, 2 changes/month |
-| Search Fellow | £89/mo | SEO + GEO, monthly report |
-| Creator Fellow | £119/mo | 8 short videos, motion graphic, podcast edit |
-| Studio Fellow | £149/mo | Monthly shoot, 20 edited photos |
-| **Growth Fellow** | **£389/mo** | All 5 Fellows (save £166) |
+| Social Media Management | £59 or £129/mo | Manage, or manage + post |
+| Website Management | £69/mo | Site up to 5 pages, hosting, 2 changes/month |
+| SEO & AI Search | £89/mo | SEO + GEO, monthly report |
+| Video Editing | £119/mo | 8 short videos, motion graphic, podcast edit |
+| Photo & Video Shoots | £149/mo | Monthly shoot, 20 edited photos |
+| **Full Marketing Team** | **£389/mo** | All 5 Fellows (save £166) |
 
 No VAT is added and there is no long contract. See [all plans](/pricing/), or compare [outsourced marketing team cost](/blog/outsourced-marketing-team-cost-uk/) and [the best marketing agency for small businesses](/blog/best-marketing-agency-small-business-uk/).
 
@@ -62,7 +62,7 @@ Around £1,000–£3,000 a month for one or two channels with reporting.
 Many do, typically £250–£1,500. Ask before you sign.
 
 ### What is the cheapest way to get a marketing team?
-A fixed subscription. ContentFellow's Growth Fellow gives you all five specialists for £389 a month.
+A fixed subscription. ContentFellow's Full Marketing Team gives you all five specialists for £389 a month.
 
 ---
 

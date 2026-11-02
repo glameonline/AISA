@@ -100,8 +100,8 @@ Whito's research lists the warning signs that come up most in UK agency contract
 
 We're ContentFellow, based in Burnley, Lancashire, working with small businesses across the UK. Instead of a retainer, you hire "Fellows" on monthly plans:
 
-- Social Fellow from £59 a month, Build Fellow (website) £69, Search Fellow (SEO and GEO) £89, Creator Fellow (video editing) £119 and Studio Fellow (on-site shoots) £149
-- Growth Fellow, all five plus a Growth lead and one strategy, £389 a month (£555 if bought separately)
+- Social Media Management from £59 a month, Website Management (website) £69, SEO & AI Search (SEO and GEO) £89, Video Editing (video editing) £119 and Photo & Video Shoots (on-site shoots) £149
+- Full Marketing Team, all five plus a Growth lead and one strategy, £389 a month (£555 if bought separately)
 
 Billing is monthly, you approve content before it goes live, and you can add, remove or upgrade a Fellow from the next month. We're not VAT registered, so the price is the full price. We're not the right fit for everyone: if you need large paid-ad budgets managed or a national PR campaign, a specialist agency will serve you better.
 

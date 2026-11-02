@@ -22,7 +22,7 @@ date: 2026-10-17
 | Budget one-off (e.g. £499) + basic care £29.99/mo | £499 | £29.99 | about £1,580 |
 | ContentFellow Launch £349 + Care £49/mo | £349 | £49 | about £2,113 |
 | ContentFellow Grow £749 + Care £49/mo | £749 | £49 | about £2,513 |
-| ContentFellow Build Fellow subscription | £0 | £69 | about £2,484 (changes included) |
+| ContentFellow Website Management subscription | £0 | £69 | about £2,484 (changes included) |
 | Freelancer £1,500 + £50/mo care | £1,500 | £50 | about £3,300 |
 | Agency £4,500 + £100/mo care | £4,500 | £100 | about £8,100 |
 
@@ -51,7 +51,7 @@ Watch for **minimum terms and exit fees**. A fair subscription tells you up fron
 We sell both, so you can pick what suits you:
 
 - **One-off builds:** Launch £349, Grow £749, Shop £1,499 ([see development packages](/services/development/)).
-- **Monthly plans:** Care £49, Build Fellow £69 (site included), Care Plus £159 ([see management plans](/services/management/)).
+- **Monthly plans:** Care £49, Website Management £69 (site included), Care Plus £159 ([see management plans](/services/management/)).
 
 **[Get a fixed quote →](/get-started/?service=dev-web)**
 

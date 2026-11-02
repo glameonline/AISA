@@ -8,7 +8,7 @@ market: en-GB
 
 # How Much Does Social Media Management Cost in the UK? (2026 Prices)
 
-> **Quick answer:** Most UK small businesses pay **£300 to £1,500 a month** for professional social media management, not counting ad spend. A freelancer typically charges £300–£1,000 a month, an agency £1,250–£3,500 per channel, and a full-time in-house social media manager costs about £3,290 a month once employer costs are added. Productised monthly plans start lower: ContentFellow's Social Fellow is **from £59 a month**. *(Updated October 2026.)*
+> **Quick answer:** Most UK small businesses pay **£300 to £1,500 a month** for professional social media management, not counting ad spend. A freelancer typically charges £300–£1,000 a month, an agency £1,250–£3,500 per channel, and a full-time in-house social media manager costs about £3,290 a month once employer costs are added. Productised monthly plans start lower: ContentFellow's Social Media Management is **from £59 a month**. *(Updated October 2026.)*
 
 ![How much social media management costs in the UK](social-media-management-cost-uk-featured.png)
 
@@ -34,7 +34,7 @@ Cheaper quotes often cover only scheduling and posting. Before comparing prices,
 | Small agency | £500–£1,500 | Posting, content, light reporting | Businesses wanting a team without a big retainer |
 | Agency (per channel) | £1,250–£3,500 | Strategy, content, community, reporting | Larger SMEs with paid ads |
 | In-house hire | ~£3,290 | One person, full-time | Businesses posting a lot every day |
-| Monthly plan (Social Fellow) | £59 or £129 | Manage: 2 platforms + replies; Manage + Post: 3 platforms + daily posting | Small businesses wanting consistency on a budget |
+| Monthly plan (Social Media Management) | £59 or £129 | Manage: 2 platforms + replies; Manage + Post: 3 platforms + daily posting | Small businesses wanting consistency on a budget |
 
 Sources: Birdeye's UK pricing guide puts most UK social media marketing at £500–£5,000 a month. Kraken's 2026 analysis puts single-channel agency retainers at £1,250–£3,500 (Whito data) and the average UK freelance social media day rate at £334 (YunoJuno).
 
@@ -74,16 +74,16 @@ A good provider answers all six in writing.
 
 ## How ContentFellow prices social media
 
-The **[Social Fellow](/services/social-fellow/)** has two levels: **Manage at £59 a month** and **Manage + Post at £129 a month**. Manage covers up to 2 platforms with weekday replies to comments and messages and ad campaign set-up; Manage + Post covers up to 3 platforms with daily posting from a monthly content calendar and trend research. You approve content before it goes live, billing is monthly, and you can add, remove or upgrade Fellows from the next month.
+The **[Social Media Management](/services/social-fellow/)** has two levels: **Manage at £59 a month** and **Manage + Post at £129 a month**. Manage covers up to 2 platforms with weekday replies to comments and messages and ad campaign set-up; Manage + Post covers up to 3 platforms with daily posting from a monthly content calendar and trend research. You approve content before it goes live, billing is monthly, and you can add, remove or upgrade Fellows from the next month.
 
-Need video too? The [Growth Fellow](/services/growth-fellow/) bundles social, shoots, editing, website and search for £389 a month. See our breakdown of [outsourced marketing vs agency vs in-house costs](/blog/outsourced-marketing-team-cost-uk/).
+Need video too? The [Full Marketing Team](/services/growth-fellow/) bundles social, shoots, editing, website and search for £389 a month. See our breakdown of [outsourced marketing vs agency vs in-house costs](/blog/outsourced-marketing-team-cost-uk/).
 
-**[Pick your Social Fellow →](/services/social-fellow/)**
+**[Pick your Social Media Management →](/services/social-fellow/)**
 
 ## Frequently asked questions
 
 ### How much does social media management cost per month in the UK?
-Most UK small businesses pay £300 to £1,500 a month, excluding ad spend. Freelancers charge £300–£1,000, agencies £1,250–£3,500 per channel, and monthly plans like the Social Fellow start from £59.
+Most UK small businesses pay £300 to £1,500 a month, excluding ad spend. Freelancers charge £300–£1,000, agencies £1,250–£3,500 per channel, and monthly plans like the Social Media Management start from £59.
 
 ### Is £300 a month enough for social media management?
 Yes, for one to three platforms with regular posting and content you partly supply. It usually won't cover heavy video production, paid ads management or daily community replies.

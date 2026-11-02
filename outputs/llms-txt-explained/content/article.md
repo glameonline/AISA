@@ -48,7 +48,7 @@ Create a text file called `llms.txt` with your business name, one line on what y
 
 ## How ContentFellow helps
 
-Our [Search Fellow](/services/search-fellow/) (£89 a month) focuses on what moves results: technical access, structured data, answer-first content, mentions and a monthly AI visibility report. We add llms.txt as part of setup, at no extra charge, because it's quick, not because it ranks you.
+Our [SEO & AI Search](/services/search-fellow/) (£89 a month) focuses on what moves results: technical access, structured data, answer-first content, mentions and a monthly AI visibility report. We add llms.txt as part of setup, at no extra charge, because it's quick, not because it ranks you.
 
 **[Get a free AI visibility check →](/get-started/)**
 

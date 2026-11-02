@@ -45,7 +45,7 @@ date: 2026-10-17
 
 Launch £349 · Grow £749 (bookings) · Shop £1,499 (online ordering). Half to start, half at launch. Menu updates and hosting from [Care at £49 a month](/services/management/). [See development packages →](/services/development/)
 
-Want food photos and Reels too? Our [Studio Fellow](/services/studio-fellow/) shoots on-site from £149 a month.
+Want food photos and Reels too? Our [Photo & Video Shoots](/services/studio-fellow/) shoots on-site from £149 a month.
 
 ## Frequently asked questions
 

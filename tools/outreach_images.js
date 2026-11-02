@@ -24,10 +24,10 @@ const wl = `<rect x="690" y="110" width="200" height="300" rx="20" fill="${CARD}
 <rect x="960" y="110" width="200" height="300" rx="20" fill="${O}"/><text x="1060" y="240" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">Your brand</text><text x="1060" y="275" fill="#fff" font-size="18" text-anchor="middle">your price</text>
 <text x="690" y="470" fill="${M}" font-size="20">30 videos £249/mo · no ContentFellow branding</text>`;
 const S = {
-  search: wrap(['Does ChatGPT', 'recommend you?'], 'Search Fellow: SEO + GEO · £89/month', chat),
-  creator: wrap(['Turn visitors', 'into enquiries'], 'Creator Fellow: short videos · £119/month', reel),
-  social: wrap(['Look active,', 'every weekday'], 'Social Fellow: managed social · from £59/month', cal),
-  studio: wrap(['Show your best', 'work properly'], 'Studio Fellow: photo + video shoot · £149/month', cam),
+  search: wrap(['Does ChatGPT', 'recommend you?'], 'SEO & AI Search: SEO + GEO · £89/month', chat),
+  creator: wrap(['Turn visitors', 'into enquiries'], 'Video Editing: short videos · £119/month', reel),
+  social: wrap(['Look active,', 'every weekday'], 'Social Media Management: managed social · from £59/month', cal),
+  studio: wrap(['Show your best', 'work properly'], 'Photo & Video Shoots: photo + video shoot · £149/month', cam),
   partner: wrap(['White-label', 'video for agencies'], 'Ready-edited Reels, TikToks & podcasts', wl),
 };
 (async () => {

@@ -1,6 +1,6 @@
 # Mandy.com (production company profile)
 **Type:** directory/profile · **Status:** ready-to-submit · 19 Oct
-**Sign-up:** https://www.mandy.com/ (free company profile for Studio Fellow: video production, Burnley, Lancashire; add showreel link)
+**Sign-up:** https://www.mandy.com/ (free company profile for Photo & Video Shoots: video production, Burnley, Lancashire; add showreel link)
 ## Steps
 1. Search the site for "Content Fellow" / "ContentFellow" Burnley; claim if it exists.
 2. Otherwise register (email verification), name **ContentFellow**, Burnley, Lancashire, no street address or phone unless approved.
@@ -15,6 +15,6 @@
 
 **Short (150 chars):** UK marketing on simple monthly plans: video shoots, editing, social media, websites and SEO + AI search (GEO). From £49 a month. Based in Burnley.
 
-**Long (750 chars):** ContentFellow is a Burnley-based marketing service for UK small businesses, creators and startups. Instead of agency retainers, you hire "Fellows" on simple monthly plans: on-site photo and video shoots (Studio Fellow £149), video editing (Creator Fellow £119), social media management (from £59), websites (Build Fellow £69) and SEO + GEO so Google, ChatGPT and Gemini recommend you (Search Fellow £89). Need something built? Fixed-price websites from £349 and apps from £1,249, with monthly care from £49. Every plan is billed monthly, you approve work before it goes live, and you get a monthly report. Prices include everything; no VAT is added. Free trial on every Fellow.
+**Long (750 chars):** ContentFellow is a Burnley-based marketing service for UK small businesses, creators and startups. Instead of agency retainers, you hire "Fellows" on simple monthly plans: on-site photo and video shoots (Photo & Video Shoots £149), video editing (Video Editing £119), social media management (from £59), websites (Website Management £69) and SEO + GEO so Google, ChatGPT and Gemini recommend you (SEO & AI Search £89). Need something built? Fixed-price websites from £349 and apps from £1,249, with monthly care from £49. Every plan is billed monthly, you approve work before it goes live, and you get a monthly report. Prices include everything; no VAT is added. Free trial on every Fellow.
 
-**Services:** Studio Fellow £149/mo · Creator Fellow £119/mo · Social Fellow £59 or £129/mo · Build Fellow £69/mo · Search Fellow (SEO + GEO) £89/mo · Growth Fellow £389/mo · Websites from £349 · Apps from £1,249 · Website care from £49/mo
+**Services:** Photo & Video Shoots £149/mo · Video Editing £119/mo · Social Media Management £59 or £129/mo · Website Management £69/mo · SEO & AI Search (SEO + GEO) £89/mo · Full Marketing Team £389/mo · Websites from £349 · Apps from £1,249 · Website care from £49/mo

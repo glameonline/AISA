@@ -7,7 +7,7 @@ Hi [Name],
 
 A quick local story you might like. Burnley-based ContentFellow has launched monthly plans that help Lancashire small businesses show up when customers ask ChatGPT, Gemini or Google's AI for a recommendation, a fast-growing way people now find local services.
 
-- Plans start at £49 a month; the Search Fellow (SEO + AI search) is £89 a month with a monthly report showing which AI questions mention the business.
+- Plans start at £49 a month; the SEO & AI Search (SEO + AI search) is £89 a month with a monthly report showing which AI questions mention the business.
 - Fixed-price websites from £349 and apps from £1,249 for local firms that need to get online first.
 - All prices are published, with no long contracts.
 

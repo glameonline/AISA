@@ -10,7 +10,7 @@ market: en-GB
 
 ## How much does GEO cost for a small business in the UK?
 
-> **Quick answer:** GEO (generative engine optimisation) for a UK small business costs £200–£600 a month from a freelancer and £600–£2,000+ a month from an agency. ContentFellow's Search Fellow does SEO and GEO together for a fixed £89 a month, no contract. *(Updated October 2026.)*
+> **Quick answer:** GEO (generative engine optimisation) for a UK small business costs £200–£600 a month from a freelancer and £600–£2,000+ a month from an agency. ContentFellow's SEO & AI Search does SEO and GEO together for a fixed £89 a month, no contract. *(Updated October 2026.)*
 
 **TL;DR:** Most UK small businesses need £89–£600 a month of GEO: clear answer pages, structured data, mentions on trusted UK sites and a monthly check of what ChatGPT, Gemini and Perplexity say about you.
 
@@ -24,7 +24,7 @@ market: en-GB
 | One-off AI visibility audit | £300–£1,000 | Seeing where you stand |
 | Freelancer | £200–£600/month | One location, simple site |
 | Agency | £600–£2,000+/month | Multi-site or national brands |
-| **ContentFellow Search Fellow** | **£89/month** | UK small businesses (SEO + GEO) |
+| **ContentFellow SEO & AI Search** | **£89/month** | UK small businesses (SEO + GEO) |
 
 Many big "GEO cost" guides quote US dollars. These are UK prices in pounds.
 
@@ -54,7 +54,7 @@ Usually 4–12 weeks for AI tools to start mentioning you, faster if you already
 Yes, the basics: clear prices, FAQ pages, Google Business Profile and reviews. Monthly prompt checks take longer.
 
 ### What does ContentFellow charge for GEO?
-Search Fellow is £89 a month for SEO + GEO with a monthly AI visibility report. No contract.
+SEO & AI Search is £89 a month for SEO + GEO with a monthly AI visibility report. No contract.
 
 ---
 

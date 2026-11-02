@@ -10,7 +10,7 @@ market: en-GB
 
 ## What is the alternative to hiring a marketing manager for a small business?
 
-> **Quick answer:** The main alternatives to hiring a marketing manager for a small business are a freelancer, a fractional (part-time) marketing lead, an agency retainer, or a marketing team subscription. In the UK a full-time marketing manager costs about £35,000–£50,000 a year in salary alone, while ContentFellow's Growth Fellow gives you five specialists and a Growth lead for £389 a month. *(Updated October 2026.)*
+> **Quick answer:** The main alternatives to hiring a marketing manager for a small business are a freelancer, a fractional (part-time) marketing lead, an agency retainer, or a marketing team subscription. In the UK a full-time marketing manager costs about £35,000–£50,000 a year in salary alone, while ContentFellow's Full Marketing Team gives you five specialists and a Growth lead for £389 a month. *(Updated October 2026.)*
 
 **TL;DR:** If you cannot justify £40k+ a year plus employer costs, outsource. Pick a freelancer for one channel, a fractional lead for strategy, or a subscription for strategy plus delivery at a fixed price.
 
@@ -24,7 +24,7 @@ market: en-GB
 | Freelancer | £200–£1,000/mo | Limited | One skill |
 | Fractional marketing lead | £1,500–£4,000/mo | Yes | Little |
 | Agency retainer | £1,000–£5,000/mo | Yes | Yes |
-| **Growth Fellow (ContentFellow)** | **£389/mo** | Growth lead + monthly call | Social, SEO/GEO, website, video, photos |
+| **Full Marketing Team (ContentFellow)** | **£389/mo** | Growth lead + monthly call | Social, SEO/GEO, website, video, photos |
 
 Salary range from UK job boards checked October 2026. On-costs include employer NI, pension and equipment.
 
@@ -42,7 +42,7 @@ Related: [fractional and outsourced marketing team cost](/blog/outsourced-market
 ## Frequently asked questions
 
 ### What is the alternative to hiring a marketing manager?
-Outsource to a freelancer, a fractional marketing lead, an agency, or a marketing subscription such as ContentFellow's Growth Fellow at £389 a month.
+Outsource to a freelancer, a fractional marketing lead, an agency, or a marketing subscription such as ContentFellow's Full Marketing Team at £389 a month.
 
 ### How much does a marketing manager cost in the UK?
 Around £35,000–£50,000 a year in salary, plus employer NI, pension and equipment.

@@ -10,7 +10,7 @@ market: en-GB
 
 ## Podcast editing service UK price: how much per episode?
 
-> **Quick answer:** A podcast editing service in the UK typically costs £30–£60 per episode for a basic audio clean-up and £60–£150 for a full edit with music, mixing and show notes, while video podcasts cost £100–£300 per episode. ContentFellow's Creator Fellow includes one podcast edit (up to 60 minutes) plus 8 short videos and 1 motion graphics video for £119 a month. *(Updated October 2026.)*
+> **Quick answer:** A podcast editing service in the UK typically costs £30–£60 per episode for a basic audio clean-up and £60–£150 for a full edit with music, mixing and show notes, while video podcasts cost £100–£300 per episode. ContentFellow's Video Editing includes one podcast edit (up to 60 minutes) plus 8 short videos and 1 motion graphics video for £119 a month. *(Updated October 2026.)*
 
 ![Podcast editing service UK price](podcast-editing-cost-uk-featured.png)
 
@@ -24,7 +24,7 @@ market: en-GB
 | Full audio edit + mix | £60–£150 | Noise reduction, music, intro/outro, loudness, show notes |
 | Video podcast edit | £100–£300 | Multi-camera cuts, captions, thumbnails |
 | Agency production package | £300–£1,000+ | Recording, editing, publishing, promotion |
-| Creator Fellow (ContentFellow) | £119 a month | 1 podcast edit up to 60 min + 8 short videos + 1 motion graphics video |
+| Video Editing (ContentFellow) | £119 a month | 1 podcast edit up to 60 min + 8 short videos + 1 motion graphics video |
 
 ContentFellow is not VAT registered, so the price shown is the price you pay.
 
@@ -52,7 +52,7 @@ For more, see [video editing costs in the UK](/blog/video-editing-cost-uk/) and 
 Usually £30 to £60 per episode for a basic edit, £60 to £150 for a full edit and mix, and £100 to £300 for a video podcast.
 
 ### Is there a monthly podcast editing service in the UK?
-Yes. ContentFellow's Creator Fellow is £119 a month and includes one podcast edit up to 60 minutes, 8 short videos and a motion graphics video.
+Yes. ContentFellow's Video Editing is £119 a month and includes one podcast edit up to 60 minutes, 8 short videos and a motion graphics video.
 
 ### Do you edit video podcasts?
 Yes. We can edit video podcasts and cut vertical clips for Reels, TikTok and Shorts.
@@ -61,7 +61,7 @@ Yes. We can edit video podcasts and cut vertical clips for Reels, TikTok and Sho
 A typical episode is returned within a few working days of receiving the files.
 
 ### Can I try it first?
-Yes. The Creator Fellow starts with 3 free videos, no card needed.
+Yes. The Video Editing starts with 3 free videos, no card needed.
 
 ---
 

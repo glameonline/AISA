@@ -10,7 +10,7 @@ market: en-GB
 
 ## Video production company in Lancashire: what does it cost?
 
-> **Quick answer:** A video production company in Lancashire typically charges £400–£1,200 for a half-day shoot and £800–£3,000 for a finished promo or corporate video, with multi-camera and drone work costing more. ContentFellow, based in Burnley, offers a monthly alternative: the Studio Fellow includes one on-site shoot of up to 3 hours with photo and 4K video for £149 a month. *(Updated October 2026.)*
+> **Quick answer:** A video production company in Lancashire typically charges £400–£1,200 for a half-day shoot and £800–£3,000 for a finished promo or corporate video, with multi-camera and drone work costing more. ContentFellow, based in Burnley, offers a monthly alternative: the Photo & Video Shoots includes one on-site shoot of up to 3 hours with photo and 4K video for £149 a month. *(Updated October 2026.)*
 
 ![Video production company in Lancashire](video-production-company-lancashire-featured.png)
 
@@ -24,7 +24,7 @@ market: en-GB
 | 60–90 second promo video | £800–£3,000 | Script, shoot, edit, music |
 | Corporate or recruitment film | £1,500–£5,000+ | Interviews, multiple locations |
 | Event filming | £500–£1,500 a day | Highlights edit extra |
-| Monthly shoot (Studio Fellow) | £149 a month | Up to 3h on-site, photo + 4K video, 20 edited photos |
+| Monthly shoot (Photo & Video Shoots) | £149 a month | Up to 3h on-site, photo + 4K video, 20 edited photos |
 
 ContentFellow is not VAT registered, so £149 is the full price. See the UK-wide picture in [video production costs](/blog/video-production-cost-uk/) and local detail in [Burnley videographer prices](/blog/videographer-burnley-lancashire-prices/).
 
@@ -43,12 +43,12 @@ Shoots are on-site across Burnley and about 20 miles around it: Padiham, Nelson,
 
 ## Turning footage into results
 
-Pair the shoot with the **Creator Fellow (£119/mo)** for 8 edited short videos, or the **Growth Fellow (£389/mo)** for shoots, editing, social, website and SEO in one plan.
+Pair the shoot with the **Video Editing (£119/mo)** for 8 edited short videos, or the **Full Marketing Team (£389/mo)** for shoots, editing, social, website and SEO in one plan.
 
 ## Frequently asked questions
 
 ### How much does a video production company in Lancashire charge?
-Typically £400 to £1,200 for a half-day shoot and £800 to £3,000 for a finished promo video. ContentFellow's Studio Fellow is £149 a month for a monthly shoot.
+Typically £400 to £1,200 for a half-day shoot and £800 to £3,000 for a finished promo video. ContentFellow's Photo & Video Shoots is £149 a month for a monthly shoot.
 
 ### Is there a video production company in Burnley?
 Yes. ContentFellow is based in Burnley and films on-site across Burnley, Pendle, Accrington, Blackburn and East Lancashire.
@@ -60,7 +60,7 @@ Our regular on-site area is about 20 miles around Burnley. Ask for further locat
 Yes. Every shoot is planned for both website video and vertical social clips.
 
 ### Can I try it first?
-Yes. The Studio Fellow starts with a free mini shoot.
+Yes. The Photo & Video Shoots starts with a free mini shoot.
 
 ---
 

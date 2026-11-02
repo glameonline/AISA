@@ -24,7 +24,7 @@ market: en-GB
 | Freelance web designer, Burnley area | £300–£1,500 | Simple brochure sites |
 | Local web design agency | £1,500–£5,000+ | Larger sites, custom features |
 | ContentFellow Launch / Grow / Shop | £349 / £749 / £1,499 | Fixed price, 50% upfront, 50% at launch |
-| ContentFellow Build Fellow | £69 a month | Up to 5 pages, hosting, security, updates, 2 changes a month |
+| ContentFellow Website Management | £69 a month | Up to 5 pages, hosting, security, updates, 2 changes a month |
 
 After a one-off build, website care starts at £49 a month (Care), with Care Plus at £159 for bigger sites. See [development packages](/services/development/) and [management plans](/services/management/). We're not VAT registered, so these are the full prices.
 
@@ -37,7 +37,7 @@ After a one-off build, website care starts at £49 a month (Care), with Care Plu
 3. **Prices and proof**: price ranges, photos of real work, reviews and FAQs.
 4. **One clear way to get in touch**: call, WhatsApp, booking or a quote form.
 
-Add schema markup and clear answers too, so Google and AI assistants like ChatGPT can understand and recommend you. Our [Search Fellow (£89/mo)](/blog/affordable-seo-geo-services-uk/) handles that after launch.
+Add schema markup and clear answers too, so Google and AI assistants like ChatGPT can understand and recommend you. Our [SEO & AI Search (£89/mo)](/blog/affordable-seo-geo-services-uk/) handles that after launch.
 
 ## Questions to ask any Burnley web designer
 
@@ -58,10 +58,10 @@ Usually £300 to £1,500 for a freelance brochure site and £1,500 to £5,000 or
 Yes. ContentFellow is based in Burnley, Lancashire and builds websites for businesses in Burnley, Pendle and across the UK.
 
 ### Can I pay monthly for a website in Burnley?
-Yes. The Build Fellow is £69 a month for a custom site of up to 5 pages with hosting, security, updates and 2 change requests a month.
+Yes. The Website Management is £69 a month for a custom site of up to 5 pages with hosting, security, updates and 2 change requests a month.
 
 ### Can I see the design before I pay?
-Yes. The Build Fellow starts with a free homepage preview.
+Yes. The Website Management starts with a free homepage preview.
 
 ### Do you build online shops?
 Yes. The Shop package is £1,499 for up to 100 products.

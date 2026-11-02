@@ -113,9 +113,9 @@ Yes. Most of these steps also lift your Google rankings, and Google still sends 
 
 ## Get it done for you
 
-The **[Search Fellow](/services/search-fellow/) is £89 a month**. We fix your crawler access, Bing indexing, structured data and service pages, keep your directory listings consistent, and send a monthly report showing which ChatGPT, Gemini, Claude and Perplexity prompts name you and which name your competitors.
+The **[SEO & AI Search](/services/search-fellow/) is £89 a month**. We fix your crawler access, Bing indexing, structured data and service pages, keep your directory listings consistent, and send a monthly report showing which ChatGPT, Gemini, Claude and Perplexity prompts name you and which name your competitors.
 
-**[Pick your Search Fellow →](/services/search-fellow/)**
+**[Pick your SEO & AI Search →](/services/search-fellow/)**
 
 ## Frequently asked questions
 

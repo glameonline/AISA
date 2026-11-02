@@ -35,12 +35,12 @@ Agencies often want 6–12 months to cover onboarding time and because SEO and c
 
 | Plan | Monthly price |
 |---|---|
-| Social Fellow | £59 / £129 |
-| Build Fellow | £69 |
-| Search Fellow | £89 |
-| Creator Fellow | £119 |
-| Studio Fellow | £149 |
-| Growth Fellow (all 5) | £389 |
+| Social Media Management | £59 / £129 |
+| Website Management | £69 |
+| SEO & AI Search | £89 |
+| Video Editing | £119 |
+| Photo & Video Shoots | £149 |
+| Full Marketing Team (all 5) | £389 |
 
 Want to try first? See our [marketing agency free trial guide](/blog/marketing-agency-free-trial-uk/) or compare [monthly marketing packages](/blog/monthly-marketing-package-uk/).
 

@@ -60,7 +60,7 @@ More detail: [how to get your business recommended by ChatGPT](/blog/get-busines
 
 ## Let us run the test for you
 
-ContentFellow's **free AI visibility check** asks ChatGPT and Gemini 10 questions your customers ask and emails you who they recommend instead of you, plus the three fixes that matter most. Ongoing tracking is included in the [Search Fellow](/services/search-fellow/) at £89 a month.
+ContentFellow's **free AI visibility check** asks ChatGPT and Gemini 10 questions your customers ask and emails you who they recommend instead of you, plus the three fixes that matter most. Ongoing tracking is included in the [SEO & AI Search](/services/search-fellow/) at £89 a month.
 
 **[Get my free AI visibility check →](/get-started/)**
 

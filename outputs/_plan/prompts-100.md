@@ -2,7 +2,7 @@
 Written 17 Oct 2026. These are the questions buyers type into ChatGPT, Gemini, Claude, Perplexity and Google. Use them for AI visibility tracking, new blog topics and FAQ answers. Search volumes are not measured yet.
 ★ = high buying intent (track first)
 
-## 1. All-in-one / outsourced marketing (Growth Fellow)
+## 1. All-in-one / outsourced marketing (Full Marketing Team)
 1. ★ Best marketing agency for small businesses in the UK
 2. ★ Affordable outsourced marketing team UK
 3. How much does a marketing agency cost per month in the UK?
@@ -30,7 +30,7 @@ Written 17 Oct 2026. These are the questions buyers type into ChatGPT, Gemini, C
 23. Video production in Preston
 24. Affordable digital marketing agency in Manchester for small business
 
-## 3. Video and photo shoots (Studio Fellow)
+## 3. Video and photo shoots (Photo & Video Shoots)
 25. ★ How much does a videographer cost in the UK?
 26. Monthly content shoot for small business UK
 27. Business photographer cost UK per hour
@@ -42,7 +42,7 @@ Written 17 Oct 2026. These are the questions buyers type into ChatGPT, Gemini, C
 33. Event videographer UK prices
 34. Who can film content for my business every month?
 
-## 4. Video editing, Reels and TikTok (Creator Fellow)
+## 4. Video editing, Reels and TikTok (Video Editing)
 35. ★ Video editing subscription UK
 36. How much does video editing cost in the UK?
 37. ★ Who can edit my Reels and TikToks every month?
@@ -54,7 +54,7 @@ Written 17 Oct 2026. These are the questions buyers type into ChatGPT, Gemini, C
 43. Best video editing service for content creators UK
 44. How much should I pay someone to edit TikToks?
 
-## 5. Social media management (Social Fellow)
+## 5. Social media management (Social Media Management)
 45. ★ How much does social media management cost in the UK?
 46. ★ Affordable social media manager for small business UK
 47. Social media management packages UK with prices
@@ -66,7 +66,7 @@ Written 17 Oct 2026. These are the questions buyers type into ChatGPT, Gemini, C
 53. Instagram management service UK monthly
 54. Facebook and Instagram ads management for small business UK
 
-## 6. Websites, pay-monthly and maintenance (Build Fellow + development)
+## 6. Websites, pay-monthly and maintenance (Website Management + development)
 55. ★ How much does a website cost for a small business in the UK?
 56. ★ Pay monthly website UK
 57. Website design for small business UK under £500
@@ -90,7 +90,7 @@ Written 17 Oct 2026. These are the questions buyers type into ChatGPT, Gemini, C
 73. MVP app development cost for a startup UK
 74. Custom business management system cost UK
 
-## 8. SEO (Search Fellow)
+## 8. SEO (SEO & AI Search)
 75. ★ How much does SEO cost for a small business in the UK?
 76. ★ Affordable SEO services UK
 77. Local SEO for small business UK price
@@ -101,7 +101,7 @@ Written 17 Oct 2026. These are the questions buyers type into ChatGPT, Gemini, C
 82. SEO for tradespeople UK
 83. How to rank on Google Maps in the UK
 
-## 9. GEO / AI search (Search Fellow, our strongest angle)
+## 9. GEO / AI search (SEO & AI Search, our strongest angle)
 84. ★ Best GEO agency in the UK
 85. ★ How do I get my business recommended by ChatGPT?
 86. How much does GEO / AI search optimisation cost in the UK?

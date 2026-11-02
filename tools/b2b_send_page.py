@@ -10,7 +10,7 @@ def email(r):
     body = (f"Hi {n} team,\n\n{you(r['personal_note'])}\n\n"
             f"More buyers now ask ChatGPT, Gemini or Google's AI Overviews questions like \"{q}\", and these tools usually name only two or three firms. "
             "Being one of them is the new page one of Google.\n\n"
-            "We're ContentFellow, based in Burnley. Our Search Fellow plan does SEO and GEO (generative engine optimisation) together, so Google ranks you and AI assistants recommend you:\n\n"
+            "We're ContentFellow, based in Burnley. Our SEO & AI Search plan does SEO and GEO (generative engine optimisation) together, so Google ranks you and AI assistants recommend you:\n\n"
             "- Free AI visibility check: we test the questions your buyers ask and show who gets named instead of you, plus the 3 fixes that matter most\n"
             "- Then a free 7-day trial, no card needed\n"
             "- £89 a month after that, cancel any time, with a monthly ranking and AI visibility report\n\n"
@@ -30,5 +30,5 @@ if __name__ == "__main__":
             seen.add(key); rows.append(r)
     rows.sort(key=lambda r: (r.get("ring") or "9", not r.get("email", "").strip()))
     build(rows, email, pathlib.Path("outputs/b2b-outreach/index.html"), "AI Search Outreach", "AI search outreach",
-          f"Search Fellow free trial · {len(rows)} IT and corporate firms, nearest to Burnley first",
+          f"SEO & AI Search free trial · {len(rows)} IT and corporate firms, nearest to Burnley first",
           lambda r: f"{r['town']} · {r['sector']} · asks AI: “{r['buyer_prompt']}”", "b2b")

@@ -45,7 +45,7 @@ Free check ≈ 10–15 min; Creator 3 videos ≈ 2–3 h; Studio mini shoot ≈ 
 
 Email template (check):
 > Subject: Your free AI visibility check, [Business]
-> Hi [Name], I asked ChatGPT and Gemini 10 questions your customers ask. You were named in [X/10]. They recommended [A] and [B], mostly because of [source]. Your 3 fixes: 1) … 2) … 3) …. Want us to do them? Start a free 7-day trial of the Search Fellow (£89/month after, monthly, no contract): [link]
+> Hi [Name], I asked ChatGPT and Gemini 10 questions your customers ask. You were named in [X/10]. They recommended [A] and [B], mostly because of [source]. Your 3 fixes: 1) … 2) … 3) …. Want us to do them? Start a free 7-day trial of the SEO & AI Search (£89/month after, monthly, no contract): [link]
 
 ## Custom GPT (free; needs ChatGPT Plus on the business account)
 - Name: **UK Marketing Cost Checker by ContentFellow**

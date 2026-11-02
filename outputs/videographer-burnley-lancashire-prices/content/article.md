@@ -8,7 +8,7 @@ market: en-GB
 
 # Videographer in Burnley and Lancashire: Prices 2026
 
-> **Quick answer:** A business videographer in Burnley or elsewhere in Lancashire typically charges **£390 to £650 for a half day** and **£690 to £900 for a full day** in 2026, with editing sometimes extra. Monthly social video packages from solo operators run about **£295 to £650 a month**. ContentFellow, based in Burnley, offers the **Studio Fellow at £149 a month** for one on-site shoot with photo and 4K video, and the **Creator Fellow at £119 a month** for short-form editing. *(Updated October 2026.)*
+> **Quick answer:** A business videographer in Burnley or elsewhere in Lancashire typically charges **£390 to £650 for a half day** and **£690 to £900 for a full day** in 2026, with editing sometimes extra. Monthly social video packages from solo operators run about **£295 to £650 a month**. ContentFellow, based in Burnley, offers the **Photo & Video Shoots at £149 a month** for one on-site shoot with photo and 4K video, and the **Video Editing at £119 a month** for short-form editing. *(Updated October 2026.)*
 
 ![Videographer prices in Burnley and Lancashire](videographer-burnley-lancashire-prices-featured.png)
 
@@ -24,7 +24,7 @@ Published UK ranges are a fair guide for Lancashire, because London is the main 
 | Drone add-on (CAA-licensed) | £250–£650 a half day | Aerial shots of your premises or site | Venues, builders, estates |
 | Monthly social video package | £295–£650 a month | One shoot a month, cut into clips | Steady content for Reels and TikTok |
 | Studio package with strategy | £1,250–£1,950 a month | Shoots, edits and planning calls | Larger brands with bigger budgets |
-| Studio Fellow (ContentFellow) | £149 a month | One on-site shoot up to 3 hours, photo + 4K video | Local businesses that want fresh content every month |
+| Photo & Video Shoots (ContentFellow) | £149 a month | One on-site shoot up to 3 hours, photo + 4K video | Local businesses that want fresh content every month |
 
 Sources: Whito's [UK photography and video cost research](https://whito.co.uk/research/photography-costs-uk/) (updated September 2026) gives solo videographer rates of £390–£650 a half day and £690–£900 a full day, YunoJuno's booked average of £427 a day, monthly social video packages of £295–£650, studio packages of £1,250–£1,950 a month and drone coverage of £250–£650 a half day. London rates sit at or above the top of each range.
 
@@ -72,8 +72,8 @@ Before you book anyone, check these:
 | Half day each quarter | 4 × £520 (mid-point of £390–£650) | ~£2,080, editing may be extra |
 | Full day twice a year | 2 × £800 | ~£1,600, plus editing |
 | Monthly social video package | 12 × £295–£650 | £3,540–£7,800 |
-| Studio Fellow | 12 × £149 | £1,788 |
-| Studio Fellow + Creator Fellow | 12 × (£149 + £119) | £3,216 |
+| Photo & Video Shoots | 12 × £149 | £1,788 |
+| Photo & Video Shoots + Video Editing | 12 × (£149 + £119) | £3,216 |
 
 These are illustrative, using the ranges in the table above. Your own quotes will vary.
 
@@ -91,14 +91,14 @@ These are illustrative, using the ranges in the table above. Your own quotes wil
 
 ContentFellow is based in Burnley. We built our plans for local businesses that want regular content without a day-rate invoice every time.
 
-- **[Studio Fellow](/services/studio-fellow/): £149 a month.** One on-site shoot each month of up to three hours, covering photo and 4K video. You get 20 edited photos within five working days. On-site shoots cover Burnley and roughly 20 miles around it, including Padiham, Nelson, Colne, Accrington, Clitheroe, Blackburn and Rawtenstall.
-- **[Creator Fellow](/services/creator-fellow/): £119 a month.** 8 short videos for Reels, TikTok and Shorts, 1 motion graphics video and 1 podcast edit of up to 60 minutes. Editing is done remotely, so this works anywhere in the UK.
+- **[Photo & Video Shoots](/services/studio-fellow/): £149 a month.** One on-site shoot each month of up to three hours, covering photo and 4K video. You get 20 edited photos within five working days. On-site shoots cover Burnley and roughly 20 miles around it, including Padiham, Nelson, Colne, Accrington, Clitheroe, Blackburn and Rawtenstall.
+- **[Video Editing](/services/creator-fellow/): £119 a month.** 8 short videos for Reels, TikTok and Shorts, 1 motion graphics video and 1 podcast edit of up to 60 minutes. Editing is done remotely, so this works anywhere in the UK.
 
 Use them together and the footage from your monthly shoot becomes a month of short videos. Billing is monthly, you approve everything before it goes live, and you can add, remove or upgrade a Fellow from the next month. We're a sole trader, not VAT registered, so the price you see is the full price with no VAT added.
 
 See every plan side by side on our [pricing page](/pricing/), read more about [marketing for Burnley businesses](/burnley/), or browse quick answers to common questions in our [answers hub](/answers/). For national figures, read our guide to [video production costs in the UK](/blog/video-production-cost-uk/).
 
-**[Book your Studio Fellow →](/services/studio-fellow/)**
+**[Book your Photo & Video Shoots →](/services/studio-fellow/)**
 
 ## Frequently asked questions
 
@@ -118,7 +118,7 @@ A simple promo or set of social clips can be filmed in a half day. Editing usual
 Rarely, for social media content. A half day, or a three-hour monthly shoot, is enough for testimonials, team clips and product shots. Full days suit events or several locations.
 
 ### Can ContentFellow film at my business in East Lancashire?
-Yes. Studio Fellow shoots happen on-site in Burnley and about 20 miles around it, including Padiham, Nelson, Colne, Accrington, Clitheroe and Blackburn. Editing, social media, websites and SEO are delivered remotely across the UK.
+Yes. Photo & Video Shoots shoots happen on-site in Burnley and about 20 miles around it, including Padiham, Nelson, Colne, Accrington, Clitheroe and Blackburn. Editing, social media, websites and SEO are delivered remotely across the UK.
 
 ### Who owns the video footage?
 It depends on the contract. Make sure you can use the footage on your website, social media and paid ads without extra fees, and ask whether raw clips are included.

@@ -26,7 +26,7 @@ market: en-GB
 | **ContentFellow – Manage** | **£59/month** | ≤2 platforms, weekday replies, ad set-up |
 | **ContentFellow – Manage + Post** | **£129/month** | ≤3 platforms, daily posting, trend research |
 
-Need photos and Reels filmed? Studio Fellow (£149/month) adds a monthly on-site shoot in Nelson, Brierfield, Barrowford and Pendle.
+Need photos and Reels filmed? Photo & Video Shoots (£149/month) adds a monthly on-site shoot in Nelson, Brierfield, Barrowford and Pendle.
 
 ## What a good Nelson social media manager does
 

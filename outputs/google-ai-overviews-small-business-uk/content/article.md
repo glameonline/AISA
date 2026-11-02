@@ -93,9 +93,9 @@ The work above also helps with ChatGPT, Gemini, Claude and Perplexity, because t
 
 ## Want it done for you?
 
-The **[Search Fellow](/services/search-fellow/) is £89 a month**: SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing your rankings and AI visibility. Monthly billing, no VAT added, and you approve content before it goes live.
+The **[SEO & AI Search](/services/search-fellow/) is £89 a month**: SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing your rankings and AI visibility. Monthly billing, no VAT added, and you approve content before it goes live.
 
-**[Get your Search Fellow →](/services/search-fellow/)**
+**[Get your SEO & AI Search →](/services/search-fellow/)**
 
 ## Frequently asked questions
 

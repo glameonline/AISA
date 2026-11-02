@@ -28,18 +28,18 @@ market: en-GB
 
 | Fellow | Monthly price | Free trial |
 |---|---|---|
-| Search Fellow (SEO + GEO) | £89/mo | 7 free days |
-| Social Fellow | £59 or £129/mo | 7 free days |
-| Growth Fellow (all five) | £389/mo | 7 free days |
-| Creator Fellow (video editing) | £119/mo | 3 free videos |
-| Studio Fellow (photo + video shoot) | £149/mo | Free mini shoot |
-| Build Fellow (website) | £69/mo | Free homepage preview |
+| SEO & AI Search (SEO + GEO) | £89/mo | 7 free days |
+| Social Media Management | £59 or £129/mo | 7 free days |
+| Full Marketing Team (all five) | £389/mo | 7 free days |
+| Video Editing (video editing) | £119/mo | 3 free videos |
+| Photo & Video Shoots (photo + video shoot) | £149/mo | Free mini shoot |
+| Website Management (website) | £69/mo | Free homepage preview |
 
 No card is needed to start. Billing is monthly with no long contract, and as we're not VAT registered the price shown is the price you pay. Start at [get started](/get-started/?offer=trial).
 
 ## Is there a free social media management trial in the UK?
 
-Yes. The Social Fellow includes a 7-day free trial: we set up and manage up to 2 or 3 platforms (depending on plan) so you can see the posts, replies and tone before you pay anything.
+Yes. The Social Media Management includes a 7-day free trial: we set up and manage up to 2 or 3 platforms (depending on plan) so you can see the posts, replies and tone before you pay anything.
 
 ## How to judge any free trial
 
@@ -58,7 +58,7 @@ See also [marketing agencies with no long contract](/blog/best-marketing-agency-
 A few do. Most offer a free consultation or audit. ContentFellow offers a free trial on every plan with no card needed.
 
 ### Is there a free social media management trial in the UK?
-Yes. ContentFellow's Social Fellow comes with a 7-day free trial, then costs £59 or £129 a month.
+Yes. ContentFellow's Social Media Management comes with a 7-day free trial, then costs £59 or £129 a month.
 
 ### Do I need a card for the free trial?
 No. You can start any ContentFellow trial without card details.
@@ -67,7 +67,7 @@ No. You can start any ContentFellow trial without card details.
 You choose whether to continue on the monthly price. There is no long contract and you can cancel from the next month.
 
 ### Can I try SEO and GEO for free?
-Yes. The Search Fellow (£89 a month) starts with 7 free days, and there is also a free AI visibility check.
+Yes. The SEO & AI Search (£89 a month) starts with 7 free days, and there is also a free AI visibility check.
 
 ---
 

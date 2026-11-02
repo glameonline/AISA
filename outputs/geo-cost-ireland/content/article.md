@@ -10,7 +10,7 @@ market: en-IE
 
 ## How much does GEO cost in Ireland?
 
-> **Quick answer:** GEO (generative engine optimisation) in Ireland typically costs €200–€600 a month from a freelancer and €600–€1,500 or more a month from an agency, with one-off AI visibility audits around €300–€1,000. ContentFellow's Search Fellow covers SEO and GEO together for a fixed £89 a month (roughly €100–€110), with no VAT added. *(Updated October 2026.)*
+> **Quick answer:** GEO (generative engine optimisation) in Ireland typically costs €200–€600 a month from a freelancer and €600–€1,500 or more a month from an agency, with one-off AI visibility audits around €300–€1,000. ContentFellow's SEO & AI Search covers SEO and GEO together for a fixed £89 a month (roughly €100–€110), with no VAT added. *(Updated October 2026.)*
 
 **TL;DR:** Most Irish small businesses need €100–€600 a month of GEO work: clear answer pages, structured data, mentions on trusted Irish and UK sites, and a monthly check of what ChatGPT, Gemini and Perplexity say. Ask whether quotes include 23% VAT.
 
@@ -23,7 +23,7 @@ market: en-IE
 | One-off AI visibility audit | €300–€1,000 | Prompt test across ChatGPT, Gemini, Perplexity, list of fixes |
 | Freelancer retainer | €200–€600/mo | Content updates, schema, a few citations |
 | Agency retainer | €600–€1,500+/mo | Strategy, content, digital PR, reporting |
-| ContentFellow Search Fellow | £89/mo (~€100–€110) | SEO + GEO, monthly ranking and AI visibility report |
+| ContentFellow SEO & AI Search | £89/mo (~€100–€110) | SEO + GEO, monthly ranking and AI visibility report |
 
 Ranges are typical quotes from Irish and UK agency price pages checked October 2026. Many Irish agencies quote excluding VAT at 23%.
 
@@ -40,7 +40,7 @@ GEO builds on SEO. Assistants such as Gemini and Copilot lean on Google and Bing
 
 ## ContentFellow for Irish businesses
 
-We are based in Burnley, UK and work with Irish clients remotely. **Search Fellow is £89 a month** for SEO and GEO, with a monthly ranking and AI visibility report. Want everything? **Growth Fellow is £389 a month** for all five Fellows. No VAT is added and there is no long contract. Compare UK prices in [LLM optimisation cost for UK small businesses](/blog/llm-optimisation-cost-small-business-uk/).
+We are based in Burnley, UK and work with Irish clients remotely. **SEO & AI Search is £89 a month** for SEO and GEO, with a monthly ranking and AI visibility report. Want everything? **Full Marketing Team is £389 a month** for all five Fellows. No VAT is added and there is no long contract. Compare UK prices in [LLM optimisation cost for UK small businesses](/blog/llm-optimisation-cost-small-business-uk/).
 
 ![What GEO work includes](geo-cost-ireland-diagram.png)
 
@@ -56,7 +56,7 @@ VAT-registered Irish businesses add 23%. Always ask if a quote includes VAT.
 Yes if customers ask AI assistants for recommendations in your sector. Start with a small monthly plan and track which prompts mention you.
 
 ### Can a UK company do GEO for an Irish business?
-Yes. GEO is done remotely. ContentFellow's Search Fellow is £89 a month for SEO and GEO.
+Yes. GEO is done remotely. ContentFellow's SEO & AI Search is £89 a month for SEO and GEO.
 
 ---
 

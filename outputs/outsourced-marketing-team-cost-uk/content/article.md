@@ -8,7 +8,7 @@ market: en-GB
 
 # Outsourced Marketing Team vs Agency vs In-House: UK Costs Compared (2026)
 
-> **Quick answer:** A single in-house marketing hire in the UK costs **35–45% more than their salary** once you add National Insurance, pension, recruitment, tools and training: a £30,000 content manager really costs about **£51,000 a year (£4,300 a month)**. Specialist agencies typically charge **£2,000–£10,000 a month**, and a three-person in-house team outside London costs £130,000–£180,000 a year. For small businesses, productised outsourced teams cost far less: ContentFellow's Growth Fellow is **£389 a month** for five specialists. *(Updated October 2026.)*
+> **Quick answer:** A single in-house marketing hire in the UK costs **35–45% more than their salary** once you add National Insurance, pension, recruitment, tools and training: a £30,000 content manager really costs about **£51,000 a year (£4,300 a month)**. Specialist agencies typically charge **£2,000–£10,000 a month**, and a three-person in-house team outside London costs £130,000–£180,000 a year. For small businesses, productised outsourced teams cost far less: ContentFellow's Full Marketing Team is **£389 a month** for five specialists. *(Updated October 2026.)*
 
 ![Outsourced marketing team vs agency vs in-house costs in the UK](outsourced-marketing-team-cost-uk-featured.png)
 
@@ -22,7 +22,7 @@ market: en-GB
 | Content or full-service agency | £5,000–£25,000 | Strategy plus several channels | Mid-sized companies |
 | One in-house hire | ~£4,300 (loaded) | One generalist, full-time | Businesses with lots of daily marketing work |
 | Three-person in-house team | £10,800–£15,000 | A small department | Companies spending £150k+ a year on marketing |
-| Productised team (Growth Fellow) | £389 | Five Fellows + a Growth lead | Small businesses wanting a full team on a small budget |
+| Productised team (Full Marketing Team) | £389 | Five Fellows + a Growth lead | Small businesses wanting a full team on a small budget |
 
 Sources: MarketingMary's UK analysis (2026) gives the 35–45% hidden-cost figure, the £51,000 loaded cost of a £30,000 content manager, the £130,000–£180,000 three-person team cost outside London, and agency ranges of £2,000–£5,000 a month for boutique SEO, £5,000–£10,000 for content agencies and £12,000–£25,000 for full-service B2B agencies.
 
@@ -78,9 +78,9 @@ Bought separately from freelancers, that list can easily pass £2,000 a month.
 
 ## How ContentFellow prices a full marketing team
 
-The **[Growth Fellow](/services/growth-fellow/) is £389 a month**, against £555 for the five Fellows separately, a saving of £166 a month. You get all five specialists (Studio, Creator, Social, Build and Search), a Growth lead who sets one strategy across them, a monthly call and one combined report. Billing is monthly, you approve content before it goes live, and you can change Fellows from the next month.
+The **[Full Marketing Team](/services/growth-fellow/) is £389 a month**, against £555 for the five Fellows separately, a saving of £166 a month. You get all five specialists (Studio, Creator, Social, Build and Search), a Growth lead who sets one strategy across them, a monthly call and one combined report. Billing is monthly, you approve content before it goes live, and you can change Fellows from the next month.
 
-**[See the Growth Fellow →](/services/growth-fellow/)**
+**[See the Full Marketing Team →](/services/growth-fellow/)**
 
 ## Frequently asked questions
 
@@ -100,4 +100,4 @@ A service sold like a product: fixed deliverables at a fixed monthly price, rath
 One person inside the business owns marketing and decisions, while outside specialists do the execution. Many growing UK SMEs use it.
 
 ### Can a small business have a full marketing team for under £500 a month?
-Yes, with a productised service. The ContentFellow Growth Fellow covers shoots, editing, social, website and search for £389 a month.
+Yes, with a productised service. The ContentFellow Full Marketing Team covers shoots, editing, social, website and search for £389 a month.

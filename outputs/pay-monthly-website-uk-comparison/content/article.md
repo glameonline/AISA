@@ -12,13 +12,13 @@ market: en-GB
 
 ![Pay monthly websites in the UK compared](pay-monthly-website-uk-comparison-featured.png)
 
-**Transparency note:** ContentFellow wrote this comparison and our Build Fellow is included. We've only listed prices providers publish themselves.
+**Transparency note:** ContentFellow wrote this comparison and our Website Management is included. We've only listed prices providers publish themselves.
 
 ## Published UK pay monthly website prices
 
 | Provider / type | Published price | Notes (as published) |
 |---|---|---|
-| ContentFellow Build Fellow | £69 a month, no upfront fee | Custom site up to 5 pages, hosting, security, updates, 2 change requests a month, free homepage preview |
+| ContentFellow Website Management | £69 a month, no upfront fee | Custom site up to 5 pages, hosting, security, updates, 2 change requests a month, free homepage preview |
 | Convrtem | From £49 a month | Pay monthly websites, no upfront costs |
 | Opace | £50 a month | Brochure websites for startups and small businesses |
 | StoreBuilder (guide) | Typically £49–£199 a month | Typical UK pay monthly range |
@@ -47,9 +47,9 @@ For one-off build prices and three-year totals, see [how much a small business w
 
 Over three years, a £69 plan totals about £2,484. A £1,500 freelancer build plus £20 a month care totals about £2,220. They're close; the difference is whether someone is keeping the site updated, secure and improving.
 
-## How the Build Fellow compares
+## How the Website Management compares
 
-The **[Build Fellow](/services/build-fellow/) is £69 a month**: a custom website of up to five pages, with hosting, security and updates included, plus two change requests every month. There's no upfront fee, billing is monthly, and you can get a **free homepage preview within 3 working days** before paying anything.
+The **[Website Management](/services/build-fellow/) is £69 a month**: a custom website of up to five pages, with hosting, security and updates included, plus two change requests every month. There's no upfront fee, billing is monthly, and you can get a **free homepage preview within 3 working days** before paying anything.
 
 **[Get your free homepage preview →](/services/build-fellow/)**
 
@@ -68,4 +68,4 @@ It depends on the provider. Always ask whether the domain is in your name and wh
 A DIY builder at about £3–£16 a month, if you have the time to build and maintain it yourself.
 
 ### Can I see the website before paying?
-Some providers offer previews. The ContentFellow Build Fellow includes a free homepage preview within 3 working days.
+Some providers offer previews. The ContentFellow Website Management includes a free homepage preview within 3 working days.

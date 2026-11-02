@@ -12,13 +12,13 @@ market: en-GB
 
 ![Affordable social media management for UK small businesses compared](affordable-social-media-management-uk-featured.png)
 
-**Transparency note:** ContentFellow wrote this comparison and our Social Fellow is included. We've only listed prices providers publish themselves.
+**Transparency note:** ContentFellow wrote this comparison and our Social Media Management is included. We've only listed prices providers publish themselves.
 
 ## Published UK social media management prices
 
 | Provider / type | Published price | What the price covers (as published) |
 |---|---|---|
-| ContentFellow Social Fellow | £59 a month (Manage) or £129 a month (Manage + Post) | Manage: up to 2 platforms, weekday replies, ad set-up. Manage + Post: up to 3 platforms, daily posting, trend research. Free 7-day trial |
+| ContentFellow Social Media Management | £59 a month (Manage) or £129 a month (Manage + Post) | Manage: up to 2 platforms, weekday replies, ad set-up. Manage + Post: up to 3 platforms, daily posting, trend research. Free 7-day trial |
 | Wrise | £99 a month + VAT | Starter package; extras: platform £40, post £40, reporting £30, engagement £120 a month |
 | Freelancers (Birdeye UK guide) | £200–£500 a month | Basic help |
 | Hello Social Avenue | Entry level £250–£500; partner package from £950 a month | Light support to done-with-you |
@@ -54,11 +54,11 @@ A £99 package with a second platform (£40), monthly reporting (£30) and engag
 | You run paid ads and need strategy and creative | Agency (£950+) |
 | You need original video every month | Add a video service, e.g. [video production](/services/studio-fellow/) or [editing](/services/creator-fellow/) |
 
-## How the Social Fellow compares
+## How the Social Media Management compares
 
-The **[Social Fellow](/services/social-fellow/)** is **£59 a month (Manage)** or **£129 a month (Manage + Post)**, where Manage covers up to 2 platforms with weekday replies and ad set-up, and Manage + Post covers up to 3 platforms with daily posting and trend research. Billing is monthly, you approve content before it goes live, and you can **try it free for 7 days** (a short content plan and 5 posts on one platform; you keep the content).
+The **[Social Media Management](/services/social-fellow/)** is **£59 a month (Manage)** or **£129 a month (Manage + Post)**, where Manage covers up to 2 platforms with weekday replies and ad set-up, and Manage + Post covers up to 3 platforms with daily posting and trend research. Billing is monthly, you approve content before it goes live, and you can **try it free for 7 days** (a short content plan and 5 posts on one platform; you keep the content).
 
-**[Start your free Social Fellow trial →](/services/social-fellow/)**
+**[Start your free Social Media Management trial →](/services/social-fellow/)**
 
 ## Frequently asked questions
 
@@ -75,4 +75,4 @@ Not always. Several UK agencies publish prices plus VAT, so check before compari
 If you post consistently yourself, DIY is fine. If posting keeps slipping, a low-cost managed plan usually pays for itself in time saved.
 
 ### Can I try social media management before committing?
-Some providers offer trials. The ContentFellow Social Fellow has a free 7-day trial with no card needed.
+Some providers offer trials. The ContentFellow Social Media Management has a free 7-day trial with no card needed.

@@ -61,7 +61,7 @@ Under Google's policies and the UK's DMCC Act 2024 (enforced by the CMA from Apr
 
 ## Want help?
 
-ContentFellow's Search Fellow (£89 a month) sets up a review routine, keeps your Business Profile up to date and handles local SEO and GEO. See [Search Fellow](/services/).
+ContentFellow's SEO & AI Search (£89 a month) sets up a review routine, keeps your Business Profile up to date and handles local SEO and GEO. See [SEO & AI Search](/services/).
 
 ## Frequently asked questions
 

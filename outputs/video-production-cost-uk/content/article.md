@@ -8,7 +8,7 @@ market: en-GB
 
 # How Much Does Video Production Cost for UK Small Businesses? (2026)
 
-> **Quick answer:** A UK freelance videographer typically charges **£200 to £900 a day**, depending on experience and location, plus editing. A London crew day can cost £1,500–£2,500, and production companies usually quote **£2,000 or more per project**. For regular content rather than one big film, monthly shoots are often better value: ContentFellow's Studio Fellow is **£149 a month** for one on-site shoot with photo and 4K video. *(Updated October 2026.)*
+> **Quick answer:** A UK freelance videographer typically charges **£200 to £900 a day**, depending on experience and location, plus editing. A London crew day can cost £1,500–£2,500, and production companies usually quote **£2,000 or more per project**. For regular content rather than one big film, monthly shoots are often better value: ContentFellow's Photo & Video Shoots is **£149 a month** for one on-site shoot with photo and 4K video. *(Updated October 2026.)*
 
 ![How much video production costs for UK small businesses](video-production-cost-uk-featured.png)
 
@@ -20,7 +20,7 @@ market: en-GB
 | Freelance videographer | £200–£900 a day | One person shooting; editing often extra | One-off promos, events, testimonials |
 | London crew day | £1,500–£2,500 | Camera operator, sound, lighting | Polished brand films |
 | Production company | £2,000–£20,000+ per project | Script, crew, edit, music, revisions | Adverts and flagship brand films |
-| Monthly shoots (Studio Fellow) | £149 a month | One on-site shoot up to 3 hours, photo + 4K video | Steady content for social, website and ads |
+| Monthly shoots (Photo & Video Shoots) | £149 a month | One on-site shoot up to 3 hours, photo + 4K video | Steady content for social, website and ads |
 
 Sources: Creative Clan puts a solo London videographer at £400–£900 a day. UK videographers on Reddit and Facebook groups report day rates from £200 outside London to £450 plus expenses as a common mid-level rate, and £1,500–£2,500 for London client shoot days.
 
@@ -62,7 +62,7 @@ That's why **regular short shoots usually beat one expensive production day**. F
 |---|---|---|
 | One freelance day a quarter | 4 × (£450 shoot + £450 edit) | ~£3,600 |
 | One production company film | 1 brand film | £2,000–£10,000 |
-| Monthly shoots | 12 × £149 Studio Fellow | £1,788 |
+| Monthly shoots | 12 × £149 Photo & Video Shoots | £1,788 |
 
 ## Questions to ask before you book
 
@@ -75,11 +75,11 @@ That's why **regular short shoots usually beat one expensive production day**. F
 
 ## How ContentFellow prices video production
 
-The **[Studio Fellow](/services/studio-fellow/) is £149 a month**: one on-site shoot each month of up to three hours, covering photo and 4K video, with 20 edited photos delivered within five working days. We're based in Burnley, Lancashire. You approve everything before it's used, and each video includes two rounds of revisions.
+The **[Photo & Video Shoots](/services/studio-fellow/) is £149 a month**: one on-site shoot each month of up to three hours, covering photo and 4K video, with 20 edited photos delivered within five working days. We're based in Burnley, Lancashire. You approve everything before it's used, and each video includes two rounds of revisions.
 
-Want the footage turned into Reels and Shorts? Add the [Creator Fellow](/services/creator-fellow/), or take the full [Growth Fellow](/services/growth-fellow/) team (shoots, editing, social, website and search) for £389 a month.
+Want the footage turned into Reels and Shorts? Add the [Video Editing](/services/creator-fellow/), or take the full [Full Marketing Team](/services/growth-fellow/) team (shoots, editing, social, website and search) for £389 a month.
 
-**[Pick your Studio Fellow →](/services/studio-fellow/)**
+**[Pick your Photo & Video Shoots →](/services/studio-fellow/)**
 
 ## Frequently asked questions
 

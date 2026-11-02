@@ -32,11 +32,11 @@
 - [x] How much does LLM optimisation cost for small businesses? (UK) — 2026-10-16
 - [x] GEO vs SEO: what's the difference and do UK small businesses need both? — 2026-10-16 (queued for publish)
 - [x] How to get your business recommended by ChatGPT (UK step-by-step) — 2026-10-16 (queued for publish)
-- [x] How much does social media management cost in the UK? (Social Fellow) — 2026-10-16 (queued for publish)
-- [x] How much does a small business website cost in the UK in 2026? (Build Fellow) — 2026-10-16 (queued for publish)
-- [x] Video production costs for UK small businesses (Studio Fellow) — 2026-10-16 (queued for publish)
-- [x] Outsourced marketing team vs agency vs in-house: UK costs (Growth Fellow) — 2026-10-16 (queued for publish)
-- [x] Video editing costs UK: Reels, YouTube, podcasts (Creator Fellow) — 2026-10-16 (queued for publish)
+- [x] How much does social media management cost in the UK? (Social Media Management) — 2026-10-16 (queued for publish)
+- [x] How much does a small business website cost in the UK in 2026? (Website Management) — 2026-10-16 (queued for publish)
+- [x] Video production costs for UK small businesses (Photo & Video Shoots) — 2026-10-16 (queued for publish)
+- [x] Outsourced marketing team vs agency vs in-house: UK costs (Full Marketing Team) — 2026-10-16 (queued for publish)
+- [x] Video editing costs UK: Reels, YouTube, podcasts (Video Editing) — 2026-10-16 (queued for publish)
 - [x] How much does app development cost in the UK in 2026? (App Fellow) — 2026-10-17 (queued for publish)
 - [x] Website subscription vs one-off build: which is cheaper for UK small businesses? (Dev Fellow) — 2026-10-17 (queued for publish)
 - [x] llms.txt explained: should your business have one? — 2026-10-17 (queued for publish)
@@ -63,8 +63,8 @@
 
 ## Then
 - [x] Burnley web design prices: what local businesses pay — 2026-10-19
-- [x] Lancashire videographer prices 2026 (Studio Fellow) — 2026-10-19
-- [x] Podcast editing cost UK (Creator Fellow) — 2026-10-19
+- [x] Lancashire videographer prices 2026 (Photo & Video Shoots) — 2026-10-19
+- [x] Podcast editing cost UK (Video Editing) — 2026-10-19
 - [x] How much do TikTok and Reels videos cost for a UK small business? (/blog/pay-someone-to-edit-tiktoks-uk/) — 2026-10-19 (pm)
 - [x] Google Business Profile optimisation: UK step-by-step (/blog/rank-on-google-maps-uk/) — 2026-10-19 (pm)
 - [x] How to get more Google reviews for a UK small business (/blog/get-more-google-reviews-uk/) — 2026-10-19 (pm)

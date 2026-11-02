@@ -48,13 +48,13 @@ ContentFellow splits marketing into "Fellows": specialists on simple monthly pla
 
 | Fellow | What you get each month | Price |
 |---|---|---|
-| Social Fellow: Manage | Up to 2 platforms, weekday replies, ad set-up | £59/mo |
-| Social Fellow: Manage + Post | Up to 3 platforms, daily posting, trend research | £129/mo |
-| Build Fellow | Custom website up to 5 pages, hosting, security, updates, 2 change requests | £69/mo |
-| Search Fellow | SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, monthly ranking and AI visibility report | £89/mo |
-| Creator Fellow | 8 short videos, 1 motion graphics video, 1 podcast edit (up to 60 minutes) | £119/mo |
-| Studio Fellow | 1 on-site shoot (up to 3 hours), photo and 4K video, 20 edited photos in 5 working days | £149/mo |
-| Growth Fellow | All five Fellows, a Growth lead, one strategy, a monthly call and combined report | £389/mo (£555 separately) |
+| Social Media Management: Manage | Up to 2 platforms, weekday replies, ad set-up | £59/mo |
+| Social Media Management: Manage + Post | Up to 3 platforms, daily posting, trend research | £129/mo |
+| Website Management | Custom website up to 5 pages, hosting, security, updates, 2 change requests | £69/mo |
+| SEO & AI Search | SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, monthly ranking and AI visibility report | £89/mo |
+| Video Editing | 8 short videos, 1 motion graphics video, 1 podcast edit (up to 60 minutes) | £119/mo |
+| Photo & Video Shoots | 1 on-site shoot (up to 3 hours), photo and 4K video, 20 edited photos in 5 working days | £149/mo |
+| Full Marketing Team | All five Fellows, a Growth lead, one strategy, a monthly call and combined report | £389/mo (£555 separately) |
 
 If you'd rather own your website outright, our one-off [development packages](/services/development/) start at £349 for a site of up to 7 pages, £749 with a blog and booking, or £1,499 for a shop of up to 100 products.
 
@@ -72,10 +72,10 @@ Everything else (editing, social media, websites, SEO and GEO) is done remotely,
 
 ## Which plan should a Burnley business start with?
 
-- **Trades and home services** (plumbers, roofers, electricians): start with the **Search Fellow (£89)**. Most of your work comes from Google, Maps and increasingly AI answers.
-- **Cafés, salons, gyms and shops**: start with **Social Fellow: Manage + Post (£129)** plus a **Studio Fellow (£149)** shoot, so you have real photos and videos to post.
-- **No website, or an old one**: the **Build Fellow (£69)** gets you a fast, custom site with hosting and changes included.
-- **Growing firms that want it all handled**: the **Growth Fellow (£389)** costs less than one specialist agency channel and saves £166 against buying the five Fellows separately.
+- **Trades and home services** (plumbers, roofers, electricians): start with the **SEO & AI Search (£89)**. Most of your work comes from Google, Maps and increasingly AI answers.
+- **Cafés, salons, gyms and shops**: start with **Social Media Management: Manage + Post (£129)** plus a **Photo & Video Shoots (£149)** shoot, so you have real photos and videos to post.
+- **No website, or an old one**: the **Website Management (£69)** gets you a fast, custom site with hosting and changes included.
+- **Growing firms that want it all handled**: the **Full Marketing Team (£389)** costs less than one specialist agency channel and saves £166 against buying the five Fellows separately.
 
 ## What should you ask any Burnley marketing agency?
 
@@ -100,7 +100,7 @@ UK agencies typically charge £2,000 to £10,000 a month, and freelancers £300 
 Yes. On-site shoots cover Burnley and about 20 miles around it, including Padiham, Nelson, Pendle, Accrington and Blackburn. All other services work remotely anywhere in the UK.
 
 ### Can you help my Burnley business show up on Google Maps and ChatGPT?
-Yes. The Search Fellow (£89 a month) covers local SEO, your Google Business Profile and GEO, so AI assistants like ChatGPT and Gemini can find and recommend you.
+Yes. The SEO & AI Search (£89 a month) covers local SEO, your Google Business Profile and GEO, so AI assistants like ChatGPT and Gemini can find and recommend you.
 
 ### Do I have to sign a long contract?
 No. ContentFellow plans are billed monthly, and you can add, remove or upgrade Fellows from the next month.

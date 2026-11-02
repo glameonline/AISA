@@ -71,9 +71,9 @@ No. Google still sends most website traffic for most UK businesses, and AI assis
 
 ## How ContentFellow handles SEO and GEO
 
-The **[Search Fellow](/services/search-fellow/) is £89 a month** and covers both: SEO to climb Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing rankings and AI visibility side by side. For a full team (shoots, editing, social, website and search), the **[Growth Fellow](/services/growth-fellow/) is £389 a month**.
+The **[SEO & AI Search](/services/search-fellow/) is £89 a month** and covers both: SEO to climb Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing rankings and AI visibility side by side. For a full team (shoots, editing, social, website and search), the **[Full Marketing Team](/services/growth-fellow/) is £389 a month**.
 
-**[Pick your Search Fellow →](/services/search-fellow/)**
+**[Pick your SEO & AI Search →](/services/search-fellow/)**
 
 ## Frequently asked questions
 

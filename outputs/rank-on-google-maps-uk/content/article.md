@@ -63,7 +63,7 @@ Fixes like the category and service areas can show results within weeks. Reviews
 
 ## Want it done for you?
 
-ContentFellow's Search Fellow (£89 a month) covers Google Business Profile optimisation, local SEO and GEO so ChatGPT and Gemini can recommend you, with a monthly report. See [Search Fellow](/services/) or read [how much SEO costs for a UK small business](/blog/affordable-seo-geo-services-uk/).
+ContentFellow's SEO & AI Search (£89 a month) covers Google Business Profile optimisation, local SEO and GEO so ChatGPT and Gemini can recommend you, with a monthly report. See [SEO & AI Search](/services/) or read [how much SEO costs for a UK small business](/blog/affordable-seo-geo-services-uk/).
 
 ## Frequently asked questions
 

@@ -49,7 +49,7 @@ We're based in Burnley, UK, and build for clients in Ireland remotely. Prices ar
 | Grow (up to 15 pages, blog, booking) | £749 | ~€860–€900 |
 | Shop (up to 100 products) | £1,499 | ~€1,720–€1,800 |
 
-Pay 50% upfront and 50% at launch. After launch, care plans start at £49 a month (Care), or £69 for Build Fellow, or £159 for Care Plus. See [development packages](/services/development/) and [website care plans](/services/management/). Euro figures depend on the exchange rate on the day you pay.
+Pay 50% upfront and 50% at launch. After launch, care plans start at £49 a month (Care), or £69 for Website Management, or £159 for Care Plus. See [development packages](/services/development/) and [website care plans](/services/management/). Euro figures depend on the exchange rate on the day you pay.
 
 UK comparison: [how much a small business website costs in the UK](/blog/small-business-website-cost-uk/).
 

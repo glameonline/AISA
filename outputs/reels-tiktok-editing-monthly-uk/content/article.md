@@ -10,7 +10,7 @@ market: en-GB
 
 ## Who can edit my Reels and TikToks every month?
 
-> **Quick answer:** A freelance video editor, a social media agency or a monthly editing subscription can edit your Reels and TikToks every month in the UK. Freelancers usually charge £20–£150 per short video, agencies £500 or more a month, and ContentFellow's Creator Fellow edits 8 short videos, 1 motion graphics video and 1 podcast (up to 60 minutes) for £119 a month. *(Updated October 2026.)*
+> **Quick answer:** A freelance video editor, a social media agency or a monthly editing subscription can edit your Reels and TikToks every month in the UK. Freelancers usually charge £20–£150 per short video, agencies £500 or more a month, and ContentFellow's Video Editing edits 8 short videos, 1 motion graphics video and 1 podcast (up to 60 minutes) for £119 a month. *(Updated October 2026.)*
 
 ![Reels and TikTok editing every month](reels-tiktok-editing-monthly-uk-featured.png)
 
@@ -22,7 +22,7 @@ market: en-GB
 |---|---|---|---|
 | Freelancer (Fiverr, Upwork, local) | £20–£150 per video | One-off batches | Turnaround and quality vary; you manage briefs |
 | Social media agency | £500–£2,000+ a month | Editing plus posting and strategy | Long contracts, VAT on top |
-| Editing subscription (Creator Fellow) | £119 a month | 8 videos a month, steady output | Set number of videos each month |
+| Editing subscription (Video Editing) | £119 a month | 8 videos a month, steady output | Set number of videos each month |
 
 So **how much should you pay someone to edit TikToks?** For a simple captioned 15–60 second video, £20–£50 is the usual freelance range; with motion graphics, B-roll and sound design it is closer to £80–£150. On a monthly plan, 8 videos for £119 works out at under £15 a video, with a motion graphics video and a podcast edit included.
 
@@ -38,7 +38,7 @@ So **how much should you pay someone to edit TikToks?** For a simple captioned 1
 
 ## Where do the clips come from?
 
-Phone footage is fine for most small businesses. If you want better raw material, our Studio Fellow (£149 a month) films an on-site shoot of up to 3 hours in 4K, which gives the editor a month of clips. To have them posted for you too, add the Social Fellow: Manage + Post (£129 a month). The Growth Fellow (£389 a month) bundles all five Fellows.
+Phone footage is fine for most small businesses. If you want better raw material, our Photo & Video Shoots (£149 a month) films an on-site shoot of up to 3 hours in 4K, which gives the editor a month of clips. To have them posted for you too, add the Social Media Management: Manage + Post (£129 a month). The Full Marketing Team (£389 a month) bundles all five Fellows.
 
 ## What to ask before you hire an editor
 
@@ -53,16 +53,16 @@ For the wider picture, see [video editing costs in the UK](/blog/video-editing-c
 ## Frequently asked questions
 
 ### Who can edit my Reels and TikToks every month?
-A freelance editor, a social media agency or an editing subscription. ContentFellow's Creator Fellow edits 8 short videos a month plus a motion graphics video and a podcast for £119.
+A freelance editor, a social media agency or an editing subscription. ContentFellow's Video Editing edits 8 short videos a month plus a motion graphics video and a podcast for £119.
 
 ### How much should I pay someone to edit TikToks?
 Typically £20 to £50 per simple captioned TikTok from a UK freelancer, and £80 to £150 for heavier edits. Monthly plans bring the cost per video down.
 
 ### Can I try it before paying?
-Yes. The Creator Fellow starts with 3 free videos, no card needed.
+Yes. The Video Editing starts with 3 free videos, no card needed.
 
 ### Do you post the videos as well?
-Editing is the Creator Fellow. Posting is the Social Fellow: Manage + Post at £129 a month, or get both in the Growth Fellow.
+Editing is the Video Editing. Posting is the Social Media Management: Manage + Post at £129 a month, or get both in the Full Marketing Team.
 
 ### Is there a long contract?
 No. Plans are monthly and you can change or cancel from the next month.

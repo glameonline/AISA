@@ -24,12 +24,12 @@ Most subscriptions bundle a fixed amount of work per month: a number of posts, v
 
 | Fellow | Monthly price | Included each month |
 |---|---|---|
-| Social Fellow | £59 / £129 | Manage up to 2 platforms, or manage + daily posting on up to 3 |
-| Build Fellow | £69 | Website up to 5 pages, hosting, security, 2 change requests |
-| Search Fellow | £89 | SEO for Google + GEO for ChatGPT, Claude and Gemini, monthly report |
-| Creator Fellow | £119 | 8 short videos, 1 motion graphics video, 1 podcast edit |
-| Studio Fellow | £149 | 1 on-site shoot (up to 3h), 20 edited photos in 5 working days |
-| **Growth Fellow** | **£389** | All 5 Fellows, a Growth lead, monthly call (save £166) |
+| Social Media Management | £59 / £129 | Manage up to 2 platforms, or manage + daily posting on up to 3 |
+| Website Management | £69 | Website up to 5 pages, hosting, security, 2 change requests |
+| SEO & AI Search | £89 | SEO for Google + GEO for ChatGPT, Claude and Gemini, monthly report |
+| Video Editing | £119 | 8 short videos, 1 motion graphics video, 1 podcast edit |
+| Photo & Video Shoots | £149 | 1 on-site shoot (up to 3h), 20 edited photos in 5 working days |
+| **Full Marketing Team** | **£389** | All 5 Fellows, a Growth lead, monthly call (save £166) |
 
 ## Subscription vs agency retainer
 

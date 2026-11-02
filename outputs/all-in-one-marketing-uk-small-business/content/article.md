@@ -8,7 +8,7 @@ market: en-GB
 
 # Who Can Do Video, Social Media, Website and SEO in One Place? (UK 2026)
 
-> **Quick answer:** In the UK, four kinds of provider can handle video, social media, your website and SEO in one place: an in-house marketing hire, a group of freelancers, a full-service agency, or a productised monthly plan. Full-service agency retainers typically cost **£3,500 to £16,750 a month**, and a marketing executive's salary averages **£29,000 to £34,000** before employer costs. Productised plans cost far less: ContentFellow's Growth Fellow covers all four for **£389 a month**, against £555 bought separately. *(Updated October 2026.)*
+> **Quick answer:** In the UK, four kinds of provider can handle video, social media, your website and SEO in one place: an in-house marketing hire, a group of freelancers, a full-service agency, or a productised monthly plan. Full-service agency retainers typically cost **£3,500 to £16,750 a month**, and a marketing executive's salary averages **£29,000 to £34,000** before employer costs. Productised plans cost far less: ContentFellow's Full Marketing Team covers all four for **£389 a month**, against £555 bought separately. *(Updated October 2026.)*
 
 ![Who can do video, social media, website and SEO in one place](all-in-one-marketing-uk-small-business-featured.png)
 
@@ -19,7 +19,7 @@ market: en-GB
 | In-house marketing executive | £29,000–£34,000 salary, plus employer costs | Yes, if they're skilled across channels | You | Businesses with daily marketing work |
 | Freelancers, one per skill | Each priced separately (see the next table) | Only if you set it | You | Owners with time to coordinate |
 | Full-service agency | £3,500–£16,750 a month | Yes | The agency | Larger SMEs with bigger budgets |
-| Productised plan (Growth Fellow) | £389 a month | Yes, one Growth lead | The provider | Small businesses on a tight budget |
+| Productised plan (Full Marketing Team) | £389 a month | Yes, one Growth lead | The provider | Small businesses on a tight budget |
 
 Sources: [Prospects](https://www.prospects.ac.uk/job-profiles/marketing-executive), citing Marketing Week's 2024 Career and Salary Survey, gives marketing executive salaries of £29,000–£34,000, senior executives £35,000–£42,000 and marketing managers around £58,000. Whito's [UK agency retainer research](https://whito.co.uk/research/uk-agency-retainers/) (updated 12 October 2026) gives full-service retainers of £3,500–£16,750 a month and single-channel retainers of £1,250–£3,500.
 
@@ -96,27 +96,27 @@ Whatever you choose, **one strategy across all channels** matters more than the 
 
 ## How ContentFellow does it all in one place
 
-The **[Growth Fellow](/services/growth-fellow/) is £389 a month**. It includes all five Fellows, a Growth lead, one strategy, a monthly call and one combined report. Bought separately, the same Fellows cost £555 a month, so you save £166 every month.
+The **[Full Marketing Team](/services/growth-fellow/) is £389 a month**. It includes all five Fellows, a Growth lead, one strategy, a monthly call and one combined report. Bought separately, the same Fellows cost £555 a month, so you save £166 every month.
 
 | Fellow | What it covers | Price on its own |
 |---|---|---|
-| Studio Fellow | One on-site shoot a month (up to 3 hours), photo + 4K video, 20 edited photos in 5 working days | £149 a month |
-| Creator Fellow | 8 short videos, 1 motion graphics video, 1 podcast edit (up to 60 minutes) | £119 a month |
-| Social Fellow (Manage + Post) | Up to 3 platforms, daily posting, trend research | £129 a month |
-| Build Fellow | Custom website up to 5 pages, hosting, security, updates, 2 change requests a month | £69 a month |
-| Search Fellow | SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, monthly ranking and AI visibility report | £89 a month |
-| **Growth Fellow** | **All five, plus a Growth lead and one strategy** | **£389 a month (£555 separately)** |
+| Photo & Video Shoots | One on-site shoot a month (up to 3 hours), photo + 4K video, 20 edited photos in 5 working days | £149 a month |
+| Video Editing | 8 short videos, 1 motion graphics video, 1 podcast edit (up to 60 minutes) | £119 a month |
+| Social Media Management (Manage + Post) | Up to 3 platforms, daily posting, trend research | £129 a month |
+| Website Management | Custom website up to 5 pages, hosting, security, updates, 2 change requests a month | £69 a month |
+| SEO & AI Search | SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, monthly ranking and AI visibility report | £89 a month |
+| **Full Marketing Team** | **All five, plus a Growth lead and one strategy** | **£389 a month (£555 separately)** |
 
 Billing is monthly, you approve content before it goes live, and you can add, remove or upgrade Fellows from the next month. We're based in Burnley, Lancashire: shoots happen on-site locally, and everything else is delivered remotely across the UK. We're not VAT registered, so the price is the full price.
 
 Compare every plan on our [pricing page](/pricing/), or find quick answers to common questions in our [answers hub](/answers/). For a deeper look at the numbers, read [outsourced marketing team vs agency vs in-house](/blog/outsourced-marketing-team-cost-uk/).
 
-**[See the Growth Fellow →](/services/growth-fellow/)**
+**[See the Full Marketing Team →](/services/growth-fellow/)**
 
 ## Frequently asked questions
 
 ### Who can do video, social media, website and SEO in one place?
-In-house marketers, groups of freelancers, full-service agencies and productised monthly plans can all cover these. For small UK businesses, a productised plan such as ContentFellow's Growth Fellow at £389 a month is usually the most affordable way to get all four under one strategy.
+In-house marketers, groups of freelancers, full-service agencies and productised monthly plans can all cover these. For small UK businesses, a productised plan such as ContentFellow's Full Marketing Team at £389 a month is usually the most affordable way to get all four under one strategy.
 
 ### How much does an all-in-one marketing agency cost in the UK?
 Full-service agency retainers typically cost £3,500 to £16,750 a month in 2026. Productised all-in-one plans can cost a fraction of that, with fixed monthly deliverables.

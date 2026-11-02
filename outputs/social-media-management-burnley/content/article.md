@@ -23,12 +23,12 @@ market: en-GB
 | DIY | £0 + 5–10 hrs/week | You do it all |
 | Local freelancer | £150–£400/month | Posting, some replies |
 | Lancashire agency | £300–£800+/month | Strategy, posting, ads |
-| **ContentFellow Social Fellow – Manage** | **£59/month** | ≤2 platforms, weekday replies, ad set-up |
-| **ContentFellow Social Fellow – Manage + Post** | **£129/month** | ≤3 platforms, daily posting, trend research |
+| **ContentFellow Social Media Management – Manage** | **£59/month** | ≤2 platforms, weekday replies, ad set-up |
+| **ContentFellow Social Media Management – Manage + Post** | **£129/month** | ≤3 platforms, daily posting, trend research |
 
 ## Who can manage my business Instagram and Facebook near Burnley?
 
-ContentFellow manages Instagram and Facebook for Burnley, Padiham, Nelson, Accrington and Colne businesses. Want photos and Reels filmed too? Studio Fellow (£149/month) adds a monthly on-site shoot.
+ContentFellow manages Instagram and Facebook for Burnley, Padiham, Nelson, Accrington and Colne businesses. Want photos and Reels filmed too? Photo & Video Shoots (£149/month) adds a monthly on-site shoot.
 
 ## What to look for
 

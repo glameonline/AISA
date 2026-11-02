@@ -6,7 +6,7 @@
 ## Proposed ContentFellow plans (brand pricing; personal 15% lower)
 | Plan | Price | Includes |
 |---|---|---|
-| Build Fellow (existing, site care) | £69/mo | 5-page site, hosting, security, 2 changes/mo |
+| Website Management (existing, site care) | £69/mo | 5-page site, hosting, security, 2 changes/mo |
 | Dev Fellow (web) | £299/mo, 6-month min | ~20 dev hrs/mo, one active request: booking, shop ≤50 products, CMS/blog, integrations, landing pages |
 | Dev Fellow Pro (web apps) | £599/mo, 6-month min | ~40 dev hrs/mo: portals, dashboards, member areas, APIs, AI chat/automation |
 | App Fellow | £2,495 setup + £399/mo, 12-month min | iOS + Android app (cross-platform) up to ~10 screens, store publishing, backend hosting, updates, 2 feature requests/mo |
@@ -17,7 +17,7 @@ Check before launch: confirm dev capacity and hourly cost so each plan keeps mar
 
 ## Update 17 Oct: stop "build for £69 then cancel"
 Owner concern: a client pays £69 once, gets a full site, cancels.
-1. Build Fellow £69/mo: choose at checkout
+1. Website Management £69/mo: choose at checkout
    - 12-month minimum, £0 setup (site is hosted and maintained by us; £828 total in year 1), or
    - no minimum, £495 setup fee.
    - Leaving: after 12 months, take the site with a £295 handover fee (files, domain transfer); free after 24 months. Cancel before 12 months = pay the remaining months or the £995 buyout, whichever is lower.
@@ -29,10 +29,10 @@ Owner concern: a client pays £69 once, gets a full site, cancels.
    | Business site | £1,995 | up to 10 pages, blog, booking or quote form, GA4 + Search Console, SEO/GEO setup |
    | Online shop | £2,995 | up to 50 products, payments, delivery rules, product schema |
    | Custom web app | from £5,995 | portals, dashboards, member areas (scoped quote) |
-   After launch (optional): Hosting & Care £39/mo (hosting, security, backups, no changes) or move onto Build Fellow £69/mo with changes included.
+   After launch (optional): Hosting & Care £39/mo (hosting, security, backups, no changes) or move onto Website Management £69/mo with changes included.
 Market check: UK freelancer £500–£2,500, agency £3,000–£10,000, ecommerce £2,000–£10,000+ (our small-business-website-cost-uk guide).
 
-## Update 17 Oct (2): owner keeps the management plans (Build Fellow £69, app care) as they are. 3 new one-off DEVELOPMENT plans each for websites and apps; owner picks final prices.
+## Update 17 Oct (2): owner keeps the management plans (Website Management £69, app care) as they are. 3 new one-off DEVELOPMENT plans each for websites and apps; owner picks final prices.
 ### Websites: UK market (Google UK, 17 Oct)
 - Budget fixed packages: Cheap Web Design £399+VAT (4 pages); Juggernaut Tech £499 (7 pages), £699 (12), £899 (20, SEO), £1,249 (25, booking/shop) + £29.99/mo, 12-month minimum
 - Freelancer brochure site: £500–£3,000 (cheapwebdesign.co.uk); Reddit UK designers: not below £600–£800

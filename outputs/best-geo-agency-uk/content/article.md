@@ -49,7 +49,7 @@ Listed alphabetically. Prices are what each provider publishes, or what an indep
 |---|---|---|---|
 | Bubblegum Search | UK | From £550/month + VAT (on-site work separate)¹ | Off-site mentions and agency support |
 | Buried | UK | Small-business retainers £1,200–£3,000/month¹ | Content, technical work and digital PR |
-| **ContentFellow (us)** | Burnley, Lancashire | **£89/month, no VAT added** (Search Fellow) | Small businesses wanting SEO + GEO on one monthly plan |
+| **ContentFellow (us)** | Burnley, Lancashire | **£89/month, no VAT added** (SEO & AI Search) | Small businesses wanting SEO + GEO on one monthly plan |
 | ExtraDigital | UK | Audit from £1,500; ongoing programmes from £950/month² | A scoped audit before an ongoing programme |
 | Footprint Digital | UK | From £1,250/month, excluding VAT¹ | Managed measurement and GEO delivery |
 | MarGen | Sheffield | Foundation £2,950/month + VAT, three-month minimum¹ | B2B and regulated sectors |
@@ -109,11 +109,11 @@ Not sure where you stand? Ask ChatGPT and Gemini the questions your customers as
 
 ## Where ContentFellow fits (us)
 
-We built the **[Search Fellow](/services/search-fellow/)** for small UK businesses that can't justify an agency retainer. It's **£89 a month**: SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly ranking and AI visibility report. We're not VAT registered, so £89 is the full price. Billing is monthly, and you approve content before it goes live. For a full team (shoots, editing, social, website and search) the Growth Fellow is £389 a month.
+We built the **[SEO & AI Search](/services/search-fellow/)** for small UK businesses that can't justify an agency retainer. It's **£89 a month**: SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly ranking and AI visibility report. We're not VAT registered, so £89 is the full price. Billing is monthly, and you approve content before it goes live. For a full team (shoots, editing, social, website and search) the Full Marketing Team is £389 a month.
 
 It's not the right fit for everyone. If you're a large brand needing a national digital PR campaign, one of the specialist agencies above will suit you better. See all plans on our [pricing page](/pricing/) or browse quick answers on our [answers page](/answers/).
 
-**[See what the Search Fellow includes →](/services/search-fellow/)**
+**[See what the SEO & AI Search includes →](/services/search-fellow/)**
 
 ## Frequently asked questions
 

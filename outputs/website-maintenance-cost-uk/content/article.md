@@ -45,7 +45,7 @@ You can skip a paid plan if your site is on a builder like Wix or Squarespace th
 | Plan | Price | Includes |
 |---|---|---|
 | Care | £49 a month | Hosting, SSL, security, backups, updates, 1 small change a month |
-| Build Fellow | £69 a month | Everything in Care plus a 5-page custom website and 2 changes a month |
+| Website Management | £69 a month | Everything in Care plus a 5-page custom website and 2 changes a month |
 | Care Plus | £159 a month | 5 changes a month, a new page monthly, SEO and speed checks, priority support |
 
 All plans are monthly. We also look after sites we didn't build. [See all management plans →](/services/management/)

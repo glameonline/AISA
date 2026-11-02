@@ -20,7 +20,7 @@ Marketing, web and social agencies in Lancashire, Manchester and across the UK s
 | Partner 80 | £599/month | 80 | £7.49 | 2 working days, dedicated editor |
 | Partner 200 | £1,349/month | 200 | £6.75 | 48 h, dedicated editor, priority queue |
 
-Retail check: Creator Fellow is £119 for 8 shorts + 1 motion graphic + 1 podcast (about 15 credits, £7.93 a credit). Partner plans are priced near that per credit but add white-label delivery, multiple client brands, rollover, faster turnaround and a dedicated editor, so agencies don't simply stack retail plans.
+Retail check: Video Editing is £119 for 8 shorts + 1 motion graphic + 1 podcast (about 15 credits, £7.93 a credit). Partner plans are priced near that per credit but add white-label delivery, multiple client brands, rollover, faster turnaround and a dedicated editor, so agencies don't simply stack retail plans.
 
 ## Add-ons (white-label)
 - On-site shoot for an agency's client (Lancashire, Manchester, Yorkshire): half day (up to 4 h) £295, full day (up to 8 h) £495. Photos + 4K video, raw clips in 2 working days. Travel outside 30 miles at cost.

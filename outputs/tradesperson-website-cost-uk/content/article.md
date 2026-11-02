@@ -18,7 +18,7 @@ date: 2026-10-17
 | Budget package | £399–£1,249 one-off | Basic brochure site |
 | ContentFellow Launch | £349 one-off | Up to 7 pages: services, areas, contact |
 | ContentFellow Grow | £749 one-off | Quote form, reviews, blog, SEO setup |
-| Build Fellow subscription | £69 a month | No upfront cost, changes included |
+| Website Management subscription | £69 a month | No upfront cost, changes included |
 | Agency | £3,000–£10,000 | Larger firms with multiple teams |
 
 UK reference prices: Cheap Web Design from £399+VAT, Juggernaut Tech £499–£1,249, freelancers typically £500–£3,000.
@@ -40,7 +40,7 @@ UK reference prices: Cheap Web Design from £399+VAT, Juggernaut Tech £499–£
 
 ## ContentFellow websites for trades
 
-**Launch £349** or **Grow £749** one-off, or the **[Build Fellow at £69 a month](/services/build-fellow/)** with hosting and changes included. Keep it secure with [Care from £49 a month](/services/management/). [See development packages →](/services/development/)
+**Launch £349** or **Grow £749** one-off, or the **[Website Management at £69 a month](/services/build-fellow/)** with hosting and changes included. Keep it secure with [Care from £49 a month](/services/management/). [See development packages →](/services/development/)
 
 ## Frequently asked questions
 

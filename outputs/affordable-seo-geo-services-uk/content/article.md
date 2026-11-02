@@ -12,13 +12,13 @@ market: en-GB
 
 ![Affordable SEO and GEO services for UK small businesses compared](affordable-seo-geo-services-uk-featured.png)
 
-**Transparency note:** this comparison is written by ContentFellow, and our Search Fellow plan is included. We've only listed prices that providers publish themselves, and we explain how to judge every option, including ours.
+**Transparency note:** this comparison is written by ContentFellow, and our SEO & AI Search plan is included. We've only listed prices that providers publish themselves, and we explain how to judge every option, including ours.
 
 ## UK affordable SEO prices compared (published prices)
 
 | Provider / type | Published starting price | Notes |
 |---|---|---|
-| ContentFellow Search Fellow | £89 a month | SEO + GEO in one plan, monthly billing, free 7-day trial |
+| ContentFellow SEO & AI Search | £89 a month | SEO + GEO in one plan, monthly billing, free 7-day trial |
 | Wrise | "Low cost £99 packages" | Budget SEO packages for small businesses |
 | Polaris (guide) | From about £300 a month | For smaller local campaigns, per their UK pricing guide |
 | ZainSEO | From about £295 a month | London-focused, local and technical SEO |
@@ -67,11 +67,11 @@ Check the minimum term (monthly vs 6–12 months), who owns the content and acco
 
 Not sure if you need GEO, SEO or both? Read [GEO vs SEO: what's the difference](/blog/geo-vs-seo-uk-small-business/).
 
-## How the Search Fellow compares
+## How the SEO & AI Search compares
 
-The **[Search Fellow](/services/search-fellow/) is £89 a month**: SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing rankings and AI visibility side by side. Billing is monthly, you approve changes before they go live, and you can **try it free for 7 days** (AI visibility check, Bing set-up, AI crawler access and a Google Business Profile tidy; you keep every fix). It suits small businesses; if you need large-scale digital PR or hundreds of pages, a bigger agency budget makes more sense.
+The **[SEO & AI Search](/services/search-fellow/) is £89 a month**: SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing rankings and AI visibility side by side. Billing is monthly, you approve changes before they go live, and you can **try it free for 7 days** (AI visibility check, Bing set-up, AI crawler access and a Google Business Profile tidy; you keep every fix). It suits small businesses; if you need large-scale digital PR or hundreds of pages, a bigger agency budget makes more sense.
 
-**[Start your free Search Fellow trial →](/services/search-fellow/)**
+**[Start your free SEO & AI Search trial →](/services/search-fellow/)**
 
 ## Frequently asked questions
 
@@ -85,7 +85,7 @@ They can be, if the deliverables are clear and the work is real: technical fixes
 Do the basics yourself: claim your Google Business Profile and Bing Places, add your services with prices and locations to your website, collect reviews, and verify Search Console and Bing Webmaster Tools. It's free, but takes time.
 
 ### Does affordable SEO include ChatGPT and AI search?
-Not always. Ask whether the plan includes Bing indexing, structured data and AI visibility tracking. The ContentFellow Search Fellow includes all three.
+Not always. Ask whether the plan includes Bing indexing, structured data and AI visibility tracking. The ContentFellow SEO & AI Search includes all three.
 
 ### How long does affordable SEO take to work?
 Technical fixes show within weeks; rankings and AI mentions usually take 3 to 6 months to build, depending on competition in your area.

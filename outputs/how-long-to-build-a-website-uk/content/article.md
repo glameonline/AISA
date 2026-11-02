@@ -38,7 +38,7 @@ date: 2026-10-17
 
 ## Fixed price, fixed timeline
 
-Our development packages come with a fixed price and a clear timeline: Launch £349, Grow £749, Shop £1,499. Pay half to start and half at launch. [See development packages](/services/development/) · Prefer monthly? The [Build Fellow at £69 a month](/services/build-fellow/) includes a 5-page site. Compare both in [subscription vs one-off build](/blog/website-subscription-vs-one-off-build/).
+Our development packages come with a fixed price and a clear timeline: Launch £349, Grow £749, Shop £1,499. Pay half to start and half at launch. [See development packages](/services/development/) · Prefer monthly? The [Website Management at £69 a month](/services/build-fellow/) includes a 5-page site. Compare both in [subscription vs one-off build](/blog/website-subscription-vs-one-off-build/).
 
 ## Frequently asked questions
 

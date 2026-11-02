@@ -8,7 +8,7 @@ market: en-GB
 
 # How Much Does Video Editing Cost in the UK? Reels, YouTube and Podcasts (2026)
 
-> **Quick answer:** UK freelance video editors typically charge **£25 to £75 an hour**, **£50 to £400 a day**, or **£50 to £200 per finished minute**. A short Reel or TikTok usually costs £30–£150 to edit, a 10-minute YouTube video £150–£600, and a one-hour podcast £75–£300. If you need videos every week, a monthly plan is often cheaper: ContentFellow's Creator Fellow is **£119 a month** for 8 short videos, a motion graphics video and a podcast edit. *(Updated October 2026.)*
+> **Quick answer:** UK freelance video editors typically charge **£25 to £75 an hour**, **£50 to £400 a day**, or **£50 to £200 per finished minute**. A short Reel or TikTok usually costs £30–£150 to edit, a 10-minute YouTube video £150–£600, and a one-hour podcast £75–£300. If you need videos every week, a monthly plan is often cheaper: ContentFellow's Video Editing is **£119 a month** for 8 short videos, a motion graphics video and a podcast edit. *(Updated October 2026.)*
 
 ![How much video editing costs in the UK](video-editing-cost-uk-featured.png)
 
@@ -68,11 +68,11 @@ Eight Reels a month at a typical £50 freelance rate is £400, before a podcast 
 
 ## How ContentFellow prices video editing
 
-The **[Creator Fellow](/services/creator-fellow/) is £119 a month**: 8 short videos for Reels, TikTok or Shorts, one motion graphics video, and one podcast edit of up to 60 minutes. Each video includes two rounds of revisions, and you approve everything before it's posted.
+The **[Video Editing](/services/creator-fellow/) is £119 a month**: 8 short videos for Reels, TikTok or Shorts, one motion graphics video, and one podcast edit of up to 60 minutes. Each video includes two rounds of revisions, and you approve everything before it's posted.
 
-Pair it with the [Studio Fellow](/services/studio-fellow/) for monthly shoots and the [Social Fellow](/services/social-fellow/) for posting, or take all five Fellows in the [Growth Fellow](/services/growth-fellow/) for £389 a month. Also see [what social media management costs in the UK](/blog/social-media-management-cost-uk/).
+Pair it with the [Photo & Video Shoots](/services/studio-fellow/) for monthly shoots and the [Social Media Management](/services/social-fellow/) for posting, or take all five Fellows in the [Full Marketing Team](/services/growth-fellow/) for £389 a month. Also see [what social media management costs in the UK](/blog/social-media-management-cost-uk/).
 
-**[Pick your Creator Fellow →](/services/creator-fellow/)**
+**[Pick your Video Editing →](/services/creator-fellow/)**
 
 ## Frequently asked questions
 

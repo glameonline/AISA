@@ -20,17 +20,17 @@ Website | https://contentfellow.com/ |
 
 ## The Fellows
 
-- Search Fellow: SEO & GEO for AI search, £89 a month. Free 7-day trial.
+- SEO & AI Search: SEO & GEO for AI search, £89 a month. Free 7-day trial.
 
-- Social Fellow: Social media management, £59 a month. Free 7-day trial.
+- Social Media Management: Social media management, £59 a month. Free 7-day trial.
 
-- Build Fellow: Website design, build and hosting, £69 a month. Free homepage preview.
+- Website Management: Website design, build and hosting, £69 a month. Free homepage preview.
 
-- Studio Fellow: Photo and video production, £149 a month. Free mini shoot.
+- Photo & Video Shoots: Photo and video production, £149 a month. Free mini shoot.
 
-- Creator Fellow: Video editing and motion graphics, £119 a month. 3 free videos.
+- Video Editing: Video editing and motion graphics, £119 a month. 3 free videos.
 
-- Growth Fellow: Your full marketing team, £389 a month. Free 7-day trial.
+- Full Marketing Team: Your full marketing team, £389 a month. Free 7-day trial.
 
 ## How we work
 
@@ -54,32 +54,32 @@ URL: https://contentfellow.com/services/
 # Monthly marketing plans for UK small businesses
 Hire a Fellow from £59 a month: one specialist, or the whole team for £389. Monthly billing, no long contracts, and every Fellow has a free trial, no card needed.
 
-### Search Fellow · £89/mo
+### SEO & AI Search · £89/mo
 SEO & GEO for AI search
 Get found on Google and recommended by ChatGPT, Claude, Gemini and Perplexity.
 Free 7-day trial →
 
-### Social Fellow · £59/mo
+### Social Media Management · £59/mo
 Social media management
 Consistent, on-brand social media without hiring a social media manager.
 Free 7-day trial →
 
-### Build Fellow · £69/mo
+### Website Management · £69/mo
 Website design, build and hosting
 A custom website with hosting, security and updates, for one monthly fee.
 Free homepage preview →
 
-### Studio Fellow · £149/mo
+### Photo & Video Shoots · £149/mo
 Photo and video production
 A professional on-site shoot every month: photos and 4K video of your business.
 Free mini shoot →
 
-### Creator Fellow · £119/mo
+### Video Editing · £119/mo
 Video editing and motion graphics
 Short videos, motion graphics and podcast edits every month at a fixed price.
 3 free videos →
 
-### Growth Fellow · £389/mo
+### Full Marketing Team · £389/mo
 Your full marketing team
 All five Fellows plus a Growth lead, one strategy and one monthly report.
 Free 7-day trial →
@@ -94,8 +94,8 @@ URL: https://contentfellow.com/services/search-fellow/
 
 ContentFellow · SEO & GEO for AI search · UK
 
-# Search Fellow: SEO & GEO for AI search for UK small businesses
-Search Fellow costs £89 a month. Get found on Google and recommended by ChatGPT, Claude, Gemini and Perplexity. Monthly billing, no long contract, and you approve work before it goes live.
+# SEO & AI Search: SEO & GEO for AI search for UK small businesses
+SEO & AI Search costs £89 a month. Get found on Google and recommended by ChatGPT, Claude, Gemini and Perplexity. Monthly billing, no long contract, and you approve work before it goes live.
 £89 / month
 Free 7-day trial · no card needed
 Start my free trial →
@@ -123,7 +123,7 @@ UK small businesses that want more enquiries from Google and AI search without a
 Option | Typical UK cost | 
 UK SEO/GEO agency | £1,100–£3,800 a month | 
 Freelance SEO | £300–£1,000 a month | 
-Search Fellow | £89 a month | 
+SEO & AI Search | £89 a month | 
 
 Typical UK prices from our guides: How much LLM optimisation costs, How to get recommended by ChatGPT, GEO vs SEO.
 
@@ -160,8 +160,8 @@ URL: https://contentfellow.com/services/social-fellow/
 
 ContentFellow · Social media management · UK
 
-# Social Fellow: Social media management for UK small businesses
-Social Fellow costs £59 a month. Consistent, on-brand social media without hiring a social media manager. Monthly billing, no long contract, and you approve work before it goes live.
+# Social Media Management: Social media management for UK small businesses
+Social Media Management costs £59 a month. Consistent, on-brand social media without hiring a social media manager. Monthly billing, no long contract, and you approve work before it goes live.
 £59 / month
 Free 7-day trial · no card needed
 Start my free trial →
@@ -189,7 +189,7 @@ Local and service businesses that know social matters but never have time to pos
 Option | Typical UK cost | 
 UK agency (per channel) | £1,250–£3,500 a month | 
 Freelancer | £300–£1,000 a month | 
-Social Fellow | £59 or £129 a month | 
+Social Media Management | £59 or £129 a month | 
 
 Typical UK prices from our guides: What social media management costs in the UK.
 
@@ -226,8 +226,8 @@ URL: https://contentfellow.com/services/build-fellow/
 
 ContentFellow · Website design, build and hosting · UK
 
-# Build Fellow: Website design, build and hosting for UK small businesses
-Build Fellow costs £69 a month. A custom website with hosting, security and updates, for one monthly fee. Monthly billing, no long contract, and you approve work before it goes live.
+# Website Management: Website design, build and hosting for UK small businesses
+Website Management costs £69 a month. A custom website with hosting, security and updates, for one monthly fee. Monthly billing, no long contract, and you approve work before it goes live.
 £69 / month
 Free homepage preview · no card needed
 Start my free trial →
@@ -255,7 +255,7 @@ Small businesses that need a professional site without a £3,000+ upfront bill.
 Option | Typical UK cost | 
 UK agency build | £3,000–£10,000 upfront + care plan | 
 Freelancer | £500–£2,500 upfront | 
-Build Fellow | £69 a month, nothing upfront | 
+Website Management | £69 a month, nothing upfront | 
 
 Typical UK prices from our guides: What a small business website costs in the UK.
 
@@ -274,13 +274,13 @@ Get my free check →
 ## Frequently asked questions
 
 ### Is there an upfront fee?
-No. The Build Fellow is £69 a month including the build, hosting, security and updates.
+No. The Website Management is £69 a month including the build, hosting, security and updates.
 
 ### How many pages do I get?
 Up to five custom pages, plus two change requests every month.
 
 ### Will the website help with Google and ChatGPT?
-Yes, it's built with fast pages, clear service pages, structured data and a sitemap. Add the Search Fellow for ongoing SEO and GEO.
+Yes, it's built with fast pages, clear service pages, structured data and a sitemap. Add the SEO & AI Search for ongoing SEO and GEO.
 
 ### Is there a free trial?
 We design a preview of your new homepage, with your brand, services and prices, within 3 working days. You only pay if you go ahead. No card needed. One free trial per business, UK businesses only. We take a limited number of new trials each week so every one gets proper attention.
@@ -292,8 +292,8 @@ URL: https://contentfellow.com/services/studio-fellow/
 
 ContentFellow · Photo and video production · UK
 
-# Studio Fellow: Photo and video production for UK small businesses
-Studio Fellow costs £149 a month. A professional on-site shoot every month: photos and 4K video of your business. Monthly billing, no long contract, and you approve work before it goes live.
+# Photo & Video Shoots: Photo and video production for UK small businesses
+Photo & Video Shoots costs £149 a month. A professional on-site shoot every month: photos and 4K video of your business. Monthly billing, no long contract, and you approve work before it goes live.
 £149 / month
 Free mini shoot · no card needed
 Start my free trial →
@@ -321,7 +321,7 @@ Businesses that need fresh, real content for social, website, Google Business Pr
 Option | Typical UK cost | 
 Freelance videographer | £200–£900 a day + editing | 
 Production company | £2,000+ per project | 
-Studio Fellow | £149 a month | 
+Photo & Video Shoots | £149 a month | 
 
 Typical UK prices from our guides: What video production costs for UK small businesses.
 
@@ -346,7 +346,7 @@ On-site at your business. We're based in Burnley, Lancashire; ask us about your 
 20 edited photos within five working days of the shoot.
 
 ### Can I turn the footage into Reels?
-Yes, add the Creator Fellow for short videos, motion graphics and podcast edits.
+Yes, add the Video Editing for short videos, motion graphics and podcast edits.
 
 ### Is there a free trial?
 A free 30-minute mini shoot at your business (within 20 miles of Burnley): 5 edited photos and 1 short vertical video, delivered within 5 working days. You keep them. No card needed. One free trial per business, UK businesses only. We take a limited number of new trials each week so every one gets proper attention.
@@ -358,8 +358,8 @@ URL: https://contentfellow.com/services/creator-fellow/
 
 ContentFellow · Video editing and motion graphics · UK
 
-# Creator Fellow: Video editing and motion graphics for UK small businesses
-Creator Fellow costs £119 a month. Short videos, motion graphics and podcast edits every month at a fixed price. Monthly billing, no long contract, and you approve work before it goes live.
+# Video Editing: Video editing and motion graphics for UK small businesses
+Video Editing costs £119 a month. Short videos, motion graphics and podcast edits every month at a fixed price. Monthly billing, no long contract, and you approve work before it goes live.
 £119 / month
 3 free videos · no card needed
 Start my free trial →
@@ -387,7 +387,7 @@ Businesses and creators who film content but don't have time to edit it.
 Option | Typical UK cost | 
 Freelance editor | £30–£150 per Reel | 
 Podcast edit (freelance) | £75–£300 each | 
-Creator Fellow | £119 a month for all of it | 
+Video Editing | £119 a month for all of it | 
 
 Typical UK prices from our guides: What video editing costs in the UK.
 
@@ -412,7 +412,7 @@ Your raw footage and any brand fonts, colours or examples you like.
 Two rounds of revisions on each video.
 
 ### Can you film the footage too?
-Yes, add the Studio Fellow for a monthly on-site shoot.
+Yes, add the Photo & Video Shoots for a monthly on-site shoot.
 
 ### Is there a free trial?
 Send us your footage and we edit 3 short videos for Reels, TikTok or Shorts, with captions and two rounds of revisions. You keep all 3 either way. No card needed. One free trial per business, UK businesses only. We take a limited number of new trials each week so every one gets proper attention.
@@ -424,8 +424,8 @@ URL: https://contentfellow.com/services/growth-fellow/
 
 ContentFellow · Your full marketing team · UK
 
-# Growth Fellow: Your full marketing team for UK small businesses
-Growth Fellow costs £389 a month. All five Fellows plus a Growth lead, one strategy and one monthly report. Monthly billing, no long contract, and you approve work before it goes live.
+# Full Marketing Team: Your full marketing team for UK small businesses
+Full Marketing Team costs £389 a month. All five Fellows plus a Growth lead, one strategy and one monthly report. Monthly billing, no long contract, and you approve work before it goes live.
 £389 / month
 Free 7-day trial · no card needed
 Start my free trial →
@@ -438,7 +438,7 @@ No card needed. One free trial per business, UK businesses only. We take a limit
 
 ## What's included
 
-- Studio, Creator, Social, Build and Search Fellows
+- Studio, Creator, Social, Build and SEO & AI Search
 
 - A Growth lead who sets one strategy across them
 
@@ -453,7 +453,7 @@ Small businesses that want a complete marketing team without hiring one.
 Option | Typical UK cost | 
 One in-house hire (loaded) | ~£4,300 a month | 
 Full-service agency | £5,000–£25,000 a month | 
-Growth Fellow | £389 a month | 
+Full Marketing Team | £389 a month | 
 
 Typical UK prices from our guides: Outsourced team vs agency vs in-house costs.
 
@@ -471,7 +471,7 @@ Get my free check →
 
 ## Frequently asked questions
 
-### What's included in the Growth Fellow?
+### What's included in the Full Marketing Team?
 All five Fellows (production, editing, social, website and SEO & GEO), a Growth lead, a monthly call and a combined report.
 
 ### How much do I save?
@@ -496,12 +496,12 @@ Start a free trial →
 
 ## Services and prices
 Fellow | What it is | Price | Free trial | Where | 
-Search Fellow | SEO & GEO for AI search | £89/mo | Free 7-day trial | Remote, UK-wide | 
-Social Fellow | Social media management | £59/mo | Free 7-day trial | Remote, UK-wide | 
-Build Fellow | Website design, build and hosting | £69/mo | Free homepage preview | Remote, UK-wide | 
-Studio Fellow | Photo and video production | £149/mo | Free mini shoot | On-site in Burnley + 20 miles | 
-Creator Fellow | Video editing and motion graphics | £119/mo | 3 free videos | Remote, UK-wide | 
-Growth Fellow | Your full marketing team | £389/mo | Free 7-day trial | Remote, UK-wide | 
+SEO & AI Search | SEO & GEO for AI search | £89/mo | Free 7-day trial | Remote, UK-wide | 
+Social Media Management | Social media management | £59/mo | Free 7-day trial | Remote, UK-wide | 
+Website Management | Website design, build and hosting | £69/mo | Free homepage preview | Remote, UK-wide | 
+Photo & Video Shoots | Photo and video production | £149/mo | Free mini shoot | On-site in Burnley + 20 miles | 
+Video Editing | Video editing and motion graphics | £119/mo | 3 free videos | Remote, UK-wide | 
+Full Marketing Team | Your full marketing team | £389/mo | Free 7-day trial | Remote, UK-wide | 
 
 ## Areas we cover for shoots
 Burnley, Padiham, Nelson, Brierfield, Colne, Accrington, Clitheroe, Blackburn, Rawtenstall, Haslingden, Todmorden, and nearby. Everything else (editing, social, websites, SEO and GEO) is delivered remotely across the UK.
@@ -514,7 +514,7 @@ Burnley, Padiham, Nelson, Brierfield, Colne, Accrington, Clitheroe, Blackburn, R
 
 - You approve everything before it goes live.
 
-- Found on Google Maps and in AI answers: the Search Fellow handles local SEO, Google Business Profile and Bing Places.
+- Found on Google Maps and in AI answers: the SEO & AI Search handles local SEO, Google Business Profile and Bing Places.
 
 ### Free AI visibility check
 We ask ChatGPT and Gemini 10 questions your customers ask, and email you who they recommend instead of you, plus the 3 fixes that matter most. Free, within 2 working days.
@@ -532,7 +532,7 @@ On-site shoots cover Burnley and about 20 miles around it, including Padiham, Ne
 ContentFellow plans start at £59 a month for social media, £69 for a website, £89 for SEO and GEO, £119 for video editing, £149 for a monthly shoot, or £389 for the full team.
 
 ### Can you help my Burnley business show up on Google Maps and ChatGPT?
-Yes. The Search Fellow covers local SEO, your Google Business Profile, Bing Places and the listings and pages AI assistants use to recommend local businesses.
+Yes. The SEO & AI Search covers local SEO, your Google Business Profile, Bing Places and the listings and pages AI assistants use to recommend local businesses.
 Guides: get recommended by ChatGPT · video production costs · website costs
 
 ---
@@ -545,7 +545,7 @@ Straight answers about ContentFellow's monthly marketing plans for UK small busi
 ## Pricing
 
 ### How much does ContentFellow cost?
-Plans start at £59 a month. Social Fellow £59 or £129, Build Fellow £69, Search Fellow £89, Creator Fellow £119, Studio Fellow £149, or the Growth Fellow (all five) £389 a month.
+Plans start at £59 a month. Social Media Management £59 or £129, Website Management £69, SEO & AI Search £89, Video Editing £119, Photo & Video Shoots £149, or the Full Marketing Team (all five) £389 a month.
 
 ### Is there a contract?
 No long contract. Billing is monthly and you can add, remove or upgrade Fellows from the next month.
@@ -559,13 +559,13 @@ No. ContentFellow is not currently VAT registered, so the price shown is the ful
 ## SEO & GEO
 
 ### Can you get my business recommended by ChatGPT?
-Nobody can guarantee it, but the Search Fellow does what AI assistants rely on: Bing indexing, structured data, answer-first service pages, consistent directory listings, reviews and tracking which prompts name you.
+Nobody can guarantee it, but the SEO & AI Search does what AI assistants rely on: Bing indexing, structured data, answer-first service pages, consistent directory listings, reviews and tracking which prompts name you.
 
 ### What is GEO?
 GEO (generative engine optimisation) makes your business easy for AI assistants like ChatGPT, Claude, Gemini and Perplexity to find, understand and recommend.
 
 ### What's the most affordable SEO for a UK small business?
-Affordable UK SEO typically costs £89 to £400 a month. The Search Fellow is £89 a month and covers SEO and GEO together.
+Affordable UK SEO typically costs £89 to £400 a month. The SEO & AI Search is £89 a month and covers SEO and GEO together.
 
 ### How long does SEO take?
 Technical fixes show within weeks; rankings and AI mentions usually build over 6 to 12 weeks or longer in competitive areas.
@@ -573,7 +573,7 @@ Technical fixes show within weeks; rankings and AI mentions usually build over 6
 ## Websites
 
 ### How much is a website with ContentFellow?
-The Build Fellow is £69 a month with no upfront fee: a custom site up to five pages, hosting, security, updates and two change requests a month.
+The Website Management is £69 a month with no upfront fee: a custom site up to five pages, hosting, security, updates and two change requests a month.
 
 ### Can I see my website before paying?
 Yes. We design a free homepage preview within 3 working days.
@@ -581,7 +581,7 @@ Yes. We design a free homepage preview within 3 working days.
 ## Social media
 
 ### How much is social media management?
-The Social Fellow is £59 a month (Manage: up to 2 platforms, weekday replies, ad set-up) or £129 a month (Manage + Post: up to 3 platforms with daily posting and trend research).
+The Social Media Management is £59 a month (Manage: up to 2 platforms, weekday replies, ad set-up) or £129 a month (Manage + Post: up to 3 platforms with daily posting and trend research).
 
 ### Do I approve posts?
 Yes, every post is shared with you for approval before it goes live.
@@ -589,10 +589,10 @@ Yes, every post is shared with you for approval before it goes live.
 ## Video & photo
 
 ### How much is a monthly photo and video shoot?
-The Studio Fellow is £149 a month: one on-site shoot up to 3 hours, photo and 4K video, 20 edited photos within 5 working days.
+The Photo & Video Shoots is £149 a month: one on-site shoot up to 3 hours, photo and 4K video, 20 edited photos within 5 working days.
 
 ### How much is video editing for Reels and TikTok?
-The Creator Fellow is £119 a month: 8 short videos, 1 motion graphics video and 1 podcast edit up to 60 minutes.
+The Video Editing is £119 a month: 8 short videos, 1 motion graphics video and 1 podcast edit up to 60 minutes.
 
 ### Where do you shoot?
 On-site at your business within about 20 miles of Burnley, Lancashire (Padiham, Nelson, Colne, Accrington, Clitheroe, Blackburn and nearby). Editing and other services are UK-wide.
@@ -617,7 +617,7 @@ URL: https://contentfellow.com/blog/affordable-seo-geo-services-uk/
 
 Quick answer: Affordable SEO for a UK small business usually costs £89 to £400 a month. Budget packages start around £89–£150, local SEO plans from specialist agencies typically cost £250–£400, and managed agency campaigns start around £1,000. In 2026, a good affordable plan should also cover GEO (getting named by ChatGPT, Gemini and Perplexity), not just Google. (Updated October 2026. Prices are as published by each provider on 16 October 2026; check their sites for current offers.)
 
-Transparency note: this comparison is written by ContentFellow, and our Search Fellow plan is included. We've only listed prices that providers publish themselves, and we explain how to judge every option, including ours.
+Transparency note: this comparison is written by ContentFellow, and our SEO & AI Search plan is included. We've only listed prices that providers publish themselves, and we explain how to judge every option, including ours.
 
 ## UK affordable SEO prices compared (published prices)
 
@@ -625,7 +625,7 @@ Provider / type |
 Published starting price | 
 Notes | 
 
-ContentFellow Search Fellow | 
+ContentFellow SEO & AI Search | 
 £89 a month | 
 SEO + GEO in one plan, monthly billing, free 7-day trial | 
 
@@ -704,11 +704,11 @@ National or ecommerce business |
 
 Not sure if you need GEO, SEO or both? Read GEO vs SEO: what's the difference.
 
-## How the Search Fellow compares
+## How the SEO & AI Search compares
 
-The Search Fellow is £89 a month: SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing rankings and AI visibility side by side. Billing is monthly, you approve changes before they go live, and you can try it free for 7 days (AI visibility check, Bing set-up, AI crawler access and a Google Business Profile tidy; you keep every fix). It suits small businesses; if you need large-scale digital PR or hundreds of pages, a bigger agency budget makes more sense.
+The SEO & AI Search is £89 a month: SEO for Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing rankings and AI visibility side by side. Billing is monthly, you approve changes before they go live, and you can try it free for 7 days (AI visibility check, Bing set-up, AI crawler access and a Google Business Profile tidy; you keep every fix). It suits small businesses; if you need large-scale digital PR or hundreds of pages, a bigger agency budget makes more sense.
 
-Start your free Search Fellow trial →
+Start your free SEO & AI Search trial →
 
 ### Free AI visibility check
 We ask ChatGPT and Gemini 10 questions your customers ask, and email you who they recommend instead of you, plus the 3 fixes that matter most. Free, within 2 working days.
@@ -730,7 +730,7 @@ Do the basics yourself: claim your Google Business Profile and Bing Places, add 
 
 ### Does affordable SEO include ChatGPT and AI search?
 
-Not always. Ask whether the plan includes Bing indexing, structured data and AI visibility tracking. The ContentFellow Search Fellow includes all three.
+Not always. Ask whether the plan includes Bing indexing, structured data and AI visibility tracking. The ContentFellow SEO & AI Search includes all three.
 
 ### How long does affordable SEO take to work?
 
@@ -748,7 +748,7 @@ URL: https://contentfellow.com/blog/affordable-social-media-management-uk/
 
 Quick answer: Affordable social media management in the UK starts at about £59 to £129 a month for a productised plan. Freelancers typically charge £200–£500 a month for basic help, and agency packages usually start around £950 a month and can pass £3,000. The cheapest headline price isn't always the cheapest plan: extras for engagement, reporting and additional platforms can double it. (Prices as published by each provider on 16 October 2026. Check their sites for current offers.)
 
-Transparency note: ContentFellow wrote this comparison and our Social Fellow is included. We've only listed prices providers publish themselves.
+Transparency note: ContentFellow wrote this comparison and our Social Media Management is included. We've only listed prices providers publish themselves.
 
 ## Published UK social media management prices
 
@@ -756,7 +756,7 @@ Provider / type |
 Published price | 
 What the price covers (as published) | 
 
-ContentFellow Social Fellow | 
+ContentFellow Social Media Management | 
 £59 a month (Manage) or £129 a month (Manage + Post) | 
 Manage: up to 2 platforms, weekday replies, ad set-up. Manage + Post: up to 3 platforms, daily posting, trend research. Free 7-day trial | 
 
@@ -821,11 +821,11 @@ Agency (£950+) |
 You need original video every month | 
 Add a video service, e.g. video production or editing | 
 
-## How the Social Fellow compares
+## How the Social Media Management compares
 
-The Social Fellow is £59 a month (Manage) or £129 a month (Manage + Post), where Manage covers up to 2 platforms with weekday replies and ad set-up, and Manage + Post covers up to 3 platforms with daily posting and trend research. Billing is monthly, you approve content before it goes live, and you can try it free for 7 days (a short content plan and 5 posts on one platform; you keep the content).
+The Social Media Management is £59 a month (Manage) or £129 a month (Manage + Post), where Manage covers up to 2 platforms with weekday replies and ad set-up, and Manage + Post covers up to 3 platforms with daily posting and trend research. Billing is monthly, you approve content before it goes live, and you can try it free for 7 days (a short content plan and 5 posts on one platform; you keep the content).
 
-Start your free Social Fellow trial →
+Start your free Social Media Management trial →
 
 ### Free AI visibility check
 We ask ChatGPT and Gemini 10 questions your customers ask, and email you who they recommend instead of you, plus the 3 fixes that matter most. Free, within 2 working days.
@@ -851,7 +851,7 @@ If you post consistently yourself, DIY is fine. If posting keeps slipping, a low
 
 ### Can I try social media management before committing?
 
-Some providers offer trials. The ContentFellow Social Fellow has a free 7-day trial with no card needed.
+Some providers offer trials. The ContentFellow Social Media Management has a free 7-day trial with no card needed.
 
 ---
 
@@ -1035,7 +1035,7 @@ More detail: how to get your business recommended by ChatGPT and llms.txt explai
 
 ## Let us run the test for you
 
-ContentFellow's free AI visibility check asks ChatGPT and Gemini 10 questions your customers ask and emails you who they recommend instead of you, plus the three fixes that matter most. Ongoing tracking is included in the Search Fellow at £89 a month.
+ContentFellow's free AI visibility check asks ChatGPT and Gemini 10 questions your customers ask and emails you who they recommend instead of you, plus the three fixes that matter most. Ongoing tracking is included in the SEO & AI Search at £89 a month.
 
 Get my free AI visibility check →
 
@@ -1159,9 +1159,9 @@ No. Google still sends most website traffic for most UK businesses, and AI assis
 
 ## How ContentFellow handles SEO and GEO
 
-The Search Fellow is £89 a month and covers both: SEO to climb Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing rankings and AI visibility side by side. For a full team (shoots, editing, social, website and search), the Growth Fellow is £389 a month.
+The SEO & AI Search is £89 a month and covers both: SEO to climb Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly report showing rankings and AI visibility side by side. For a full team (shoots, editing, social, website and search), the Full Marketing Team is £389 a month.
 
-Pick your Search Fellow →
+Pick your SEO & AI Search →
 
 ### Free AI visibility check
 We ask ChatGPT and Gemini 10 questions your customers ask, and email you who they recommend instead of you, plus the 3 fixes that matter most. Free, within 2 working days.
@@ -1363,9 +1363,9 @@ Yes. Most of these steps also lift your Google rankings, and Google still sends 
 
 ## Get it done for you
 
-The Search Fellow is £89 a month. We fix your crawler access, Bing indexing, structured data and service pages, keep your directory listings consistent, and send a monthly report showing which ChatGPT, Gemini, Claude and Perplexity prompts name you and which name your competitors.
+The SEO & AI Search is £89 a month. We fix your crawler access, Bing indexing, structured data and service pages, keep your directory listings consistent, and send a monthly report showing which ChatGPT, Gemini, Claude and Perplexity prompts name you and which name your competitors.
 
-Pick your Search Fellow →
+Pick your SEO & AI Search →
 
 ### Free AI visibility check
 We ask ChatGPT and Gemini 10 questions your customers ask, and email you who they recommend instead of you, plus the 3 fixes that matter most. Free, within 2 working days.
@@ -1520,9 +1520,9 @@ For most UK small businesses, yes, if the cost stays proportionate. More buyers 
 
 ## How ContentFellow prices LLM optimisation
 
-At ContentFellow, SEO and GEO sit in one plan. The Search Fellow costs £89 a month and covers SEO to climb Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly ranking and AI visibility report. If you want production, editing, social, your website and search working as one team, the Growth Fellow is £389 a month instead of £555 separately. Plans are monthly, and you can add or remove Fellows from the next month. See how it works.
+At ContentFellow, SEO and GEO sit in one plan. The SEO & AI Search costs £89 a month and covers SEO to climb Google, GEO so ChatGPT, Claude and Gemini recommend you, and a monthly ranking and AI visibility report. If you want production, editing, social, your website and search working as one team, the Full Marketing Team is £389 a month instead of £555 separately. Plans are monthly, and you can add or remove Fellows from the next month. See how it works.
 
-Pick your Search Fellow →
+Pick your SEO & AI Search →
 
 ### Free AI visibility check
 We ask ChatGPT and Gemini 10 questions your customers ask, and email you who they recommend instead of you, plus the 3 fixes that matter most. Free, within 2 working days.
@@ -1610,7 +1610,7 @@ Create a text file called llms.txt with your business name, one line on what you
 
 ## How ContentFellow helps
 
-Our Search Fellow (£89 a month) focuses on what moves results: technical access, structured data, answer-first content, mentions and a monthly AI visibility report. We add llms.txt as part of setup, at no extra charge, because it's quick, not because it ranks you.
+Our SEO & AI Search (£89 a month) focuses on what moves results: technical access, structured data, answer-first content, mentions and a monthly AI visibility report. We add llms.txt as part of setup, at no extra charge, because it's quick, not because it ranks you.
 
 Get a free AI visibility check →
 
@@ -1648,7 +1648,7 @@ URL: https://contentfellow.com/blog/outsourced-marketing-team-cost-uk/
 
 # Outsourced Marketing Team vs Agency vs In-House: UK Costs Compared (2026)
 
-Quick answer: A single in-house marketing hire in the UK costs 35–45% more than their salary once you add National Insurance, pension, recruitment, tools and training: a £30,000 content manager really costs about £51,000 a year (£4,300 a month). Specialist agencies typically charge £2,000–£10,000 a month, and a three-person in-house team outside London costs £130,000–£180,000 a year. For small businesses, productised outsourced teams cost far less: ContentFellow's Growth Fellow is £389 a month for five specialists. (Updated October 2026.)
+Quick answer: A single in-house marketing hire in the UK costs 35–45% more than their salary once you add National Insurance, pension, recruitment, tools and training: a £30,000 content manager really costs about £51,000 a year (£4,300 a month). Specialist agencies typically charge £2,000–£10,000 a month, and a three-person in-house team outside London costs £130,000–£180,000 a year. For small businesses, productised outsourced teams cost far less: ContentFellow's Full Marketing Team is £389 a month for five specialists. (Updated October 2026.)
 
 ## UK marketing costs at a glance
 
@@ -1687,7 +1687,7 @@ Three-person in-house team |
 A small department | 
 Companies spending £150k+ a year on marketing | 
 
-Productised team (Growth Fellow) | 
+Productised team (Full Marketing Team) | 
 £389 | 
 Five Fellows + a Growth lead | 
 Small businesses wanting a full team on a small budget | 
@@ -1765,9 +1765,9 @@ Bought separately from freelancers, that list can easily pass £2,000 a month.
 
 ## How ContentFellow prices a full marketing team
 
-The Growth Fellow is £389 a month, against £555 for the five Fellows separately, a saving of £166 a month. You get all five specialists (Studio, Creator, Social, Build and Search), a Growth lead who sets one strategy across them, a monthly call and one combined report. Billing is monthly, you approve content before it goes live, and you can change Fellows from the next month.
+The Full Marketing Team is £389 a month, against £555 for the five Fellows separately, a saving of £166 a month. You get all five specialists (Studio, Creator, Social, Build and Search), a Growth lead who sets one strategy across them, a monthly call and one combined report. Billing is monthly, you approve content before it goes live, and you can change Fellows from the next month.
 
-See the Growth Fellow →
+See the Full Marketing Team →
 
 ### Free AI visibility check
 We ask ChatGPT and Gemini 10 questions your customers ask, and email you who they recommend instead of you, plus the 3 fixes that matter most. Free, within 2 working days.
@@ -1797,7 +1797,7 @@ One person inside the business owns marketing and decisions, while outside speci
 
 ### Can a small business have a full marketing team for under £500 a month?
 
-Yes, with a productised service. The ContentFellow Growth Fellow covers shoots, editing, social, website and search for £389 a month.
+Yes, with a productised service. The ContentFellow Full Marketing Team covers shoots, editing, social, website and search for £389 a month.
 
 ---
 
@@ -1807,7 +1807,7 @@ URL: https://contentfellow.com/blog/pay-monthly-website-uk-comparison/
 
 Quick answer: UK pay monthly websites typically cost £49 to £199 a month with no upfront fee, usually including design, hosting and updates. DIY website builders cost about £3–£16 a month, and a one-off build costs £500–£10,000 plus running costs. The most important difference between plans isn't price but ownership and minimum term: check whether you keep the domain and site if you leave. (Prices as published by each provider on 16 October 2026. Check their sites for current offers.)
 
-Transparency note: ContentFellow wrote this comparison and our Build Fellow is included. We've only listed prices providers publish themselves.
+Transparency note: ContentFellow wrote this comparison and our Website Management is included. We've only listed prices providers publish themselves.
 
 ## Published UK pay monthly website prices
 
@@ -1815,7 +1815,7 @@ Provider / type |
 Published price | 
 Notes (as published) | 
 
-ContentFellow Build Fellow | 
+ContentFellow Website Management | 
 £69 a month, no upfront fee | 
 Custom site up to 5 pages, hosting, security, updates, 2 change requests a month, free homepage preview | 
 
@@ -1875,9 +1875,9 @@ Bigger budgets, wanting full control |
 
 Over three years, a £69 plan totals about £2,484. A £1,500 freelancer build plus £20 a month care totals about £2,220. They're close; the difference is whether someone is keeping the site updated, secure and improving.
 
-## How the Build Fellow compares
+## How the Website Management compares
 
-The Build Fellow is £69 a month: a custom website of up to five pages, with hosting, security and updates included, plus two change requests every month. There's no upfront fee, billing is monthly, and you can get a free homepage preview within 3 working days before paying anything.
+The Website Management is £69 a month: a custom website of up to five pages, with hosting, security and updates included, plus two change requests every month. There's no upfront fee, billing is monthly, and you can get a free homepage preview within 3 working days before paying anything.
 
 Get your free homepage preview →
 
@@ -1905,7 +1905,7 @@ A DIY builder at about £3–£16 a month, if you have the time to build and mai
 
 ### Can I see the website before paying?
 
-Some providers offer previews. The ContentFellow Build Fellow includes a free homepage preview within 3 working days.
+Some providers offer previews. The ContentFellow Website Management includes a free homepage preview within 3 working days.
 
 ---
 
@@ -1913,7 +1913,7 @@ URL: https://contentfellow.com/blog/small-business-website-cost-uk/
 
 # How Much Does a Small Business Website Cost in the UK in 2026?
 
-Quick answer: A UK small business website costs anywhere from £200 to £20,000 to build, plus £5 to £150 a month to keep running. A DIY site on Wix or Squarespace costs roughly £9–£40 a month, a freelancer typically charges £500–£2,500, and most agencies quote £3,000–£10,000 for a properly built small business site. Monthly website plans spread the cost instead: ContentFellow's Build Fellow is £69 a month including hosting and updates. (Updated October 2026.)
+Quick answer: A UK small business website costs anywhere from £200 to £20,000 to build, plus £5 to £150 a month to keep running. A DIY site on Wix or Squarespace costs roughly £9–£40 a month, a freelancer typically charges £500–£2,500, and most agencies quote £3,000–£10,000 for a properly built small business site. Monthly website plans spread the cost instead: ContentFellow's Website Management is £69 a month including hosting and updates. (Updated October 2026.)
 
 ## UK website costs at a glance
 
@@ -1942,7 +1942,7 @@ Ecommerce build |
 £30–£300 | 
 Online shops | 
 
-Monthly plan (Build Fellow) | 
+Monthly plan (Website Management) | 
 £0 | 
 £69 | 
 Small businesses wanting a custom site without a big upfront bill | 
@@ -1985,7 +1985,7 @@ Agency (£4,000 build + £60/mo) |
 £1,440 | 
 ~£6,160 | 
 
-Build Fellow (£69/mo) | 
+Website Management (£69/mo) | 
 £828 | 
 £1,656 | 
 ~£2,484 | 
@@ -2028,11 +2028,11 @@ Your own figures will differ, but the pattern holds: a cheap build with no care 
 
 ## How ContentFellow prices websites
 
-The Build Fellow is £69 a month: a custom website of up to five pages, with hosting, security and updates included, plus two change requests every month. Billing is monthly, and you approve the site before it goes live.
+The Website Management is £69 a month: a custom website of up to five pages, with hosting, security and updates included, plus two change requests every month. Billing is monthly, and you approve the site before it goes live.
 
-To get found once it's built, add the Search Fellow (£89 a month) or take the full Growth Fellow team for £389 a month. Our guide to LLM optimisation costs explains what search work includes.
+To get found once it's built, add the SEO & AI Search (£89 a month) or take the full Full Marketing Team team for £389 a month. Our guide to LLM optimisation costs explains what search work includes.
 
-Pick your Build Fellow →
+Pick your Website Management →
 
 ### Free AI visibility check
 We ask ChatGPT and Gemini 10 questions your customers ask, and email you who they recommend instead of you, plus the 3 fixes that matter most. Free, within 2 working days.
@@ -2046,7 +2046,7 @@ A basic five-page UK small business website typically costs £500 to £2,500 fro
 
 ### How much does a website cost per month in the UK?
 
-Running costs are usually £5 to £150 a month: hosting from about £4, a website builder plan from £9, and a maintenance plan from about £50. Monthly website plans like the Build Fellow cost £69 including everything.
+Running costs are usually £5 to £150 a month: hosting from about £4, a website builder plan from £9, and a maintenance plan from about £50. Monthly website plans like the Website Management cost £69 including everything.
 
 ### Is Wix or Squarespace cheaper than a web designer?
 
@@ -2070,7 +2070,7 @@ URL: https://contentfellow.com/blog/social-media-management-cost-uk/
 
 # How Much Does Social Media Management Cost in the UK? (2026 Prices)
 
-Quick answer: Most UK small businesses pay £300 to £1,500 a month for professional social media management, not counting ad spend. A freelancer typically charges £300–£1,000 a month, an agency £1,250–£3,500 per channel, and a full-time in-house social media manager costs about £3,290 a month once employer costs are added. Productised monthly plans start lower: ContentFellow's Social Fellow is from £59 a month. (Updated October 2026.)
+Quick answer: Most UK small businesses pay £300 to £1,500 a month for professional social media management, not counting ad spend. A freelancer typically charges £300–£1,000 a month, an agency £1,250–£3,500 per channel, and a full-time in-house social media manager costs about £3,290 a month once employer costs are added. Productised monthly plans start lower: ContentFellow's Social Media Management is from £59 a month. (Updated October 2026.)
 
 ## What does social media management actually include?
 
@@ -2122,7 +2122,7 @@ In-house hire |
 One person, full-time | 
 Businesses posting a lot every day | 
 
-Monthly plan (Social Fellow) | 
+Monthly plan (Social Media Management) | 
 £59 or £129 | 
 Manage: 2 platforms + replies; Manage + Post: 3 platforms + daily posting | 
 Small businesses wanting consistency on a budget | 
@@ -2173,11 +2173,11 @@ A good provider answers all six in writing.
 
 ## How ContentFellow prices social media
 
-The Social Fellow has two levels: Manage at £59 a month and Manage + Post at £129 a month. Manage covers up to 2 platforms with weekday replies to comments and messages and ad campaign set-up; Manage + Post covers up to 3 platforms with daily posting from a monthly content calendar and trend research. You approve content before it goes live, billing is monthly, and you can add, remove or upgrade Fellows from the next month.
+The Social Media Management has two levels: Manage at £59 a month and Manage + Post at £129 a month. Manage covers up to 2 platforms with weekday replies to comments and messages and ad campaign set-up; Manage + Post covers up to 3 platforms with daily posting from a monthly content calendar and trend research. You approve content before it goes live, billing is monthly, and you can add, remove or upgrade Fellows from the next month.
 
-Need video too? The Growth Fellow bundles social, shoots, editing, website and search for £389 a month. See our breakdown of outsourced marketing vs agency vs in-house costs.
+Need video too? The Full Marketing Team bundles social, shoots, editing, website and search for £389 a month. See our breakdown of outsourced marketing vs agency vs in-house costs.
 
-Pick your Social Fellow →
+Pick your Social Media Management →
 
 ### Free AI visibility check
 We ask ChatGPT and Gemini 10 questions your customers ask, and email you who they recommend instead of you, plus the 3 fixes that matter most. Free, within 2 working days.
@@ -2187,7 +2187,7 @@ Get my free check →
 
 ### How much does social media management cost per month in the UK?
 
-Most UK small businesses pay £300 to £1,500 a month, excluding ad spend. Freelancers charge £300–£1,000, agencies £1,250–£3,500 per channel, and monthly plans like the Social Fellow start from £59.
+Most UK small businesses pay £300 to £1,500 a month, excluding ad spend. Freelancers charge £300–£1,000, agencies £1,250–£3,500 per channel, and monthly plans like the Social Media Management start from £59.
 
 ### Is £300 a month enough for social media management?
 
@@ -2215,7 +2215,7 @@ URL: https://contentfellow.com/blog/video-editing-cost-uk/
 
 # How Much Does Video Editing Cost in the UK? Reels, YouTube and Podcasts (2026)
 
-Quick answer: UK freelance video editors typically charge £25 to £75 an hour, £50 to £400 a day, or £50 to £200 per finished minute. A short Reel or TikTok usually costs £30–£150 to edit, a 10-minute YouTube video £150–£600, and a one-hour podcast £75–£300. If you need videos every week, a monthly plan is often cheaper: ContentFellow's Creator Fellow is £119 a month for 8 short videos, a motion graphics video and a podcast edit. (Updated October 2026.)
+Quick answer: UK freelance video editors typically charge £25 to £75 an hour, £50 to £400 a day, or £50 to £200 per finished minute. A short Reel or TikTok usually costs £30–£150 to edit, a 10-minute YouTube video £150–£600, and a one-hour podcast £75–£300. If you need videos every week, a monthly plan is often cheaper: ContentFellow's Video Editing is £119 a month for 8 short videos, a motion graphics video and a podcast edit. (Updated October 2026.)
 
 ## UK video editing rates in 2026
 
@@ -2313,11 +2313,11 @@ Eight Reels a month at a typical £50 freelance rate is £400, before a podcast 
 
 ## How ContentFellow prices video editing
 
-The Creator Fellow is £119 a month: 8 short videos for Reels, TikTok or Shorts, one motion graphics video, and one podcast edit of up to 60 minutes. Each video includes two rounds of revisions, and you approve everything before it's posted.
+The Video Editing is £119 a month: 8 short videos for Reels, TikTok or Shorts, one motion graphics video, and one podcast edit of up to 60 minutes. Each video includes two rounds of revisions, and you approve everything before it's posted.
 
-Pair it with the Studio Fellow for monthly shoots and the Social Fellow for posting, or take all five Fellows in the Growth Fellow for £389 a month. Also see what social media management costs in the UK.
+Pair it with the Photo & Video Shoots for monthly shoots and the Social Media Management for posting, or take all five Fellows in the Full Marketing Team for £389 a month. Also see what social media management costs in the UK.
 
-Pick your Creator Fellow →
+Pick your Video Editing →
 
 ### Free AI visibility check
 We ask ChatGPT and Gemini 10 questions your customers ask, and email you who they recommend instead of you, plus the 3 fixes that matter most. Free, within 2 working days.
@@ -2355,9 +2355,9 @@ URL: https://contentfellow.com/blog/video-editing-subscription-comparison/
 
 # Video Editing Subscriptions Compared: Best Value for Small Businesses (2026)
 
-Quick answer: Video editing subscriptions range from about $99–$149 a month for a small number of short videos to $899–$1,700+ a month for "unlimited" plans with a dedicated editor. For a small business posting a few Reels a week, a fixed-number plan is usually the best value. In the UK, ContentFellow's Creator Fellow is £119 a month for 8 short videos, a motion graphics video and a podcast edit. (Prices as published by each provider on 16 October 2026; most are in US dollars. Check their sites for current offers.)
+Quick answer: Video editing subscriptions range from about $99–$149 a month for a small number of short videos to $899–$1,700+ a month for "unlimited" plans with a dedicated editor. For a small business posting a few Reels a week, a fixed-number plan is usually the best value. In the UK, ContentFellow's Video Editing is £119 a month for 8 short videos, a motion graphics video and a podcast edit. (Prices as published by each provider on 16 October 2026; most are in US dollars. Check their sites for current offers.)
 
-Transparency note: ContentFellow wrote this comparison and our Creator Fellow is included. We've only listed prices providers publish themselves.
+Transparency note: ContentFellow wrote this comparison and our Video Editing is included. We've only listed prices providers publish themselves.
 
 ## Published video editing subscription prices
 
@@ -2366,7 +2366,7 @@ Published price |
 What's included (as published) | 
 Price per short video | 
 
-ContentFellow Creator Fellow | 
+ContentFellow Video Editing | 
 £119 a month | 
 8 short videos, 1 motion graphics video, 1 podcast edit (≤60 min), 2 revision rounds each | 
 under £15 (before the extras) | 
@@ -2430,9 +2430,9 @@ Unlimited subscription with a dedicated editor |
 Occasional one-off videos | 
 Freelancer per video | 
 
-## How the Creator Fellow compares
+## How the Video Editing compares
 
-The Creator Fellow is £119 a month in pounds, with no exchange-rate surprises: 8 short videos for Reels, TikTok or Shorts, one motion graphics video and one podcast edit of up to 60 minutes, each with two rounds of revisions. Billing is monthly, and you can try it with 3 free videos from your own footage (you keep them either way). Need footage filmed too? Pair it with the Studio Fellow.
+The Video Editing is £119 a month in pounds, with no exchange-rate surprises: 8 short videos for Reels, TikTok or Shorts, one motion graphics video and one podcast edit of up to 60 minutes, each with two rounds of revisions. Billing is monthly, and you can try it with 3 free videos from your own footage (you keep them either way). Need footage filmed too? Pair it with the Photo & Video Shoots.
 
 Get your 3 free videos →
 
@@ -2444,7 +2444,7 @@ Get my free check →
 
 ### How much does a video editing subscription cost?
 
-From about $99–$149 a month for a few short videos to $899–$1,700 or more for unlimited plans. UK-based plans like the Creator Fellow cost £119 a month.
+From about $99–$149 a month for a few short videos to $899–$1,700 or more for unlimited plans. UK-based plans like the Video Editing cost £119 a month.
 
 ### Is unlimited video editing worth it for a small business?
 
@@ -2456,11 +2456,11 @@ A fixed-number subscription usually works out at £15–£30 per video, cheaper 
 
 ### Do editing subscriptions include posting?
 
-Some do, most don't. Feedbird includes posting; ContentFellow posting is part of the Social Fellow.
+Some do, most don't. Feedbird includes posting; ContentFellow posting is part of the Social Media Management.
 
 ### Can I try a video editing service for free?
 
-Some offer trials. The ContentFellow Creator Fellow edits 3 short videos free from your footage, and you keep them.
+Some offer trials. The ContentFellow Video Editing edits 3 short videos free from your footage, and you keep them.
 
 ---
 
@@ -2468,7 +2468,7 @@ URL: https://contentfellow.com/blog/video-production-cost-uk/
 
 # How Much Does Video Production Cost for UK Small Businesses? (2026)
 
-Quick answer: A UK freelance videographer typically charges £200 to £900 a day, depending on experience and location, plus editing. A London crew day can cost £1,500–£2,500, and production companies usually quote £2,000 or more per project. For regular content rather than one big film, monthly shoots are often better value: ContentFellow's Studio Fellow is £149 a month for one on-site shoot with photo and 4K video. (Updated October 2026.)
+Quick answer: A UK freelance videographer typically charges £200 to £900 a day, depending on experience and location, plus editing. A London crew day can cost £1,500–£2,500, and production companies usually quote £2,000 or more per project. For regular content rather than one big film, monthly shoots are often better value: ContentFellow's Photo & Video Shoots is £149 a month for one on-site shoot with photo and 4K video. (Updated October 2026.)
 
 ## UK video production prices in 2026
 
@@ -2497,7 +2497,7 @@ Production company |
 Script, crew, edit, music, revisions | 
 Adverts and flagship brand films | 
 
-Monthly shoots (Studio Fellow) | 
+Monthly shoots (Photo & Video Shoots) | 
 £149 a month | 
 One on-site shoot up to 3 hours, photo + 4K video | 
 Steady content for social, website and ads | 
@@ -2559,7 +2559,7 @@ One production company film |
 £2,000–£10,000 | 
 
 Monthly shoots | 
-12 × £149 Studio Fellow | 
+12 × £149 Photo & Video Shoots | 
 £1,788 | 
 
 ## Questions to ask before you book
@@ -2578,11 +2578,11 @@ Monthly shoots |
 
 ## How ContentFellow prices video production
 
-The Studio Fellow is £149 a month: one on-site shoot each month of up to three hours, covering photo and 4K video, with 20 edited photos delivered within five working days. We're based in Burnley, Lancashire. You approve everything before it's used, and each video includes two rounds of revisions.
+The Photo & Video Shoots is £149 a month: one on-site shoot each month of up to three hours, covering photo and 4K video, with 20 edited photos delivered within five working days. We're based in Burnley, Lancashire. You approve everything before it's used, and each video includes two rounds of revisions.
 
-Want the footage turned into Reels and Shorts? Add the Creator Fellow, or take the full Growth Fellow team (shoots, editing, social, website and search) for £389 a month.
+Want the footage turned into Reels and Shorts? Add the Video Editing, or take the full Full Marketing Team team (shoots, editing, social, website and search) for £389 a month.
 
-Pick your Studio Fellow →
+Pick your Photo & Video Shoots →
 
 ### Free AI visibility check
 We ask ChatGPT and Gemini 10 questions your customers ask, and email you who they recommend instead of you, plus the 3 fixes that matter most. Free, within 2 working days.
@@ -2650,7 +2650,7 @@ ContentFellow Grow £749 + Care £49/mo |
 £49 | 
 about £2,513 | 
 
-ContentFellow Build Fellow subscription | 
+ContentFellow Website Management subscription | 
 £0 | 
 £69 | 
 about £2,484 (changes included) | 
@@ -2693,7 +2693,7 @@ We sell both, so you can pick what suits you:
 
 - One-off builds: Launch £349, Grow £749, Shop £1,499 (see development packages).
 
-- Monthly plans: Care £49, Build Fellow £69 (site included), Care Plus £159 (see management plans).
+- Monthly plans: Care £49, Website Management £69 (site included), Care Plus £159 (see management plans).
 
 Get a fixed quote →
 
