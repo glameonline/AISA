@@ -2,12 +2,12 @@
 ## TOWN PAGES (target page 1 by end Nov: Burnley, Nelson, Colne ONLY) — do 2/day before other rows
 - [x] Marketing agency Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [x] Social media management Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
-- [ ] Web designer Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [x] Web designer Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [ ] Videographer Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [ ] SEO agency Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [x] Marketing agency Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [x] Social media management Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
-- [ ] Web designer Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [x] Web designer Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [ ] Videographer Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [ ] SEO agency Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 
