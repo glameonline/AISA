@@ -36,7 +36,7 @@ market: en-GB
 - No VAT added
 - Free 7-day trial before you pay
 - One team for social, SEO, websites and video
-- Based in Burnley, covering Nelson, Colne, Padiham and Pendle
+- Based in Burnley (see our <a href="/blog/marketing-agency-burnley/">marketing agency Burnley guide</a>), covering Nelson, Colne, Padiham and Pendle
 
 ## How to get started
 
@@ -44,7 +44,7 @@ market: en-GB
 2. Pick a plan (most start with Social Media Management at £59).
 3. Your free 7-day trial starts the same week.
 
-## FAQs
+## Frequently asked questions
 
 ### What is the cheapest social media management in Burnley?
 ContentFellow's Social Media Management starts at £59 a month with no contract and a free 7-day trial, compared with £300+ at most Lancashire agencies.

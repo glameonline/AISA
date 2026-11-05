@@ -44,7 +44,7 @@ See all plans on our <a href="/pay-monthly-websites/">pay monthly websites</a> p
 2. Pick Basic, Standard or Premium. Quote code **GhostFellow7** for 25% off the build.
 3. See a first draft within a week. More local help: <a href="/burnley/">digital marketing Burnley</a>.
 
-## FAQs
+## Frequently asked questions
 
 ### How much is a website in Colne?
 Most Colne small business websites cost £300–£3,000. ContentFellow builds from £225, then £49 a month for hosting and care.

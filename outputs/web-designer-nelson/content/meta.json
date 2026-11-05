@@ -16,7 +16,28 @@
   "category": "Local",
   "cta": "Free 7-day trial",
   "url": "https://contentfellow.com/blog/web-designer-nelson/",
-  "faq": [],
+  "faq": [
+    {
+      "q": "How much is a website in Nelson?",
+      "a": "Most Nelson small business websites cost £300–£3,000. ContentFellow builds from £225, then £49 a month for hosting and care."
+    },
+    {
+      "q": "How long does a website take?",
+      "a": "A Basic site is usually live in about one to two weeks once we have your text and photos."
+    },
+    {
+      "q": "Do you meet clients in Nelson?",
+      "a": "Yes. We are based in Burnley, about 5 miles away, and can meet in Nelson or talk by phone or WhatsApp."
+    },
+    {
+      "q": "Is there a discount?",
+      "a": "Yes. Use code GhostFellow7 for 25% off any website build."
+    },
+    {
+      "q": "How do I contact ContentFellow?",
+      "a": "Call or WhatsApp 07535 677302 or email info@contentfellow.com."
+    }
+  ],
   "images": [
     {
       "file": "web-designer-nelson-featured.png",
