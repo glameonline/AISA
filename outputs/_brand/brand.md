@@ -27,3 +27,4 @@ Old site title: "Photographer & Videographer Burnley | Content Fellow". Based in
 Websites: Launch £349 (≤7 pages) · Grow £749 (≤15 pages, blog, booking) · Shop £1,499 (≤100 products). Apps: App Starter £1,249 (web app) · App Pro £3,499 (iOS + Android, ≤10 screens) · App Custom from £6,499. 50% upfront, 50% at launch. After launch: Website Management £69/mo (or app care). Page: /services/development/
 ## Management plans (monthly; owner approved 17 Oct: +20% on the new tiers, Website Management unchanged)
 Websites: Care £49 · Website Management £69 · Care Plus £159. Apps: App Care £149 · App Care Plus £359 · App Care Pro £599. Page: /services/management/
+- RULE (owner, 8 Nov 2026): Before uploading any screenshot or image to the website or anywhere public, send it to the owner first and wait for approval.
