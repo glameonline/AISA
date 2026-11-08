@@ -5,6 +5,7 @@ subprocess.run([sys.executable, "tools/ai_prompt_blocks.py"], check=True)
 subprocess.run([sys.executable, "tools/add_call_bar.py"], check=True)
 subprocess.run([sys.executable, "tools/add_offer_box.py"], check=True)
 subprocess.run([sys.executable, "tools/add_local_links.py"], check=True)
+subprocess.run([sys.executable, "tools/add_ai_images.py"], check=True)
 subprocess.run([sys.executable, "tools/add_click_tracking.py"], check=True)
 z = "outputs/_deploy/contentfellow-site-2026-10-16.zip"
 with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED) as f:
