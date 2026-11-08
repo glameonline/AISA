@@ -10,7 +10,7 @@ market: en-GB
 
 ## What results can a small UK business get from SEO and GEO?
 
-> **Quick answer:** In this real case study, a new UK service business went from 1 to 285 Google impressions a day in 21 days, moved its average position from 83 to 50, and got 69 pages into Google. All figures come from Google Search Console. The package used is our SEO & AI Search plan at £89 a month. *(Updated November 2026.)*
+> **Quick answer:** In this real case study, a new UK service business got 3.69k Google impressions in 21 days (from 1 to 285 a day), moved its average position from 83 to 50, and got 69 pages into Google. All figures come from Google Search Console. The package used is our SEO & AI Search plan at £89 a month. *(Updated November 2026.)*
 
 **TL;DR:** New site, no rankings. Clear service pages, local pages, FAQ schema, llms.txt for ChatGPT and daily indexing checks. Results showed in week one.
 
@@ -20,6 +20,7 @@ market: en-GB
 
 | Metric | Start | After 21 days |
 |---|---|---|
+| Total Google impressions | 0 | 3.69k |
 | Google impressions per day | 1 | 285 |
 | Average Google position | 83 | 50 |
 | Pages indexed by Google | 0 | 69 |
