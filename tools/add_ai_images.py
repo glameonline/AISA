@@ -9,6 +9,7 @@ MAP = {
  "blog/seo-geo-case-study-uk": "cafe-burnley", "blog/get-business-recommended-by-chatgpt-uk": "cafe-burnley",
  "blog/rank-on-google-maps-uk": "restaurant-burnley", "blog/marketing-for-cafes-restaurants-burnley": "cafe-burnley", "blog/marketing-for-barbers-salons-burnley": "barber-nelson",
  "blog/marketing-for-plumbers-trades-burnley": "plumber-burnley", "blog/marketing-for-gyms-burnley": "gym-burnley", "blog/marketing-for-accountants-burnley": "accountant-burnley",
+ "blog/seo-agency-nelson": "barber-nelson", "blog/seo-agency-colne": "salon-colne",
  "burnley": "restaurant-burnley",
 }
 NOUN = lambda s: s.split("-")[0]
