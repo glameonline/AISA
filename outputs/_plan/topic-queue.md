@@ -3,12 +3,12 @@
 - [x] Marketing agency Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [x] Social media management Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [x] Web designer Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
-- [ ] Videographer Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [x] Videographer Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [x] SEO agency Nelson (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [x] Marketing agency Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [x] Social media management Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [x] Web designer Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
-- [ ] Videographer Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
+- [x] Videographer Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 - [x] SEO agency Colne (short LLM-first, £ prices, local towns, link /burnley/ + /pay-monthly-websites/)
 
 ## BEAT-COMPETITOR (AI prompts we lose) — after PRIORITY
