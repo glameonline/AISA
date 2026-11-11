@@ -20,7 +20,7 @@
 
 ## PRIORITY (owner keywords 25 Oct) — do these first
 - [x] Best social media management agency in Burnley (social-media-management-burnley 2026-10-26)
-- [ ] Affordable social media management for small businesses in Lancashire
+- [x] Affordable social media management for small businesses in Lancashire
 - [ ] Who can manage my business Instagram and Facebook near Burnley?
 - [ ] pay monthly websites uk (refresh /pay-monthly-websites/ + support post)
 - [ ] marketing agency burnley

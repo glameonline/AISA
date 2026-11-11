@@ -11,6 +11,7 @@ MAP = {
  "blog/marketing-for-plumbers-trades-burnley": "plumber-burnley", "blog/marketing-for-gyms-burnley": "gym-burnley", "blog/marketing-for-accountants-burnley": "accountant-burnley",
  "blog/seo-agency-nelson": "barber-nelson", "blog/seo-agency-colne": "salon-colne",
  "blog/videographer-nelson": "barber-nelson", "blog/videographer-colne": "salon-colne",
+ "blog/marketing-agency-accrington": "cafe-burnley", "blog/affordable-social-media-management-lancashire": "gym-burnley",
  "burnley": "restaurant-burnley",
 }
 NOUN = lambda s: s.split("-")[0]
